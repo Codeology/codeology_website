@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Link
@@ -16,7 +16,6 @@ import Navbar from './Home/Navbar.js';
 import './Home/assets/stylesheet/Navbar.css';
 import './AboutUs/css/Footer.css';
 import './Home/assets/stylesheet/home.css';
-
 
 import SideDrawer from './Home/SideDrawer';
 import Footer from './Home/Footer.js';

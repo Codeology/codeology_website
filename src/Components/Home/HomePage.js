@@ -87,7 +87,11 @@ export default function HomePage() {
 
                     <div className="text projects">
                         <h2>Projects</h2>
-                        <p>This semester we'll be introducing projects as an opportunity for our members to explore cool niches in tech, to gain experience as developers, and to lead their own project teams. Topics can range from AI/ML to data analytics to iOS development and more!</p>
+                        <p>Every semester, we introduce varying projects as an opportunity for our 
+                            members to explore interesting niches in the tech industry to gain experience 
+                            as developers and to lead their own project teams. Topics can range from AI/ML 
+                            to data analytics to iOS development and more. Check out what we're offering 
+                            this semester!</p>
                         <Link className="home-button learn" to="/projects">
                             Learn More
                         </Link>
