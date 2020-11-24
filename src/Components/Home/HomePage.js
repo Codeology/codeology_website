@@ -6,6 +6,7 @@ import {Link} from 'react-router-dom';
 import Carousel from 'react-bootstrap/Carousel';
 import Landing from './Landing.js';
 import { Helmet } from 'react-helmet';
+import ScrollToTop from './ScrollToTop';
 
 export default function HomePage() {
     return (
@@ -52,9 +53,11 @@ export default function HomePage() {
                         bring the breadth of opportunities and roles within the tech field to
                         Cal students, as well as help our members explore their specific
                         technical and professional interests.</p>
-                        <Link className="home-button learn" to="/about">
-                            Learn More
-                        </Link>
+                        <ScrollToTop>
+                            <Link className="home-button learn" to="/about">
+                                Learn More
+                            </Link>
+                        </ScrollToTop>
                     </div>
                     <img src={require("./assets/images/club.jpg")} />
                 </div>
@@ -92,9 +95,11 @@ export default function HomePage() {
                             as developers and to lead their own project teams. Topics can range from AI/ML 
                             to data analytics to iOS development and more. Check out what we're offering 
                             this semester!</p>
-                        <Link className="home-button learn" to="/projects">
-                            Learn More
-                        </Link>
+                        <ScrollToTop>
+                            <Link className="home-button learn" to="/projects">
+                                Learn More
+                            </Link>
+                        </ScrollToTop>
                     </div>
                  </div>
 
