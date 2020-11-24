@@ -36,7 +36,7 @@
 
 @media screen and (max-width: 900px) and (min-width: 600px) {
     .side-drawer {
-        max-width: 300px;
+        max-width: 250px;
     }
 
     .side-drawer a {
