@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/codeology_website/static/css/main.318f1e61.chunk.css",
-    "main.js": "/codeology_website/static/js/main.eddb19c1.chunk.js",
-    "main.js.map": "/codeology_website/static/js/main.eddb19c1.chunk.js.map",
+    "main.js": "/codeology_website/static/js/main.7038e97d.chunk.js",
+    "main.js.map": "/codeology_website/static/js/main.7038e97d.chunk.js.map",
     "runtime-main.js": "/codeology_website/static/js/runtime-main.b55ba8c7.js",
     "runtime-main.js.map": "/codeology_website/static/js/runtime-main.b55ba8c7.js.map",
     "static/css/2.3cf5d70f.chunk.css": "/codeology_website/static/css/2.3cf5d70f.chunk.css",
-    "static/js/2.acbb8fa4.chunk.js": "/codeology_website/static/js/2.acbb8fa4.chunk.js",
-    "static/js/2.acbb8fa4.chunk.js.map": "/codeology_website/static/js/2.acbb8fa4.chunk.js.map",
+    "static/js/2.e45028d1.chunk.js": "/codeology_website/static/js/2.e45028d1.chunk.js",
+    "static/js/2.e45028d1.chunk.js.map": "/codeology_website/static/js/2.e45028d1.chunk.js.map",
     "index.html": "/codeology_website/index.html",
-    "precache-manifest.ac49b267398bb5d9460bc0c7262b76ba.js": "/codeology_website/precache-manifest.ac49b267398bb5d9460bc0c7262b76ba.js",
+    "precache-manifest.a65a170522a5fd7c8fcaf0c7b91a5993.js": "/codeology_website/precache-manifest.a65a170522a5fd7c8fcaf0c7b91a5993.js",
     "service-worker.js": "/codeology_website/service-worker.js",
     "static/css/2.3cf5d70f.chunk.css.map": "/codeology_website/static/css/2.3cf5d70f.chunk.css.map",
     "static/css/main.318f1e61.chunk.css.map": "/codeology_website/static/css/main.318f1e61.chunk.css.map",
-    "static/js/2.acbb8fa4.chunk.js.LICENSE.txt": "/codeology_website/static/js/2.acbb8fa4.chunk.js.LICENSE.txt",
+    "static/js/2.e45028d1.chunk.js.LICENSE.txt": "/codeology_website/static/js/2.e45028d1.chunk.js.LICENSE.txt",
     "static/media/GitHub-Mark.eps": "/codeology_website/static/media/GitHub-Mark.8d6f6ff0.eps",
     "static/media/GitHub-Mark.zip": "/codeology_website/static/media/GitHub-Mark.c673e59a.zip",
     "static/media/GitHub-Mark.ai": "/codeology_website/static/media/GitHub-Mark.d26611a8.ai",
@@ -146,8 +146,8 @@
   "entrypoints": [
     "static/js/runtime-main.b55ba8c7.js",
     "static/css/2.3cf5d70f.chunk.css",
-    "static/js/2.acbb8fa4.chunk.js",
+    "static/js/2.e45028d1.chunk.js",
     "static/css/main.318f1e61.chunk.css",
-    "static/js/main.eddb19c1.chunk.js"
+    "static/js/main.7038e97d.chunk.js"
   ]
 }

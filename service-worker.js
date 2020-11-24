@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/codeology_website/precache-manifest.ac49b267398bb5d9460bc0c7262b76ba.js"
+  "/codeology_website/precache-manifest.a65a170522a5fd7c8fcaf0c7b91a5993.js"
 );
 
 self.addEventListener('message', (event) => {
