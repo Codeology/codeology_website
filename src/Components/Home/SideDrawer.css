@@ -34,3 +34,12 @@
     margin: 1rem 0;
 }
 
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    .side-drawer {
+        max-width: 300px;
+    }
+
+    .side-drawer a {
+        font-size: 6vh;
+    }
+}
