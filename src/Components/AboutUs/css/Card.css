@@ -88,3 +88,13 @@
         color: #DB9E56;
     }
 }
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    .cardName {
+        font-size: 1.25rem;
+    }
+
+    .cardRole {
+        font-size: 1rem;
+    }
+}

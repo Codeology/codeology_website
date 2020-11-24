@@ -83,11 +83,6 @@
         margin-top: 4vh;
         margin-right: 0;
     }
-
-    .carousel-cell {
-        width: 88vw;
-        height: auto;
-    }
     
     .carousel-cell img {
         width: inherit;
@@ -154,6 +149,14 @@
 
 /* Landscape */
 @media screen and (max-width: 900px) and (min-width: 600px) {
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .home-button, .white-button {
+        font-size: 1rem;
+    }
 
     #find-your-fit {
         height: 18vw;
