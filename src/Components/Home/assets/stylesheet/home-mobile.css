@@ -83,6 +83,11 @@
         margin-top: 4vh;
         margin-right: 0;
     }
+
+    .carousel-cell {
+        width: 86vw;
+        height: auto;
+    }
     
     .carousel-cell img {
         width: inherit;
@@ -156,6 +161,7 @@
 
     .home-button, .white-button {
         font-size: 1rem;
+        padding: 2.5vh 2vw;
     }
 
     #find-your-fit {
