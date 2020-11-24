@@ -1,5 +1,6 @@
 import React from 'react';
 import { Parallax, Background } from 'react-parallax';
+import { Helmet } from 'react-helmet';
 
 import PastProject from './components/PastProject.jsx';
 import UpcomingProject from './components/UpcomingProject.jsx';
@@ -57,6 +58,10 @@ class Projects extends React.Component {
             );
         return (
             <div>
+
+                <Helmet>
+                    <title>Codeology | Projects</title>
+                </Helmet>
 
                 {/* header photo */}
                 <div className="imageContainer">

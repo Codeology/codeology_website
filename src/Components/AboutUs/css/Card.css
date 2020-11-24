@@ -19,7 +19,7 @@
     .cardName {
         font-family: Karla, sans-serif;
         font-size: 1.25rem;
-         margin-top: 5px;
+        margin-top: 5px;
     }
 
     .cardRole {
@@ -58,7 +58,7 @@
         margin-left: 2vw;
         margin-right: 2vw;
         margin-bottom: 1vw;
-        width: 28vw;
+        width: 38vw;
     }
 
     .cardHolder {
@@ -76,13 +76,13 @@
 
     .cardName {
         font-family: Karla, sans-serif;
-        font-size: 2.75vw;
+        font-size: 1.75vh;
         margin-top: .75vw;
         margin-bottom: 2vw;
     }
 
     .cardRole {
-        font-size: 2vw;
+        font-size: 1.5vh;
         margin-top: -1.5vw;
         margin-bottom: 4vw;
         color: #DB9E56;
