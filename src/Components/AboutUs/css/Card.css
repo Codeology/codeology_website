@@ -1,0 +1,90 @@
+/* Desktop View */
+@media only screen and (min-width: 768px) { 
+/*    .cardSheet {
+        width: 15vw;
+    }*/
+
+    .cardImg {
+        /*border-radius: 50px;*/
+        width: 250px;
+
+        margin-left: 2vw;
+        margin-right: 2vw;
+        margin-bottom: 1vw;
+
+
+        border-radius: 2vw;
+    }
+
+    .cardName {
+        font-family: Karla, sans-serif;
+        font-size: 1.25rem;
+         margin-top: 5px;
+    }
+
+    .cardRole {
+        font-family: Karla, sans-serif;
+        font-size: 1rem;
+        margin-top: 1vw;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        margin-bottom: 2vw;
+        color: #DB9E56;
+    }
+
+    .cardHolder {
+        display: flex;
+        width: 80vw;
+/*        max-width: 120vw;
+        width: 70vw;*/
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin:0 auto;
+    }
+}
+
+/* Styling for mobile view */
+@media only screen and (max-width: 768px) {
+    .cardSheet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .cardImg {
+        border-radius: 16px;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        margin-bottom: 1vw;
+        width: 28vw;
+    }
+
+    .cardHolder {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin:0 auto;
+
+        width: 85vw;
+        margin:0 auto;
+        /*width: 20vw;*/
+        /*border: 2px solid green;*/
+    }
+
+    .cardName {
+        font-family: Karla, sans-serif;
+        font-size: 2.75vw;
+        margin-top: .75vw;
+        margin-bottom: 2vw;
+    }
+
+    .cardRole {
+        font-size: 2vw;
+        margin-top: -1.5vw;
+        margin-bottom: 4vw;
+        color: #DB9E56;
+    }
+}

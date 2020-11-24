@@ -1,0 +1,251 @@
+/* ============================ */
+/* Styles used throughout page */
+/* ============================ */
+.home-button, .white-button {
+    padding: 1.5vh 1vw;
+    text-decoration: none;
+    margin: 6vh 0.5vw;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+
+.home-button {
+    color: white;
+    background: #6FCF97;
+}
+
+.home-button:hover {
+    background-color: #4DAB74;
+    text-decoration: none;
+    color: white;
+}
+
+.white-button {
+    color: #6FCF97;
+    background: #FFFFFF;
+    border: 1px solid #6FCF97;
+    box-sizing: border-box;
+}
+
+.white-button:hover {
+    background-color: rgb(240, 240, 240);
+    text-decoration: none;
+    color: #4DAB74;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 8vh;
+}
+
+.text {
+    width: 18vw;
+}
+
+.text p {
+    margin-bottom: 4vh;
+    font-size: 2vh;
+}
+
+/* ============================ */
+/* Background Puzzle Pieces & People Images */
+/* ============================ */
+
+.puzzle, .person {
+    position: absolute;
+}
+
+.below {
+    z-index: -1;
+}
+
+.big img {
+    width: 36vw;
+    transform: rotate(152deg) translateY(12%);
+    margin-left: 14vw;
+    opacity: 0.6;
+}
+
+.small img {
+    width: 8vw;
+    opacity: 0.5;
+    margin-left: 76vw;
+    transform: rotate(90deg) translateX(-40%);
+}
+
+.sitting img {
+    width: 8vw;
+    margin-left: 54vw;
+    transform: translateY(38vh);
+}
+
+.big2 img {
+    width: 36vw;
+    transform: rotate(-80deg) translate(-40vh, 10vw);
+    margin-left: 44vw;
+    z-index: -2;
+    opacity: 0.6;
+}
+
+.standing img {
+    position: relative;
+    width: 7vw;
+    transform: translateY(100vh);
+    margin-left: 24vw;
+    z-index: 1;
+}
+
+.standing2 img {
+    position: relative;
+    width: 4vw;
+    transform: translateY(100vh) scaleX(-1);
+    margin-left: 42vw;
+    z-index: 1;
+}
+
+/* ============================ */
+/* Unique Styles */
+/* ============================ */
+#landing {
+    background: #DCF4D4;
+    width: 100vw;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#border-box {
+    margin-top: -8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 6px solid white;
+    padding: 8vh 32vw;
+}
+
+#find-your-fit, #apply-contact {
+    z-index: 1;
+    transform: translateY(16px);
+}
+
+#find-your-fit {
+    position: relative;
+    height: 40vh;
+}
+
+#apply-contact {
+    display: flex;
+    flex-direction: row;
+}
+
+@keyframes float {
+    to {
+        transform: translate(8px, 6px);
+    }
+}
+
+@keyframes float2 {
+    to {
+        transform: translate(-8px, 6px);
+    }
+}
+
+@keyframes float3 {
+    to {
+        transform: translate(8px, -6px);
+    }
+}
+
+.hand {
+    animation: float 1.5s infinite alternate;
+}
+
+#greenHand {
+    animation-name: float3;
+    animation-delay: 0.5s;
+}
+
+#orangeHand {
+    animation-name: float2;
+    animation-delay: 0.75s;
+}
+
+#redHand {
+    animation-delay: 0.25s;
+}
+
+#hands {
+    position: absolute;
+}
+
+.topHands {
+    z-index: 1;
+}
+
+.handRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+
+    /*Override bootstrap*/
+    flex-wrap: nowrap;
+}
+
+.handRow img {
+    height: 32vh;
+    margin: 12vh 18vw;
+}
+
+#about {
+    margin-bottom: 12vh;
+}
+
+#about img {
+    height: 36vh;
+    border-radius: 36px;
+    margin-left: 10%;
+}
+
+.carousel {
+    width: 18.5vw;
+    margin-right: 8%;
+}
+
+.carousel-cell {
+    width: 18.5vw;
+    /* margin-right: 10px; */
+}
+
+.carousel-cell img {
+    width: 18.5vw;
+    height: inherit;
+}
+
+#project {
+    margin-bottom: 24vh;
+}
+
+.text.projects {
+    margin-left: 8vw;
+}
+
+/* #contactUs {
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+}
+
+#email:hover {
+    text-decoration: none;
+}
+
+.more {
+    margin-top: 0px;
+} */

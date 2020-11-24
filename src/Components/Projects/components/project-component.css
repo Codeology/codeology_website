@@ -1,0 +1,72 @@
+.project-div {
+  border: 1.5px solid #0B0B0B;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px 30px 60px 30px;
+  width: 70%;
+}
+
+.project-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+
+.project-time {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 20px;
+  text-align: center;
+  line-height: 0px;
+  line-height: 0px;
+}
+
+.project-img {
+  width: 50%;
+  margin: 20px 20px 20px 20px;
+}
+
+.project-text {
+  text-align: left;
+  line-height: 20px;
+  margin-top: 10px;
+  width: 70%;
+}
+
+.project-description {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.github-button {
+    width: 150px;
+    height: 40px;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.075em;
+    background: white;
+    border: 3px solid #57BE97;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.projects-row {
+    display: flex;
+    flex-direction: row;
+}
