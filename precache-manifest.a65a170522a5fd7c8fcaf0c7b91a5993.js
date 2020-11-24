@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e0086b8f7d9b702bee50831d76691697",
+    "revision": "05444703cca5701a22bb2c9a9b8d6a3a",
     "url": "/codeology_website/index.html"
   },
   {
-    "revision": "13925e2541bfd6bc389a",
+    "revision": "67812e29dabf34ea3194",
     "url": "/codeology_website/static/css/2.3cf5d70f.chunk.css"
   },
   {
-    "revision": "c6af3012ed05b70803f2",
+    "revision": "dd16914819c5d7b50684",
     "url": "/codeology_website/static/css/main.318f1e61.chunk.css"
   },
   {
-    "revision": "13925e2541bfd6bc389a",
-    "url": "/codeology_website/static/js/2.acbb8fa4.chunk.js"
+    "revision": "67812e29dabf34ea3194",
+    "url": "/codeology_website/static/js/2.e45028d1.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/codeology_website/static/js/2.acbb8fa4.chunk.js.LICENSE.txt"
+    "url": "/codeology_website/static/js/2.e45028d1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c6af3012ed05b70803f2",
-    "url": "/codeology_website/static/js/main.eddb19c1.chunk.js"
+    "revision": "dd16914819c5d7b50684",
+    "url": "/codeology_website/static/js/main.7038e97d.chunk.js"
   },
   {
     "revision": "884b18310398238b87bc",
