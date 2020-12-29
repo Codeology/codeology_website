@@ -11,6 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import AboutUs from './AboutUs/AboutUs.js';
 import Projects from './Projects/Projects.jsx';
 import ContactUs from './ContactUs/ContactUs.js';
+import Apply from './Apply/Apply.jsx';
 import Navbar from './Home/Navbar.js';
 
 import './Home/assets/stylesheet/Navbar.css';
@@ -68,6 +69,10 @@ class HomeRouter extends Component {
 
                       <Route path="/contact">
                         <ContactUs />
+                      </Route>
+                      
+                      <Route path="/apply">
+                        <Apply />
                       </Route>
 
                       <Route path="/">

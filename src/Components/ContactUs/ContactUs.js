@@ -25,7 +25,7 @@ export default function ContactUs() {
 
                 <div id="bottombox">  
                     <h2>Prospective Applicants:</h2>
-                    <div id = "text">Click here to apply! Email <a href="mailto:info@codeology.club">info@codeology.club</a> for any questions or concerns.</div> 
+                    <div id = "text">Click <a href="/#/apply"> here</a> to apply! Email <a href="mailto:info@codeology.club">info@codeology.club</a> for any questions or concerns.</div> 
                 </div>
             </div>
 
