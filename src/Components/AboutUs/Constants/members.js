@@ -1,6 +1,6 @@
 export const leadership = [
     {
-        name: 'Kyle Hua',
+        name: 'Roshan Kumaraswamy',
         img:  null,
         role: 'President',
     },
@@ -10,7 +10,7 @@ export const leadership = [
         role: 'Vice President',
     },
     {
-        name: 'Alma Pineda',
+        name: 'Shaylan Dias',
         img:  null,
         role: 'Technology Director',
     },
@@ -20,44 +20,30 @@ export const leadership = [
         role: 'Technology Director',
     },
     {
-        name: 'Angela Xu',
+        name: 'Susan Chen',
         img:  null,
         role: 'Education Director',
-        repeat: '2',
+        // repeat: '2',
     },
     {
-        name: 'Ayush Maganahalli',
+        name: 'Ali Matsumoto',
         img:  null,
         role: 'Education Director',
     },
     {
-        name: 'Howie Ye',
+        name: 'Amy Huang',
         img:  null,
         role: 'Web Director',
     },
     {
         name: 'Jennifer Xiao',
         img:  null,
-        role: 'Industry Director',
-        repeat: '2'
-    },
-    {
-        name: 'Susan Chen',
-        img:  null,
-        role: 'Finance Director',
-    },
-    {
-        name: 'Srishti Goswamy',
-        img:  null,
         role: 'Media Director',
+        repeat: '2',
+
     },
     {
-        name: 'Roshan K.',
-        img:  null,
-        role: 'Social Director',
-    },
-    {
-        name: 'Vidya Ganga',
+        name: 'Anthony Zhou',
         img:  null,
         role: 'Social Director',
     },
