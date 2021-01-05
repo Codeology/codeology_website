@@ -61,17 +61,17 @@ export const leadership = [
 
 export const projectLeaders = [
     {
-        name: 'Andrew Wang',
+        name: 'Vidhi Chander',
         img:  null,
         role: 'Project Manager',
     },
     {
-        name: 'Anna Young',
+        name: 'Jen Buja',
         img:  null,
         role: 'Project Manager',
     },
     {
-        name: 'Kaavya Shah',
+        name: 'Grace Altree',
         img:  null,
         role: 'Project Manager',
     },
