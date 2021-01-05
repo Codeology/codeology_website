@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.4c88b8dd.chunk.css",
-    "main.js": "/static/js/main.ac6912a7.chunk.js",
-    "main.js.map": "/static/js/main.ac6912a7.chunk.js.map",
+    "main.css": "/static/css/main.cb559016.chunk.css",
+    "main.js": "/static/js/main.66f28fa5.chunk.js",
+    "main.js.map": "/static/js/main.66f28fa5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.99911b0c.js",
     "runtime-main.js.map": "/static/js/runtime-main.99911b0c.js.map",
     "static/css/2.3cf5d70f.chunk.css": "/static/css/2.3cf5d70f.chunk.css",
-    "static/js/2.7c5f53dc.chunk.js": "/static/js/2.7c5f53dc.chunk.js",
-    "static/js/2.7c5f53dc.chunk.js.map": "/static/js/2.7c5f53dc.chunk.js.map",
+    "static/js/2.c51d07fe.chunk.js": "/static/js/2.c51d07fe.chunk.js",
+    "static/js/2.c51d07fe.chunk.js.map": "/static/js/2.c51d07fe.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b52dda02b2f0c160a29d4a3adc83dce1.js": "/precache-manifest.b52dda02b2f0c160a29d4a3adc83dce1.js",
+    "precache-manifest.c4f6e1ed317d9a31fb3596b019a4ab2a.js": "/precache-manifest.c4f6e1ed317d9a31fb3596b019a4ab2a.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.3cf5d70f.chunk.css.map": "/static/css/2.3cf5d70f.chunk.css.map",
-    "static/css/main.4c88b8dd.chunk.css.map": "/static/css/main.4c88b8dd.chunk.css.map",
-    "static/js/2.7c5f53dc.chunk.js.LICENSE.txt": "/static/js/2.7c5f53dc.chunk.js.LICENSE.txt",
+    "static/css/main.cb559016.chunk.css.map": "/static/css/main.cb559016.chunk.css.map",
+    "static/js/2.c51d07fe.chunk.js.LICENSE.txt": "/static/js/2.c51d07fe.chunk.js.LICENSE.txt",
     "static/media/GitHub-Mark.eps": "/static/media/GitHub-Mark.8d6f6ff0.eps",
     "static/media/GitHub-Mark.zip": "/static/media/GitHub-Mark.c673e59a.zip",
     "static/media/GitHub-Mark.ai": "/static/media/GitHub-Mark.d26611a8.ai",
@@ -48,7 +48,8 @@
     "static/media/cindy.jpg": "/static/media/cindy.b3a6d3c0.jpg",
     "static/media/cj.jpg": "/static/media/cj.10152a05.jpg",
     "static/media/clark.jpg": "/static/media/clark.72a85bb3.jpg",
-    "static/media/club.jpg": "/static/media/club.4535045e.jpg",
+    "static/media/clubPhoto.png": "/static/media/clubPhoto.02aa085b.png",
+    "static/media/community.png": "/static/media/community.3498d950.png",
     "static/media/daniel.jpg": "/static/media/daniel.5a7ad876.jpg",
     "static/media/david.jpg": "/static/media/david.c89c3121.jpg",
     "static/media/discord-bot.jpg": "/static/media/discord-bot.3edcba7e.jpg",
@@ -147,8 +148,8 @@
   "entrypoints": [
     "static/js/runtime-main.99911b0c.js",
     "static/css/2.3cf5d70f.chunk.css",
-    "static/js/2.7c5f53dc.chunk.js",
-    "static/css/main.4c88b8dd.chunk.css",
-    "static/js/main.ac6912a7.chunk.js"
+    "static/js/2.c51d07fe.chunk.js",
+    "static/css/main.cb559016.chunk.css",
+    "static/js/main.66f28fa5.chunk.js"
   ]
 }
