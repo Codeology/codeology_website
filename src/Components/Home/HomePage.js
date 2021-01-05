@@ -36,6 +36,10 @@ export default function HomePage() {
                     <img src={require("./assets/images/big_puzzle2.png")} />
                 </div>
 
+                <div className="big3 puzzle below">
+                    <img src={require("./assets/images/big_puzzle.png")} />
+                </div>
+
                 <div className="standing person">
                     <img src={require("./assets/images/standing1.png")} />
                 </div>
@@ -59,7 +63,7 @@ export default function HomePage() {
                             </Link>
                         </ScrollToTop>
                     </div>
-                    <img src={require("./assets/images/club.jpg")} />
+                    <img src={require("./assets/images/clubPhoto.png")} />
                 </div>
 
                 <div id="project" className="section">
@@ -103,14 +107,18 @@ export default function HomePage() {
                     </div>
                  </div>
 
-                 {/* <div id="contactUs" className="section">
-                    <h2>Contact Us</h2>
-                    <p>Email: <a id="email" href="mailto:info@codeology.club">info@codeology.club</a></p>
-                    <p>Every semester, Codeology offers special projects geared to serve our community and nonprofits that have project ideas. If you or your organization have meaningful project ideas, please reach out to us below or head to our Contact page.</p>
-                    <Link className="home-button learn more" to="/contact">
-                        More Info
-                    </Link>
-                 </div> */}
+                 <div id="about" className="section">
+                    <div className="text">
+                        <h2>Community</h2>
+                        <p>Codeology offers a supportive environment for members to grow within 
+                            the computer science community. We reward kindness and taking action 
+                            in order to foster an enjoyable and motivated culture that encourages
+                             the sharing of ideas. </p>
+                    </div>
+                    <img src={require("./assets/images/community.png")} />
+                </div>
+
+                 
 
             </div>
 

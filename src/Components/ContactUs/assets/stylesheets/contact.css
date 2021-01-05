@@ -132,6 +132,16 @@ textarea {
 }
 
 
+#contactUs {
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+}
+
+
+#email:hover {
+    text-decoration: none;
+}
 
 /* Bottom text box for contact page */ 
 .contact #bottombox {

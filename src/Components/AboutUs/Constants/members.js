@@ -43,9 +43,19 @@ export const leadership = [
 
     },
     {
-        name: 'Anthony Zhou',
+        name: 'Howie Ye',
         img:  null,
         role: 'Social Director',
+    },
+    {
+        name: 'Vidya Ganga',
+        img:  null,
+        role: 'Social Director',
+    },
+    {
+        name: 'Anthony Zhou',
+        img:  null,
+        role: 'Member Relations Director',
     },
 ]
 
@@ -66,17 +76,12 @@ export const projectLeaders = [
         role: 'Project Manager',
     },
     {
-        name: 'Aarushi Karandikar',
+        name: 'Kristie Lin',
         img:  null,
         role: 'Project Leader',
     },
     {
-        name: 'Ali Matsumoto',
-        img:  null,
-        role: 'Project Leader',
-    },
-    {
-        name: 'Daniel Tseng',
+        name: 'Howie Ye',
         img:  null,
         role: 'Project Leader',
     },
@@ -86,28 +91,13 @@ export const projectLeaders = [
         role: 'Project Leader',
     },
     {
-        name: 'Grace Altree',
+        name: 'Jennifer Xiao',
         img:  null,
         role: 'Project Leader',
+        repeat: '2',
     },
     {
-        name: 'Jasper Chen',
-        img:  null,
-        role: 'Project Leader',
-    },
-    {
-        name: 'Jennifer Buja',
-        img:  null,
-        role: 'Project Leader',
-        repeat: '1',
-    },
-    {
-        name: 'John Um',
-        img:  null,
-        role: 'Project Leader',
-    },
-    {
-        name: 'Krishna Ravi',
+        name: 'Ahmed Baqai',
         img:  null,
         role: 'Project Leader',
     },

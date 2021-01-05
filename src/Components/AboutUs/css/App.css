@@ -60,7 +60,7 @@
     font-weight: bold;
     font-family: Karla;
     font-size: 10vh;
-    letter-spacing: 6px;
+    letter-spacing: 2px;
   }
 
 
@@ -113,7 +113,7 @@
     margin-top: 25vw;
 
     z-index: -1;
-    opacity: 0.6;
+    opacity: 0.2;
   }
 
   #puzzle3 {
@@ -121,7 +121,7 @@
     width: 60vw;
 
     margin-top: 65vw;
-    opacity: 0.6;
+    opacity: 0.2;
   }
 
   #pictureMobile {

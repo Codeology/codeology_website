@@ -5,7 +5,7 @@ function TextSection() {
 
 	return (
 		<div id="textSection">
-		        <img id="GreenPuzzle" src={require('./Constants/images/Cartoons/puzzle.png')} />
+		        <img className="puzzle" id="GreenPuzzle" src={require('./Constants/images/Cartoons/puzzle.png')} />
 
                 {/* I hide this in desktop view but i added it because im bad at css */}
                 <div id="mobilePictureHolder">

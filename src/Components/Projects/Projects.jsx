@@ -6,6 +6,7 @@ import PastProject from './components/PastProject.jsx';
 import UpcomingProject from './components/UpcomingProject.jsx';
 import ProjectInfo from './components/ProjectInfo.jsx';
 
+import '../Home/assets/stylesheet/stylesheet.css'
 import './components/project.css'
 
 class Projects extends React.Component {
@@ -86,6 +87,12 @@ class Projects extends React.Component {
                     <img src={require("./images/person3.png")} id="littlepeep3"/>
                     <img src={require("./images/person4.png")} id="littlepeep4"/>
 
+                    <div id="project-desc">Every semester, we introduce a set of projects, including web, mobile, and game development, where 
+                        new and returning members are able to work with a team and project leader to complete during the 8 weeks. If you are part of an organization 
+                        that has a project for us, we would love to help out- please contact us <a href="/contact">here!</a> 
+                        <br/> <br/>Check out our upcoming project opportunities for Spring 2021 below!</div>
+
+
                     {/* buttons */}
                     <div className="button-row">
                         <button onClick = {this.upcomingPress} className={this.state.upcomingClass}>UPCOMING</button>
@@ -96,6 +103,7 @@ class Projects extends React.Component {
                     </div>
 
                     {/* projects */}
+
                     {
                         this.state.selectedUpcoming ?
                         <div className="project-page-div">

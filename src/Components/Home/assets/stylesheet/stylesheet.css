@@ -57,6 +57,11 @@ strong {
   line-height: 3.5vh;
 }
 
+.puzzle {
+  position: absolute;
+  opacity: 0.5;
+}
+
 /* ============================ */
 /* NAVBAR */
 /* ============================ */

@@ -19,6 +19,7 @@
 .project-page-img {
     width: 100vw;
     height: 55vh;
+    
 }
 
 
@@ -91,6 +92,13 @@
     margin-right: 10px;
 
     outline: none;
+}
+
+#project-desc {
+    margin-top: 3vh;
+    margin-left: 14vw;
+    margin-right: 14vw;
+    text-align: center;
 }
 
 .project-button-unselected {

@@ -42,7 +42,7 @@
 }
 
 .text {
-    width: 18vw;
+    width: 25vw;
 }
 
 .text p {
@@ -54,7 +54,9 @@
 /* Background Puzzle Pieces & People Images */
 /* ============================ */
 
-.puzzle, .person {
+
+
+.person {
     position: absolute;
 }
 
@@ -62,8 +64,9 @@
     z-index: -1;
 }
 
+
 .big img {
-    width: 36vw;
+    width: 46vw;
     transform: rotate(152deg) translateY(12%);
     margin-left: 14vw;
     opacity: 0.6;
@@ -87,6 +90,14 @@
     transform: rotate(-80deg) translate(-40vh, 10vw);
     margin-left: 44vw;
     z-index: -2;
+    opacity: 0.6;
+}
+
+.big3 img {
+    width: 28vw;
+    transform: rotate(20deg) translate(0vw, 130vh);
+    margin-left: 44vw;
+    z-index: -3;
     opacity: 0.6;
 }
 
@@ -143,6 +154,7 @@
     flex-direction: row;
 }
 
+
 @keyframes float {
     to {
         transform: translate(8px, 6px);
@@ -166,7 +178,7 @@
 }
 
 #greenHand {
-    animation-name: float3;
+    animation-name: float;
     animation-delay: 0.5s;
 }
 
@@ -208,23 +220,23 @@
 }
 
 #about img {
-    height: 36vh;
-    border-radius: 36px;
+    height: 46vh;
+    /* border-radius: 36px; */
     margin-left: 10%;
 }
 
 .carousel {
-    width: 18.5vw;
-    margin-right: 8%;
+    width: 25vw;
+    /* margin-right: 8%; */
 }
 
 .carousel-cell {
-    width: 18.5vw;
+    width: 25vw;
     /* margin-right: 10px; */
 }
 
 .carousel-cell img {
-    width: 18.5vw;
+    width: 25vw;
     height: inherit;
 }
 
@@ -236,16 +248,3 @@
     margin-left: 8vw;
 }
 
-/* #contactUs {
-    flex-direction: column;
-    width: 40%;
-    margin: 0 auto;
-}
-
-#email:hover {
-    text-decoration: none;
-}
-
-.more {
-    margin-top: 0px;
-} */
