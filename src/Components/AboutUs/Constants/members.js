@@ -116,104 +116,12 @@ export const projectLeaders = [
 
 const a = [
     {
-        name: 'Anthony Zhou',
+        name: 'Ada Hu',
         img:  null,
         role: 'Active Member',
     },
     {
-        name: 'Nitzan Orr',
-        img:  null,
-        role: 'Active Member',
-    },
-    {
-        name: 'Saketh Kollu',
-        img:  null,
-        role: 'Active Member',
-    },
-    {
-        name: 'Emily Wang',
-        img:  null,
-        role: 'Active Member',
-        repeat: '2',
-    },
-    {
-        name: 'Stella Lu',
-        img:  null,
-        role: 'Active Member',
-    },
-    {
-        name: 'CJ Manna',
-        img:  null,
-        role: 'Active Member',
-    },
-    {
-        name: 'Ashley Chu',
-        img:  null,
-        role: 'Active Member',
-        repeat: '2',
-    },
-    {
-        name: 'Ahmed Baqai',
-        img:  null,
-        role: 'Active Member',
-    },
-    {
-        name: 'Kamille Fernando',
-        img:  null,
-        role: 'Active Member',
-    },
-    {
-        name: 'Roger Zhang',
-        img:  null,
-        role: 'Active Member',
-    },
-    {
-        name: 'Charlize Dang',
-        img:  null,
-        role: 'Active Member',
-    },
-    {
-        name: 'Kyra Wong',
-        img:  null,
-        role: 'Active Member',
-    },
-    {
-        name: 'Pranav Pomalapally',
-        img:  null,
-        role: 'Active Member',
-    },
-    {
-        name: 'Taylor Yoo',
-        img:  null,
-        role: 'Active Member',
-    },
-    {
-        name: 'Mantej Panesar',
-        img:  null,
-        role: 'Active Member',
-    },
-    {
-        name: 'Varun Murthy',
-        img:  null,
-        role: 'Active Member',
-    },
-    {
-        name: 'Adithya Seshan',
-        img:  null,
-        role: 'Active Member',
-    },
-    {
-        name: 'Dustin Luong',
-        img:  null,
-        role: 'Active Member',
-    },
-    {
-        name: 'Clark Wang',
-        img:  null,
-        role: 'Active Member',
-    },
-    {
-        name: 'Jun Hee Han',
+        name: 'Andrew Wang',
         img:  null,
         role: 'Active Member',
     },
@@ -224,9 +132,15 @@ const a = [
         repeat: '1',
     },
     {
-        name: 'Satiya Kem',
+        name: 'Anna Young',
         img:  null,
         role: 'Active Member',
+    },
+    {
+        name: 'Ashley Chu',
+        img:  null,
+        role: 'Active Member',
+        repeat: '2',
     },
     {
         name: 'Cindy Zhang',
@@ -234,37 +148,17 @@ const a = [
         role: 'Active Member',
     },
     {
-        name: 'Ada Hu',
+        name: 'CJ Manna',
         img:  null,
         role: 'Active Member',
     },
     {
-        name: 'Kristie Lin',
+        name: 'Daniel Tseng',
         img:  null,
         role: 'Active Member',
     },
     {
-        name: 'Amy Huang',
-        img:  null,
-        role: 'Active Member',
-    },
-    {
-        name: 'Michelle Lin',
-        img:  null,
-        role: 'Active Member',
-    },
-    {
-        name: 'Bridget Cheng',
-        img:  null,
-        role: 'Active Member',
-    },
-    {
-        name: 'David Paner',
-        img:  null,
-        role: 'Active Member',
-    },
-    {
-        name: 'Eric Peng',
+        name: 'Dustin Luong',
         img:  null,
         role: 'Active Member',
     },
@@ -272,8 +166,99 @@ const a = [
         name: 'Emily Wang',
         img:  null,
         role: 'Active Member',
-        repeat: '1',
-    } ];
+        repeat: '2',
+    },
+    {
+        name: 'Eric Peng',
+        img:  null,
+        role: 'Active Member',
+    },
+    {
+        name: 'Ethan Chen',
+        img:  null,
+        role: 'Active Member',
+    },
+    {
+        name: 'Jasper Chen',
+        img:  null,
+        role: 'Active Member',
+    },
+    {
+        name: 'John Um',
+        img:  null,
+        role: 'Active Member',
+    },
+    {
+        name: 'Jun Hee Han',
+        img:  null,
+        role: 'Active Member',
+    },
+    {
+        name: 'Kaavya Shah',
+        img:  null,
+        role: 'Active Member',
+    },
+    {
+        name: 'Kamille Dyan Fernando',
+        img:  null,
+        role: 'Active Member',
+    },
+    {
+        name: 'Krishna Ravi',
+        img:  null,
+        role: 'Active Member',
+    },
+    {
+        name: 'Kyle Hua',
+        img:  null,
+        role: 'Active Member',
+    },
+    {
+        name: 'Mantej Panesar',
+        img:  null,
+        role: 'Active Member',
+    },
+    {
+        name: 'Roger Zhang',
+        img:  null,
+        role: 'Active Member',
+    },
+    {
+        name: 'Saketh Kollu',
+        img:  null,
+        role: 'Active Member',
+    },
+    {
+        name: 'Satiya Kem',
+        img:  null,
+        role: 'Active Member',
+    },
+    {
+        name: 'Srishti Goswamy',
+        img:  null,
+        role: 'Active Member',
+    },
+    {
+        name: 'Stella Lu',
+        img:  null,
+        role: 'Active Member',
+    },
+    {
+        name: 'Taylor Yoo',
+        img:  null,
+        role: 'Active Member',
+    },
+    {
+        name: 'Trevor Baba',
+        img:  null,
+        role: 'Active Member',
+    },
+    {
+        name: 'Varun Murthy',
+        img:  null,
+        role: 'Active Member',
+    },
+ ];
 
 function compare(a, b) {
     const nameA = a.name.toUpperCase();
