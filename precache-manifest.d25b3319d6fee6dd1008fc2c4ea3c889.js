@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f3444555cb0c93b63989d27965c66629",
+    "revision": "c8c1da548070d5949d283644511db5a4",
     "url": "/index.html"
   },
   {
-    "revision": "b5ca7c294b35734b832b",
+    "revision": "04468452252defe3eeef",
     "url": "/static/css/2.3cf5d70f.chunk.css"
   },
   {
-    "revision": "a621ee42c295d3ffa4c4",
-    "url": "/static/css/main.cb559016.chunk.css"
+    "revision": "29fda39ff568a5afe47a",
+    "url": "/static/css/main.32e6702c.chunk.css"
   },
   {
-    "revision": "b5ca7c294b35734b832b",
-    "url": "/static/js/2.c51d07fe.chunk.js"
+    "revision": "04468452252defe3eeef",
+    "url": "/static/js/2.02b1a47c.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.c51d07fe.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.02b1a47c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a621ee42c295d3ffa4c4",
-    "url": "/static/js/main.cb72366b.chunk.js"
+    "revision": "29fda39ff568a5afe47a",
+    "url": "/static/js/main.582cd6ed.chunk.js"
   },
   {
     "revision": "7cdd07cd8578cb7be0ba",
@@ -216,6 +216,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/film.d68b6546.jpg"
   },
   {
+    "revision": "5f55a55ad23e6823e56173cfa11d1404",
+    "url": "/static/media/findYourFit-temp.5f55a55a.png"
+  },
+  {
     "revision": "19c41b4907e230323860543566040730",
     "url": "/static/media/gentrification.19c41b49.jpg"
   },
@@ -306,6 +310,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "eaf614f8d805016c5a83ea594f68d1bb",
     "url": "/static/media/kyle.eaf614f8.jpg"
+  },
+  {
+    "revision": "c63e6d5abb8c17db4cd3ca8da476e05f",
+    "url": "/static/media/laptop.c63e6d5a.png"
   },
   {
     "revision": "2068afa5b5eaf053ab1a8a647d28f683",
@@ -518,6 +526,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f76a7cf1d8ab704e281669bcc8a6743e",
     "url": "/static/media/varun.f76a7cf1.jpg"
+  },
+  {
+    "revision": "def9ff55fae76a18e7ec9805fb90b305",
+    "url": "/static/media/vidhi.def9ff55.jpg"
   },
   {
     "revision": "767e99aaa92c96fed0ba8afdfd66e909",

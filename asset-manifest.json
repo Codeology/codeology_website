@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.cb559016.chunk.css",
-    "main.js": "/static/js/main.cb72366b.chunk.js",
-    "main.js.map": "/static/js/main.cb72366b.chunk.js.map",
+    "main.css": "/static/css/main.32e6702c.chunk.css",
+    "main.js": "/static/js/main.582cd6ed.chunk.js",
+    "main.js.map": "/static/js/main.582cd6ed.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.99911b0c.js",
     "runtime-main.js.map": "/static/js/runtime-main.99911b0c.js.map",
     "static/css/2.3cf5d70f.chunk.css": "/static/css/2.3cf5d70f.chunk.css",
-    "static/js/2.c51d07fe.chunk.js": "/static/js/2.c51d07fe.chunk.js",
-    "static/js/2.c51d07fe.chunk.js.map": "/static/js/2.c51d07fe.chunk.js.map",
+    "static/js/2.02b1a47c.chunk.js": "/static/js/2.02b1a47c.chunk.js",
+    "static/js/2.02b1a47c.chunk.js.map": "/static/js/2.02b1a47c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.417b7e49dfd8f41fa9d0c35d1da4f637.js": "/precache-manifest.417b7e49dfd8f41fa9d0c35d1da4f637.js",
+    "precache-manifest.d25b3319d6fee6dd1008fc2c4ea3c889.js": "/precache-manifest.d25b3319d6fee6dd1008fc2c4ea3c889.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.3cf5d70f.chunk.css.map": "/static/css/2.3cf5d70f.chunk.css.map",
-    "static/css/main.cb559016.chunk.css.map": "/static/css/main.cb559016.chunk.css.map",
-    "static/js/2.c51d07fe.chunk.js.LICENSE.txt": "/static/js/2.c51d07fe.chunk.js.LICENSE.txt",
+    "static/css/main.32e6702c.chunk.css.map": "/static/css/main.32e6702c.chunk.css.map",
+    "static/js/2.02b1a47c.chunk.js.LICENSE.txt": "/static/js/2.02b1a47c.chunk.js.LICENSE.txt",
     "static/media/GitHub-Mark.eps": "/static/media/GitHub-Mark.8d6f6ff0.eps",
     "static/media/GitHub-Mark.zip": "/static/media/GitHub-Mark.c673e59a.zip",
     "static/media/GitHub-Mark.ai": "/static/media/GitHub-Mark.d26611a8.ai",
@@ -61,6 +61,7 @@
     "static/media/eric.jpg": "/static/media/eric.b984bd69.jpg",
     "static/media/ethan.jpg": "/static/media/ethan.ea8d81c3.jpg",
     "static/media/film.jpg": "/static/media/film.d68b6546.jpg",
+    "static/media/findYourFit-temp.png": "/static/media/findYourFit-temp.5f55a55a.png",
     "static/media/gentrification.jpg": "/static/media/gentrification.19c41b49.jpg",
     "static/media/grace.jpg": "/static/media/grace.a55314b7.jpg",
     "static/media/howie.jpg": "/static/media/howie.478e3353.jpg",
@@ -83,6 +84,7 @@
     "static/media/krishna.jpg": "/static/media/krishna.76ac5054.jpg",
     "static/media/kristie.jpg": "/static/media/kristie.aeb4907a.jpg",
     "static/media/kyle.jpg": "/static/media/kyle.eaf614f8.jpg",
+    "static/media/laptop.png": "/static/media/laptop.c63e6d5a.png",
     "static/media/logo.png": "/static/media/logo.2068afa5.png",
     "static/media/lyric.jpg": "/static/media/lyric.5716e311.jpg",
     "static/media/mantej.jpg": "/static/media/mantej.06d0a003.jpg",
@@ -136,6 +138,7 @@
     "static/media/unity-rpg.png": "/static/media/unity-rpg.4889f5f1.png",
     "static/media/vaibhav.jpg": "/static/media/vaibhav.2296b7d5.jpg",
     "static/media/varun.jpg": "/static/media/varun.f76a7cf1.jpg",
+    "static/media/vidhi.jpg": "/static/media/vidhi.def9ff55.jpg",
     "static/media/vidya.jpg": "/static/media/vidya.767e99aa.jpg",
     "static/media/vscodeology.png": "/static/media/vscodeology.cdf9a653.png",
     "static/media/web_hand1.png": "/static/media/web_hand1.c11d7b54.png",
@@ -148,8 +151,8 @@
   "entrypoints": [
     "static/js/runtime-main.99911b0c.js",
     "static/css/2.3cf5d70f.chunk.css",
-    "static/js/2.c51d07fe.chunk.js",
-    "static/css/main.cb559016.chunk.css",
-    "static/js/main.cb72366b.chunk.js"
+    "static/js/2.02b1a47c.chunk.js",
+    "static/css/main.32e6702c.chunk.css",
+    "static/js/main.582cd6ed.chunk.js"
   ]
 }
