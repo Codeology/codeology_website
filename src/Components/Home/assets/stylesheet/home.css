@@ -121,7 +121,8 @@
 /* Unique Styles */
 /* ============================ */
 #landing {
-    background: #DCF4D4;
+    /* background: #DCF4D4; */
+    background-image: linear-gradient(#DCF4D4, #DCF4D4, white);
     width: 100vw;
     height: 92vh;
     display: flex;
@@ -135,8 +136,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 6px solid white;
-    padding: 8vh 32vw;
+    /* border: 6px solid white; */
+    padding: 8vh;
+    width: 80vw;
 }
 
 #find-your-fit, #apply-contact {
@@ -149,10 +151,85 @@
     height: 40vh;
 }
 
+#title {
+    position: relative;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* for animation */
+
+#f {
+    left: -10px;
+    top: -5px;
+    position: absolute;
+    z-index: 3;
+    width: 38px;
+}
+
+#r {
+    right: 145px;
+    position: absolute;
+    z-index: 3;
+    width: 48px;
+
+}
+
+#i {
+    right: 50px;
+    top: -5px;
+    position: absolute;
+    z-index: 3;
+    width: 1%;
+
+}
+
+/* lettering */
+#findYourFit {
+    width: 40vw;
+    z-index: 2;
+}
+
+
+
 #apply-contact {
     display: flex;
     flex-direction: row;
 }
+
+#laptop-apply {
+    text-align: center;
+    margin-top: 3vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#laptop {
+    width: 30vw;
+}
+
+#apply {
+    position: absolute;
+    top: 47%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    font-size: 2vw;
+    z-index: 3;
+    color:#559943;
+}
+
+#landing-text {
+    margin-top: 10vh;
+    font-size: 3vh;
+    width: 50vw;
+    color: #559943;
+    text-align: center;
+}
+
 
 
 @keyframes float {
@@ -211,8 +288,8 @@
 }
 
 .handRow img {
-    height: 32vh;
-    margin: 12vh 18vw;
+    height: 22vh;
+    margin: 20vh 25vw;
 }
 
 #about {
@@ -248,3 +325,17 @@
     margin-left: 8vw;
 }
 
+
+@media screen and (max-width: 600px) {
+    #findYourFit {
+        width: 80vw;
+    }
+    #laptop {
+        width: 50vw;
+    }
+
+    #apply {
+        top: 40vh;
+        font-size: 5vh;
+    }
+}

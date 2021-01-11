@@ -71,7 +71,7 @@ export const projectLeaders = [
         role: 'Project Manager',
     },
     {
-        name: 'Grace Altree',
+        name: 'Krishna Ravi',
         img:  null,
         role: 'Project Manager',
     },
@@ -117,6 +117,11 @@ export const projectLeaders = [
 const a = [
     {
         name: 'Ada Hu',
+        img:  null,
+        role: 'Active Member',
+    },
+    {
+        name: 'Aarushi Karandikar',
         img:  null,
         role: 'Active Member',
     },
@@ -204,7 +209,7 @@ const a = [
         role: 'Active Member',
     },
     {
-        name: 'Krishna Ravi',
+        name: 'Grace Altree',
         img:  null,
         role: 'Active Member',
     },
