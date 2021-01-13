@@ -188,7 +188,8 @@
 
 /* lettering */
 #findYourFit {
-    width: 40vw;
+    max-width: 600px;
+    object-fit: contain;
     z-index: 2;
 }
 
@@ -209,7 +210,7 @@
 }
 
 #laptop {
-    width: 30vw;
+    width: 400px;
 }
 
 #apply {
@@ -328,7 +329,7 @@
 
 @media screen and (max-width: 600px) {
     #findYourFit {
-        width: 80vw;
+        max-width: 80vw;
     }
     #laptop {
         width: 50vw;
@@ -337,5 +338,9 @@
     #apply {
         top: 40vh;
         font-size: 5vh;
+    }
+
+    .handRow img {
+        opacity: 50%;
     }
 }
