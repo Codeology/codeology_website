@@ -188,7 +188,8 @@
 
 /* lettering */
 #findYourFit {
-    width: 40vw;
+    max-width: 40vw;
+    max-height: 12vh;
     z-index: 2;
 }
 
