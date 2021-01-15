@@ -13,7 +13,7 @@ function Landing() {
 
                 </div>
                 <div id="laptop-apply">
-                    <img id="laptop" src={require("./assets/images/laptop.png")} />
+                    <img id="laptop" src={require("./assets/images/laptop1.png")} />
                     <Link id="apply" to="/apply">apply ></Link> 
                 </div>
                 

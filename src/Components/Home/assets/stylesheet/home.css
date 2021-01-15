@@ -190,7 +190,8 @@
 #findYourFit {
     max-width: 600px;
     object-fit: contain;
-    z-index: 2;
+    z-index: 3;
+    margin-top: 18vh;
 }
 
 
@@ -202,29 +203,31 @@
 
 #laptop-apply {
     text-align: center;
-    margin-top: 3vh;
+    /* z-index: 2; */
+    /* margin-top: 3vh; */
     display: flex;
     align-items: center;
     align-content: center;
     justify-content: center;
+    position: absolute;
 }
 
 #laptop {
-    width: 400px;
+    width: 600px;
+    position: absolute;
 }
 
-#apply {
-    position: absolute;
-    top: 47%;
-    left: 47%;
-    transform: translate(-50%, -50%);
-    font-size: 2vw;
+#apply  {
     z-index: 3;
+    margin-top: 50%;
+    left: 50%;
+    text-align: center;
+    font-size: 35px;
     color:#559943;
 }
 
 #landing-text {
-    margin-top: 10vh;
+    margin-top: 30vh;
     font-size: 3vh;
     width: 50vw;
     color: #559943;
@@ -331,9 +334,6 @@
     #findYourFit {
         max-width: 80vw;
     }
-    #laptop {
-        width: 50vw;
-    }
 
     #apply {
         top: 40vh;
@@ -341,6 +341,10 @@
     }
 
     .handRow img {
-        opacity: 50%;
+        opacity: 30%;
+    }
+
+    #landing-text {
+        font-size: 20px;
     }
 }
