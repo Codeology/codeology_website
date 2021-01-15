@@ -317,6 +317,12 @@
         padding-right: 5vw;
     
     }
+
+    #project-desc {
+        font-size: 14px;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
     
 
     .textOverlay-white {
@@ -385,4 +391,5 @@
         height: 25vh;
         margin-bottom:1vh;
     }
+
 }
