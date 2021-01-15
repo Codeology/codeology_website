@@ -337,7 +337,7 @@
 
     #apply {
         top: 40vh;
-        font-size: 5vh;
+        font-size: 20px;
     }
 
     .handRow img {
@@ -345,6 +345,10 @@
     }
 
     #landing-text {
-        font-size: 20px;
+        font-size: 14px;
+    }
+
+    #laptop {
+        width: 320px;
     }
 }

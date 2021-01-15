@@ -66,9 +66,10 @@ export const projectLeaders = [
         role: 'Project Manager',
     },
     {
-        name: 'Jen Buja',
+        name: 'Jennifer Buja',
         img:  null,
         role: 'Project Manager',
+        repeat: '1'
     },
     {
         name: 'Krishna Ravi',
