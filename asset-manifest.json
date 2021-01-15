@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.552efc65.chunk.css",
-    "main.js": "/static/js/main.8e4266fc.chunk.js",
-    "main.js.map": "/static/js/main.8e4266fc.chunk.js.map",
+    "main.css": "/static/css/main.120c60db.chunk.css",
+    "main.js": "/static/js/main.bbe6018d.chunk.js",
+    "main.js.map": "/static/js/main.bbe6018d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.99911b0c.js",
     "runtime-main.js.map": "/static/js/runtime-main.99911b0c.js.map",
     "static/css/2.3cf5d70f.chunk.css": "/static/css/2.3cf5d70f.chunk.css",
-    "static/js/2.02b1a47c.chunk.js": "/static/js/2.02b1a47c.chunk.js",
-    "static/js/2.02b1a47c.chunk.js.map": "/static/js/2.02b1a47c.chunk.js.map",
+    "static/js/2.e7c64df0.chunk.js": "/static/js/2.e7c64df0.chunk.js",
+    "static/js/2.e7c64df0.chunk.js.map": "/static/js/2.e7c64df0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b5abd75fb2ab60d852375fe25fbfb379.js": "/precache-manifest.b5abd75fb2ab60d852375fe25fbfb379.js",
+    "precache-manifest.ee52213ee1ca7a6f26a7cf768691f32d.js": "/precache-manifest.ee52213ee1ca7a6f26a7cf768691f32d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.3cf5d70f.chunk.css.map": "/static/css/2.3cf5d70f.chunk.css.map",
-    "static/css/main.552efc65.chunk.css.map": "/static/css/main.552efc65.chunk.css.map",
-    "static/js/2.02b1a47c.chunk.js.LICENSE.txt": "/static/js/2.02b1a47c.chunk.js.LICENSE.txt",
+    "static/css/main.120c60db.chunk.css.map": "/static/css/main.120c60db.chunk.css.map",
+    "static/js/2.e7c64df0.chunk.js.LICENSE.txt": "/static/js/2.e7c64df0.chunk.js.LICENSE.txt",
     "static/media/GitHub-Mark.eps": "/static/media/GitHub-Mark.8d6f6ff0.eps",
     "static/media/GitHub-Mark.zip": "/static/media/GitHub-Mark.c673e59a.zip",
     "static/media/GitHub-Mark.ai": "/static/media/GitHub-Mark.d26611a8.ai",
@@ -54,7 +54,6 @@
     "static/media/david.jpg": "/static/media/david.c89c3121.jpg",
     "static/media/discord-bot.jpg": "/static/media/discord-bot.3edcba7e.jpg",
     "static/media/discord.png": "/static/media/discord.fc079e81.png",
-    "static/media/donut.png": "/static/media/donut.1d082c4c.png",
     "static/media/elizabeth.jpg": "/static/media/elizabeth.08358e86.jpg",
     "static/media/emily1.jpg": "/static/media/emily1.cd00d661.jpg",
     "static/media/emily2.jpg": "/static/media/emily2.be3c9f10.jpg",
@@ -64,6 +63,7 @@
     "static/media/findYourFit-temp.png": "/static/media/findYourFit-temp.5f55a55a.png",
     "static/media/gentrification.jpg": "/static/media/gentrification.19c41b49.jpg",
     "static/media/grace.jpg": "/static/media/grace.a55314b7.jpg",
+    "static/media/group.png": "/static/media/group.804f588d.png",
     "static/media/howie.jpg": "/static/media/howie.478e3353.jpg",
     "static/media/jag.jpg": "/static/media/jag.76af350a.jpg",
     "static/media/jaj.jpg": "/static/media/jaj.b44be76d.jpg",
@@ -74,6 +74,7 @@
     "static/media/jimmy.jpg": "/static/media/jimmy.59023dfc.jpg",
     "static/media/jimmy2.jpg": "/static/media/jimmy2.ab554db8.jpg",
     "static/media/jinsu.jpg": "/static/media/jinsu.00eb834d.jpg",
+    "static/media/john.jpg": "/static/media/john.a264340f.jpg",
     "static/media/kaavya.jpg": "/static/media/kaavya.73a59747.jpg",
     "static/media/kamille.jpg": "/static/media/kamille.2f1e6f3b.jpg",
     "static/media/karina.jpg": "/static/media/karina.20aa27ef.jpg",
@@ -151,8 +152,8 @@
   "entrypoints": [
     "static/js/runtime-main.99911b0c.js",
     "static/css/2.3cf5d70f.chunk.css",
-    "static/js/2.02b1a47c.chunk.js",
-    "static/css/main.552efc65.chunk.css",
-    "static/js/main.8e4266fc.chunk.js"
+    "static/js/2.e7c64df0.chunk.js",
+    "static/css/main.120c60db.chunk.css",
+    "static/js/main.bbe6018d.chunk.js"
   ]
 }
