@@ -1,4 +1,29 @@
 var ProjectInfo = {
+   "2021": {
+     "Spring": [
+      {
+        title: "Find Your Zen",
+        leaders: "Kristie Lin, Howie Ye",
+        description: "Dive into the world of iOS development with 'Find Your Zen!' Not only will you be building your own meditation app throughout the semester, you'll also be learning about various important design principles that designers use in everything! We will also be focusing on self-care/meditation practices that you can apply into your app and/or your own personal time (especially if life isn't the greatest for you right now).",
+        technologies: "Swift, Xcode, Figma", 
+        imageSrc: "findYourZen.jpg"
+       },
+       {
+        title: "BounC++",
+        leaders: "Ethan Chen",
+        description: "We're here to learn some basic C++, and then will also build a simple game engine using what we learned. The game engine will concentrate on providing basic physics principles and efficient performance. Open to new ideas, but we will begin with creating a basic bouncing ball collision animation and go from there!",
+        technologies: "C++", 
+        imageSrc: "bounc.jpg",
+       },
+       {
+        title: "(Shares)^2",
+        leaders: "Shaylan Dias",
+        description: "Have you ever used something like Robinhood and felt like it wasn't flashy and annoying enough? We'll be making a Venmo-like stock tracking app so you can flex on all your friends over at r/WSB. Our project will set up users with profiles, watchlists, and a friend/like system. Don't worry, there's no actual interest or knowledge in the stock market required! We'll be working with the AWS (Amazon Web Services) toolset + React to create a serverless web application. If you're interested in building on your full stack toolset then this project is for you!",
+        technologies: "AWS + React", 
+        imageSrc: "shares.jpg",
+       },
+     ]
+   },
    "2020": {
      "Fall": [
        {
@@ -6,42 +31,48 @@ var ProjectInfo = {
         leaders: "Jasper Chen and Daniel Tseng",
         description: "In this project, we will be making discord bots from scratch. We will start off with text recognition, sending dms, posting custom messages and joining and leaving voice channels. As we move onto more specific topics, such as drawing from the internet or databases, we will each make custom discord bots better suited to our own vision and interests. Drawing from the discord.py API, this project will allow you to create a bot to jam with while on call with your friends, go on an adventure with in text channels, and make your own discord channel a much more fun and friendly place.",
         technologies: "Python", 
-        imageSrc: "discord-bot.jpg"
+        imageSrc: "discord-bot.jpg",
+        github: "https://github.com/Codeology/Chatbot"
         },
         {
         title: "Zoom Facial Recognition",
         leaders: "Ethan Chen and Krishna Ravi",
         description: "Facial Recognition On Zoom combines machine-learning based facial recognition techniques with some front-end development to build a well-rounded product that is able monitor students on zoom calls to help teachers monitor class attendance. No more fooling teachers by placing still images in front of webcams! ",
         technologies: "Python",
-        imageSrc: "zoom.jpg"
+        imageSrc: "zoom.jpg",
+        github: "https://github.com/Codeology/face-rec"
         },
         {
         title:"Film",
         leaders:"John Um and Aarushi Karandikar",
         description:"If you're a film buff, interested in learning about the data science lifecycle, or just super passionate about Jupyter notebooks, this project is for you! We'll be working with movie datasets to go through the basics of data collection + cleaning, NLP sentiment analysis, and data modeling.",
         technologies:"Python (Pandas, NumPy, MatPlotLib, Seaborn), NLP, Jupyter Notebooks",
-        imageSrc:"film.jpg"
+        imageSrc:"film.jpg",
+        github: ""
         },
         {
         title:"Chicken Tinder",
         leaders: "Grace Altree and Jen Buja",
         description: "Ever struggled to agree on a restaurant with a large group of friends? Chicken Tinder is the solution. Our project is a React web application which presents individuals in a group with restaurant profiles, records preferences, and ultimately matches the group with a local restaurant. You’ll never need to worry about your indecisive group of friends again!",
         technologies:"Python (and Pandas), React (HTML and CSS)",
-        imageSrc: "chicken.jpg"
+        imageSrc: "chicken.jpg",
+        github: "https://github.com/Codeology/ChickenTinder"
         },
         {
         title: "Swift Squad",
         leaders: "Ali Matsumoto and Kyle Hua",
         description: "We’re working to develop an iOS app that takes images from a user’s camera roll and simplifies them into blocks of color (a lot like vector drawings) based on contrast levels between pixels. The goal is to turn images into fun little drawings without the effort of drawing!",
         technologies: "Swift, Python, and OpenCV",
-        imageSrc: "swift-squad.png"
+        imageSrc: "swift-squad.png",
+        github: "https://github.com/Codeology/swift-squad"
         },
         {
         title: "Adventures in Space",
         leaders: "Vidhi Chander",
         description: "The year is 2310 and the world is heavily overpopulated, unable to sustain human life for much longer. As a leading astronaut at Global Aerospace, you have been tasked with finding alternate habitation for mankind. As you set out on your journey to space, you will be provided with resources and weapons, should you need them. You will have the freedom to interact with celestial bodies, float through space, land on potentially habitable planets, and possibly encounter some extraterrestrial beings. Your objective is to explore space and do whatever you can to find alternative habitation before your food and water run out. Good luck! ",
         technologies: "Unity and C#",
-        imageSrc: "space.jpg"  
+        imageSrc: "space.jpg",
+        github: "https://github.com/Codeology/Adventures-in-space"
         }
         
 
