@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.86c50791.chunk.css",
-    "main.js": "/static/js/main.bbe6018d.chunk.js",
-    "main.js.map": "/static/js/main.bbe6018d.chunk.js.map",
+    "main.js": "/static/js/main.0cccd6b5.chunk.js",
+    "main.js.map": "/static/js/main.0cccd6b5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.99911b0c.js",
     "runtime-main.js.map": "/static/js/runtime-main.99911b0c.js.map",
     "static/css/2.3cf5d70f.chunk.css": "/static/css/2.3cf5d70f.chunk.css",
-    "static/js/2.e7c64df0.chunk.js": "/static/js/2.e7c64df0.chunk.js",
-    "static/js/2.e7c64df0.chunk.js.map": "/static/js/2.e7c64df0.chunk.js.map",
+    "static/js/2.ac9599bd.chunk.js": "/static/js/2.ac9599bd.chunk.js",
+    "static/js/2.ac9599bd.chunk.js.map": "/static/js/2.ac9599bd.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ee3dd844d61f45650aee4e322f0e3177.js": "/precache-manifest.ee3dd844d61f45650aee4e322f0e3177.js",
+    "precache-manifest.1ec1471cfd2408ce1ad29e54a34f4493.js": "/precache-manifest.1ec1471cfd2408ce1ad29e54a34f4493.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.3cf5d70f.chunk.css.map": "/static/css/2.3cf5d70f.chunk.css.map",
     "static/css/main.86c50791.chunk.css.map": "/static/css/main.86c50791.chunk.css.map",
-    "static/js/2.e7c64df0.chunk.js.LICENSE.txt": "/static/js/2.e7c64df0.chunk.js.LICENSE.txt",
+    "static/js/2.ac9599bd.chunk.js.LICENSE.txt": "/static/js/2.ac9599bd.chunk.js.LICENSE.txt",
     "static/media/GitHub-Mark.eps": "/static/media/GitHub-Mark.8d6f6ff0.eps",
     "static/media/GitHub-Mark.zip": "/static/media/GitHub-Mark.c673e59a.zip",
     "static/media/GitHub-Mark.ai": "/static/media/GitHub-Mark.d26611a8.ai",
@@ -38,6 +38,7 @@
     "static/media/balling-with-data.png": "/static/media/balling-with-data.ee436789.png",
     "static/media/big_puzzle.png": "/static/media/big_puzzle.0819ffd0.png",
     "static/media/big_puzzle2.png": "/static/media/big_puzzle2.40448176.png",
+    "static/media/bounc.jpg": "/static/media/bounc.3787f6be.jpg",
     "static/media/bridget.jpg": "/static/media/bridget.e1b01d63.jpg",
     "static/media/calvin.jpg": "/static/media/calvin.5463ef1b.jpg",
     "static/media/charlize.jpg": "/static/media/charlize.963bd1ab.jpg",
@@ -61,6 +62,7 @@
     "static/media/ethan.jpg": "/static/media/ethan.ea8d81c3.jpg",
     "static/media/film.jpg": "/static/media/film.d68b6546.jpg",
     "static/media/findYourFit-temp.png": "/static/media/findYourFit-temp.5f55a55a.png",
+    "static/media/findYourZen.jpg": "/static/media/findYourZen.01357953.jpg",
     "static/media/gentrification.jpg": "/static/media/gentrification.19c41b49.jpg",
     "static/media/grace.jpg": "/static/media/grace.a55314b7.jpg",
     "static/media/group.png": "/static/media/group.804f588d.png",
@@ -75,6 +77,7 @@
     "static/media/jimmy2.jpg": "/static/media/jimmy2.ab554db8.jpg",
     "static/media/jinsu.jpg": "/static/media/jinsu.00eb834d.jpg",
     "static/media/john.jpg": "/static/media/john.a264340f.jpg",
+    "static/media/jun.jpg": "/static/media/jun.943814c3.jpg",
     "static/media/kaavya.jpg": "/static/media/kaavya.73a59747.jpg",
     "static/media/kamille.jpg": "/static/media/kamille.2f1e6f3b.jpg",
     "static/media/karina.jpg": "/static/media/karina.20aa27ef.jpg",
@@ -117,6 +120,7 @@
     "static/media/satiya.jpg": "/static/media/satiya.b22e3c04.jpg",
     "static/media/seawarden.png": "/static/media/seawarden.f5ca4f46.png",
     "static/media/sera.jpg": "/static/media/sera.2b96f868.jpg",
+    "static/media/shares.jpg": "/static/media/shares.dfec0892.jpg",
     "static/media/shaylan.jpg": "/static/media/shaylan.eadc72dc.jpg",
     "static/media/sitting_person.png": "/static/media/sitting_person.3847482d.png",
     "static/media/small-monkey-brain-react.jpeg": "/static/media/small-monkey-brain-react.af6a58b5.jpeg",
@@ -152,8 +156,8 @@
   "entrypoints": [
     "static/js/runtime-main.99911b0c.js",
     "static/css/2.3cf5d70f.chunk.css",
-    "static/js/2.e7c64df0.chunk.js",
+    "static/js/2.ac9599bd.chunk.js",
     "static/css/main.86c50791.chunk.css",
-    "static/js/main.bbe6018d.chunk.js"
+    "static/js/main.0cccd6b5.chunk.js"
   ]
 }
