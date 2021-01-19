@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {
   HashRouter as Router,
   Switch,
+  Redirect,
   Route,
   Link
 } from "react-router-dom";
@@ -71,9 +72,11 @@ class HomeRouter extends Component {
                         <ContactUs />
                       </Route>
                       
-                      <Route path="/apply">
-                        <Apply />
-                      </Route>
+                      <Route path="/apply"
+                        component={() => { 
+                           window.location.href = 'https://airtable.com/shrDD1wfWYSzjTBbY?fbclid=IwAR0cXGsRnEGZL4g7PNOYa4TJZSLBWOeYF72JvBVOE7SkBElhZdgP-uS71oM'; 
+                           return null;
+                          }}/> 
 
                       <Route path="/">
                         <HomePage />
