@@ -2,6 +2,13 @@ var ProjectInfo = {
    "2021": {
      "Spring": [
       {
+        title: "Spotify-ology",
+        leaders: "Jennifer Xiao",
+        description: "“Your top song of 2020 was….?” All this and more can be discovered using the Spotify API ✨In this project, we will be learning the fundamentals of web app development to do cool things with your Spotify data. Specifically, we’ll be working with React, Node.js, and Python.  If you want Spotify Wrapped to continue all year long, join this project and build your own!",
+        technologies: "React, Figma, Python", 
+        imageSrc: "spotify.png"
+       },
+       {
         title: "Find Your Zen",
         leaders: "Kristie Lin, Howie Ye",
         description: "Dive into the world of iOS development with 'Find Your Zen!' Not only will you be building your own meditation app throughout the semester, you'll also be learning about various important design principles that designers use in everything! We will also be focusing on self-care/meditation practices that you can apply into your app and/or your own personal time (especially if life isn't the greatest for you right now).",
