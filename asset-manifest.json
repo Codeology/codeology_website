@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.86c50791.chunk.css",
-    "main.js": "/static/js/main.6520282a.chunk.js",
-    "main.js.map": "/static/js/main.6520282a.chunk.js.map",
+    "main.js": "/static/js/main.3ec318a0.chunk.js",
+    "main.js.map": "/static/js/main.3ec318a0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.99911b0c.js",
     "runtime-main.js.map": "/static/js/runtime-main.99911b0c.js.map",
     "static/css/2.3cf5d70f.chunk.css": "/static/css/2.3cf5d70f.chunk.css",
-    "static/js/2.ac9599bd.chunk.js": "/static/js/2.ac9599bd.chunk.js",
-    "static/js/2.ac9599bd.chunk.js.map": "/static/js/2.ac9599bd.chunk.js.map",
+    "static/js/2.6d3ea6f0.chunk.js": "/static/js/2.6d3ea6f0.chunk.js",
+    "static/js/2.6d3ea6f0.chunk.js.map": "/static/js/2.6d3ea6f0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a8432ac7f8f3088ec00224e2965638f1.js": "/precache-manifest.a8432ac7f8f3088ec00224e2965638f1.js",
+    "precache-manifest.d3ebc052398c4b0b999d22321a171c1f.js": "/precache-manifest.d3ebc052398c4b0b999d22321a171c1f.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.3cf5d70f.chunk.css.map": "/static/css/2.3cf5d70f.chunk.css.map",
     "static/css/main.86c50791.chunk.css.map": "/static/css/main.86c50791.chunk.css.map",
-    "static/js/2.ac9599bd.chunk.js.LICENSE.txt": "/static/js/2.ac9599bd.chunk.js.LICENSE.txt",
+    "static/js/2.6d3ea6f0.chunk.js.LICENSE.txt": "/static/js/2.6d3ea6f0.chunk.js.LICENSE.txt",
     "static/media/GitHub-Mark.eps": "/static/media/GitHub-Mark.8d6f6ff0.eps",
     "static/media/GitHub-Mark.zip": "/static/media/GitHub-Mark.c673e59a.zip",
     "static/media/GitHub-Mark.ai": "/static/media/GitHub-Mark.d26611a8.ai",
@@ -130,6 +130,7 @@
     "static/media/sneh.jpg": "/static/media/sneh.d5f3b2c0.jpg",
     "static/media/space.png": "/static/media/space.89201988.png",
     "static/media/space.jpg": "/static/media/space.bed0df01.jpg",
+    "static/media/spotify.png": "/static/media/spotify.82c7e031.png",
     "static/media/srishti.jpg": "/static/media/srishti.187a5aa0.jpg",
     "static/media/standing1.png": "/static/media/standing1.7548f59d.png",
     "static/media/standing2.png": "/static/media/standing2.1873f488.png",
@@ -156,8 +157,8 @@
   "entrypoints": [
     "static/js/runtime-main.99911b0c.js",
     "static/css/2.3cf5d70f.chunk.css",
-    "static/js/2.ac9599bd.chunk.js",
+    "static/js/2.6d3ea6f0.chunk.js",
     "static/css/main.86c50791.chunk.css",
-    "static/js/main.6520282a.chunk.js"
+    "static/js/main.3ec318a0.chunk.js"
   ]
 }
