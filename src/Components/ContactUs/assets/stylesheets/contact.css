@@ -143,6 +143,11 @@ textarea {
     text-decoration: none;
 }
 
+#recruitment {
+  width: 60%;
+  margin-top: 3vh;
+}
+
 /* Bottom text box for contact page */ 
 .contact #bottombox {
   background-color: var(--white);
@@ -258,8 +263,12 @@ textarea {
     font-size: 2.5rem;
   }
 
-  .contact #bottombox, .contact #topbox {
+  .contact #bottombox, .contact #topbox{
     width: 80vw;
+  }
+
+  #recruitment {
+    display: none;
   }
 }
 

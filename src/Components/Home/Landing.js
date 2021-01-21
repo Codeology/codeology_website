@@ -14,7 +14,7 @@ function Landing() {
                 </div>
                 <div id="laptop-apply">
                     <img id="laptop" src={require("./assets/images/laptop1.png")} />
-                    <a id="apply" href="https://airtable.com/shrDD1wfWYSzjTBbY?fbclid=IwAR0cXGsRnEGZL4g7PNOYa4TJZSLBWOeYF72JvBVOE7SkBElhZdgP-uS71oM">apply ></a> 
+                    <a id="apply" href="/#/apply">apply ></a> 
                 </div>
                 
                 <div id="landing-text">

@@ -72,11 +72,9 @@ class HomeRouter extends Component {
                         <ContactUs />
                       </Route>
                       
-                      <Route path="/apply"
-                        component={() => { 
-                           window.location.href = 'https://airtable.com/shrDD1wfWYSzjTBbY?fbclid=IwAR0cXGsRnEGZL4g7PNOYa4TJZSLBWOeYF72JvBVOE7SkBElhZdgP-uS71oM'; 
-                           return null;
-                          }}/> 
+                      <Route path="/apply">
+                        <Apply />
+                      </Route>
 
                       <Route path="/">
                         <HomePage />
