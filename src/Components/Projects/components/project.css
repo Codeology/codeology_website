@@ -26,8 +26,9 @@
 .project-body {
     margin-right: 30px;
     margin-left: 30px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+
 
 }
 
@@ -99,6 +100,12 @@
     margin-left: 14vw;
     margin-right: 14vw;
     text-align: center;
+    font-size: 14px;
+
+}
+
+.textSection {
+    font-size: 14px;
 }
 
 .project-button-unselected {
@@ -135,9 +142,9 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 20px 30px 60px 30px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    padding: 5vh 5vw 5vh 5vw;
     width: 70%;
   }
   
@@ -164,7 +171,7 @@
     /*width: 60vw;
     height: 30vh;
     */
-    width: 25vw;
+    width: 20vw;
     height: 15vw;
     object-fit: cover;
     margin: 20px 20px 20px 20px;
@@ -172,9 +179,9 @@
   
   .project-text {
     text-align: left;
-    line-height: 20px;
     margin-top: 10px;
     width: 70%;
+    font-size: 14px !important;
   }
   
   .project-description {
@@ -185,6 +192,7 @@
     /*Override bootstrap*/
     margin-top: 10px;
     margin-bottom: 0rem;
+    font-size: 14px;
   }
 
   
@@ -269,9 +277,6 @@
         text-align: center;
         justify-content: center;
         align-items: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        padding: 20px 30px 60px 30px;
         width: 95%;
     }
     
@@ -294,7 +299,8 @@
     .project-description {
         width: 90%;
         text-align: left;
-      }
+    }
+
   }
 
   @media (max-width: 1000px) {
@@ -391,5 +397,7 @@
         height: 25vh;
         margin-bottom:1vh;
     }
+
+
 
 }

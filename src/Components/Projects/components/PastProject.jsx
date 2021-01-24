@@ -21,12 +21,7 @@ class PastProject extends React.Component {
                 <h3 className="project-title">{this.props.title}</h3>
                 <p className="project-time">{this.props.time}</p>
                 <a href={this.props.github}><button className="github-button"> GITHUB REPO </button></a>
-                <div className="project-text">
-                    {/*<p><strong>Project Leader(s)</strong>: {this.state.leaders}</p>
-                    <p><strong>Project Developers:</strong> {this.state.developers}</p>*/}
-                    <p>{this.props.description}</p>
-                </div>
-
+                <p className="project-text">{this.props.description}</p>
 
             </div>
         );
