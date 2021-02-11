@@ -127,6 +127,16 @@ const a = [
         role: 'Active Member',
     },
     {
+        name: 'Allen Gu',
+        img:  null,
+        role: 'Active Member',
+    },
+    {
+        name: 'Amogh Maganahalli',
+        img:  null,
+        role: 'Active Member',
+    },
+    {
         name: 'Andrew Wang',
         img:  null,
         role: 'Active Member',
@@ -149,6 +159,11 @@ const a = [
         repeat: '2',
     },
     {
+        name: 'Chetan Khanna',
+        img: null,
+        role: 'Active Member',
+    },
+    {
         name: 'Cindy Zhang',
         img:  null,
         role: 'Active Member',
@@ -159,9 +174,20 @@ const a = [
         role: 'Active Member',
     },
     {
+        name: 'Cynthia Lan',
+        img:  null,
+        role: 'Active Member',
+    },
+    {
         name: 'Daniel Tseng',
         img:  null,
         role: 'Active Member',
+    },
+    {
+        name: 'David Lim',
+        img:  null,
+        role: 'Active Member',
+        repeat: '2',
     },
     {
         name: 'Dustin Luong',
@@ -180,12 +206,27 @@ const a = [
         role: 'Active Member',
     },
     {
+        name: 'Erin Tsai',
+        img:  null,
+        role: 'Active Member',
+    },
+    {
+        name: 'Ernest Goh',
+        img:  null,
+        role: 'Active Member',
+    },
+    {
         name: 'Ethan Chen',
         img:  null,
         role: 'Active Member',
     },
     {
         name: 'Jasper Chen',
+        img:  null,
+        role: 'Active Member',
+    },
+    {
+        name: 'Jasmine Ang',
         img:  null,
         role: 'Active Member',
     },
@@ -220,7 +261,27 @@ const a = [
         role: 'Active Member',
     },
     {
+        name: 'Larissa Tsai',
+        img: null,
+        role: 'Active Member',
+    },
+    {
+        name: 'Mallika Parulekar',
+        img:  null,
+        role: 'Active Member',
+    },
+    {
         name: 'Mantej Panesar',
+        img:  null,
+        role: 'Active Member',
+    },
+    {
+        name: 'Maya Zheng',
+        img:  null,
+        role: 'Active Member',
+    },
+    {
+        name: 'Pradeep Muthaiya',
         img:  null,
         role: 'Active Member',
     },
@@ -230,13 +291,28 @@ const a = [
         role: 'Active Member',
     },
     {
+        name: 'Sadyant Behera',
+        img:  null,
+        role: 'Active Member',
+    },
+    {
         name: 'Saketh Kollu',
+        img:  null,
+        role: 'Active Member',
+    },
+    {
+        name: 'Sami Oh',
         img:  null,
         role: 'Active Member',
     },
     {
         name: 'Satiya Kem',
         img:  null,
+        role: 'Active Member',
+    },
+    {
+        name: 'Sebastiaan Szafir',
+        img: null, 
         role: 'Active Member',
     },
     {
@@ -250,9 +326,25 @@ const a = [
         role: 'Active Member',
     },
     {
+        name: 'Stephen Yang',
+        img: null,
+        role: 'Active Member',
+    },
+    {
         name: 'Taylor Yoo',
         img:  null,
         role: 'Active Member',
+    },
+    {
+        name: 'Tiffanie Chau',
+        img: null,
+        role: 'Active Member',
+    },
+    {
+        name: 'Tiffany Feng',
+        img: null,
+        role: 'Active Member',
+        repeat: '2'
     },
     {
         name: 'Trevor Baba',
