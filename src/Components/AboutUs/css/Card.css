@@ -7,12 +7,11 @@
     .cardImg {
         /*border-radius: 50px;*/
         width: 200px;
-
+        height: 280px;
+        object-fit: cover;
         margin-left: 2vw;
         margin-right: 2vw;
         margin-bottom: 1vw;
-
-
         border-radius: 2vw;
     }
 
