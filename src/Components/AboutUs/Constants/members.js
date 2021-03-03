@@ -107,11 +107,6 @@ export const projectLeaders = [
         img:  null,
         role: 'Project Leader',
     },
-    {
-        name: 'Vidhi Chander',
-        img:  null,
-        role: 'Project Leader',
-    },
 
 ]
 
@@ -312,7 +307,7 @@ const a = [
     },
     {
         name: 'Sebastiaan Szafir',
-        img: null, 
+        img: null,
         role: 'Active Member',
     },
     {
