@@ -211,11 +211,6 @@ const a = [
         role: 'Active Member',
     },
     {
-        name: 'Ethan Chen',
-        img:  null,
-        role: 'Active Member',
-    },
-    {
         name: 'Jasper Chen',
         img:  null,
         role: 'Active Member',
