@@ -226,6 +226,11 @@ const a = [
         role: 'Active Member',
     },
     {
+      name: 'Jimmy Lee',
+      img: null,
+      role: 'skrillexmaster',
+    },
+    {
         name: 'Jun Hee Han',
         img:  null,
         role: 'Active Member',
