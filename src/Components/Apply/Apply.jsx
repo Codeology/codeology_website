@@ -10,11 +10,10 @@ export default function Apply() {
                 <h1 id="contactTitle"> apply </h1>
                 <div id="underline"></div>
 
-                <img id="recruitment" src={require("./images/info.png")} alt="groupPic" width="100%"/>
+                <img id="recruitment" src={require("./images/group.png")} alt="groupPic" width="100%"/>
 
-                <div id="bottombox">  
-                
-                <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrDD1wfWYSzjTBbY?backgroundColor=blue" frameborder="0" onmousewheel="" width="100%" height="4936" style={{background: "transparent", border: "1px", solid: "#ccc"}}></iframe>              
+                <div id="bottombox">
+                  Applications to be a project developer for Spring 2021 have closed. Come back in Fall 2021! In the meantime, follow us on <a href="https://www.instagram.com/berkeleycodeology/?hl=en"> Instagram </a> and <a href="https://www.facebook.com/berkeleycodeology/"> Facebook</a> for updates and events.
                 </div>
 
 
@@ -23,4 +22,3 @@ export default function Apply() {
         </div>
     )
 }
-
