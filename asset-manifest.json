@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.70a135e5.chunk.css",
-    "main.js": "/static/js/main.b21bd750.chunk.js",
-    "main.js.map": "/static/js/main.b21bd750.chunk.js.map",
+    "main.js": "/static/js/main.0fc5a234.chunk.js",
+    "main.js.map": "/static/js/main.0fc5a234.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.99911b0c.js",
     "runtime-main.js.map": "/static/js/runtime-main.99911b0c.js.map",
     "static/css/2.3cf5d70f.chunk.css": "/static/css/2.3cf5d70f.chunk.css",
-    "static/js/2.2e64633c.chunk.js": "/static/js/2.2e64633c.chunk.js",
-    "static/js/2.2e64633c.chunk.js.map": "/static/js/2.2e64633c.chunk.js.map",
+    "static/js/2.951307e9.chunk.js": "/static/js/2.951307e9.chunk.js",
+    "static/js/2.951307e9.chunk.js.map": "/static/js/2.951307e9.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9e4e4ca177a70c664409c2434527cca4.js": "/precache-manifest.9e4e4ca177a70c664409c2434527cca4.js",
+    "precache-manifest.817ea21c300f85f54bfed5aadd6a159e.js": "/precache-manifest.817ea21c300f85f54bfed5aadd6a159e.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.3cf5d70f.chunk.css.map": "/static/css/2.3cf5d70f.chunk.css.map",
     "static/css/main.70a135e5.chunk.css.map": "/static/css/main.70a135e5.chunk.css.map",
-    "static/js/2.2e64633c.chunk.js.LICENSE.txt": "/static/js/2.2e64633c.chunk.js.LICENSE.txt",
+    "static/js/2.951307e9.chunk.js.LICENSE.txt": "/static/js/2.951307e9.chunk.js.LICENSE.txt",
     "static/media/GitHub-Mark.eps": "/static/media/GitHub-Mark.8d6f6ff0.eps",
     "static/media/GitHub-Mark.zip": "/static/media/GitHub-Mark.c673e59a.zip",
     "static/media/GitHub-Mark.ai": "/static/media/GitHub-Mark.d26611a8.ai",
@@ -122,7 +122,6 @@
     "static/media/pradeep.jpg": "/static/media/pradeep.d3e0f3cd.jpg",
     "static/media/predicting-film-success.jpg": "/static/media/predicting-film-success.8bc98370.jpg",
     "static/media/projectsRec.png": "/static/media/projectsRec.69d7b3f7.png",
-    "static/media/puzzle.png": "/static/media/puzzle.647c6d20.png",
     "static/media/red arm.png": "/static/media/red arm.6b97eeb4.png",
     "static/media/richard.jpg": "/static/media/richard.ea39cdb6.jpg",
     "static/media/roger.jpg": "/static/media/roger.dcd177ee.jpg",
@@ -176,8 +175,8 @@
   "entrypoints": [
     "static/js/runtime-main.99911b0c.js",
     "static/css/2.3cf5d70f.chunk.css",
-    "static/js/2.2e64633c.chunk.js",
+    "static/js/2.951307e9.chunk.js",
     "static/css/main.70a135e5.chunk.css",
-    "static/js/main.b21bd750.chunk.js"
+    "static/js/main.0fc5a234.chunk.js"
   ]
 }
