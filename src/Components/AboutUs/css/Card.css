@@ -1,5 +1,5 @@
 /* Desktop View */
-@media only screen and (min-width: 768px) { 
+@media only screen and (min-width: 768px) {
 /*    .cardSheet {
         width: 15vw;
     }*/
@@ -41,6 +41,38 @@
         flex-wrap: wrap;
         margin:0 auto;
     }
+
+    .profile-background {
+      padding: 20px 40px 20px 40px;
+
+      background-color: white;
+      width: 40vw;
+      height: 80vh;
+      border-radius: 40px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      position: fixed;
+      left: 50%;
+      top:50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .profile-img {
+      margin: 10px 10px 10px 10px;
+      width: 50%;
+    }
+
+    .profile-name {
+      font-size: 30px;
+      background-color: white;
+    }
+
+    #first-name {
+      background-color: #F2F3B7;
+    }
+
 }
 
 /* Styling for mobile view */
@@ -86,6 +118,8 @@
         margin-bottom: 4vw;
         color: #DB9E56;
     }
+
+
 }
 
 @media screen and (max-width: 900px) and (min-width: 600px) {
@@ -96,4 +130,5 @@
     .cardRole {
         font-size: 1rem;
     }
+
 }

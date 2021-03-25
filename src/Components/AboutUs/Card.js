@@ -1,19 +1,37 @@
 import React from 'react';
+import Popup from "reactjs-popup";
 import './css/Card.css'
-
-
-//                <img className="cardImg" src={require(this.state.str)}></img>
-//                <p className="cardRole">{this.props.role}</p>
-//				<img className="cardImg" src={require("./Constants/images/people/kyle.jpg")}></img>
 
 class Card extends React.Component {
     render() {
+      var name_arr = this.props.name.split(this.props.name);
         return (
-            <div className="cardSheet">
-				<img className="cardImg" src={this.props.imgSrc}></img>
-                <div className="cardName">{this.props.name}</div>
-                <p className="cardRole">{this.props.role}</p>
+          <Popup trigger={
+              <div className="cardSheet">
+              {/* Card info  */}
+                <img className="cardImg" src={this.props.imgSrc}></img>
+                      <div className="cardName">{this.props.name}</div>
+                        <p className="cardRole">{this.props.role}</p>
+                      </div>}
+                 position="top center">
+
+            {/* Profile popup content */}
+            <div className="profile-background">
+              <div className="profile-name" id="first-name"> {this.props.name}</div>
+              <div className="profile-name"> {name_arr[0]} </div>
+              <img className="profile-img" src={this.props.imgSrc}/>
+
+              <div className="profile-category">Year: </div>
+              <div className="profile-category">Role: </div>
+              <div className="profile-category">Email: </div>
+              <div className="profile-category">Tree: </div>
+              <div className="profile-category">Leaf: </div>
+              <div className="profile-category">Links: </div>
+
+
             </div>
+          </Popup>
+
         );
     }
   }
