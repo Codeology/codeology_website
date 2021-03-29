@@ -42,7 +42,13 @@
         margin:0 auto;
     }
 
+
+    .popup-overlay {
+      background: rgba(0, 0, 0, 0.5);
+    }
+
     .profile-background {
+
       padding: 20px 40px 20px 40px;
 
       background-color: white;
@@ -71,6 +77,10 @@
 
     #first-name {
       background-color: #F2F3B7;
+    }
+
+    .profile-category {
+      font-weight: bold;
     }
 
 }
