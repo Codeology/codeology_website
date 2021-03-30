@@ -49,11 +49,11 @@
 
     .profile-background {
 
-      padding: 20px 40px 20px 40px;
+      padding: 20px 40px 30px 40px;
 
       background-color: white;
       width: 40vw;
-      height: 80vh;
+      min-height: 80vh;
       border-radius: 40px;
       display: flex;
       align-items: center;
@@ -65,9 +65,18 @@
       transform: translate(-50%, -50%);
     }
 
+    .profile-text {
+      text-align: left;
+      width: 20vw;
+    }
+
     .profile-img {
-      margin: 10px 10px 10px 10px;
-      width: 50%;
+      width: 280px;
+      height: 280px;
+      object-fit: cover;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      border-radius: 20px;
     }
 
     .profile-name {
@@ -75,12 +84,38 @@
       background-color: white;
     }
 
-    #first-name {
+    .first-name {
       background-color: #F2F3B7;
     }
 
     .profile-category {
-      font-weight: bold;
+      color: black;
+      font-weight: bolder;
+    }
+
+    .profile-link {
+      margin-left: 10px;
+      margin-right: 1px;
+      padding: 5px 10px 5px 10px;
+      font-size: 14px;
+      border-radius: 15px;
+
+    }
+
+    .linkedin {
+      background-color: pink;
+    }
+
+    .resume {
+      background-color: #C4EAEF;
+    }
+
+    .website {
+      background-color: #C4CBEF;
+    }
+
+    .profile-blurb {
+      margin-top: 5px;
     }
 
 }
