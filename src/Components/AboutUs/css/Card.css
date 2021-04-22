@@ -52,11 +52,10 @@
     }
 
     .profile-background {
-
-      padding: 20px 40px 30px 40px;
-
+      padding: 20px 80px 30px 80px;
       background-color: white;
       width: 35vw;
+      max-width: 500px;
       /* min-height: 50vh; */
       border-radius: 40px;
       display: flex;
@@ -71,7 +70,7 @@
 
     .profile-text {
       text-align: left;
-      width: 20vw;
+      min-width: 300px;
       font-weight: 100;
       font-family: Karla
     }
@@ -170,6 +169,85 @@
         margin-top: -1.5vw;
         margin-bottom: 4vw;
         color: #DB9E56;
+    }
+
+
+    .popup-overlay {
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .profile-background {
+
+      padding: 10px 20px 10px 20px;
+
+      background-color: white;
+      width: 82vw;
+      /* min-height: 50vh; */
+      border-radius: 40px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      position: fixed;
+      left: 50%;
+      top:50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .profile-text {
+      text-align: left;
+      width: 60vw;
+      font-weight: 100;
+      font-family: Karla
+    }
+
+    .profile-img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      border-radius: 20px;
+    }
+
+    .profile-name {
+      font-size: 30px;
+      background-color: white;
+    }
+
+    .first-name {
+      background-color: #F2F3B7;
+    }
+
+    .profile-category {
+      font-weight: bold !important;
+    }
+
+    .profile-link {
+      margin-left: 10px;
+      margin-right: 1px;
+      padding: 5px 10px 5px 10px;
+      font-size: 14px;
+      font-weight: 500;
+      border-radius: 15px;
+      color:black;
+
+    }
+
+    .linkedin {
+      background-color: pink;
+    }
+
+    .resume {
+      background-color: #C4EAEF;
+    }
+
+    .website {
+      background-color: #C4CBEF;
+    }
+
+    .profile-blurb {
+      margin-top: 5px;
     }
 
 
