@@ -250,8 +250,9 @@ textarea {
     margin: 40 auto;
   }
 
-#contactTitle {
+.contactTitle {
   margin-top: 2vw;
+  font-weight: bold;
 }
 
 #text {
@@ -259,8 +260,9 @@ textarea {
 }
 
 @media screen and (max-width: 600px) {
-  #contactTitle {
+  .contactTitle {
     font-size: 2.5rem;
+    font-weight: bold;
   }
 
   .contact #bottombox, .contact #topbox{

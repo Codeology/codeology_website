@@ -20,12 +20,14 @@ Design guide link: https://www.notion.so/Website-Design-Guide-8b8c29e207ab476d95
 * {
   box-sizing: border-box;
   font-family: 'Karla';
+  font-weight:  bold;
   color: rgba(0, 0, 0, 0.84);
 }
 
 body {
   margin: 0;
   font-family: 'Karla';
+  font-weight: bold;
   font-size: 0.9vw;
 }
 
@@ -37,6 +39,7 @@ h1{
 
 h2 {
   font-size: 4vh;
+  font-weight: bold;
 }
 
 h3 {

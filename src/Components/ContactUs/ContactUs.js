@@ -12,7 +12,7 @@ export default function ContactUs() {
                 <title>Codeology | Contact</title>
             </Helmet>
             <div className="contact">
-                <h1 id="contactTitle"> contact us </h1>
+                <h1 className="contactTitle"> contact us </h1>
                 <div id="underline"></div>
 
 
@@ -28,7 +28,7 @@ export default function ContactUs() {
                 </div>
 
                 <div id="bottombox">  
-                    <h2>Prospective Applicants:</h2>
+                    <h2 className="contactTitle">Prospective Applicants:</h2>
                     <p>Click <a href="/#/apply"> here</a> to apply! Email <a href="mailto:info@codeology.club">info@codeology.club</a> for any questions or concerns.</p> 
                 </div>
             </div>

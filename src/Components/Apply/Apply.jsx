@@ -7,7 +7,7 @@ export default function Apply() {
         <div>
 
             <div className="contact">
-                <h1 id="contactTitle"> apply </h1>
+                <h1 className="contactTitle"> apply </h1>
                 <div id="underline"></div>
 
                 <img id="recruitment" src={require("./images/group.png")} alt="groupPic" width="100%"/>

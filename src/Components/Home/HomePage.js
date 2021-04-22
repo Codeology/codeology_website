@@ -50,7 +50,7 @@ export default function HomePage() {
 
                 <div id="about" className="section">
                     <div className="text">
-                        <h2>Who We Are</h2>
+                        <h2 style={{"font-weight": "bold"}}>Who We Are</h2>
                         <p>Codeology is a UC Berkeley student club focused on self-exploration
                         within the tech industry. By offering hands-on experience through
                         collaborative student projects and professional workshops, we aim to
@@ -93,7 +93,7 @@ export default function HomePage() {
                     </Carousel>
 
                     <div className="text projects">
-                        <h2>Projects</h2>
+                        <h2 style={{"font-weight": "bold"}}>Projects</h2>
                         <p>Every semester, we introduce varying projects as an opportunity for our 
                             members to explore interesting niches in the tech industry to gain experience 
                             as developers and to lead their own project teams. Topics can range from AI/ML 
@@ -109,7 +109,7 @@ export default function HomePage() {
 
                  <div id="about" className="section">
                     <div className="text">
-                        <h2>Community</h2>
+                        <h2 style={{"font-weight": "bold"}}>Community</h2>
                         <p>Codeology offers a supportive environment for members to grow within 
                             the computer science community. We reward kindness and taking action 
                             in order to foster an enjoyable and motivated culture that encourages

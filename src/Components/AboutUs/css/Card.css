@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;700&display=swap');
+
 /* Desktop View */
 @media only screen and (min-width: 768px) {
 /*    .cardSheet {
@@ -17,12 +19,14 @@
 
     .cardName {
         font-family: Karla, sans-serif;
+        font-weight: bold;
         font-size: 1.25rem;
         margin-top: 5px;
     }
 
     .cardRole {
         font-family: Karla, sans-serif;
+        font-weight: bold;
         font-size: 1rem;
         margin-top: 1vw;
         margin-left: 2vw;
@@ -52,8 +56,8 @@
       padding: 20px 40px 30px 40px;
 
       background-color: white;
-      width: 40vw;
-      min-height: 80vh;
+      width: 35vw;
+      /* min-height: 50vh; */
       border-radius: 40px;
       display: flex;
       align-items: center;
@@ -68,6 +72,8 @@
     .profile-text {
       text-align: left;
       width: 20vw;
+      font-weight: 100;
+      font-family: Karla
     }
 
     .profile-img {
@@ -89,8 +95,7 @@
     }
 
     .profile-category {
-      color: black;
-      font-weight: bolder;
+      font-weight: bold !important;
     }
 
     .profile-link {
@@ -98,7 +103,9 @@
       margin-right: 1px;
       padding: 5px 10px 5px 10px;
       font-size: 14px;
+      font-weight: 500;
       border-radius: 15px;
+      color:black;
 
     }
 
@@ -152,6 +159,7 @@
 
     .cardName {
         font-family: Karla, sans-serif;
+        font-weight: bold;
         font-size: 1.75vh;
         margin-top: .75vw;
         margin-bottom: 2vw;
