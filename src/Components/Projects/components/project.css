@@ -33,6 +33,29 @@
 
 }
 
+.no-margin {
+    margin-bottom: 2vw;
+}
+
+.project-structure {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 1000px;
+    /* width: 50%; */
+    display:block;
+
+}
+
+.project-timeline {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1000px;
+    padding-top: 5vw;
+    display:block;
+}
+
 /* Little peeps! */
 #littlepeep1 {
     height: 170px;
@@ -330,6 +353,7 @@
         margin-left: 5vw;
         margin-right: 5vw;
     }
+
     
 
     .textOverlay-white {
@@ -397,6 +421,16 @@
     .project-page-img {
         height: 25vh;
         margin-bottom:1vh;
+    }
+
+    .project-structure {
+        width: 100vw;
+        padding-left: 0px;
+    }
+
+    .project-timeline {
+        width: 100vw;
+        padding-left: 0px;
     }
 
 
