@@ -70,25 +70,16 @@ export default function HomePage() {
 
                     <Carousel wrap={true} touch={true}>
                         <Carousel.Item className="carousel-cell" interval={2500}>
-                            <img src={require("./assets/images/projects/seawarden.png")} />
+                            <img src={require("./assets/images/projects/shares.png")} />
                         </Carousel.Item>
                         <Carousel.Item className="carousel-cell" interval={2500}>
-                            <img src={require("./assets/images/projects/vscodeology.png")} />
+                            <img src={require("./assets/images/projects/spotify.png")} />
                         </Carousel.Item>
                         <Carousel.Item className="carousel-cell" interval={2500}>
-                            <img src={require("./assets/images/projects/space.png")} />
+                            <img src={require("./assets/images/projects/bounc.png")} />
                         </Carousel.Item>
                         <Carousel.Item className="carousel-cell" interval={2500}>
-                            <img src={require("./assets/images/projects/chicken.png")} />
-                        </Carousel.Item>
-                        <Carousel.Item className="carousel-cell" interval={2500}>
-                            <img src={require("./assets/images/projects/discord.png")} />
-                        </Carousel.Item>
-                        <Carousel.Item className="carousel-cell" interval={2500}>
-                            <img src={require("./assets/images/projects/movies.png")} />
-                        </Carousel.Item>
-                        <Carousel.Item className="carousel-cell" interval={2500}>
-                            <img src={require("./assets/images/projects/zoom.png")} />
+                            <img src={require("./assets/images/projects/zen.png")} />
                         </Carousel.Item>
                     </Carousel>
 
