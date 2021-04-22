@@ -13,21 +13,21 @@ var ProjectInfo = {
         leaders: "Kristie Lin, Howie Ye",
         description: "Dive into the world of iOS development with 'Find Your Zen!' Not only will you be building your own meditation app throughout the semester, you'll also be learning about various important design principles that designers use in everything! We will also be focusing on self-care/meditation practices that you can apply into your app and/or your own personal time (especially if life isn't the greatest for you right now).",
         technologies: "Swift, Xcode, Figma", 
-        imageSrc: "findYourZen.jpg"
+        imageSrc: "zen.png"
        },
        {
         title: "BounC++",
         leaders: "Ethan Chen",
         description: "We're here to learn some basic C++, and then will also build a simple game engine using what we learned. The game engine will concentrate on providing basic physics principles and efficient performance. Open to new ideas, but we will begin with creating a basic bouncing ball collision animation and go from there!",
         technologies: "C++", 
-        imageSrc: "bounc.jpg",
+        imageSrc: "bounc.png",
        },
        {
         title: "(Shares)^2",
         leaders: "Shaylan Dias",
         description: "Have you ever used something like Robinhood and felt like it wasn't flashy and annoying enough? We'll be making a Venmo-like stock tracking app so you can flex on all your friends over at r/WSB. Our project will set up users with profiles, watchlists, and a friend/like system. Don't worry, there's no actual interest or knowledge in the stock market required! We'll be working with the AWS (Amazon Web Services) toolset + React to create a serverless web application. If you're interested in building on your full stack toolset then this project is for you!",
         technologies: "AWS + React", 
-        imageSrc: "shares.jpg",
+        imageSrc: "shares.png",
        },
      ]
    },
