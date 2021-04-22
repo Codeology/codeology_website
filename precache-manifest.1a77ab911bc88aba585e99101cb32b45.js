@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "99fa2455b91e8ed3be242ca042397917",
+    "revision": "6f36111b602dfc1882667e4436523acd",
     "url": "/index.html"
   },
   {
-    "revision": "6e2702f82644554847b2",
+    "revision": "619a043c7185356df834",
     "url": "/static/css/2.3cf5d70f.chunk.css"
   },
   {
-    "revision": "7715a7e6caf62ee4aa3c",
+    "revision": "b7f780d467baeba315bd",
     "url": "/static/css/main.bcf1f87d.chunk.css"
   },
   {
-    "revision": "6e2702f82644554847b2",
-    "url": "/static/js/2.030e1859.chunk.js"
+    "revision": "619a043c7185356df834",
+    "url": "/static/js/2.d60d3d34.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.030e1859.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.d60d3d34.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7715a7e6caf62ee4aa3c",
-    "url": "/static/js/main.a1822d9c.chunk.js"
+    "revision": "b7f780d467baeba315bd",
+    "url": "/static/js/main.c5c153bf.chunk.js"
   },
   {
     "revision": "7cdd07cd8578cb7be0ba",
@@ -30,10 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8d6f6ff0bcc4512f99f05758b51590ec",
     "url": "/static/media/GitHub-Mark.8d6f6ff0.eps"
-  },
-  {
-    "revision": "c673e59a3d4b431e5c61f12ab3beba5f",
-    "url": "/static/media/GitHub-Mark.c673e59a.zip"
   },
   {
     "revision": "d26611a8033adc15cdd0bb7837e6d5bb",
@@ -120,10 +116,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ayush.254b5aa6.jpg"
   },
   {
-    "revision": "ee436789c4a28d7502ba8673433132df",
-    "url": "/static/media/balling-with-data.ee436789.png"
-  },
-  {
     "revision": "0819ffd0b3f9f04fb2165ccaa68faf2f",
     "url": "/static/media/big_puzzle.0819ffd0.png"
   },
@@ -132,8 +124,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/big_puzzle2.40448176.png"
   },
   {
-    "revision": "3787f6be1f7104a512179558511c220b",
-    "url": "/static/media/bounc.3787f6be.jpg"
+    "revision": "0ac2d640b472b8dd5280dbce8565ae06",
+    "url": "/static/media/bounc.0ac2d640.png"
   },
   {
     "revision": "e1b01d6389a8861654ccb9fcd03cb682",
@@ -148,20 +140,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/charlize.963bd1ab.jpg"
   },
   {
-    "revision": "48aabb495d9b6f07eccdb259f5e2e1be",
-    "url": "/static/media/chatbot.48aabb49.jpg"
-  },
-  {
     "revision": "cfa292c50d2cbce64ad818e9fd5d30c1",
     "url": "/static/media/chetan.cfa292c5.jpg"
-  },
-  {
-    "revision": "1a304d2fe03f7a5353303ae6993d9cb8",
-    "url": "/static/media/chicken.1a304d2f.png"
-  },
-  {
-    "revision": "58bdd86f90c0533fbe669318a32c635d",
-    "url": "/static/media/chicken.58bdd86f.jpg"
   },
   {
     "revision": "27111fb91dc36c8537e01c2ed0638623",
@@ -204,14 +184,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/david2.7b28ce4b.jpg"
   },
   {
-    "revision": "3edcba7e072596b15e13b6dc11c6dff5",
-    "url": "/static/media/discord-bot.3edcba7e.jpg"
-  },
-  {
-    "revision": "fc079e81a4d170a92bcd583136f89e7c",
-    "url": "/static/media/discord.fc079e81.png"
-  },
-  {
     "revision": "5794535c2d8d7273af957ab3df5897cc",
     "url": "/static/media/dustin.5794535c.jpg"
   },
@@ -244,20 +216,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ethan.ea8d81c3.jpg"
   },
   {
-    "revision": "d68b654692b049d4539a87474bb281c0",
-    "url": "/static/media/film.d68b6546.jpg"
-  },
-  {
     "revision": "5f55a55ad23e6823e56173cfa11d1404",
     "url": "/static/media/findYourFit-temp.5f55a55a.png"
-  },
-  {
-    "revision": "01357953c116736c6bc543dde57070a7",
-    "url": "/static/media/findYourZen.01357953.jpg"
-  },
-  {
-    "revision": "19c41b4907e230323860543566040730",
-    "url": "/static/media/gentrification.19c41b49.jpg"
   },
   {
     "revision": "a55314b71178b3440577060c9407d956",
@@ -352,10 +312,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/kristie.aeb4907a.jpg"
   },
   {
-    "revision": "611110f35a4c63bdfcbada0603a224c2",
-    "url": "/static/media/kyle.611110f3.jpg"
-  },
-  {
     "revision": "eaf614f8d805016c5a83ea594f68d1bb",
     "url": "/static/media/kyle.eaf614f8.jpg"
   },
@@ -408,10 +364,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/michelle.f9802325.jpg"
   },
   {
-    "revision": "0be07990b3a0360815b40712a560cc86",
-    "url": "/static/media/movies.0be07990.png"
-  },
-  {
     "revision": "5dadca4e545bcbe706cf772657daa78e",
     "url": "/static/media/nikita.5dadca4e.jpg"
   },
@@ -440,20 +392,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/person4.4f2b00ce.png"
   },
   {
-    "revision": "4e62f5543a764ecfb39a751748a21dc7",
-    "url": "/static/media/personal-website.4e62f554.jpg"
-  },
-  {
     "revision": "f4482da2128d7d422c0af676bffbe0f9",
     "url": "/static/media/pink arm.f4482da2.png"
   },
   {
     "revision": "d3e0f3cdcc0efe9d0a62d3c12f0255e2",
     "url": "/static/media/pradeep.d3e0f3cd.jpg"
-  },
-  {
-    "revision": "8bc9837055248e2232154908022eceb4",
-    "url": "/static/media/predicting-film-success.8bc98370.jpg"
   },
   {
     "revision": "69d7b3f7a2f69f37bebd43f54c85517c",
@@ -500,10 +444,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/satiya.b22e3c04.jpg"
   },
   {
-    "revision": "f5ca4f4680d2dd7660404befa596aa58",
-    "url": "/static/media/seawarden.f5ca4f46.png"
-  },
-  {
     "revision": "c337b088018f89b16b248fa904814b7d",
     "url": "/static/media/sebastiaan.c337b088.jpg"
   },
@@ -512,8 +452,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/sera.2b96f868.jpg"
   },
   {
-    "revision": "dfec08928714875526be39b3169cd524",
-    "url": "/static/media/shares.dfec0892.jpg"
+    "revision": "252d9dd9d1db588e0fe16381f7f7e437",
+    "url": "/static/media/shares.252d9dd9.png"
   },
   {
     "revision": "eadc72dc0c1a9870217342eed77eb33f",
@@ -522,10 +462,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3847482d5f6abb21c402686fac055157",
     "url": "/static/media/sitting_person.3847482d.png"
-  },
-  {
-    "revision": "af6a58b58164e56750e0a19773cdc1f8",
-    "url": "/static/media/small-monkey-brain-react.af6a58b5.jpeg"
   },
   {
     "revision": "4b32a9ffbfcad8b6a149fb06e4508c81",
@@ -544,16 +480,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/sneh.d5f3b2c0.jpg"
   },
   {
-    "revision": "892019881946c3f9d5359d879f825a29",
-    "url": "/static/media/space.89201988.png"
-  },
-  {
-    "revision": "bed0df01f7717592b7357097e342a5f8",
-    "url": "/static/media/space.bed0df01.jpg"
-  },
-  {
-    "revision": "82c7e031225c37b452732e98393b9e6c",
-    "url": "/static/media/spotify.82c7e031.png"
+    "revision": "57d6cf7313cd9ec57f012d1f936096e6",
+    "url": "/static/media/spotify.57d6cf73.png"
   },
   {
     "revision": "187a5aa0a58040b02e6bdfd3bbcf9360",
@@ -580,10 +508,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/susan.f47cfc24.jpg"
   },
   {
-    "revision": "da7d6ecd1a711317e49be8b43272dd49",
-    "url": "/static/media/swift-squad.da7d6ecd.png"
-  },
-  {
     "revision": "12ac3ad1bebe1cb7564b600e47933e16",
     "url": "/static/media/taylor.12ac3ad1.jpg"
   },
@@ -608,10 +532,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/trevor.173ff5ea.jpg"
   },
   {
-    "revision": "4889f5f1129f26ff731edea574ab8647",
-    "url": "/static/media/unity-rpg.4889f5f1.png"
-  },
-  {
     "revision": "2296b7d5297487d5c730c157bb2ee9bd",
     "url": "/static/media/vaibhav.2296b7d5.jpg"
   },
@@ -626,10 +546,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "767e99aaa92c96fed0ba8afdfd66e909",
     "url": "/static/media/vidya.767e99aa.jpg"
-  },
-  {
-    "revision": "cdf9a653dcdbf994d3283bca9be35929",
-    "url": "/static/media/vscodeology.cdf9a653.png"
   },
   {
     "revision": "c11d7b54262c9ce208b65b527fd88c79",
@@ -648,11 +564,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/web_hand4.28062855.png"
   },
   {
-    "revision": "6afdd29986cce857cd83718002486599",
-    "url": "/static/media/zoom.6afdd299.png"
-  },
-  {
-    "revision": "b7fa3d3debef680723510ff93559c66a",
-    "url": "/static/media/zoom.b7fa3d3d.jpg"
+    "revision": "f1edc7109fb4bc63d6b86592ccdf95a6",
+    "url": "/static/media/zen.f1edc710.png"
   }
 ]);
