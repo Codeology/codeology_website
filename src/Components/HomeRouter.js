@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Switch,
   Redirect,
   Route,
@@ -13,6 +13,7 @@ import AboutUs from './AboutUs/AboutUs.js';
 import Projects from './Projects/Projects.jsx';
 import ContactUs from './ContactUs/ContactUs.js';
 import Apply from './Apply/Apply.jsx';
+import Internal from './Internal/Internal.jsx';
 import Navbar from './Home/Navbar.js';
 
 import './Home/assets/stylesheet/Navbar.css';
@@ -72,6 +73,10 @@ class HomeRouter extends Component {
                         <ContactUs />
                       </Route>
                       
+                      <Route path="/internal">
+                        <Internal />
+                      </Route>
+
                       <Route path="/apply">
                         <Apply />
                       </Route>

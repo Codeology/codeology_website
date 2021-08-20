@@ -90,7 +90,7 @@ class Projects extends React.Component {
 
                     <div id="project-desc">Every semester, we introduce a set of projects, including web, mobile, and game development, where 
                         new and returning members are able to work with a team and project leader to complete during the semester. If you are part of an organization 
-                        that has a project for us, we would love to help out- please contact us <a href="/#/contact">here!</a>  Check out our upcoming project opportunities for Spring 2021 below!</div>
+                        that has a project for us, we would love to help out- please contact us <a href="/contact">here!</a>  Check out our upcoming project opportunities for Spring 2021 below!</div>
 
                     <p className="prompt no-margin">Structure</p>
 

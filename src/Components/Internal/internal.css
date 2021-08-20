@@ -1,0 +1,79 @@
+
+h2, h1, h3, h4 {
+    font-weight: bold;
+}
+
+li {
+    text-align: left;
+}
+
+#avo {
+    position: fixed;
+    left: 0;
+    top: 10vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 18vw;
+}
+
+.portal {
+    margin-left: 18vw;
+    margin-right: 18vw;
+}
+
+.stickylink {
+    color: black;
+    background-color: var(--mintgreen);
+    transition: 0.2s;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.stickylink:hover {
+    color: black;
+    text-decoration: none;
+    background-color: var(--lmintgreen);
+  }
+
+#internal-announcements {
+    padding-right: 40px;
+    margin-right: 10px;
+}
+
+.important-links {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 35%;
+}
+
+.important-link {
+    color: var(--forestgreen);
+}
+
+.important-link:hover {
+    color: var(--darkgrey);
+    text-decoration: none;
+}
+
+.calendar-div {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.mint-highlight {
+    max-width: 30vw;
+    text-align: center;
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 2vh;
+    background-color: var(--lmintgreen);
+}
