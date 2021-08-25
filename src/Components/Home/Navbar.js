@@ -22,7 +22,7 @@ const Navbar = props => (
             <Link className="not-apply" to="/about">About Us</Link>
             <Link className="not-apply" to="/projects">Projects</Link>
             <Link className="not-apply" to="/contact">Contact</Link>
-            <Link className="not-apply" to="/internal">Internal</Link>
+            {/* <Link className="not-apply" to="/internal">Internal</Link> */}
             <Link to="/apply" className="apply button">APPLY</Link>
         </div>
     </div>
