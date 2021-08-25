@@ -61,27 +61,27 @@ class HomeRouter extends Component {
                     {backdrop}
                     {/* Everything in Switch handles routing */}
                     <Switch>
-                      <Route path="/about">
+                      <Route forceRefresh={true}path="/about">
                         <AboutUs />
                       </Route>
 
-                      <Route path="/projects">
+                      <Route forceRefresh={true} path="/projects">
                         <Projects />
                       </Route>
 
-                      <Route path="/contact">
+                      <Route forceRefresh={true} path="/contact">
                         <ContactUs />
                       </Route>
                       
-                      <Route path="/internal">
+                      <Route forceRefresh={true} path="/internal">
                         <Internal />
                       </Route>
 
-                      <Route path="/apply">
+                      <Route forceRefresh={true} path="/apply">
                         <Apply />
                       </Route>
 
-                      <Route path="/">
+                      <Route forceRefresh={true} path="/">
                         <HomePage />
                       </Route>
 
