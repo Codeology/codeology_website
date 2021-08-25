@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Redirect,
   Route,
@@ -61,27 +61,27 @@ class HomeRouter extends Component {
                     {backdrop}
                     {/* Everything in Switch handles routing */}
                     <Switch>
-                      <Route forceRefresh={true}path="/about">
+                      <Route path="/about">
                         <AboutUs />
                       </Route>
 
-                      <Route forceRefresh={true} path="/projects">
+                      <Route path="/projects">
                         <Projects />
                       </Route>
 
-                      <Route forceRefresh={true} path="/contact">
+                      <Route path="/contact">
                         <ContactUs />
                       </Route>
                       
-                      <Route forceRefresh={true} path="/internal">
+                      <Route path="/internal">
                         <Internal />
                       </Route>
 
-                      <Route forceRefresh={true} path="/apply">
+                      <Route path="/apply">
                         <Apply />
                       </Route>
 
-                      <Route forceRefresh={true} path="/">
+                      <Route path="/">
                         <HomePage />
                       </Route>
 
