@@ -23,7 +23,7 @@ const Navbar = props => (
             <Link className="not-apply" to="/projects">Projects</Link>
             <Link className="not-apply" to="/contact">Contact</Link>
             <Link className="not-apply" to="/internal">Internal</Link>
-            <a href="/apply" className="apply button">APPLY</a>
+            <Link to="/apply" className="apply button">APPLY</Link>
         </div>
     </div>
 )
