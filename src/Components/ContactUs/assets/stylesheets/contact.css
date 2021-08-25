@@ -153,6 +153,12 @@ textarea {
   margin-top: 5vh;
 }
 
+#apply-subtext {
+  margin-left: 25vw;
+  margin-right: 25vw;
+  margin-top: 4vh;
+}
+
 /* Bottom text box for contact page */ 
 .contact #bottombox {
   background-color: var(--white);
