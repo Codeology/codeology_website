@@ -14,7 +14,7 @@ export default function Apply() {
                 
                 <div id="bottombox">
 
-                <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrHGk5wO0o8dcdYQ?backgroundColor=red" frameborder="0" onmousewheel="" width="100%" height="3518"  styles={{background: "transparent", border: "1px solid #ccc"}}></iframe>
+                <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrHGk5wO0o8dcdYQ?backgroundColor=red" frameborder="0" onmousewheel="" width="100%" height="4945" style={{background: "transparent", border: "1px solid #ccc;"}}></iframe>
                 </div>
 
 
