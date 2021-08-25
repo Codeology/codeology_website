@@ -44,14 +44,14 @@ class Projects extends React.Component {
 
     render() {
         var pastSemester = "Fall 2020"
-        var pastProjects = ProjectInfo["2020"]["Fall"].map(project =>
+        var pastProjects = ProjectInfo["2021"]["Spring"].map(project =>
             <PastProject title={project.title}
                          imageSrc={project.imageSrc}
                          github={project.github}
                          description={project.description}
                          time={pastSemester} />
             );
-        var upcomingProjects = ProjectInfo["2021"]["Spring"].map(project => 
+        var upcomingProjects = ProjectInfo["2021"]["Fall"].map(project => 
             <UpcomingProject title={project.title}
                              imageSrc={project.imageSrc}
                              description={project.description}

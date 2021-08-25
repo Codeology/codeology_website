@@ -148,10 +148,14 @@ textarea {
   margin-top: 3vh;
 }
 
+.applyImages {
+  height: 40vh;
+  margin-top: 5vh;
+}
+
 /* Bottom text box for contact page */ 
 .contact #bottombox {
   background-color: var(--white);
-  /* height: 30vh; */
   width: 60vw;
   border: 1px solid var(--darkgrey);
   padding: 3vh; 
@@ -279,3 +283,4 @@ textarea {
     font-size: 5vh;
   }
 }
+

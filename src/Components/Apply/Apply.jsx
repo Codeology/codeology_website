@@ -9,11 +9,12 @@ export default function Apply() {
             <div className="contact">
                 <h1 className="contactTitle"> apply </h1>
                 <div id="underline"></div>
-
-                <img id="recruitment" src={require("./images/group.png")} alt="groupPic" width="100%"/>
-
+                <img className="applyImages" src={require("./images/flyer.png")} alt="flyer"/>
+                <img className="applyImages" src={require("./images/info.png")} alt="info"/>
+                
                 <div id="bottombox">
-                  Applications to be a project developer for Spring 2021 have closed. Come back in Fall 2021! In the meantime, follow us on <a href="https://www.instagram.com/berkeleycodeology/?hl=en"> Instagram </a> and <a href="https://www.facebook.com/berkeleycodeology/"> Facebook</a> for updates and events.
+
+                <script src="https://static.airtable.com/js/embed/embed_snippet_v1.js"></script><iframe class="airtable-embed airtable-dynamic-height" src="https://airtable.com/embed/shrHGk5wO0o8dcdYQ?backgroundColor=red" frameborder="0" onmousewheel="" width="100%" height="3518"></iframe>
                 </div>
 
 

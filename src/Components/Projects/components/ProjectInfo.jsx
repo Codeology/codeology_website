@@ -1,5 +1,31 @@
 var ProjectInfo = {
    "2021": {
+     "Fall": [
+      {
+        title: "ClassifAI",
+        leaders: "Stephen and Sebi",
+        description: "“If you want to get into machine learning and neural networks, this project is for you. During the 8-week project timeframe, we will be covering machine learning techniques like linear regression, support vector machines, and will even be building your own image classifier using a convoluted neural network! Since many of the Python libraries that involve machine learning abstract away much of the conceptual knowledge behind the models we build, we will also teach what is going on behind the code so that you will be able to build your own machine learning models in the future. The end result of our project will be a convolutional neural network that can be applied to solve a real-world problem to your liking: anything from detecting pneumonia from lungs to identifying emotions of people's faces!",
+        imageSrc: "classifai.png"
+       },
+       {
+        title: "FlapPy",
+        leaders: "Allen Gu",
+        description: "Traumatized by Flappy Bird and want revenge or just interested in game development/AI? Through this project, you’ll learn how to build games and simulations in Python, as well as how to train your computer to play them. We’ll start by developing Flappy Bird and implementing the NEAT genetic algorithm together. Then, you’ll have the chance tackle a game or problem of your own!",
+        imageSrc: "flappy.png"
+       },
+       {
+        title: "Build-A-Bear",
+        leaders: "Sami Oh and Kamille Fernandou",
+        description: "As we all know Berkeley bears are very talented but we all need some way to showcase our various skills.  Whether it's delicious recipes to amazing artwork, you will be able to design and create your own personal website.  Learn design principles with Figma to make your website beautiful and use React.js, HTML, and CSS to make these designs come to life.",
+        imageSrc: "buildABear.png"
+       },
+       {
+        title: "Beary Hungry",
+        leaders: "Angela Jiang & Tiffanie Chau",
+        description: "One of the best parts of the UC Berkeley campus is the plentiful arrays of restaurants, dining halls, and cafes. But with so many options, how will you ever decide on what to get for breakfast? Lunch? Dinner? This fall, we will create a one-stop web application for all of your food options around Berkeley including the dining halls, Cal favorite restaurants, and potentially find some hidden gems of dining! The web app will allow users to filter, sort, and find dining options through the CalDining API and Yelp API. Beary Hungry will be a great project for people who are starting out in coding and want to work in a team environment as we will be learning web dev including HTML, CSS, React.js, and Python Flask to create a functional working web app as a team!",
+        imageSrc: "bearyHungry.png"
+       },
+     ],
      "Spring": [
       {
         title: "Spotify-ology",

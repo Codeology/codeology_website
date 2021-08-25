@@ -70,6 +70,18 @@ export default function HomePage() {
 
                     <Carousel wrap={true} touch={true}>
                         <Carousel.Item className="carousel-cell" interval={2500}>
+                            <img src={require("./assets/images/projects/flappy.png")} />
+                        </Carousel.Item>
+                        <Carousel.Item className="carousel-cell" interval={2500}>
+                            <img src={require("./assets/images/projects/classifai.png")} />
+                        </Carousel.Item>
+                        <Carousel.Item className="carousel-cell" interval={2500}>
+                            <img src={require("./assets/images/projects/bearyHungry.png")} />
+                        </Carousel.Item>
+                        <Carousel.Item className="carousel-cell" interval={2500}>
+                            <img src={require("./assets/images/projects/buildABear.png")} />
+                        </Carousel.Item>
+                        <Carousel.Item className="carousel-cell" interval={2500}>
                             <img src={require("./assets/images/projects/shares.png")} />
                         </Carousel.Item>
                         <Carousel.Item className="carousel-cell" interval={2500}>
