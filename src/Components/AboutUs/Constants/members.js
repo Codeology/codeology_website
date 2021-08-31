@@ -52,12 +52,12 @@ export const leadership = [
         year: 'Junior',
         committee: null,
         project: null, 
-        tree: null,
+        tree: 'Hoatian Ye',
         leaf: null, 
-        linkedin: null, 
-        resume: null, 
-        website: null,
-        blurb: null,
+        linkedin: 'https://www.linkedin.com/in/ahmedbaqai/', 
+        resume: 'https://ahmedbaqai.com/resume.pdf', 
+        website: 'https://ahmedbaqai.com/',
+        blurb: "Hey! I'm Ahmed. You probably know that tho cause you can see my name! Does it make me cool for pointing that out? No. I love snowboarding btw!",
     },
 
     {
