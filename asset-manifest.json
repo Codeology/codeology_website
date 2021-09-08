@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.3854abc9.chunk.css",
-    "main.js": "/static/js/main.4e74adbd.chunk.js",
-    "main.js.map": "/static/js/main.4e74adbd.chunk.js.map",
+    "main.js": "/static/js/main.eebbb84a.chunk.js",
+    "main.js.map": "/static/js/main.eebbb84a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.99911b0c.js",
     "runtime-main.js.map": "/static/js/runtime-main.99911b0c.js.map",
     "static/css/2.e279ab09.chunk.css": "/static/css/2.e279ab09.chunk.css",
-    "static/js/2.e2753b6b.chunk.js": "/static/js/2.e2753b6b.chunk.js",
-    "static/js/2.e2753b6b.chunk.js.map": "/static/js/2.e2753b6b.chunk.js.map",
+    "static/js/2.dadbbbb1.chunk.js": "/static/js/2.dadbbbb1.chunk.js",
+    "static/js/2.dadbbbb1.chunk.js.map": "/static/js/2.dadbbbb1.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2e5c4b8a19823ae8b5c382c551e9f295.js": "/precache-manifest.2e5c4b8a19823ae8b5c382c551e9f295.js",
+    "precache-manifest.c1a24c735ed1a04431ed2aa32662f406.js": "/precache-manifest.c1a24c735ed1a04431ed2aa32662f406.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.e279ab09.chunk.css.map": "/static/css/2.e279ab09.chunk.css.map",
     "static/css/main.3854abc9.chunk.css.map": "/static/css/main.3854abc9.chunk.css.map",
-    "static/js/2.e2753b6b.chunk.js.LICENSE.txt": "/static/js/2.e2753b6b.chunk.js.LICENSE.txt",
+    "static/js/2.dadbbbb1.chunk.js.LICENSE.txt": "/static/js/2.dadbbbb1.chunk.js.LICENSE.txt",
     "static/media/GitHub-Mark.eps": "/static/media/GitHub-Mark.8d6f6ff0.eps",
     "static/media/GitHub-Mark.ai": "/static/media/GitHub-Mark.d26611a8.ai",
     "static/media/Wall.png": "/static/media/Wall.301b635b.png",
@@ -69,10 +69,9 @@
     "static/media/ethan.jpg": "/static/media/ethan.ea8d81c3.jpg",
     "static/media/findYourFit-temp.png": "/static/media/findYourFit-temp.5f55a55a.png",
     "static/media/flappy.png": "/static/media/flappy.a2db3e8b.png",
-    "static/media/flyer.png": "/static/media/flyer.518bc3f7.png",
     "static/media/grace.jpg": "/static/media/grace.a55314b7.jpg",
+    "static/media/group.png": "/static/media/group.804f588d.png",
     "static/media/howie.jpg": "/static/media/howie.478e3353.jpg",
-    "static/media/info.png": "/static/media/info.53e2ddab.png",
     "static/media/jag.jpg": "/static/media/jag.76af350a.jpg",
     "static/media/jaj.jpg": "/static/media/jaj.b44be76d.jpg",
     "static/media/jasmine.jpg": "/static/media/jasmine.f6508829.jpg",
@@ -163,8 +162,8 @@
   "entrypoints": [
     "static/js/runtime-main.99911b0c.js",
     "static/css/2.e279ab09.chunk.css",
-    "static/js/2.e2753b6b.chunk.js",
+    "static/js/2.dadbbbb1.chunk.js",
     "static/css/main.3854abc9.chunk.css",
-    "static/js/main.4e74adbd.chunk.js"
+    "static/js/main.eebbb84a.chunk.js"
   ]
 }
