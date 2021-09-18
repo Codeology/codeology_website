@@ -296,7 +296,7 @@ export const projectLeaders = [
         img:  null,
         role: 'Project Leader',
         year: 'Sophomore',
-        email: "ethanyxchen@berkeley.edu",
+        email: "",
         committee: null,
         project: 'ClassifAI',
         tree: "ETHAN!!!",

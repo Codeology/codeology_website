@@ -52,8 +52,9 @@ export default class Internal extends React.Component {
                     <h2 className="mint-highlight">ANNOUNCEMENTS</h2>
                         <div className="row internal-announcements">
                                 <ul>
-                                    <li>Welcome back to school Codeology peeps! :^D</li>
-                                    <li>New internal portal for easy access to links/attendance</li>
+                                    <li>Welcome to our cute new members :^D </li>
+                                    <li>Remember to fill out the  <a href="https://docs.google.com/spreadsheets/u/2/d/1XyDlIqabP1eq0Hh3H3fMFNIiz1EceT6my8-rIrFbCsI/edit?usp=sharing">Recruiting Master Sheet</a> for any interviews and  company info you have!</li>
+                                    <li><a href="bit.ly/cody-education-oh">Education office hours link</a> to book with Cindy and Andrew!</li>
                                 </ul>
                         </div>
                         <div className="calendar-div">
@@ -65,10 +66,11 @@ export default class Internal extends React.Component {
                     </div>
                     <div id="avo">
                         <img src={require("./pictures/avo.png")} height="300px"/>
-                        <a target={"_blank"} href="https://docs.google.com/spreadsheets/u/2/d/1XyDlIqabP1eq0Hh3H3fMFNIiz1EceT6my8-rIrFbCsI/edit?usp=sharing" className="stickylink">Recruiting Master Sheet</a>
+                        
+                        <a target={"_blank"} href="bit.ly/cody-education-oh " className="stickylink">Education OH</a>
                         <a target={"_blank"} href="https://www.notion.so/calcodeology/1f76d9fb9e67438297f327496519d059?v=5457d37e3cb046b3b2bc98af49102637"  className="stickylink">Class Master list</a>
                         <a target={"_blank"} href="https://www.notion.so/calcodeology/498ca81760b14f09b9fe5a63c98919b4?v=f14581dd21df49ebbc355beb365e2600"  className="stickylink">Member list</a>
-                        <a target={"_blank"} href="https://drive.google.com/drive/u/2/folders/1_mfrPx6mHgGRM_GTYnaKBxH-OdAe7e_D"  className="stickylink">Resume Drive</a>
+                        {/* <a target={"_blank"} href="https://drive.google.com/drive/u/2/folders/1_mfrPx6mHgGRM_GTYnaKBxH-OdAe7e_D"  className="stickylink">Resume Drive</a> */}
                         <a target={"_blank"} href="https://discord.com/invite/6nGfjhg"  className="stickylink">Discord Link</a>
                     </div>
                 </div>

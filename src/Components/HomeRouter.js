@@ -73,9 +73,9 @@ class HomeRouter extends Component {
                         <ContactUs />
                       </Route>
                       
-                      {/* <Route path="/internal">
+                      <Route path="/internal-member-portal">
                         <Internal />
-                      </Route> */}
+                      </Route>
 
                       <Route path="/apply">
                         <Apply />
