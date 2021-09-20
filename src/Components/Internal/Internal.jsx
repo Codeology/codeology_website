@@ -33,7 +33,7 @@ export default class Internal extends React.Component {
 
     render() {
         var display =
-            <div id="bottombox">
+            <div>
                     <p>Sign in to access the internal portal. If you're an active Codeology member and 
                         do not have the password, please message one of the officers! If you're a spy go away!!
                     </p>
@@ -49,12 +49,13 @@ export default class Internal extends React.Component {
             display = 
                 <div>
                     <div className="portal">
-                    <h2 className="mint-highlight">ANNOUNCEMENTS</h2>
-                        <div className="row internal-announcements">
-                                <ul>
+                        <div  id="bottombox"  className="row internal-announcements">
+                            <ul>
+                                <h2 className="mint-highlight">ANNOUNCEMENTS</h2>
+
                                     <li>Welcome to our cute new members :^D </li>
                                     <li>Remember to fill out the  <a href="https://docs.google.com/spreadsheets/u/2/d/1XyDlIqabP1eq0Hh3H3fMFNIiz1EceT6my8-rIrFbCsI/edit?usp=sharing">Recruiting Master Sheet</a> for any interviews and  company info you have!</li>
-                                    <li><a href="bit.ly/cody-education-oh">Education office hours link</a> to book with Cindy and Andrew!</li>
+                                    <li><a href="https://bit.ly/cody-education-oh">Education office hours link</a> to book with Cindy and Andrew!</li>
                                 </ul>
                         </div>
                         <div className="calendar-div">
