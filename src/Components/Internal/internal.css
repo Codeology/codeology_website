@@ -14,6 +14,7 @@ li {
     display: flex;
     flex-direction: column;
     max-width: 18vw;
+    max-height: auto;
 }
 
 .portal {
@@ -77,3 +78,42 @@ li {
     margin-bottom: 2vh;
     background-color: var(--lmintgreen);
 }
+
+
+@media screen and (max-width: 900px) {
+    #avo img{
+        display: none;
+    }
+
+    #avo {
+        padding-top: 10vh;
+        flex-direction: row;
+    }
+
+    .stickylink {
+        color: black;
+        background-color: var(--mintgreen);
+        transition: 0.2s;
+        font-size: 12px;
+        min-width: 20vw;
+        border-radius: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .mint-highlight{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .bottombox {
+        padding-left: 0vw;
+        margin-left: 0vw;
+    }
+  }
+  

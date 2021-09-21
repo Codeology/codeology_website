@@ -50,9 +50,8 @@ export default class Internal extends React.Component {
                 <div>
                     <div className="portal">
                         <div  id="bottombox"  className="row internal-announcements">
+                        <h2 className="mint-highlight">ANNOUNCEMENTS</h2>
                             <ul>
-                                <h2 className="mint-highlight">ANNOUNCEMENTS</h2>
-
                                     <li>Welcome to our cute new members :^D </li>
                                     <li>Remember to fill out the  <a href="https://docs.google.com/spreadsheets/u/2/d/1XyDlIqabP1eq0Hh3H3fMFNIiz1EceT6my8-rIrFbCsI/edit?usp=sharing">Recruiting Master Sheet</a> for any interviews and  company info you have!</li>
                                     <li><a href="https://bit.ly/cody-education-oh">Education office hours link</a> to book with Cindy and Andrew!</li>
