@@ -1,6 +1,7 @@
 import React from 'react';
 import '../ContactUs/assets/stylesheets/contact.css';
 import './internal.css';
+import Login from './Login.jsx';
 import { ReactEmbeddedGoogleCalendar } from 'react-embedded-google-calendar';
 
 
@@ -48,6 +49,7 @@ export default class Internal extends React.Component {
         if (!this.state.authenticated) {
             display = 
                 <div>
+                    <Login />
                     <div className="portal">
                         <div  id="bottombox"  className="row internal-announcements">
                         <h2 className="mint-highlight">ANNOUNCEMENTS</h2>
