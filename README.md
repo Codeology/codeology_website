@@ -12,6 +12,7 @@ In addition, to use the image carousel, we are using React Bootstrap which uses 
 
 ## Making changes to the website
 
+### Starting Guide 
 Make sure you have the `npm` module installed locally! All pages are respectively split up within the `src/Components/` directory.
 
 1. Clone this repo
@@ -19,3 +20,11 @@ Make sure you have the `npm` module installed locally! All pages are respectivel
 3. Run `npm start` to test your changes.
 4. Once you finished editing, run `npm run deploy` to deploy the changes.
 5. Push the changes to the repo.
+
+###  Changing the About Us Page 
+1. Download the member photo to `AboutUs/Constants/images/people` and name it "Name.jpg". If it's a repeat do "Name2.jpg" and so on 
+2. Go to `AboutUs/Constants/members.js` to add the member information  
+3. If it's repeating add "repeating: 2" or 3  or  whatever... 😝 
+
+
+POC for questions: Amy Huang (amyxjhuang@berkeley.edu)
