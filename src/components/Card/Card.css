@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;700&display=swap');
 
+.cardImg:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.2s;
+}
+
 /* Desktop View */
 @media only screen and (min-width: 768px) {
 /*    .cardSheet {

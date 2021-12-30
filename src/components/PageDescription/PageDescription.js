@@ -15,10 +15,10 @@ function PageDescription(props) {
                 <img id="puzzle3" src={require('../../images/illustrations/puzzle/puzzle3.png')} />
 
 		        <div id="textHolder">{props.text}</div>
-		        {/* <img id="PictureHolder" src={require('../../images/group/sample.png')} /> */}
+		        {/* <img id="PictureHolder" src={require('../../images/group/sample.png')} />
 
 		        <img id="PeepsLeft" src={require('../../images/illustrations/people/smallpeeps left.png')} />
-		        <img id="PeepsRight" src={require('../../images/illustrations/people/smallpeeps right.png')} />
+		        <img id="PeepsRight" src={require('../../images/illustrations/people/smallpeeps right.png')} /> */}
 
 		</div>
 	)

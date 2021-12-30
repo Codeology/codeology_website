@@ -9,6 +9,23 @@ import { Helmet } from 'react-helmet';
 import ScrollToTop from '../../utils/ScrollToTop';
 
 export default function Home() {
+
+    const createProjectCarousel = () => {
+        const projects = ['flappy', 'classifai', 'bearyHungry', 'buildABear', 'shares', 'spotify',
+                          'bounc', 'zen'];
+        return ( 
+            <Carousel wrap={true} touch={true}>
+            {projects.map(project => {
+                    return (
+                        <Carousel.Item className="carousel-cell" interval={2500}>
+                            <img src={require(`../../images/projects/${project}.png`)} alt={project} />
+                        </Carousel.Item> 
+                    )
+                })}
+            </Carousel> 
+        )     
+    }
+
     return (
         <div>
 
@@ -67,33 +84,7 @@ export default function Home() {
                 </div>
 
                 <div id="project" className="section">
-
-                    <Carousel wrap={true} touch={true}>
-                        <Carousel.Item className="carousel-cell" interval={2500}>
-                            <img src={require("../../images/projects/flappy.png")} />
-                        </Carousel.Item>
-                        <Carousel.Item className="carousel-cell" interval={2500}>
-                            <img src={require("../../images/projects/classifai.png")} />
-                        </Carousel.Item>
-                        <Carousel.Item className="carousel-cell" interval={2500}>
-                            <img src={require("../../images/projects/bearyHungry.png")} />
-                        </Carousel.Item>
-                        <Carousel.Item className="carousel-cell" interval={2500}>
-                            <img src={require("../../images/projects/buildABear.png")} />
-                        </Carousel.Item>
-                        <Carousel.Item className="carousel-cell" interval={2500}>
-                            <img src={require("../../images/projects/shares.png")} />
-                        </Carousel.Item>
-                        <Carousel.Item className="carousel-cell" interval={2500}>
-                            <img src={require("../../images/projects/spotify.png")} />
-                        </Carousel.Item>
-                        <Carousel.Item className="carousel-cell" interval={2500}>
-                            <img src={require("../../images/projects/bounc.png")} />
-                        </Carousel.Item>
-                        <Carousel.Item className="carousel-cell" interval={2500}>
-                            <img src={require("../../images/projects/zen.png")} />
-                        </Carousel.Item>
-                    </Carousel>
+                    {createProjectCarousel()}
 
                     <div className="text projects">
                         <h2 style={{"font-weight": "bold"}}>Projects</h2>
