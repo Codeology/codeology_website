@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
+
+.imageContainer {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: Karla;
+    font-weight: bold;
+}
+
+.textOverlay-white {
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+.project-page-img {
+    width: 100vw;
+    height: 55vh;
+    
+}
+
+
+.project-body {
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    text-align: center;
+
+}
+
+.no-margin {
+    margin-bottom: 2vw;
+}
+
+.project-structure {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 700px;
+    /* width: 50%; */
+    display:block;
+
+}
+
+.project-timeline {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 800px;
+    padding-top: 5vw;
+    display:block;
+}
+
+/* Little peeps! */
+#littlepeep1 {
+    height: 170px;
+    position: absolute;
+    left: 7%;
+    top: 100%;
+}
+#littlepeep2 {
+    height: 170px;
+    position: absolute;
+    right: 12%;
+    top: 170%;
+}
+
+#littlepeep3 {
+    height: 140px;
+    position: absolute;
+    right: 9%;
+    top: 270vh;
+}
+#littlepeep4 {
+    height: 170px;
+    position: absolute;
+    left: 9%;
+    top: 220%;
+}
+
+
+.button-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.icon-button {
+   height: 37px;
+   padding-left: 15px;
+   padding-top: 5px;
+   padding-right: 15px;
+}
+
+.project-button-selected,.project-button-unselected:hover {
+    width: 150px;
+    height: 40px;
+    color: white;
+
+    font-family: Karla;
+    font-style: normal;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.075em;
+    background: #57BE97;
+    border: 3px solid #57BE97;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    outline: none;
+}
+
+#project-desc {
+    margin-top: 3vh;
+    margin-left: 14vw;
+    margin-right: 14vw;
+    text-align: center;
+    font-size: 14px;
+
+}
+
+.textSection {
+    font-size: 14px;
+}
+
+.project-button-unselected {
+    width: 150px;
+    height: 40px;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.075em;
+    background: white;
+    border: 3px solid #57BE97;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.project-page-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-div {
+    border: 1.5px solid #0B0B0B;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    padding: 5vh 5vw 5vh 5vw;
+    width: 70%;
+  }
+  
+  .project-title {
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    text-align: center;
+  }
+  
+  .project-time {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: lighter;
+    /* font-size: 20px; */
+    text-align: center;
+    line-height: 0px;
+    line-height: 0px;
+  }
+  
+  .project-img {
+    /* max-width: 60vw;
+    max-height: 30vh; */
+    /*width: 60vw;
+    height: 30vh;
+    */
+    width: 20vw;
+    height: 15vw;
+    object-fit: cover;
+    margin: 20px 20px 20px 20px;
+  }
+  
+  .project-text {
+    text-align: left;
+    margin-top: 10px;
+    width: 70%;
+    font-size: 14px !important;
+  }
+  
+  .project-description {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 50%;
+    text-align: left;
+    /*Override bootstrap*/
+    margin-top: 10px;
+    margin-bottom: 0rem;
+    font-size: 14px;
+  }
+
+  
+  .github-button {
+      width: 150px;
+      height: 40px;
+      color: black;
+      margin-left: 10px;
+      margin-right: 10px;
+      justify-content: center;
+      font-family: 'Karla';
+      font-style: normal;
+      font-weight: bold;
+      text-align: center;
+      letter-spacing: 0.075em;
+      background: white;
+      border: 3px solid #57BE97;
+      box-sizing: border-box;
+      border-radius: 30px;
+  }
+  
+  .projects-row {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
+
+  @media (max-width: 800px) {
+    .project-page-img {
+        height: 25vh;
+        margin-bottom:1vh;
+    }
+
+    .imageContainer {
+        position: relative;
+        text-align: center;
+        color: white;
+        font-size: 70px;
+        font-family: Karla;
+    }
+    .project-page-img {
+        height: 45vh;
+        margin-bottom:1vh;
+    }
+    .project-body {
+        margin-right: 5vw;
+        margin-left: 5vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    
+    }
+    
+
+    .textOverlay-white {
+        color: white;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        font-size:11vw;
+        transform: translate(-50%, -50%);
+      }
+    /* Little peeps! */
+    #littlepeep1 {
+        visibility: hidden;
+    }
+    #littlepeep2 {
+        visibility: hidden;
+    }
+
+    #littlepeep3 {
+        visibility: hidden;
+    }
+    #littlepeep4 {
+        visibility: hidden;
+    }
+    
+    .project-div {
+        border: 1.5px solid #0B0B0B;
+        background: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+    }
+    
+    .project-title {
+        font-size: 30px;
+        font-style: normal;
+        font-weight: bold;
+        letter-spacing: 0.05em;
+        text-align: center;
+    }
+    .project-img {
+        height: 20vh;
+        margin: 20px 20px 20px 20px;
+        width: 60vw;
+    }
+    .projects-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-description {
+        width: 90%;
+        text-align: left;
+    }
+
+  }
+
+  @media (max-width: 1000px) {
+      
+    .imageContainer {
+        position: relative;
+        text-align: center;
+        color: white;
+        font-size: 70px;
+        font-family: Karla;
+    }
+    .project-page-img {
+        height: 45vh;
+        margin-bottom:1vh;
+    }
+    .project-body {
+        margin-right: 5vw;
+        margin-left: 5vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    
+    }
+
+    #project-desc {
+        font-size: 14px;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    
+
+    .textOverlay-white {
+        color: white;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        font-size:11vw;
+
+        transform: translate(-50%, -50%);
+      }
+    /* Little peeps! */
+    #littlepeep1 {
+        visibility: hidden;
+    }
+    #littlepeep2 {
+        visibility: hidden;
+    }
+
+    #littlepeep3 {
+        visibility: hidden;
+    }
+    #littlepeep4 {
+        visibility: hidden;
+    }
+    
+    .project-div {
+        border: 1.5px solid #0B0B0B;
+        background: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 20px 30px 60px 30px;
+        width: 95%;
+    }
+    
+    .project-title {
+        /* font-size: 30px; */
+        font-style: normal;
+        font-weight: bold;
+        letter-spacing: 0.05em;
+        text-align: center;
+    }
+    .project-img {
+        height: 20vh;
+        margin: 20px 20px 20px 20px;
+        width: 60vw;
+    }
+    .projects-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-description {
+        width: 90%;
+        text-align: left;
+      }
+      
+}
+@media (max-width: 600px) {
+     
+    .project-page-img {
+        height: 25vh;
+        margin-bottom:1vh;
+    }
+
+    .project-structure {
+        width: 100vw;
+        padding-left: 0px;
+    }
+
+    .project-timeline {
+        width: 100vw;
+        padding-left: 0px;
+    }
+
+
+
+}

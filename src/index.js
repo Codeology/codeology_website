@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import HomeRouter from './Components/HomeRouter';
+import HomeRouter from './pages/HomeRouter';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
