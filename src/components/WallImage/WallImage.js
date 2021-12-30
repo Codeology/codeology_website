@@ -14,7 +14,7 @@ function WallImage(props) {
                         bgImageStyle={{width:"100%", height:"auto", brightness:"50%"}}
                     >                        
                         <div className="project-page-img" >
-                            <div className="textOverlay-white"> about us</div>
+                            <div className="textOverlay-white">{props.title}</div>
                         </div>
                     </Parallax>
                 </div>

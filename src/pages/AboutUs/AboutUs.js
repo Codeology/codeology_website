@@ -27,7 +27,7 @@ function AboutUs() {
         <title>Codeology | About Us</title>
       </Helmet>
 
-      <WallImage image={Wall} />
+      <WallImage image={Wall} title={'about us'} />
 
       <PageDescription text={description} />
 
