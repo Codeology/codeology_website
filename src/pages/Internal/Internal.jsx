@@ -40,13 +40,13 @@ export default class Internal extends React.Component {
                     </p>
                 <form onSubmit={this.handleSubmit}>
                     <label> Password:
-                        <input type="text" value={this.state.textVal} onChange={this.handleChange} />
+                        <input type="password" value={this.state.textVal} onChange={this.handleChange} />
                     </label>
                     <input type="submit" value="Submit" />
                 </form>          
             </div>     
                
-        if (!this.state.authenticated) {
+        if (this.state.authenticated) {
             display = 
                 <div>
                     <Login />

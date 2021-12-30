@@ -4,8 +4,8 @@ const ProjectInfo = {
       {
         title: "ClassifAI",
         leaders: "Stephen and Sebi",
-        description: "“If you want to get into machine learning and neural networks, this project is for you. During the 8-week project timeframe, we will be covering machine learning techniques like linear regression, support vector machines, and will even be building your own image classifier using a convoluted neural network! Since many of the Python libraries that involve machine learning abstract away much of the conceptual knowledge behind the models we build, we will also teach what is going on behind the code so that you will be able to build your own machine learning models in the future. The end result of our project will be a convolutional neural network that can be applied to solve a real-world problem to your liking: anything from detecting pneumonia from lungs to identifying emotions of people's faces!",
-        technologies: "NumPy, Pandas",
+        description: "If you want to get into machine learning and neural networks, this project is for you. During the 8-week project timeframe, we will be covering machine learning techniques like linear regression, support vector machines, and will even be building your own image classifier using a convoluted neural network! Since many of the Python libraries that involve machine learning abstract away much of the conceptual knowledge behind the models we build, we will also teach what is going on behind the code so that you will be able to build your own machine learning models in the future. The end result of our project will be a convolutional neural network that can be applied to solve a real-world problem to your liking: anything from detecting pneumonia from lungs to identifying emotions of people's faces!",
+        technologies: "Sklearn, Tensorflow, Keras",
         imageSrc: "classifai.png"
        },
        {
