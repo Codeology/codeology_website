@@ -19,10 +19,12 @@ class Projects extends React.Component {
             clicked: 0,
             selectedUpcoming: true,
             pastClass: "project-button-unselected",
-            upcomingClass: "project-button-selected"
+            upcomingClass: "project-button-selected",
         }
-        this.upcomingPress = this.upcomingPress.bind(this)
-        this.pastPress = this.pastPress.bind(this)
+        this.upcomingPress = this.upcomingPress.bind(this);
+        this.pastPress = this.pastPress.bind(this);
+        this.pressRight = this.pressRight.bind(this);
+        this.pressLeft = this.pressLeft.bind(this);
         this.description = `Every semester, we introduce a set of projects, including web, mobile, and game development, where 
         new and returning members are able to work with a team and project leader to complete during the semester. If you are part of an organization 
         that has a project for us, contact us and we would love to help out! Check out our upcoming project opportunities for Spring 2021 below!`
@@ -48,7 +50,33 @@ class Projects extends React.Component {
         }
     }
 
+    /* go back one semester */
+    pressRight() {
+        if (this.state.clicked < Object.keys(ProjectInfo).length - 1) {
+            this.setState(({ clicked: this.state.clicked + 1 }));
+            const leftButton = document.querySelector('.projects-button-left');
+            if (leftButton.classList.contains('unselectable')) leftButton.classList.remove('unselectable');
+            if (this.state.clicked === Object.keys(ProjectInfo).length - 2) {
+                const button = document.querySelector('.projects-button-right');
+                button.classList.add('unselectable');
+            }
+        }  
+    }
+
+    pressLeft() {
+        if (this.state.clicked > 0) {
+            this.setState(({ clicked: this.state.clicked - 1 }));
+            const rightButton = document.querySelector('.projects-button-right');
+            if (rightButton.classList.contains('unselectable')) rightButton.classList.remove('unselectable');
+            if (this.state.clicked === 1) {
+                const button = document.querySelector('.projects-button-left');
+                button.classList.add('unselectable');
+            }
+        }  
+    }
+
     render() {
+        /*
         var pastSemester = "Fall 2020"
         var pastProjects = ProjectInfo["2021"]["Spring"].map(project =>
             <PastProject title={project.title}
@@ -64,6 +92,15 @@ class Projects extends React.Component {
                              leaders ={project.leaders}
                              technologies={project.technologies} />
             );
+        */
+       const currSemester = Object.keys(ProjectInfo)[this.state.clicked];
+       const projects = ProjectInfo[currSemester].map(project => 
+            <PastProject title={project.title}
+                         imageSrc={project.imageSrc}
+                         github={project.github}
+                         description={project.description}
+                         time={currSemester} />
+       );
         return (
             <div>
 
@@ -89,19 +126,23 @@ class Projects extends React.Component {
                     <img src={require("../../images/info/timeline.png")} className="project-timeline"/>
 
                     <p className="prompt no-margin">Projects</p>
+                    <p>Our projects through the years, designed and developed by Codeology members. Check out our
+                        <a href='https://github.com/Codeology' target='_blank' rel="noopener noreferrer"> GitHub!</a>
+                    </p>
 
                     {/* buttons */}
                     <div className="button-row">
-                        <button onClick = {this.upcomingPress} className={this.state.upcomingClass}>UPCOMING</button>
-                        <a href= "https://github.com/Codeology">
-                            <img className="icon-button" src={require("../../images/logos/github-icon.png")} />
-                        </a>
-                        <button onClick = {this.pastPress} className={this.state.pastClass}>PAST</button>
+                        <div onClick = {this.pressLeft} className='projects-button projects-button-left unselectable'></div>
+                        <h4>{currSemester}</h4>
+                        <div onClick = {this.pressRight} className='projects-button projects-button-right'></div>
                     </div>
 
                     {/* projects */}
+                    <div className="project-page-div">
+                        {projects}
+                    </div>
 
-                    {
+                    {/*
                         this.state.selectedUpcoming ?
                         <div className="project-page-div">
                             {upcomingProjects}
@@ -110,6 +151,7 @@ class Projects extends React.Component {
                         <div className="project-page-div">
                             {pastProjects}
                         </div>
+                        */
                     }
                 </div>
 

@@ -11,7 +11,7 @@ function Footer() {
                     <img id='footer-logo' src={logo} alt='Codeology logo' />
                     <h2>C O D E O L O G Y</h2>
                 </div>
-                <p className='footer-row'>University of California, Berkeley</p>
+                <p>University of California, Berkeley</p>
                 <div className='footer-media-container footer-row'>
                     <a href="https://www.instagram.com/berkeleycodeology/" target="_blank" rel="noreferrer">
                         <img src={require("../../images/logos/instagram.png")} />
@@ -37,8 +37,8 @@ function Footer() {
                 </div>
                 <div className='footer-links-col'>
                     <b>CONTACT</b>
-                    <a href='mailto: info@codeology.club' target='_blank' rel="noreferrer">info@codeology.club</a>
                     <Link to='/contact'>Contact Us</Link>
+                    <a href='mailto: info@codeology.club' target='_blank' rel="noreferrer">Email</a>
                 </div>
             </div>
 

@@ -6,11 +6,7 @@
     color: white;
     font-family: Karla;
     font-weight: bold;
-    background-color: black;
-}
-
-.imageContainer img {
-    opacity: 0.7;
+    filter: brightness(70%);
 }
 
 .textOverlay-white {
@@ -25,9 +21,7 @@
 .project-page-img {
     width: 100vw;
     height: 55vh;
-    
 }
-
 
 .project-body {
     margin-right: 30px;
@@ -86,14 +80,6 @@
     position: absolute;
     left: 9%;
     top: 220%;
-}
-
-
-.button-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-top: 30px;
 }
 
 .icon-button {
@@ -201,7 +187,7 @@
     height: 30vh;
     */
     width: 20vw;
-    height: 15vw;
+    height: 20vw;
     object-fit: cover;
     margin: 20px 20px 20px 20px;
   }
@@ -247,6 +233,45 @@
       display: flex;
       flex-direction: row;
       justify-content: center;
+  }
+
+
+.button-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.button-row h4 {
+    width: 175px;
+}
+
+  .projects-button {
+    border-style: solid;
+    border-width: 15px 20px;
+    height: 0px;
+    width: 0px;
+    margin: 0 15px;
+    border-color: white var(--forestgreen) white white;
+  }
+
+  .projects-button:hover {
+      cursor: pointer;
+      border-color: white forestgreen white white;
+  }
+
+  .projects-button-right {
+      transform: scaleX(-1);
+  }
+
+  .unselectable {
+    border-color: white lightgray white white;
+  }
+    
+  .unselectable:hover {
+    border-color: white lightgray white white;
+    cursor: auto;
   }
 
   @media (max-width: 800px) {
@@ -440,6 +465,8 @@
         padding-left: 0px;
     }
 
-
+    .button-row h4 {
+        font-size: 14pt;
+    }
 
 }

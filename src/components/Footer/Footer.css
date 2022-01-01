@@ -20,7 +20,12 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  
   margin-bottom: 25px; 
+}
+
+#footer-header {
+  width: 100%;
 }
 
 #footer-logo {
@@ -36,7 +41,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 30vw;
+  width: 50vw;
 }
 
 .footer-links-col {
@@ -46,10 +51,12 @@
   position: relative;
 }
 
+/* shows on row view, hides on col view */
 .footer-row {
   display: block;
 }
 
+/* shows on col view, hides on row view */
 .footer-col {
   display: none;
 }
@@ -62,6 +69,10 @@
 
   #footer-logo {
     height: 32px;
+  }
+
+  #footer-title {
+    justify-content: center;
   }
 
   #footer-title h2 {

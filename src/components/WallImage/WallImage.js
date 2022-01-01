@@ -11,13 +11,12 @@ function WallImage(props) {
                         bgImage={props.image}
                         strength={300}
                         height={"60vh"}
-                        bgImageStyle={{width:"100%", height:"auto", brightness:"50%"}}
+                        bgImageStyle={{width:"100%", height:"auto", filter:"brightness(50%)"}}
                     >                        
-                        <div className="project-page-img" >
-                            <div className="textOverlay-white">{props.title}</div>
-                        </div>
+                        <div className="project-page-img" ></div>
                     </Parallax>
                 </div>
+                <div className="textOverlay-white">{props.title}</div>
         </div>
           
     )
