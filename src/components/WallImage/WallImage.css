@@ -1,0 +1,54 @@
+.imageContainer {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: Karla;
+    font-weight: bold;
+    filter: brightness(50%);
+    height: 60vh;
+    overflow: hidden;
+}
+
+.banner {
+    display: none;
+}
+
+.textOverlay-white {
+    color: white;
+    position: absolute;
+    font-size: 10vh;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    letter-spacing: 2px;
+}
+
+.img-container {
+    width: 100vw;
+    height: 55vh;
+}
+
+.banner {
+    position: relative;
+}
+
+.imageContainer {
+    position: relative;
+    height: 60vh;
+}
+
+@media screen and (max-width: 767px) {
+    .imageContainer {
+        height: 250px;
+    }
+
+    .banner {
+        display: block;
+        width: 100%;
+    }
+
+    .parallax-banner {
+        display: none;
+    }
+}

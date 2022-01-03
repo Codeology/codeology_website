@@ -2,7 +2,7 @@ const ProjectInfo = {
    "Fall 2021": [
       {
         title: "ClassifAI",
-        leaders: "Stephen and Sebi",
+        leaders: "Stephen Yang, Sebi Szafir",
         description: "If you want to get into machine learning and neural networks, this project is for you. During the 8-week project timeframe, we will be covering machine learning techniques like linear regression, support vector machines, and will even be building your own image classifier using a convoluted neural network! Since many of the Python libraries that involve machine learning abstract away much of the conceptual knowledge behind the models we build, we will also teach what is going on behind the code so that you will be able to build your own machine learning models in the future. The end result of our project will be a convolutional neural network that can be applied to solve a real-world problem to your liking: anything from detecting pneumonia from lungs to identifying emotions of people's faces!",
         technologies: "Sklearn, Tensorflow, Keras",
         imageSrc: "classifai.png"
@@ -17,7 +17,7 @@ const ProjectInfo = {
        {
         title: "Build-A-Bear",
         leaders: "Sami Oh, Kamille Fernandou",
-        developers: "Cynthia Lan, Danica Tang, Kevin MNguyen, Lauren Zheng, Mizuho Li",
+        developers: "Cynthia Lan, Danica Tang, Kevin Nguyen, Lauren Zheng, Mizuho Li",
         description: "As we all know Berkeley bears are very talented but we all need some way to showcase our various skills.  Whether it's delicious recipes to amazing artwork, you will be able to design and create your own personal website.  Learn design principles with Figma to make your website beautiful and use React.js, HTML, and CSS to make these designs come to life.",
         technologies: "HTML, CSS, React.js",
         imageSrc: "buildABear.png",
@@ -25,7 +25,7 @@ const ProjectInfo = {
        },
        {
         title: "Beary Hungry",
-        leaders: "Angela Jiang & Tiffanie Chau",
+        leaders: "Angela Jiang, Tiffanie Chau",
         description: "One of the best parts of the UC Berkeley campus is the plentiful arrays of restaurants, dining halls, and cafes. But with so many options, how will you ever decide on what to get for breakfast? Lunch? Dinner? This fall, we will create a one-stop web application for all of your food options around Berkeley including the dining halls, Cal favorite restaurants, and potentially find some hidden gems of dining! The web app will allow users to filter, sort, and find dining options through the CalDining API and Yelp API. Beary Hungry will be a great project for people who are starting out in coding and want to work in a team environment as we will be learning web dev including HTML, CSS, React.js, and Python Flask to create a functional working web app as a team!",
         technologies: "HTML, CSS, React.js, Python Flask",
         imageSrc: "bearyHungry.png"
@@ -42,6 +42,7 @@ const ProjectInfo = {
        {
         title: "Find Your Zen",
         leaders: "Kristie Lin, Howie Ye",
+        developers: 'Allen Gu, Chetan Khanna, Erin Tsai, Kamille Dyan Fernando, Maya Zheng, Sami Oh',
         description: "Dive into the world of iOS development with 'Find Your Zen!' Not only will you be building your own meditation app throughout the semester, you'll also be learning about various important design principles that designers use in everything! We will also be focusing on self-care/meditation practices that you can apply into your app and/or your own personal time (especially if life isn't the greatest for you right now).",
         technologies: "Swift, Xcode, Figma", 
         imageSrc: "zen.png",
@@ -62,12 +63,13 @@ const ProjectInfo = {
         description: "Have you ever used something like Robinhood and felt like it wasn't flashy and annoying enough? We'll be making a Venmo-like stock tracking app so you can flex on all your friends over at r/WSB. Our project will set up users with profiles, watchlists, and a friend/like system. Don't worry, there's no actual interest or knowledge in the stock market required! We'll be working with the AWS (Amazon Web Services) toolset + React to create a serverless web application. If you're interested in building on your full stack toolset then this project is for you!",
         technologies: "AWS + React", 
         imageSrc: "shares.png",
+        github: 'https://github.com/Codeology/shares-squared'
        },
      ],
    "Fall 2020": [
        {
         title: "Discord Bot",
-        leaders: "Jasper Chen and Daniel Tseng",
+        leaders: "Jasper Chen, Daniel Tseng",
         description: "In this project, we will be making discord bots from scratch. We will start off with text recognition, sending dms, posting custom messages and joining and leaving voice channels. As we move onto more specific topics, such as drawing from the internet or databases, we will each make custom discord bots better suited to our own vision and interests. Drawing from the discord.py API, this project will allow you to create a bot to jam with while on call with your friends, go on an adventure with in text channels, and make your own discord channel a much more fun and friendly place.",
         technologies: "Python", 
         imageSrc: "discord.png",
@@ -75,7 +77,7 @@ const ProjectInfo = {
         },
         {
         title: "Zoom Facial Recognition",
-        leaders: "Ethan Chen and Krishna Ravi",
+        leaders: "Ethan Chen, Krishna Ravi",
         developers: 'Haotian Ye, Michelle Lin, Trevor Baba',
         description: "Facial Recognition On Zoom combines machine-learning based facial recognition techniques with some front-end development to build a well-rounded product that is able monitor students on zoom calls to help teachers monitor class attendance. No more fooling teachers by placing still images in front of webcams! ",
         technologies: "Python",
@@ -84,7 +86,7 @@ const ProjectInfo = {
         },
         {
         title:"Film",
-        leaders:"John Um and Aarushi Karandikar",
+        leaders:"John Um, Aarushi Karandikar",
         description:"If you're a film buff, interested in learning about the data science lifecycle, or just super passionate about Jupyter notebooks, this project is for you! We'll be working with movie datasets to go through the basics of data collection + cleaning, NLP sentiment analysis, and data modeling.",
         technologies:"Python (Pandas, NumPy, MatPlotLib, Seaborn), NLP, Jupyter Notebooks",
         imageSrc:"movies.png",
@@ -92,7 +94,7 @@ const ProjectInfo = {
         },
         {
         title:"Chicken Tinder",
-        leaders: "Grace Altree and Jen Buja",
+        leaders: "Grace Altree, Jen Buja",
         description: "Ever struggled to agree on a restaurant with a large group of friends? Chicken Tinder is the solution. Our project is a React web application which presents individuals in a group with restaurant profiles, records preferences, and ultimately matches the group with a local restaurant. You’ll never need to worry about your indecisive group of friends again!",
         technologies:"Python (and Pandas), React (HTML and CSS)",
         imageSrc: "chicken.png",
@@ -100,7 +102,7 @@ const ProjectInfo = {
         },
         {
         title: "Vscodeology",
-        leaders: "Ali Matsumoto and Kyle Hua",
+        leaders: "Ali Matsumoto, Kyle Hua",
         description: "We’re working to develop an iOS app that takes images from a user’s camera roll and simplifies them into blocks of color (a lot like vector drawings) based on contrast levels between pixels. The goal is to turn images into fun little drawings without the effort of drawing!",
         technologies: "Swift, Python, and OpenCV",
         imageSrc: "vscodeology.png",
@@ -150,7 +152,8 @@ const ProjectInfo = {
          title: "Unity RPG",
          description: "In this project, we're going to be building an RPG that allows the player to travel around an expansive world, fight monsters, take on quests and progress to their wildest dreams! Using the Unity Engine and C# language, taking inspiration from Maplestory and other MMORPG's, our team hopes to build an immersive experience that's going to suck you right in.",
          technologies:"Unity C#",
-         imageSrc: "Unity_IG.png"
+         imageSrc: "Unity_IG.png",
+         github: 'https://github.com/Codeology/BoidsSimulation'
        },
        {
          title: "Chatbot",

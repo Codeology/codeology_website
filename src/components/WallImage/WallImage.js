@@ -1,5 +1,6 @@
 import React from 'react';
 import { Parallax, Background } from 'react-parallax';
+import './WallImage.css';
 
 
 function WallImage(props) {
@@ -8,13 +9,15 @@ function WallImage(props) {
             {/* header photo */}
             <div className="imageContainer">
                     <Parallax
+                        className='parallax-banner'
                         bgImage={props.image}
                         strength={300}
                         height={"60vh"}
-                        bgImageStyle={{width:"100%", height:"auto", filter:"brightness(50%)"}}
+                        bgImageStyle={{width:"100%", height:"auto"}}
                     >                        
-                        <div className="project-page-img" ></div>
+                        <div className="img-container" ></div>
                     </Parallax>
+                    <img className='banner' src={props.image} />
                 </div>
                 <div className="textOverlay-white">{props.title}</div>
         </div>

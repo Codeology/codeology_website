@@ -203,29 +203,30 @@
     align-items: center;
     align-content: center;
     justify-content: center;
-    position: absolute;
+    position: relative;
 }
 
 #laptop {
     width: 600px;
-    position: absolute;
+    
 }
 
 #apply  {
     z-index: 3;
-    margin-top: 50%;
-    left: 50%;
     text-align: center;
     font-size: 35px;
     color:#559943;
+    position: absolute;
+    top: 50%;
 }
 
 #landing-text {
-    margin-top: 30vh;
+    margin-top: 20px;
     font-size: 3vh;
     width: 50vw;
     color: #559943;
     text-align: center;
+    position: relative;
 }
 
 
@@ -330,12 +331,11 @@
     }
 
     #apply {
-        top: 40vh;
         font-size: 20px;
     }
 
     .handRow img {
-        opacity: 30%;
+        display: none;
     }
 
     #landing-text {

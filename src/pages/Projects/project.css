@@ -1,28 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
 
-.imageContainer {
-    position: relative;
-    text-align: center;
-    color: white;
-    font-family: Karla;
-    font-weight: bold;
-    filter: brightness(70%);
-}
-
-.textOverlay-white {
-    color: white;
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    white-space: nowrap;
-}
-
-.project-page-img {
-    width: 100vw;
-    height: 55vh;
-}
-
 .project-body {
     margin-right: 30px;
     margin-left: 30px;
@@ -456,12 +433,12 @@
     }
 
     .project-structure {
-        width: 100vw;
+        width: 75vw;
         padding-left: 0px;
     }
 
     .project-timeline {
-        width: 100vw;
+        width: 75vw;
         padding-left: 0px;
     }
 
