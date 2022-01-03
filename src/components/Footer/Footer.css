@@ -48,6 +48,7 @@
   flex-direction: column;
   line-height: 2.5;
   position: relative;
+  font-size: 12pt !important;
 }
 
 /* shows on row view, hides on col view */

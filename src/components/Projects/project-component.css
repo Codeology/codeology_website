@@ -15,9 +15,14 @@
 .project-title {
   font-style: normal;
   font-weight: bold;
-  font-size: 35px;
-  letter-spacing: 0.05em;
   text-align: center;
+  background-color: green;
+}
+
+
+.project-title h3 {
+  font-size: 15pt !important;
+  background-color: green;
 }
 
 .project-time {
