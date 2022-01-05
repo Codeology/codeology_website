@@ -20,7 +20,6 @@ class Card extends React.Component {
             {/* Profile popup content */}
             <div className="profile-background">
             <div className="profile-name first-name"> {this.props.name}</div>
-            <div className="profile-name"> {name_arr[0]} </div>
             <img className="profile-img" src={this.props.imgSrc}/>
 
               <p className="profile-text">
@@ -37,9 +36,9 @@ class Card extends React.Component {
                 {display_links &&
                 <div> 
                   <span className="profile-category">Links:</span>
-                  {this.props.linkedin && <a className="profile-link linkedin" href={this.props.linkedin}>LinkedIn</a>}
-                  {this.props.resume && <a className="profile-link resume" href={this.props.resume}>Resume</a>}
-                  {this.props.website && <a className="profile-link website" href={this.props.website}>Website</a>}
+                  {this.props.linkedin && <a className="profile-link profile-linkedin" href={this.props.linkedin}>LinkedIn</a>}
+                  {this.props.resume && <a className="profile-link profile-resume" href={this.props.resume}>Resume</a>}
+                  {this.props.website && <a className="profile-link profile-website" href={this.props.website}>Website</a>}
                 </div>
               }
                 

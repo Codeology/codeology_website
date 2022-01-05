@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import './Landing.css';
 
 function Landing() {
     return (
@@ -7,10 +8,6 @@ function Landing() {
             <div id="border-box">
                 <div id="title">
                     <img id="findYourFit" src={require("../../images/illustrations/landing/findYourFit-temp.png")} alt="find-your-fit"/>
-                    {/* <img id="f" src={require("./assets/images/f.png")} />
-                    <img id="r" src={require("./assets/images/r.png")} />
-                    <img id="i" src={require("./assets/images/i.png")} /> */}
-
                 </div>
                 <div id="laptop-apply">
                     <img id="laptop" src={require("../../images/illustrations/landing/laptop1.png")} />
@@ -29,11 +26,11 @@ function Landing() {
              </div>
 
             <div id="hands">
-                        <div className="first handRow below">
+                        <div className="handRow below">
                             <img id="blueHand" className="topHands hand" src={require("../../images/illustrations/landing/web_hand3.png")} />
                             <img id="greenHand" className="topHands hand" src={require("../../images/illustrations/landing/web_hand2.png")} />
                         </div>
-                        <div className="second handRow">
+                        <div className="handRow">
                             <img id="orangeHand" className="hand" src={require("../../images/illustrations/landing/web_hand1.png")} />
                             <img id="redHand" className="hand" src={require("../../images/illustrations/landing/web_hand4.png")} />
                         </div>

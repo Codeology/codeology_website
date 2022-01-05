@@ -6,6 +6,7 @@
     font-weight: bold;
     filter: brightness(50%);
     height: 60vh;
+    max-height: 325px;
     overflow: hidden;
 }
 
@@ -33,22 +34,23 @@
     position: relative;
 }
 
-.imageContainer {
-    position: relative;
-    height: 60vh;
-}
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 900px) {
     .imageContainer {
         height: 250px;
+        
     }
 
     .banner {
         display: block;
-        width: 100%;
+        width: 100vw;
     }
 
     .parallax-banner {
         display: none;
     }
+
+    .textOverlay-white {
+        font-size:11vw;
+        bottom: 50%;
+      }
 }

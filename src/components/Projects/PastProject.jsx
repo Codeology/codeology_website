@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../pages/Projects/project.css';
+import './project-component.css';
 
 class PastProject extends React.Component {
     constructor(props) {

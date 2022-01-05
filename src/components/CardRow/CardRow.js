@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from '../Card/Card.js';
 import {actives} from '../../constants/members.js';
+import './CardRow.css';
 
 function CardRow(props) {
 

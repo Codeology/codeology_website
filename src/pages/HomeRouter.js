@@ -16,8 +16,7 @@ import Apply from './Apply/Apply.jsx';
 import Internal from './Internal/Internal.jsx';
 import Navbar from '../components/NavBar/Navbar.js';
 
-import '../components/NavBar/Navbar.css';
-import './Home/stylesheet/home.css';
+import './stylesheet.css';
 
 import SideDrawer from '../components/SideDrawer/SideDrawer';
 import Footer from '../components/Footer/Footer.js';

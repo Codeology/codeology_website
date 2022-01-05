@@ -1,30 +1,13 @@
-:root {
-  --forestgreen: #4DAB74;
-  --seagreen: #57BE97;
-  --mintgreen: #AFF1B9;
-  --yellowish: #F2F3B7;
-  --lmintgreen: #DCF4D4;
-  --almostwhite:#D5EAE2;
-  --white: #ffff;
-  --black: #000000;
-  --darkgrey: #202020;
-}
-
-* {
-  box-sizing: border-box;
-  font-family: 'Karla';
-  font-weight: bold;
-  color: rgba(0, 0, 0, 0.84);
-}
-
 #nav-logo, .not-apply, .apply, .toggleDiv {
   z-index: 2;
 }
 
+.toggleDiv {
+  display: none;
+}
+
 .not-apply, .apply {
   font-size: 1rem;
-  font-family: Karla;
-  font-weight: bold;
 }
 
 .topnav {
@@ -51,7 +34,7 @@
 
 .topnav #name {
   margin-left: 24px;
-  font-size: 150%;
+  font-size: 18px;
   display: flex;
   align-items: center;
 }
@@ -64,21 +47,13 @@
   padding: 1vh 2vw;
 }
 
-.toggleDiv {
-  margin-right: 20px;
-}
-
 /* Style the topnav links */
 .topnav .not-apply, .button {
   padding: 1vh 2vw;
   text-decoration: none;
 }
 
-.not-apply {
-  color: rgba(0, 0, 0, 0.84);
-}
-
-.not-apply:hover {
+.not-apply, .not-apply:hover {
   color: rgba(0, 0, 0, 0.84);
 }
 
@@ -121,86 +96,25 @@
   background-color: #408D60;
 }
 
-@media screen and (max-width: 600px) {
-  .topnav #name {
-    display: none;
-  }
-}
-
-/* Desktop View */
-@media screen and (min-width: 900px) {
+@media screen and (max-width: 900px) {
   .toggleDiv {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 900px) and (min-width: 600px) {
-  .topnav #name {
-    display: none;
+    display: block;
+    margin-right: 20px;
   }
 
   .topnav #nav-items {
-    display: none;
-  }
-
-  .side-drawer ul {
-    margin-top: 16vh;
-  }
-}
-.toggle {
-  position: absolute;
-  top: .75 rem;
-  right: 1rem;
-  display: none;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 25px;
-  height: 12px;
-  z-index: 2;
-  
-}
-
-.toggle .bar {
-  height: 2px;
-  width: 80%;
-  background-color: var(--forestgreen);
-  border-radius: 10px;
-  display: none;
-  
-}
-
-
-@media screen and (max-width: 600px) {
-  .toggle {
-    position: absolute;
-    top: .75 rem;
-    right: 1rem;
-    
-    flex-direction: column;
-    justify-content: space-between;
-    width: 25px;
-    height: 12px;
-    z-index: 2;
-    
-  }
-  .toggle .bar {
-    height: 2px;
-    width: 80%;
-    background-color: var(--forestgreen);
-    border-radius: 10px;
-    
-  }
-  .topnav #nav-items {
-    position: fixed;
-    width: 100vw;
-    bottom: 0;
     display: none;
   }
 
   .topnav #nav-logo #logo {
-    width: 12vw;
-    height: 12vw;
-    margin-left: 6px;
+    width: 5vw;
+    height: 5vw;
+    margin: 6px;
   }
- 
+}
+
+@media screen and (max-width: 450px) {
+  .topnav #name {
+    display: none;
+  }
 }

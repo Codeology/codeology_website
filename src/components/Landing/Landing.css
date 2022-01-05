@@ -1,0 +1,179 @@
+#landing {
+    background-image: linear-gradient(#DCF4D4, #DCF4D4, white);
+    width: 100vw;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#border-box {
+    margin-top: -8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8vh;
+    width: 80vw;
+}
+
+#laptop-apply {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+}
+
+#laptop {
+    width: 600px;
+}
+
+#apply  {
+    z-index: 3;
+    text-align: center;
+    font-size: 35px;
+    color:var(--darkgreen);
+    position: absolute;
+    top: 50%;
+}
+
+/* lettering */
+#findYourFit {
+    max-width: 600px;
+    object-fit: contain;
+    z-index: 3;
+    margin-top: 18vh;
+}
+
+#landing-text {
+    margin-top: 20px;
+    font-size: 3vh;
+    width: 50vw;
+    color: var(--darkgreen);
+    text-align: center;
+    position: relative;
+}
+
+#apply-contact {
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    transform: translateY(16px);
+}
+
+.white-button {
+    padding: 1.5vh 1vw;
+    text-decoration: none;
+    margin: 6vh 0.5vw;
+    border-radius: 50px;
+    transition: 0.2s;
+    color: var(--seagreen);
+    background: white;
+    border: 1px solid var(--seagreen);
+    box-sizing: border-box;
+}
+
+.white-button:hover {
+    background-color: rgb(240, 240, 240);
+    text-decoration: none;
+    color: #4DAB74;
+}
+
+
+/* ============================ */
+/* Hand Illustrations */
+/* ============================ */
+
+#hands {
+    position: absolute;
+}
+
+.hand {
+    animation: float 1.5s infinite alternate;
+}
+
+.topHands {
+    z-index: 1;
+}
+
+.handRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+
+    /*Override bootstrap*/
+    flex-wrap: nowrap;
+}
+
+.handRow img {
+    height: 22vh;
+    margin: 20vh 25vw;
+}
+
+.below {
+    z-index: -1;
+}
+
+#greenHand {
+    animation-name: float;
+    animation-delay: 0.5s;
+}
+
+#orangeHand {
+    animation-name: float2;
+    animation-delay: 0.75s;
+}
+
+#redHand {
+    animation-delay: 0.25s;
+}
+
+@keyframes float {
+    to {
+        transform: translate(8px, 6px);
+    }
+}
+
+@keyframes float2 {
+    to {
+        transform: translate(-8px, 6px);
+    }
+}
+
+@keyframes float3 {
+    to {
+        transform: translate(8px, -6px);
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #hands {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #findYourFit {
+        max-width: 80vw;
+    }
+
+    #laptop {
+        width: 320px;
+    }
+
+    #apply {
+        font-size: 20px;
+    }
+
+    #landing-text {
+        font-size: 14px;
+    }
+
+    .handRow img {
+        display: none;
+    }
+}

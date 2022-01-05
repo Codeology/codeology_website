@@ -1,5 +1,5 @@
 import React from 'react';
-import Heading from '../Heading/Heading.js';
+import './PageDescription.css';
 
 function PageDescription(props) {
 

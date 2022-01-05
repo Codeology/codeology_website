@@ -1,0 +1,116 @@
+#textSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-top: 5vh;
+}
+
+#textHolder {
+  z-index: var(--picture-layer-1);
+  position: relative;
+  width: 80vw;
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+#puzzle2, #puzzle3 {
+    display: none;
+  }
+
+@media only screen and (min-width: 768px) {
+ 
+  #GreenPuzzle {
+    position: absolute;
+    left: 10vw;
+    margin-top: -12vw;
+
+    z-index: var(--picture-layer-1);
+    height: 45vw;
+    min-height: 400px;
+    opacity: 0.6;
+  }
+
+  #PeepsLeft {
+    position: absolute;
+    z-index: var(--picture-layer-0);
+
+    margin-top: 14vw;
+    left: 10vw;
+    height: 10vw;
+
+    z-index: 1;
+
+  }
+
+  #PeepsRight {
+    position: absolute;
+    z-index: var(--picture-layer-2);
+
+    right: 15vw;
+    height: 10vw;
+
+    margin-top: 16vw;
+  }
+
+  #PictureHolder {
+    position: absolute;
+    z-index: var(--picture-layer-0);
+
+    top:-1vw;
+    right: 15vw;
+    height: 20vw;
+    min-height: 0px;
+  }
+
+  #pictureMobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+    #textSection {
+        margin-top: 2.5vh;
+    }
+
+    #textHolder {
+        position: relative;
+        width: 80vw;
+        font-size: 14px;
+    }
+
+    #puzzle2 {
+        position: absolute;
+        width: 40vw;
+
+        left: 40vw;
+        margin-top: 25vw;
+
+        z-index: -1;
+        opacity: 0.2;
+    }
+
+    #puzzle3 {
+        position: absolute;
+        width: 60vw;
+
+        margin-top: 65vw;
+        opacity: 0.2;
+    }
+
+    #PeepsRight, #PeepsLeft {
+      display: none;
+    }
+
+    #GreenPuzzle {
+      display: none;
+    }
+
+    #pictureMobile {
+      width: 84vw;
+    }
+
+    #PictureHolder {
+    display: none;
+  }
+}

@@ -1,7 +1,7 @@
 /* ============================ */
 /* Styles used throughout page */
 /* ============================ */
-.home-button, .white-button {
+.home-button {
     padding: 1.5vh 1vw;
     text-decoration: none;
     margin: 6vh 0.5vw;
@@ -20,18 +20,6 @@
     color: white;
 }
 
-.white-button {
-    color: #6FCF97;
-    background: #FFFFFF;
-    border: 1px solid #6FCF97;
-    box-sizing: border-box;
-}
-
-.white-button:hover {
-    background-color: rgb(240, 240, 240);
-    text-decoration: none;
-    color: #4DAB74;
-}
 
 .section {
     display: flex;
@@ -56,14 +44,8 @@
 /* Background Puzzle Pieces & People Images */
 /* ============================ */
 
-
-
 .person {
     position: absolute;
-}
-
-.below {
-    z-index: -1;
 }
 
 
@@ -119,178 +101,6 @@
     z-index: 1;
 }
 
-/* ============================ */
-/* Unique Styles */
-/* ============================ */
-#landing {
-    /* background: #DCF4D4; */
-    background-image: linear-gradient(#DCF4D4, #DCF4D4, white);
-    width: 100vw;
-    height: 92vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#border-box {
-    margin-top: -8vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* border: 6px solid white; */
-    padding: 8vh;
-    width: 80vw;
-}
-
-#find-your-fit, #apply-contact {
-    z-index: 1;
-    transform: translateY(16px);
-}
-
-#find-your-fit {
-    position: relative;
-    height: 40vh;
-}
-
-/* for animation */
-
-#f {
-    left: -10px;
-    top: -5px;
-    position: absolute;
-    z-index: 3;
-    width: 38px;
-}
-
-#r {
-    right: 145px;
-    position: absolute;
-    z-index: 3;
-    width: 48px;
-
-}
-
-#i {
-    right: 50px;
-    top: -5px;
-    position: absolute;
-    z-index: 3;
-    width: 1%;
-
-}
-
-/* lettering */
-#findYourFit {
-    max-width: 600px;
-    object-fit: contain;
-    z-index: 3;
-    margin-top: 18vh;
-}
-
-
-
-#apply-contact {
-    display: flex;
-    flex-direction: row;
-}
-
-#laptop-apply {
-    text-align: center;
-    /* z-index: 2; */
-    /* margin-top: 3vh; */
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    position: relative;
-}
-
-#laptop {
-    width: 600px;
-    
-}
-
-#apply  {
-    z-index: 3;
-    text-align: center;
-    font-size: 35px;
-    color:#559943;
-    position: absolute;
-    top: 50%;
-}
-
-#landing-text {
-    margin-top: 20px;
-    font-size: 3vh;
-    width: 50vw;
-    color: #559943;
-    text-align: center;
-    position: relative;
-}
-
-
-
-@keyframes float {
-    to {
-        transform: translate(8px, 6px);
-    }
-}
-
-@keyframes float2 {
-    to {
-        transform: translate(-8px, 6px);
-    }
-}
-
-@keyframes float3 {
-    to {
-        transform: translate(8px, -6px);
-    }
-}
-
-.hand {
-    animation: float 1.5s infinite alternate;
-}
-
-#greenHand {
-    animation-name: float;
-    animation-delay: 0.5s;
-}
-
-#orangeHand {
-    animation-name: float2;
-    animation-delay: 0.75s;
-}
-
-#redHand {
-    animation-delay: 0.25s;
-}
-
-#hands {
-    position: absolute;
-}
-
-.topHands {
-    z-index: 1;
-}
-
-.handRow {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-
-    /*Override bootstrap*/
-    flex-wrap: nowrap;
-}
-
-.handRow img {
-    height: 22vh;
-    margin: 20vh 25vw;
-}
-
 #about {
     margin-bottom: 12vh;
 }
@@ -324,25 +134,7 @@
     margin-left: 8vw;
 }
 
-
-@media screen and (max-width: 600px) {
-    #findYourFit {
-        max-width: 80vw;
-    }
-
-    #apply {
-        font-size: 20px;
-    }
-
-    .handRow img {
-        display: none;
-    }
-
-    #landing-text {
-        font-size: 14px;
-    }
-
-    #laptop {
-        width: 320px;
-    }
+.puzzle {
+    position: absolute;
+    opacity: 0.5;
 }

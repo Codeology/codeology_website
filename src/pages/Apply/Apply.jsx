@@ -1,5 +1,4 @@
 import React from 'react';
-import '../Home/stylesheet/stylesheet.css';
 import '../ContactUs/contact.css';
 
 export default function Apply() {

@@ -1,5 +1,4 @@
 import React from 'react';
-import './stylesheet/stylesheet.css';
 import './stylesheet/home.css';
 import './stylesheet/home-mobile.css';
 import {Link} from 'react-router-dom';
@@ -111,8 +110,6 @@ export default function Home() {
                     </div>
                     <img src={require("../../images/group/community.png")} />
                 </div>
-
-                 
 
             </div>
 

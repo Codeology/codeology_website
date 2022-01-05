@@ -5,6 +5,7 @@ import Wall from '../../images/group/Wall.png';
 import PageDescription from '../../components/PageDescription/PageDescription.js';
 import PictureSection from '../../components/PictureSection/PictureSection.js';
 import WallImage from '../../components/WallImage/WallImage.js';
+import Heading from '../../components/Heading/Heading';
 
 import {actives} from '../../constants/members.js';
 import {leadership} from '../../constants/members.js'
@@ -12,17 +13,12 @@ import {projectLeaders} from '../../constants/members.js';
 import { Helmet } from 'react-helmet';
 import './AboutUs.css';
 
-
 function AboutUs() {
 
-  const description = `Codeology is a UC Berkeley student-run club fosters self-exploration and self-development within the field of tech. 
-  Through collaborative projects and workshops, our community provides
-  Cal students with a way to explore the various roles of the CS industry and develop technical
-  expertise in their area of interest. Above all else, we value our community
-  and strive to give our members a supportive family at Cal.`
+  const description = `Codeology is a UC Berkeley student-run club fostering self-exploration and self-development within the tech field. `
   
   return (
-    <div className="App">
+    <div className="AboutUs">
       <Helmet>
         <title>Codeology | About Us</title>
       </Helmet>
@@ -30,6 +26,17 @@ function AboutUs() {
       <WallImage image={Wall} title={'about us'} />
 
       <PageDescription text={description} />
+
+      <div id='about-us-intro'>
+        <Heading className='no-margin'>Find Your Fit</Heading>
+        {/* would like to make this an img carousel/scroll display */}
+        <img id='about-us-img' src={Wall} />
+        <p id='about-us-blurb'>
+          Whether coding is already your passion or you’ve yet to print your first “Hello World,” Codeology provides opportunities to help you explore different roles in the tech industry and develop technical expertise in your area of interest.
+          Through projects, professional development, industry events, and social events, we aim to provide a tight-knit community to support you in “finding your fit” in the world of tech. 
+        </p>
+      </div>
+      
 
       <img id="RedHand" src={require('../../images/illustrations/arm/red arm.png')} />
       <PictureSection title={"Executive Leadership"} people={leadership}/>

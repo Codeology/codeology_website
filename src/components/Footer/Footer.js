@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css'
+import ScrollToTop from '../../utils/ScrollToTop';
 import logo from '../../images/logos/codeology.png';
 import { Link } from 'react-router-dom';
 
@@ -31,13 +32,13 @@ function Footer() {
             <div id='footer-links'>
                 <div className='footer-links-col'>
                     <b>GENERAL</b>
-                    <Link to='/about'>About</Link>
-                    <Link to='/projects'>Projects</Link>
-                    <Link to='/apply'>Apply</Link>
+                    <ScrollToTop><Link to='/about'>About</Link></ScrollToTop>
+                    <ScrollToTop><Link to='/projects'>Projects</Link></ScrollToTop>
+                    <ScrollToTop><Link to='/apply'>Apply</Link></ScrollToTop>
                 </div>
                 <div className='footer-links-col'>
                     <b>CONTACT</b>
-                    <Link to='/contact'>Contact Us</Link>
+                    <ScrollToTop><Link to='/contact'>Contact Us</Link></ScrollToTop>
                     <a href='mailto: info@codeology.club' target='_blank' rel="noreferrer">Email</a>
                 </div>
             </div>

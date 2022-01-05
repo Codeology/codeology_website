@@ -26,20 +26,10 @@
 
 .side-drawer a {
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.84);
+    color: var(--darkgrey);
     font-size: 3vh;
 }
 
 .side-drawer li {
     margin: 1rem 0;
-}
-
-@media screen and (max-width: 900px) and (min-width: 600px) {
-    .side-drawer {
-        max-width: 250px;
-    }
-
-    .side-drawer a {
-        font-size: 6vh;
-    }
 }

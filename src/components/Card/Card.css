@@ -1,19 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;700&display=swap');
 
+/* card */
 .cardImg:hover {
   cursor: pointer;
   opacity: 0.8;
   transition: 0.2s;
 }
 
-/* Desktop View */
-@media only screen and (min-width: 768px) {
-/*    .cardSheet {
-        width: 15vw;
-    }*/
+/* profile popup */
+.profile-name {
+  font-size: 30px;
+  background-color: var(--yellowish);
+  text-align: center;
+}
 
+.profile-category {
+  font-weight: bold !important;
+}
+
+.profile-linkedin {
+  background-color: pink;
+}
+
+.profile-resume {
+  background-color: #C4EAEF;
+}
+
+.profile-website {
+  background-color: #C4CBEF;
+}
+
+.profile-blurb {
+  margin-top: 5px;
+}
+
+/* misc */
+.popup-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Desktop View */
+@media only screen and (min-width: 901px) {
     .cardImg {
-        /*border-radius: 50px;*/
         width: 200px;
         height: 280px;
         object-fit: cover;
@@ -24,15 +52,11 @@
     }
 
     .cardName {
-        font-family: Karla, sans-serif;
-        font-weight: bold;
         font-size: 1.25rem;
         margin-top: 5px;
     }
 
     .cardRole {
-        font-family: Karla, sans-serif;
-        font-weight: bold;
         font-size: 1rem;
         margin-top: 1vw;
         margin-left: 2vw;
@@ -41,28 +65,11 @@
         color: #DB9E56;
     }
 
-    .cardHolder {
-        display: flex;
-        width: 80vw;
-/*        max-width: 120vw;
-        width: 70vw;*/
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin:0 auto;
-    }
-
-
-    .popup-overlay {
-      background: rgba(0, 0, 0, 0.5);
-    }
-
     .profile-background {
       padding: 20px 80px 30px 80px;
       background-color: white;
       width: 35vw;
       max-width: 500px;
-      /* min-height: 50vh; */
       border-radius: 40px;
       display: flex;
       align-items: center;
@@ -77,8 +84,7 @@
     .profile-text {
       text-align: left;
       min-width: 300px;
-      font-weight: 100;
-      font-family: Karla
+      font-weight: 400;
     }
 
     .profile-img {
@@ -90,19 +96,6 @@
       border-radius: 20px;
     }
 
-    .profile-name {
-      font-size: 30px;
-      background-color: white;
-    }
-
-    .first-name {
-      background-color: #F2F3B7;
-    }
-
-    .profile-category {
-      font-weight: bold !important;
-    }
-
     .profile-link {
       margin-left: 10px;
       margin-right: 1px;
@@ -111,29 +104,11 @@
       font-weight: 500;
       border-radius: 15px;
       color:black;
-
     }
-
-    .linkedin {
-      background-color: pink;
-    }
-
-    .resume {
-      background-color: #C4EAEF;
-    }
-
-    .website {
-      background-color: #C4CBEF;
-    }
-
-    .profile-blurb {
-      margin-top: 5px;
-    }
-
 }
 
 /* Styling for mobile view */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
     .cardSheet {
         display: flex;
         flex-direction: column;
@@ -149,22 +124,7 @@
         width: 38vw;
     }
 
-    .cardHolder {
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        margin:0 auto;
-
-        width: 85vw;
-        margin:0 auto;
-        /*width: 20vw;*/
-        /*border: 2px solid green;*/
-    }
-
     .cardName {
-        font-family: Karla, sans-serif;
-        font-weight: bold;
         font-size: 1.75vh;
         margin-top: .75vw;
         margin-bottom: 2vw;
@@ -174,21 +134,13 @@
         font-size: 1.5vh;
         margin-top: -1.5vw;
         margin-bottom: 4vw;
-        color: #DB9E56;
-    }
-
-
-    .popup-overlay {
-      background: rgba(0, 0, 0, 0.5);
+        color: var(--gold);
     }
 
     .profile-background {
-
       padding: 10px 20px 10px 20px;
-
       background-color: white;
       width: 82vw;
-      /* min-height: 50vh; */
       border-radius: 40px;
       display: flex;
       align-items: center;
@@ -203,8 +155,7 @@
     .profile-text {
       text-align: left;
       width: 60vw;
-      font-weight: 100;
-      font-family: Karla
+      font-weight: 400;
     }
 
     .profile-img {
@@ -214,19 +165,6 @@
       margin-bottom: 20px;
       margin-top: 20px;
       border-radius: 20px;
-    }
-
-    .profile-name {
-      font-size: 30px;
-      background-color: white;
-    }
-
-    .first-name {
-      background-color: #F2F3B7;
-    }
-
-    .profile-category {
-      font-weight: bold !important;
     }
 
     .profile-link {
@@ -239,24 +177,6 @@
       color:black;
 
     }
-
-    .linkedin {
-      background-color: pink;
-    }
-
-    .resume {
-      background-color: #C4EAEF;
-    }
-
-    .website {
-      background-color: #C4CBEF;
-    }
-
-    .profile-blurb {
-      margin-top: 5px;
-    }
-
-
 }
 
 @media screen and (max-width: 900px) and (min-width: 600px) {

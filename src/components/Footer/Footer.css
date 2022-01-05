@@ -1,5 +1,5 @@
 .Footer {
-  background-color: #D5EAE2;
+  background-color: var(--almostwhite);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -8,7 +8,7 @@
 }
 
 .Footer a {
-  color: #4C4C4C;
+  color: var(--grey);
 }
 
 .Footer img {
@@ -33,7 +33,7 @@
 
 #footer-header p {
   margin-bottom: 50px;
-  color: #4C4C4C;
+  color: var(--grey);
 }
 
 #footer-links {

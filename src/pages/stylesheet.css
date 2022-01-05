@@ -1,0 +1,60 @@
+/* 
+Design guide link: https://www.notion.so/Website-Design-Guide-8b8c29e207ab476d95b9ea567ba1a0b7
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+/* ============================ */
+/* Styles used throughout page */
+/* ============================ */
+:root {
+  --darkgreen: #559943;
+  --forestgreen: #4DAB74;
+  --seagreen: #57BE97;
+  --mintgreen: #AFF1B9;
+  --yellowish: #F2F3B7;
+  --gold: #DB9E56;
+  --lmintgreen: #DCF4D4;
+  --almostwhite:#D5EAE2;
+  --white: #ffff;
+  --black: #000000;
+  --darkgrey: #202020;
+  --grey: #5E5E5E;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Karla';
+  font-weight:  bold;
+  color: var(--darkgrey);
+}
+
+body {
+  margin: 0;
+  font-family: 'Karla';
+  font-weight: bold;
+  font-size: 0.9vw;
+}
+
+/*font sizes*/
+/*Header Size (projects, our community,...) */
+h1{
+  font-size: 8vh;
+}
+
+h2 {
+  font-size: 4vh;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 2vh;
+}
+
+p {
+  font-size: 2vh;
+}
+
+strong {
+  color: rgba(0, 0, 0, 0.84);
+}

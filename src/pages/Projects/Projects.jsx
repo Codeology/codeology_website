@@ -1,15 +1,14 @@
 import React from 'react';
-import { Parallax, Background } from 'react-parallax';
 import { Helmet } from 'react-helmet';
+import { Link } from 'react-router-dom';
 
 import PastProject from '../../components/Projects/PastProject.jsx';
-import UpcomingProject from '../../components/Projects/UpcomingProject.jsx';
 import ProjectInfo from '../../constants/ProjectInfo.jsx';
 import PageDescription from '../../components/PageDescription/PageDescription';
 import Wall from '../../images/group/projectsRec.png';
 import WallImage from '../../components/WallImage/WallImage';
+import ScrollToTop from '../../utils/ScrollToTop';
 
-import '../Home/stylesheet/stylesheet.css'
 import './project.css'
 
 class Projects extends React.Component {
@@ -17,37 +16,9 @@ class Projects extends React.Component {
         super(props);
         this.state = {
             clicked: 0,
-            selectedUpcoming: true,
-            pastClass: "project-button-unselected",
-            upcomingClass: "project-button-selected",
         }
-        this.upcomingPress = this.upcomingPress.bind(this);
-        this.pastPress = this.pastPress.bind(this);
         this.pressRight = this.pressRight.bind(this);
         this.pressLeft = this.pressLeft.bind(this);
-        this.description = `Every semester, we introduce a set of projects, including web, mobile, and game development, where 
-        new and returning members are able to work with a team and project leader to complete during the semester. If you are part of an organization 
-        that has a project for us, contact us and we would love to help out! Check out our upcoming project opportunities for Spring 2021 below!`
-    }
-
-    upcomingPress() {
-        if (!this.state.selectedUpcoming) {
-            this.setState(({selectedUpcoming, pastClass, upcomingClass}) => ({
-                selectedUpcoming: true,
-                pastClass: "project-button-unselected",
-                upcomingClass: "project-button-selected"
-            }))
-        }
-    }
-
-    pastPress() {
-        if (this.state.selectedUpcoming) {
-            this.setState(({selectedUpcoming, pastClass, upcomingClass}) => ({
-                selectedUpcoming: false,
-                pastClass: "project-button-selected",
-                upcomingClass: "project-button-unselected"
-            }))
-        }
     }
 
     /* go back one semester */
@@ -76,23 +47,6 @@ class Projects extends React.Component {
     }
 
     render() {
-        /*
-        var pastSemester = "Fall 2020"
-        var pastProjects = ProjectInfo["2021"]["Spring"].map(project =>
-            <PastProject title={project.title}
-                         imageSrc={project.imageSrc}
-                         github={project.github}
-                         description={project.description}
-                         time={pastSemester} />
-            );
-        var upcomingProjects = ProjectInfo["2021"]["Fall"].map(project => 
-            <UpcomingProject title={project.title}
-                             imageSrc={project.imageSrc}
-                             description={project.description}
-                             leaders ={project.leaders}
-                             technologies={project.technologies} />
-            );
-        */
        const currSemester = Object.keys(ProjectInfo)[this.state.clicked];
        const projects = ProjectInfo[currSemester].map(project => 
             <PastProject title={project.title}
@@ -101,6 +55,8 @@ class Projects extends React.Component {
                          description={project.description}
                          time={currSemester} />
        );
+       const description = `Every semester, we introduce a diverse set of projects for our members to develop their skills in their area of interest. No matter your level of experience, there’s something here for everyone.`
+
         return (
             <div>
 
@@ -113,12 +69,27 @@ class Projects extends React.Component {
 
                 <div className="project-body">
                     { /* little peeps */}
-                    <img src={require("../../images/illustrations/people/person1.png")} id="littlepeep1"/>
-                    <img src={require("../../images/illustrations/people/person2.png")} id="littlepeep2"/>
                     <img src={require("../../images/illustrations/people/person3.png")} id="littlepeep3"/>
                     <img src={require("../../images/illustrations/people/person4.png")} id="littlepeep4"/>
 
-                    <PageDescription text={this.description} />
+                    <PageDescription text={description} />
+                    <div id='projects-intro'>
+                        <div className='projects-type'>
+                            <img src={require("../../images/illustrations/people/pink-blob-boy.png")}/>
+                            <h4>Internal Projects</h4>
+                            <p>Projects topics range from web and mobile development to game development and AI. Members start from the basics, and end with their own completed project. All levels of experience welcome!</p>
+                        </div>
+                        <div className='projects-type'>
+                            <img src={require("../../images/illustrations/people/green-blob-girl.png")}/>
+                            <h4>External Projects</h4>
+                            <p>In our pro-bono and consulting projects, members work in teams to develop solutions for companies. If you are part of an organization that has a project for us,&nbsp;
+                                <ScrollToTop>
+                                    <Link to='/contact'>contact us</Link>
+                                </ScrollToTop> 
+                                &nbsp;and we would love to help out!</p>
+                        </div>
+
+                    </div>
 
                     <p className="prompt no-margin">Structure</p>
 
@@ -141,18 +112,6 @@ class Projects extends React.Component {
                     <div className="project-page-div">
                         {projects}
                     </div>
-
-                    {/*
-                        this.state.selectedUpcoming ?
-                        <div className="project-page-div">
-                            {upcomingProjects}
-                        </div>
-                        :
-                        <div className="project-page-div">
-                            {pastProjects}
-                        </div>
-                        */
-                    }
                 </div>
 
             </div>

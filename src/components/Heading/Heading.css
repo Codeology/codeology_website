@@ -1,58 +1,32 @@
-/* Desktop View */
-@media only screen and (min-width: 768px) {
-	.prompt {
-		font-family: Karla, sans-serif;
-		font-weight: bold;
-		background-image: url("../../images/Rectangle39.png");
-	    font-size: 2.5rem;
-	    margin: auto;
-		margin-top: 4vw;
-		margin-bottom: 4vw;
-		text-decoration-color: #55917F;
-		letter-spacing: .03em;
-		text-align: center;
-		width: 50%;
-	}
-
-	.longRectangle {
-		display: none;
-	}
-}
-
-@media only screen and (max-width: 768px) and (min-width: 600px) {
-	.prompt {
-		background-image: url("../../images/Rectangle39.png");
-		margin: auto;
-		width: 50%;
-	}
-}
-
-
-.sectionHeading {
-	margin-bottom: 5vw;
-}
-
 .prompt {
 	letter-spacing: .04em;
 	font-size: 2rem;
 	font-weight: bold;
 	margin-bottom: 8vw;
 	margin-top: 5vw;
+	font-family: Karla, sans-serif;
+	font-weight: bold;
+	background-image: url("../../images/Rectangle39.png");
+	font-size: 2.5rem;
+	margin: auto;
+	margin-top: 4vw;
+	margin-bottom: 4vw;
+	text-decoration-color: #55917F;
+	letter-spacing: .03em;
+	text-align: center;
+	width: 50%;
+}
+
+@media only screen and (max-width: 900px) {
+	.prompt {
+		font-size: 2rem;
+	}
 }
 
 
-.longRectangle {
-	position: relative;
-	margin-top: -300vw;
-	width: 70vw;
-	height: 2.5vw;
-
-	margin-bottom: 2vw;
-
-
-	z-index: -1;
+@media only screen and (max-width: 767px) {
+	.prompt {
+		font-size: 1.5rem;
+		width: 75%;
+	}
 }
-
-
-
-
