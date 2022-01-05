@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 
-import PastProject from '../../components/Projects/PastProject.jsx';
+import ProjectShowcase from '../../components/ProjectShowcase/ProjectShowcase.jsx';
 import ProjectInfo from '../../constants/ProjectInfo.jsx';
 import PageDescription from '../../components/PageDescription/PageDescription';
 import Wall from '../../images/group/projectsRec.png';
@@ -49,10 +49,13 @@ class Projects extends React.Component {
     render() {
        const currSemester = Object.keys(ProjectInfo)[this.state.clicked];
        const projects = ProjectInfo[currSemester].map(project => 
-            <PastProject title={project.title}
+            <ProjectShowcase title={project.title}
                          imageSrc={project.imageSrc}
                          github={project.github}
                          description={project.description}
+                         leaders={project.leaders}
+                         developers={project.developers}
+                         tech={project.technologies}
                          time={currSemester} />
        );
        const description = `Every semester, we introduce a diverse set of projects for our members to develop their skills in their area of interest. No matter your level of experience, there’s something here for everyone.`
@@ -97,8 +100,8 @@ class Projects extends React.Component {
                     <img src={require("../../images/info/timeline.png")} className="project-timeline"/>
 
                     <p className="prompt no-margin">Projects</p>
-                    <p>Our projects through the years, designed and developed by Codeology members. Check out our
-                        <a href='https://github.com/Codeology' target='_blank' rel="noopener noreferrer"> GitHub!</a>
+                    <p id='projects-showcase-intro'>Our projects through the years, designed and developed by Codeology members. Check out our&nbsp;
+                        <a href='https://github.com/Codeology' target='_blank' rel="noopener noreferrer">GitHub!</a>
                     </p>
 
                     {/* buttons */}

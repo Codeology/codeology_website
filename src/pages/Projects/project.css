@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
-
 .project-body {
     margin-right: 30px;
     margin-left: 30px;
@@ -35,6 +33,8 @@
 
 .projects-type p {
     width: 90%;
+    font-size: 14px;
+    font-weight: 400;
 }
 /* ------------------------ */
 
@@ -73,20 +73,28 @@
     height: 140px;
     position: absolute;
     right: 9%;
-    top: 270vh;
+    top: 200vh;
 }
 #littlepeep4 {
     height: 170px;
     position: absolute;
     left: 9%;
-    top: 220%;
+    top: 150vh;
 }
 
 .project-page-div {
+    width: 80vw;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: flex-start;
     justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 7.5vh;
+    margin-top: 2.5vh;
+}
+
+#projects-showcase-intro {
+    font-size: 14px !important;
 }
 
 .button-row {
