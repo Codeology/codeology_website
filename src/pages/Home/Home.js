@@ -79,7 +79,7 @@ export default function Home() {
                             </Link>
                         </ScrollToTop>
                     </div>
-                    <img src={require("../../images/group/clubPhoto.png")} />
+                    <img src={require("../../images/group/group_fa21.jpg")} />
                 </div>
 
                 <div id="project" className="section">
@@ -108,7 +108,7 @@ export default function Home() {
                             in order to foster an enjoyable and motivated culture that encourages
                              the sharing of ideas. </p>
                     </div>
-                    <img src={require("../../images/group/community.png")} />
+                    <img src={require("../../images/group/skate_fa21.jpg")} />
                 </div>
 
             </div>

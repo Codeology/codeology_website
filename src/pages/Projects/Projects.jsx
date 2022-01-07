@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import ProjectShowcase from '../../components/ProjectShowcase/ProjectShowcase.jsx';
 import ProjectInfo from '../../constants/ProjectInfo.jsx';
 import PageDescription from '../../components/PageDescription/PageDescription';
-import Wall from '../../images/group/projectsRec.png';
+import Wall from '../../images/group/project_fa21.jpg';
 import WallImage from '../../components/WallImage/WallImage';
 import ScrollToTop from '../../utils/ScrollToTop';
 
