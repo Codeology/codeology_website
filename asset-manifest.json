@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.6454426f.chunk.css",
-    "main.js": "/static/js/main.c81c4071.chunk.js",
-    "main.js.map": "/static/js/main.c81c4071.chunk.js.map",
+    "main.css": "/static/css/main.0ad7f37d.chunk.css",
+    "main.js": "/static/js/main.b736d7fc.chunk.js",
+    "main.js.map": "/static/js/main.b736d7fc.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.99911b0c.js",
     "runtime-main.js.map": "/static/js/runtime-main.99911b0c.js.map",
     "static/css/2.e279ab09.chunk.css": "/static/css/2.e279ab09.chunk.css",
-    "static/js/2.414a7984.chunk.js": "/static/js/2.414a7984.chunk.js",
-    "static/js/2.414a7984.chunk.js.map": "/static/js/2.414a7984.chunk.js.map",
+    "static/js/2.e5e25bfa.chunk.js": "/static/js/2.e5e25bfa.chunk.js",
+    "static/js/2.e5e25bfa.chunk.js.map": "/static/js/2.e5e25bfa.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f7cf40b87990e5716f76765406bf3d56.js": "/precache-manifest.f7cf40b87990e5716f76765406bf3d56.js",
+    "precache-manifest.07e5586e3316a038243dcaad5acd0e99.js": "/precache-manifest.07e5586e3316a038243dcaad5acd0e99.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.e279ab09.chunk.css.map": "/static/css/2.e279ab09.chunk.css.map",
-    "static/css/main.6454426f.chunk.css.map": "/static/css/main.6454426f.chunk.css.map",
-    "static/js/2.414a7984.chunk.js.LICENSE.txt": "/static/js/2.414a7984.chunk.js.LICENSE.txt",
+    "static/css/main.0ad7f37d.chunk.css.map": "/static/css/main.0ad7f37d.chunk.css.map",
+    "static/js/2.e5e25bfa.chunk.js.LICENSE.txt": "/static/js/2.e5e25bfa.chunk.js.LICENSE.txt",
     "static/media/BallingWithData.png": "/static/media/BallingWithData.aa00550a.png",
     "static/media/Gentrification_IG.png": "/static/media/Gentrification_IG.66c4eb97.png",
     "static/media/PredictingFilmSuccess.png": "/static/media/PredictingFilmSuccess.00558d6b.png",
@@ -130,6 +130,7 @@
     "static/media/pink-blob-boy.png": "/static/media/pink-blob-boy.d8b18d0e.png",
     "static/media/pradeep.jpg": "/static/media/pradeep.d3e0f3cd.jpg",
     "static/media/project_fa21.jpg": "/static/media/project_fa21.c79d3629.jpg",
+    "static/media/puzzle.png": "/static/media/puzzle.647c6d20.png",
     "static/media/rachel.jpg": "/static/media/rachel.c895ee46.jpg",
     "static/media/ramya.jpg": "/static/media/ramya.646e253b.jpg",
     "static/media/red arm.png": "/static/media/red arm.6b97eeb4.png",
@@ -183,8 +184,8 @@
   "entrypoints": [
     "static/js/runtime-main.99911b0c.js",
     "static/css/2.e279ab09.chunk.css",
-    "static/js/2.414a7984.chunk.js",
-    "static/css/main.6454426f.chunk.css",
-    "static/js/main.c81c4071.chunk.js"
+    "static/js/2.e5e25bfa.chunk.js",
+    "static/css/main.0ad7f37d.chunk.css",
+    "static/js/main.b736d7fc.chunk.js"
   ]
 }
