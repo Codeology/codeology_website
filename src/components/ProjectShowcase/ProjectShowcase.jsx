@@ -3,21 +3,8 @@ import './project-component.css';
 import Popup from "reactjs-popup";
 
 class ProjectShowcase extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            clicked: false,
-            imageSrc: "",
-            title:"Project Title",
-            time: "Spring 2020",
-            description:"",
-            leaders: "",
-            developers: ""
-        }
-    }
-
     render() {
-       const {title, imageSrc, github, leaders, developers, description, tech, time} = this.props;
+       const {title, imageSrc, github, leaders, developers, description, tech} = this.props;
         return ( 
             <Popup modal trigger={
                 <div className='project-container'>
@@ -26,7 +13,7 @@ class ProjectShowcase extends React.Component {
                         <div id='project-row'>
                             <h3 id="project-title">{title}</h3>
                             {github && 
-                            <a href={github} target="_blank" rel="noreferrer">
+                            <a href={github} target="_blank" rel="noopener noreferrer">
                                 <img src={require("../../images/logos/github-icon.png" )} alt='github' />
                             </a>}
                         </div>
@@ -43,7 +30,7 @@ class ProjectShowcase extends React.Component {
                             <div id='project-row'>
                                 <h3 id="project-title">{title}</h3>
                                 {github && 
-                                <a href={github} target="_blank" rel="noreferrer" >
+                                <a href={github} target="_blank" rel="noopener noreferrer" >
                                     <img src={require("../../images/logos/github-icon.png" )} alt='github' />
                                 </a>}
                             </div>

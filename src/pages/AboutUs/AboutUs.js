@@ -30,21 +30,21 @@ function AboutUs() {
       <div id='about-us-intro'>
         <Heading className='no-margin'>Find Your Fit</Heading>
         {/* would like to make this an img carousel/scroll display */}
-        <img id='about-us-img' src={require('../../images/group/retreat_fa21.jpg')} />
+        <img id='about-us-img' src={require('../../images/group/retreat_fa21.jpg')} alt='Codeology' />
         <p id='about-us-blurb'>
-          Whether coding is already your passion or you’ve yet to print your first “Hello World,” Codeology provides opportunities to help you explore different roles in the tech industry and develop technical expertise in your area of interest.
-          Through projects, professional development, industry events, and social events, we aim to provide a tight-knit community to support you in “finding your fit” in the world of tech. 
+          Whether coding is already your passion or you’ve yet to print your first “Hello World,” Codeology aims to provide a tight-knit community to support you in “finding your fit” in the world of tech.
+          Through projects, professional development, industry events, and social events, we offer opportunities to help you explore different roles in the tech industry and develop technical expertise in your area of interest.
         </p>
       </div>
       
 
-      <img id="RedHand" src={require('../../images/illustrations/arm/red arm.png')} />
+      <img id="RedHand" src={require('../../images/illustrations/arm/red arm.png')} alt='' />
       <PictureSection title={"Executive Leadership"} people={leadership}/>
 
-      <img id="PinkHand" src={require('../../images/illustrations/arm/pink arm.png')} />
+      <img id="PinkHand" src={require('../../images/illustrations/arm/pink arm.png')} alt='' />
 	  <PictureSection title={"Project Leaders"} people={projectLeaders}/>
 
-	  <img id="GreenHand" src={require('../../images/illustrations/arm/green arm.png')} />
+	  <img id="GreenHand" src={require('../../images/illustrations/arm/green arm.png')} alt='' />
 	  <PictureSection title={"Active Members"} people={actives}/>
 		  
     </div>

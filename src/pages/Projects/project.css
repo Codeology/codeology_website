@@ -158,6 +158,10 @@
         margin: 10px;
     }
 
+    .projects-type p {
+        font-size: 12px;
+    }
+    
     .project-structure {
         width: 75vw;
         padding-left: 0px;

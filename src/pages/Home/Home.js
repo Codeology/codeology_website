@@ -37,31 +37,31 @@ export default function Home() {
             <div className="content">
 
                 <div className="big puzzle below">
-                    <img src={require("../../images/illustrations/puzzle/big_puzzle.png")} />
+                    <img src={require("../../images/illustrations/puzzle/big_puzzle.png")} alt='' />
                 </div>
 
                 <div className="small puzzle below">
-                    <img src={require("../../images/illustrations/puzzle/small_puzzle.png")} />
+                    <img src={require("../../images/illustrations/puzzle/small_puzzle.png")} alt='' />
                 </div>
 
                 <div className="sitting person">
-                    <img src={require("../../images/illustrations/people/sitting_person.png")} />
+                    <img src={require("../../images/illustrations/people/sitting_person.png")} alt='' />
                 </div>
 
                 <div className="big2 puzzle below">
-                    <img src={require("../../images/illustrations/puzzle/big_puzzle2.png")} />
+                    <img src={require("../../images/illustrations/puzzle/big_puzzle2.png")} alt='' />
                 </div>
 
                 <div className="big3 puzzle below">
-                    <img src={require("../../images/illustrations/puzzle/big_puzzle.png")} />
+                    <img src={require("../../images/illustrations/puzzle/big_puzzle.png")} alt='' />
                 </div>
 
                 <div className="standing person">
-                    <img src={require("../../images/illustrations/people/standing1.png")} />
+                    <img src={require("../../images/illustrations/people/standing1.png")} alt='' />
                 </div>
 
                 <div className="standing2 person">
-                    <img src={require("../../images/illustrations/people/standing2.png")} />
+                    <img src={require("../../images/illustrations/people/standing2.png")} alt='' />
                 </div>
 
                 <div id="about" className="section">
@@ -79,7 +79,7 @@ export default function Home() {
                             </Link>
                         </ScrollToTop>
                     </div>
-                    <img src={require("../../images/group/group_fa21.jpg")} />
+                    <img src={require("../../images/group/group_fa21.jpg")} alt='About' />
                 </div>
 
                 <div id="project" className="section">
@@ -108,7 +108,7 @@ export default function Home() {
                             in order to foster an enjoyable and motivated culture that encourages
                              the sharing of ideas. </p>
                     </div>
-                    <img src={require("../../images/group/skate_fa21.jpg")} />
+                    <img src={require("../../images/group/skate_fa21.jpg")} alt='Community' />
                 </div>
 
             </div>

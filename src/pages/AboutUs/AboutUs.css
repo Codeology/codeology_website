@@ -23,6 +23,7 @@
 #about-us-blurb {
   font-size: 16px;
   line-height: 1.75em;
+  font-weight: 400;
 }
 
 #about-us-img {
@@ -62,6 +63,10 @@
 
   #about-us-intro {
     margin-bottom: 5vh;
+  }
+
+  #about-us-img {
+    width: 60vw;
   }
 
   #about-us-blurb {

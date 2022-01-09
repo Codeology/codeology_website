@@ -2,9 +2,7 @@ import React, {Component} from 'react';
 import {
   HashRouter as Router,
   Switch,
-  Redirect,
   Route,
-  Link
 } from "react-router-dom";
 
 import Home from './Home/Home.js';

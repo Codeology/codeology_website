@@ -14,17 +14,17 @@ function Footer() {
                 </div>
                 <p>University of California, Berkeley</p>
                 <div className='footer-media-container footer-row'>
-                    <a href="https://www.instagram.com/berkeleycodeology/" target="_blank" rel="noreferrer">
-                        <img src={require("../../images/logos/instagram.png")} />
+                    <a href="https://www.instagram.com/berkeleycodeology/" target="_blank" rel="noopener noreferrer">
+                        <img src={require("../../images/logos/instagram.png")} alt='Instagram' />
                     </a>
-                    <a href="https://www.linkedin.com/company/berkeley-codeology/" target="_blank" rel="noreferrer">
-                        <img src={require("../../images/logos/linkedin.png")}/>
+                    <a href="https://www.linkedin.com/company/berkeley-codeology/" target="_blank" rel="noopener noreferrer">
+                        <img src={require("../../images/logos/linkedin.png")} alt='LinkedIn' />
                     </a>
-                    <a href="https://www.facebook.com/berkeleycodeology/" target="_blank" rel="noreferrer">
-                        <img src={require("../../images/logos/facebook.png" )}/>
+                    <a href="https://www.facebook.com/berkeleycodeology/" target="_blank" rel="noopener noreferrer">
+                        <img src={require("../../images/logos/facebook.png" )} alt='Facebook' />
                     </a>
-                    <a href="https://github.com/Codeology" target="_blank" rel="noreferrer">
-                        <img src={require("../../images/logos/github-footer.png" )}/>
+                    <a href="https://github.com/Codeology" target="_blank" rel="noopener noreferrer">
+                        <img src={require("../../images/logos/github-footer.png" )} alt='GitHub' />
                     </a>
                 </div>
             </div>
@@ -39,22 +39,22 @@ function Footer() {
                 <div className='footer-links-col'>
                     <b>CONTACT</b>
                     <ScrollToTop><Link to='/contact'>Contact Us</Link></ScrollToTop>
-                    <a href='mailto: info@codeology.club' target='_blank' rel="noreferrer">Email</a>
+                    <a href='mailto: info@codeology.club' target='_blank' rel="noopener noreferrer">Email</a>
                 </div>
             </div>
 
             <div className='footer-media-container footer-col'>
-                    <a href="https://www.instagram.com/berkeleycodeology/" target="_blank" rel="noreferrer">
-                        <img src={require("../../images/logos/instagram.png")} />
+                    <a href="https://www.instagram.com/berkeleycodeology/" target="_blank" rel="noopener noreferrer">
+                        <img src={require("../../images/logos/instagram.png")} alt='Instagram' />
                     </a>
-                    <a href="https://www.linkedin.com/company/berkeley-codeology/" target="_blank" rel="noreferrer">
-                        <img src={require("../../images/logos/linkedin.png")}/>
+                    <a href="https://www.linkedin.com/company/berkeley-codeology/" target="_blank" rel="noopener noreferrer">
+                        <img src={require("../../images/logos/linkedin.png")} alt='LinkedIn' />
                     </a>
-                    <a href="https://www.facebook.com/berkeleycodeology/" target="_blank" rel="noreferrer">
-                        <img src={require("../../images/logos/facebook.png" )}/>
+                    <a href="https://www.facebook.com/berkeleycodeology/" target="_blank" rel="noopener noreferrer">
+                        <img src={require("../../images/logos/facebook.png" )} alt='Facebook' />
                     </a>
-                    <a href="https://github.com/Codeology" target="_blank" rel="noreferrer">
-                        <img src={require("../../images/logos/github-footer.png" )}/>
+                    <a href="https://github.com/Codeology" target="_blank" rel="noopener noreferrer">
+                        <img src={require("../../images/logos/github-footer.png" )} alt='GitHub' />
                     </a>
             </div>
         </footer>

@@ -72,18 +72,18 @@ class Projects extends React.Component {
 
                 <div className="project-body">
                     { /* little peeps */}
-                    <img src={require("../../images/illustrations/people/person3.png")} id="littlepeep3"/>
-                    <img src={require("../../images/illustrations/people/person4.png")} id="littlepeep4"/>
+                    <img src={require("../../images/illustrations/people/person3.png")} id="littlepeep3" alt='' />
+                    <img src={require("../../images/illustrations/people/person4.png")} id="littlepeep4" alt='' />
 
                     <PageDescription text={description} />
                     <div id='projects-intro'>
                         <div className='projects-type'>
-                            <img src={require("../../images/illustrations/people/pink-blob-boy.png")}/>
+                            <img src={require("../../images/illustrations/people/pink-blob-boy.png")} alt='' />
                             <h4>Internal Projects</h4>
                             <p>Projects topics range from web and mobile development to game development and AI. Members start from the basics, and end with their own completed project. All levels of experience welcome!</p>
                         </div>
                         <div className='projects-type'>
-                            <img src={require("../../images/illustrations/people/green-blob-girl.png")}/>
+                            <img src={require("../../images/illustrations/people/green-blob-girl.png")} alt='' />
                             <h4>External Projects</h4>
                             <p>In our pro-bono and consulting projects, members work in teams to develop solutions for companies. If you are part of an organization that has a project for us,&nbsp;
                                 <ScrollToTop>
@@ -96,8 +96,10 @@ class Projects extends React.Component {
 
                     <p className="prompt no-margin">Structure</p>
 
-                    <img src={require("../../images/info/structure.png")} className="project-structure"/>
-                    <img src={require("../../images/info/timeline.png")} className="project-timeline"/>
+                    <img src={require("../../images/info/structure.png")} className="project-structure"
+                        alt='Project Manager: oversees all project teams. Project Leader: creates project ideas and leads team of developers. Project developer: work with your team to create a cool project!' />
+                    <img src={require("../../images/info/timeline.png")} className="project-timeline"
+                        alt='Project Timeline: Members are matched to groups. Research, workshops, design, etc. with your team. Midsemester showcase. Continue working on your project. Final Showcase!' />
 
                     <p className="prompt no-margin">Projects</p>
                     <p id='projects-showcase-intro'>Our projects through the years, designed and developed by Codeology members. Check out our&nbsp;

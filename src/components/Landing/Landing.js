@@ -10,7 +10,7 @@ function Landing() {
                     <img id="findYourFit" src={require("../../images/illustrations/landing/findYourFit-temp.png")} alt="find-your-fit"/>
                 </div>
                 <div id="laptop-apply">
-                    <img id="laptop" src={require("../../images/illustrations/landing/laptop1.png")} />
+                    <img id="laptop" src={require("../../images/illustrations/landing/laptop1.png")} alt='' />
                     <Link id="apply" to="/apply">apply</Link> 
                 </div>
                 
@@ -27,12 +27,12 @@ function Landing() {
 
             <div id="hands">
                         <div className="handRow below">
-                            <img id="blueHand" className="topHands hand" src={require("../../images/illustrations/landing/web_hand3.png")} />
-                            <img id="greenHand" className="topHands hand" src={require("../../images/illustrations/landing/web_hand2.png")} />
+                            <img id="blueHand" className="topHands hand" src={require("../../images/illustrations/landing/web_hand3.png")} alt='' />
+                            <img id="greenHand" className="topHands hand" src={require("../../images/illustrations/landing/web_hand2.png")} alt='' />
                         </div>
                         <div className="handRow">
-                            <img id="orangeHand" className="hand" src={require("../../images/illustrations/landing/web_hand1.png")} />
-                            <img id="redHand" className="hand" src={require("../../images/illustrations/landing/web_hand4.png")} />
+                            <img id="orangeHand" className="hand" src={require("../../images/illustrations/landing/web_hand1.png")} alt='' />
+                            <img id="redHand" className="hand" src={require("../../images/illustrations/landing/web_hand4.png")} alt='' />
                         </div>
              </div>
         </div>

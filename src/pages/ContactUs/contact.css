@@ -9,6 +9,52 @@
   margin-bottom: 2.5vh;
 }
 
+#contact-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5% 10%;
+}
+
+#contact-form-section {
+  width: 60%;
+}
+
+#contact-text-section {
+  width: 30%;
+}
+
+.contact-text {
+  margin-bottom: 30%;
+}
+
+#contact-text-section h2 {
+  background-color: var(--yellowish);
+  padding: 2.5%;
+}
+
+#contact-text-section p {
+  font-size: 16px;
+}
+
+#contact-puzzle1, #contact-puzzle2 {
+  width: 20vw;
+  min-width: 150px;
+  position: absolute;
+  opacity: 0.25;
+  z-index: -1;
+  object-fit: cover;
+}
+
+#contact-puzzle2 {
+  top: 25%;
+  right: 5%;
+}
+
+#contact-puzzle1 {
+  top: 95%;
+}
+
 /* Top text box for contact page */ 
 .contact #topbox {
   background-color: var(--white);
@@ -38,9 +84,28 @@
   font-weight: bold;
 }
 
-#contact-page-desc {
-  background-color: green;
+@media screen and (max-width: 767px) {
+  #contact-content {
+    flex-direction: column;
+  }
+
+  #contact-text-section, #contact-form-section {
+    width: 100%;
+  }
+
+  #contact-puzzle1 {
+    top: 70%;
+  }
+  
+  .contact-text {
+    margin: 2.5% 0 10% 0;
+  }
+
+  #contact-text-section p {
+    font-size: 14px;
+  }
 }
+
 
 @media screen and (max-width: 600px) {
   .contactTitle {
@@ -53,8 +118,12 @@
   }
 }
 
-@media screen and (max-width: 401px) {
+@media screen and (max-width: 450px) {
   .contact #topbox {
     height: 120vh;
+  }
+
+  #contact-text-section p {
+    font-size: 12px;
   }
 }

@@ -8,7 +8,7 @@ Design guide link: https://www.notion.so/Website-Design-Guide-8b8c29e207ab476d95
 /* Styles used throughout page */
 /* ============================ */
 :root {
-  --darkgreen: #468535;
+  --darkgreen: #4c8f3a;
   --forestgreen: #4DAB74;
   --seagreen: #57BE97;
   --mintgreen: #AFF1B9;
@@ -53,10 +53,12 @@ h3 {
 
 p {
   font-size: 2vh;
+  font-weight: 400;
 }
 
 a, a:hover {
-  color: var(--darkgreen);
+  color: #26976c;
+  /* a darker seagreen */
 }
 
 strong {
