@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bdcf30a0782d23c328ceebcd3369db68",
+    "revision": "fdc630a616cd49e8c42b6f576409d66b",
     "url": "/index.html"
   },
   {
-    "revision": "d1cb3b16fb5fa8f2d9f8",
+    "revision": "6d19f5120b7cc5df3de2",
     "url": "/static/css/2.e279ab09.chunk.css"
   },
   {
-    "revision": "6f3b5c3b0bd3f11bdb76",
-    "url": "/static/css/main.0ad7f37d.chunk.css"
+    "revision": "e90d0ff9b929b521296d",
+    "url": "/static/css/main.e0d7f7c0.chunk.css"
   },
   {
-    "revision": "d1cb3b16fb5fa8f2d9f8",
-    "url": "/static/js/2.e5e25bfa.chunk.js"
+    "revision": "6d19f5120b7cc5df3de2",
+    "url": "/static/js/2.244712eb.chunk.js"
   },
   {
     "revision": "29eb69a08ea4198f7b46e1db8a3d5045",
-    "url": "/static/js/2.e5e25bfa.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.244712eb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6f3b5c3b0bd3f11bdb76",
-    "url": "/static/js/main.b736d7fc.chunk.js"
+    "revision": "e90d0ff9b929b521296d",
+    "url": "/static/js/main.ac9baec5.chunk.js"
   },
   {
     "revision": "7cdd07cd8578cb7be0ba",
@@ -208,8 +208,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/classifai.cfe558e0.png"
   },
   {
-    "revision": "2068afa5b5eaf053ab1a8a647d28f683",
-    "url": "/static/media/codeology.2068afa5.png"
+    "revision": "56e95ef61fb151871259cdd6679314f2",
+    "url": "/static/media/codeology_text.56e95ef6.png"
   },
   {
     "revision": "37f5448ec9fdd921628f2dfc8080b795",
@@ -260,8 +260,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/eric.b984bd69.jpg"
   },
   {
-    "revision": "f90559be11e2c73c09d5a8cb13fcebee",
-    "url": "/static/media/eric2.f90559be.jpg"
+    "revision": "2e99221478a2f82f56c99de1e7aced32",
+    "url": "/static/media/eric2.2e992214.jpg"
   },
   {
     "revision": "ad19b82e97882d644777e4b9efb175ab",
@@ -392,8 +392,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/kyle.eaf614f8.jpg"
   },
   {
-    "revision": "f8fab853a2ede6c3ad61f874e77e8ae9",
-    "url": "/static/media/laptop1.f8fab853.png"
+    "revision": "84b5907a4644f1941e804100130d676b",
+    "url": "/static/media/laptop1.84b5907a.png"
   },
   {
     "revision": "eb6146895147afbbc06b4dea3fe4f7cc",
