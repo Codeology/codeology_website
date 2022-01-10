@@ -2,6 +2,7 @@
 /* Styles used throughout page */
 /* ============================ */
 .home-button {
+    width: fit-content;
     padding: 1.5vh 1vw;
     text-decoration: none;
     margin: 6vh 0.5vw;
@@ -23,7 +24,6 @@
 
 .section {
     display: flex;
-    font-weight: bold;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -32,12 +32,12 @@
 
 .text {
     width: 25vw;
+    display: flex;
+    flex-direction: column;
 }
 
 .text p {
     margin-bottom: 4vh;
-    font-size: 2vh;
-    font-weight: bold;
 }
 
 /* ============================ */

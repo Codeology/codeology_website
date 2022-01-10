@@ -1,5 +1,6 @@
 .contact {
   text-align: center;
+  margin-top: 7.5vh;
 }
 
 .contact #underline {
@@ -31,10 +32,6 @@
 #contact-text-section h2 {
   background-color: var(--yellowish);
   padding: 2.5%;
-}
-
-#contact-text-section p {
-  font-size: 16px;
 }
 
 #contact-puzzle1, #contact-puzzle2 {
@@ -100,19 +97,10 @@
   .contact-text {
     margin: 2.5% 0 10% 0;
   }
-
-  #contact-text-section p {
-    font-size: 14px;
-  }
 }
 
 
 @media screen and (max-width: 600px) {
-  .contactTitle {
-    font-size: 2.5rem;
-    font-weight: bold;
-  }
-
   .contact #bottombox, .contact #topbox{
     width: 80vw;
   }
@@ -121,9 +109,5 @@
 @media screen and (max-width: 450px) {
   .contact #topbox {
     height: 120vh;
-  }
-
-  #contact-text-section p {
-    font-size: 12px;
   }
 }

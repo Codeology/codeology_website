@@ -8,6 +8,7 @@ import PageDescription from '../../components/PageDescription/PageDescription';
 import Wall from '../../images/group/project_fa21.jpg';
 import WallImage from '../../components/WallImage/WallImage';
 import ScrollToTop from '../../utils/ScrollToTop';
+import Heading from '../../components/Heading/Heading';
 
 import './project.css'
 
@@ -79,12 +80,12 @@ class Projects extends React.Component {
                     <div id='projects-intro'>
                         <div className='projects-type'>
                             <img src={require("../../images/illustrations/people/pink-blob-boy.png")} alt='' />
-                            <h4>Internal Projects</h4>
+                            <h3>Internal Projects</h3>
                             <p>Projects topics range from web and mobile development to game development and AI. Members start from the basics, and end with their own completed project. All levels of experience welcome!</p>
                         </div>
                         <div className='projects-type'>
                             <img src={require("../../images/illustrations/people/green-blob-girl.png")} alt='' />
-                            <h4>External Projects</h4>
+                            <h3>External Projects</h3>
                             <p>In our pro-bono and consulting projects, members work in teams to develop solutions for companies. If you are part of an organization that has a project for us,&nbsp;
                                 <ScrollToTop>
                                     <Link to='/contact'>contact us</Link>
@@ -94,14 +95,14 @@ class Projects extends React.Component {
 
                     </div>
 
-                    <p className="prompt no-margin">Structure</p>
+                    <Heading>Structure</Heading>
 
                     <img src={require("../../images/info/structure.png")} className="project-structure"
                         alt='Project Manager: oversees all project teams. Project Leader: creates project ideas and leads team of developers. Project developer: work with your team to create a cool project!' />
                     <img src={require("../../images/info/timeline.png")} className="project-timeline"
                         alt='Project Timeline: Members are matched to groups. Research, workshops, design, etc. with your team. Midsemester showcase. Continue working on your project. Final Showcase!' />
 
-                    <p className="prompt no-margin">Projects</p>
+                    <Heading>Projects</Heading>
                     <p id='projects-showcase-intro'>Our projects through the years, designed and developed by Codeology members. Check out our&nbsp;
                         <a href='https://github.com/Codeology' target='_blank' rel="noopener noreferrer">GitHub!</a>
                     </p>
@@ -109,7 +110,7 @@ class Projects extends React.Component {
                     {/* buttons */}
                     <div className="button-row">
                         <div onClick = {this.pressLeft} className='projects-button projects-button-left unselectable'></div>
-                        <h4>{currSemester}</h4>
+                        <h3>{currSemester}</h3>
                         <div onClick = {this.pressRight} className='projects-button projects-button-right'></div>
                     </div>
 

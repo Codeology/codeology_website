@@ -133,7 +133,7 @@ export const leadership = [
         tree: 'Anna',
         leaf: 'Tiffanie <3 :3',
         linkedin: 'https://www.linkedin.com/in/amyxjhuang/',
-        resume: 'tinyurl.com/amyhuangresume',
+        resume: 'https://tinyurl.com/amyhuangresume',
         website: 'https://amyhuang.web.app',
         blurb: 'I love tasty pot, smoothie, hot cheeto puffs, animal crossing, moffitt 1st floor!!! ',
     },
@@ -362,7 +362,7 @@ export const projectLeaders = [
         leaf: "Ernest Goh",
         linkedin: "https://www.linkedin.com/in/jun-hee-han-029527145/",
         resume: null,
-        website: "instagram.com/junheehan",
+        website: "https://instagram.com/junheehan",
         blurb: "I am a senior studying computer science.",
     },
     {

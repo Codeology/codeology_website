@@ -18,14 +18,7 @@
   width: 20px;
 }
 
-#project-title {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px !important;
-}
-
 .project-subtext {
-  font-size: 14px !important;
   color: var(--grey);
   overflow-wrap: normal;
   display: inline-block;
@@ -79,10 +72,6 @@
   overflow: scroll;
 }
 
-.div-text p {
-  font-weight: 400;
-  font-size: 14px;
-}
 /* ---------------------- */
 
 @media (max-width: 900px) {
@@ -135,12 +124,4 @@
   .project-container {
     width: 40vw;
   }
-
-  #project-title {
-    font-size: 16px !important;
-  }
-  .div-text p {
-    font-size: 12px !important;
-  }
-  
 }

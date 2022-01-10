@@ -1,18 +1,16 @@
 import React from 'react';
 import './Footer.css'
 import ScrollToTop from '../../utils/ScrollToTop';
-import logo from '../../images/logos/codeology.png';
+import logo from '../../images/logos/codeology_text.png';
 import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
         <footer className="Footer">
             <div id='footer-header'>
-                <div id='footer-title'>
-                    <img id='footer-logo' src={logo} alt='Codeology logo' />
-                    <h2>C O D E O L O G Y</h2>
-                </div>
-                <p>University of California, Berkeley</p>
+                <img id='footer-logo' src={logo} alt='Codeology' />
+                
+                <b>University of California, Berkeley</b>
                 <div className='footer-media-container footer-row'>
                     <a href="https://www.instagram.com/berkeleycodeology/" target="_blank" rel="noopener noreferrer">
                         <img src={require("../../images/logos/instagram.png")} alt='Instagram' />

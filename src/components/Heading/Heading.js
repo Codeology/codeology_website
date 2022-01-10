@@ -4,7 +4,7 @@ import './Heading.css';
 class Heading extends React.Component {
     render() {
         return (
-            <p className="prompt">{this.props.children}</p>
+            <h2 className="prompt">{this.props.children}</h2>
         );
     }
   }

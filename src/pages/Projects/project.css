@@ -33,8 +33,6 @@
 
 .projects-type p {
     width: 90%;
-    font-size: 14px;
-    font-weight: 400;
 }
 /* ------------------------ */
 
@@ -93,10 +91,6 @@
     margin-top: 2.5vh;
 }
 
-#projects-showcase-intro {
-    font-size: 14px !important;
-}
-
 .button-row {
     display: flex;
     flex-direction: row;
@@ -104,8 +98,9 @@
     padding-top: 30px;
 }
 
-.button-row h4 {
+.button-row h3 {
     width: 175px;
+    font-size: 25px;
 }
 
 .projects-button {
@@ -157,10 +152,6 @@
     .projects-type {
         margin: 10px;
     }
-
-    .projects-type p {
-        font-size: 12px;
-    }
     
     .project-structure {
         width: 75vw;
@@ -172,7 +163,7 @@
         padding-left: 0px;
     }
 
-    .button-row h4 {
+    .button-row h3 {
         font-size: 14pt;
     }
 }

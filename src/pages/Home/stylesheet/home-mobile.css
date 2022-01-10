@@ -70,8 +70,6 @@
     
     .text p {
         margin-bottom: 4vh;
-        font-size: 2vh;
-        font-weight: bold;
     }
 
     #project {
@@ -156,11 +154,6 @@
 /* Landscape */
 @media screen and (max-width: 900px) and (min-width: 600px) {
 
-    h2 {
-        font-size: 2rem;
-        font-weight: bold;
-    }
-
     .home-button, .white-button {
         font-size: 1rem;
         padding: 2.5vh 2vw;
@@ -186,8 +179,6 @@
     
     .text p {
         margin-bottom: 4vh;
-        font-size: 2vw;
-        font-weight: bold;
     }
 
     #about {

@@ -14,7 +14,7 @@ function PageDescription(props) {
                 <img id="puzzle2" src={require('../../images/illustrations/puzzle/puzzle2.png')} alt='' />
                 <img id="puzzle3" src={require('../../images/illustrations/puzzle/puzzle3.png')} alt=''  />
 
-		        <div id="textHolder">{props.text}</div>
+		        <h3 id="textHolder">{props.text}</h3>
 		        {/* <img id="PictureHolder" src={require('../../images/group/sample.png')} />
 
 		        <img id="PeepsLeft" src={require('../../images/illustrations/people/smallpeeps left.png')} />

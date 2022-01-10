@@ -17,6 +17,9 @@ export default function Apply() {
                 </div>
             </div>
 
+            <img src={require('../../images/illustrations/puzzle/puzzle.png')} alt='' id='contact-puzzle1' />
+            <img src={require('../../images/illustrations/puzzle/puzzle2.png')} alt='' id='contact-puzzle2' />
+
         </div>
     )
 }

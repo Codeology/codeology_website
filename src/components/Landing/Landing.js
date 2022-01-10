@@ -11,12 +11,12 @@ function Landing() {
                 </div>
                 <div id="laptop-apply">
                     <img id="laptop" src={require("../../images/illustrations/landing/laptop1.png")} alt='' />
-                    <Link id="apply" to="/apply">apply</Link> 
+                    <Link id="apply" className='h2' to="/apply">apply</Link> 
                 </div>
                 
-                <div id="landing-text">
+                <h3 id="landing-text">
                 Here at Codeology, we provide opportunities for you to explore the tech industry with a supportive community.
-                </div>
+                </h3>
 
                <div id="apply-contact">
                     <Link className="white-button" to="/contact">

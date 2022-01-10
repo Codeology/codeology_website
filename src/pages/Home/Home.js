@@ -66,13 +66,13 @@ export default function Home() {
 
                 <div id="about" className="section">
                     <div className="text">
-                        <h2 style={{"font-weight": "bold"}}>Who We Are</h2>
-                        <p>Codeology is a UC Berkeley student club focused on self-exploration
+                        <h2>Who We Are</h2>
+                        <b>Codeology is a UC Berkeley student club focused on self-exploration
                         within the tech industry. By offering hands-on experience through
                         collaborative student projects and professional workshops, we aim to
                         bring the breadth of opportunities and roles within the tech field to
                         Cal students, as well as help our members explore their specific
-                        technical and professional interests.</p>
+                        technical and professional interests.</b>
                         <ScrollToTop>
                             <Link className="home-button learn" to="/about">
                                 Learn More
@@ -86,12 +86,12 @@ export default function Home() {
                     {createProjectCarousel()}
 
                     <div className="text projects">
-                        <h2 style={{"font-weight": "bold"}}>Projects</h2>
-                        <p>Every semester, we introduce varying projects as an opportunity for our 
+                        <h2>Projects</h2>
+                        <b>Every semester, we introduce varying projects as an opportunity for our 
                             members to explore interesting niches in the tech industry to gain experience 
                             as developers and to lead their own project teams. Topics can range from AI/ML 
                             to data analytics to iOS development and more. Check out what we're offering 
-                            this semester!</p>
+                            this semester!</b>
                         <ScrollToTop>
                             <Link className="home-button learn" to="/projects">
                                 Learn More
@@ -102,11 +102,11 @@ export default function Home() {
 
                  <div id="about" className="section">
                     <div className="text">
-                        <h2 style={{"font-weight": "bold"}}>Community</h2>
-                        <p>Codeology offers a supportive environment for members to grow within 
+                        <h2>Community</h2>
+                        <b>Codeology offers a supportive environment for members to grow within 
                             the computer science community. We reward kindness and taking action 
                             in order to foster an enjoyable and motivated culture that encourages
-                             the sharing of ideas. </p>
+                             the sharing of ideas. </b>
                     </div>
                     <img src={require("../../images/group/skate_fa21.jpg")} alt='Community' />
                 </div>

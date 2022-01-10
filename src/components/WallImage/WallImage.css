@@ -15,7 +15,6 @@
 .textOverlay-white {
     color: white;
     position: absolute;
-    font-size: 10vh;
     top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -44,7 +43,6 @@
     }
 
     .textOverlay-white {
-        font-size:11vw;
         bottom: 50%;
       }
 }

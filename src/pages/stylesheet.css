@@ -8,7 +8,7 @@ Design guide link: https://www.notion.so/Website-Design-Guide-8b8c29e207ab476d95
 /* Styles used throughout page */
 /* ============================ */
 :root {
-  --darkgreen: #4c8f3a;
+  --darkgreen: #3f8f2f;
   --forestgreen: #4DAB74;
   --seagreen: #57BE97;
   --mintgreen: #AFF1B9;
@@ -31,29 +31,39 @@ Design guide link: https://www.notion.so/Website-Design-Guide-8b8c29e207ab476d95
 
 body {
   margin: 0;
-  font-family: 'Karla';
-  font-weight: bold;
-  font-size: 0.9vw;
 }
 
 /*font sizes*/
-/*Header Size (projects, our community,...) */
+/* Title of pages: see WallImage (about us, projects, etc.) */
 h1{
-  font-size: 8vh;
+  font-size: 60px;
 }
 
-h2 {
-  font-size: 4vh;
+/* Headers/Sections: see Header */
+h2, .h2 {
+  font-size: 36px !important;
   font-weight: bold;
 }
 
-h3 {
-  font-size: 2vh;
+/* Emphasized descriptions/smaller titles: see PageDescription */
+h3, .h3 {
+  font-size: 20px;
+  font-weight: bold;
 }
 
+b, .b {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Longer descriptions */
 p {
-  font-size: 2vh;
+  font-size: 16px;
   font-weight: 400;
+}
+
+.subtext {
+  font-size: 14px;
 }
 
 a, a:hover {
@@ -63,4 +73,26 @@ a, a:hover {
 
 strong {
   color: rgba(0, 0, 0, 0.84);
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 52px;
+  }
+
+  h2, .h2 {
+    font-size: 24px !important;
+  }
+
+  h3, .h3 {
+    font-size: 16px;
+  }
+
+  p, b, .b {
+    font-size: 14px;
+  }
+
+  .subtext {
+    font-size: 12px;
+  }
 }

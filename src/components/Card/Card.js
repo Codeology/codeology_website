@@ -11,40 +11,41 @@ class Card extends React.Component {
             <div className="cardSheet">
               {/* Card info  */}
                 <img className="cardImg" src={imgSrc} alt={name} />
-                      <div className="cardName">{name}</div>
-                        <p className="cardRole">{role}</p>
-                      </div>}
-
-                 position="top center">
+                <div className='cardNameContainer'>
+                  <b className="cardName">{name}</b>
+                  <b className="cardRole subtext">{role}</b>
+                </div>
+                      
+              </div>} 
+          position="top center">
 
             {/* Profile popup content */}
             <div className="profile-background">
-            <div className="profile-name first-name"> {name}</div>
-            <img className="profile-img" src={imgSrc} alt={name}/>
+              <div className='profile-main'>
+                <h2 className="profile-name first-name">{name}</h2>
+                <img className="profile-img" src={imgSrc} alt={name}/>
+              </div>
+            
 
               <p className="profile-text">
                 <span className="profile-category">Year:</span> {year} <br/>
                 <span className="profile-category">Role:</span> {role}<br/>
                 <span className="profile-category">Email:</span> {email}<br/>
                 <span className="profile-category">Tree:</span> {tree} <br/>
-                {leaf && 
-                  <div className="profile-text">
-                    <span className="profile-category">Leaf:</span> {leaf} <br/>
-                  </div>
-                }
+                {leaf && <><span className="profile-category">Leaf:</span> {leaf}<br/></>}
                 
                 {display_links &&
                 <div> 
                   <span className="profile-category">Links:</span>
-                  {linkedin && <a className="profile-link profile-linkedin" href={linkedin}>LinkedIn</a>}
-                  {resume && <a className="profile-link profile-resume" href={resume}>Resume</a>}
-                  {website && <a className="profile-link profile-website" href={website}>Website</a>}
+                  {linkedin && <a className="profile-link profile-linkedin" href={linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>}
+                  {resume && <a className="profile-link profile-resume" href={resume} target="_blank" rel="noopener noreferrer">Resume</a>}
+                  {website && <a className="profile-link profile-website" href={website} target="_blank" rel="noopener noreferrer">Website</a>}
                 </div>
               }
                 
                 <br/>
 
-                <div className="profile-text profile-blurb">{blurb} </div>
+                <p className="profile-blurb">{blurb} </p>
 
               </p>
             </div>

@@ -17,19 +17,26 @@
 }
 
 .side-drawer ul {
-    height: 50%;
     list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin-top: 10%;
 }
 
 .side-drawer a {
     text-decoration: none;
     color: var(--darkgrey);
-    font-size: 3vh;
+    font-size: 24px;
 }
 
 .side-drawer li {
-    margin: 1rem 0;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 767px) {
+    .side-drawer a {
+        font-size: 20px;
+    }
+
+    .side-drawer li {
+        margin-bottom: 24px;
+    }
 }

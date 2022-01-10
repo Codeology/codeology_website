@@ -17,9 +17,9 @@ function WallImage(props) {
                     >                        
                         <div className="img-container" ></div>
                     </Parallax>
-                    <img className='banner' src={props.image} alt='' />
+                    <img className='banner' src={props.image} alt={props.title} />
                 </div>
-                <div className="textOverlay-white">{props.title}</div>
+                <h1 className="textOverlay-white">{props.title}</h1>
         </div>
           
     )

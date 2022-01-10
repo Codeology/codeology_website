@@ -17,7 +17,7 @@ class ProjectShowcase extends React.Component {
                                 <img src={require("../../images/logos/github-icon.png" )} alt='github' />
                             </a>}
                         </div>
-                        <h4 className="project-subtext">{tech}</h4>
+                        <b className="project-subtext">{tech}</b>
                     </div>
                 </div>}
                 position="top center">
@@ -34,14 +34,14 @@ class ProjectShowcase extends React.Component {
                                     <img src={require("../../images/logos/github-icon.png" )} alt='github' />
                                 </a>}
                             </div>
-                            <h4 className="project-subtext">{tech}</h4>
+                            <b className="project-subtext">{tech}</b>
                         </div>
                     </div>
                     <div className='project-modal-div div-text'>
                         {leaders && 
-                            <p><h4 className="project-subtext">Leader(s):&nbsp;</h4>{leaders}</p>}
+                            <p><b className="project-subtext">Leader(s):&nbsp;</b>{leaders}</p>}
                         {developers && 
-                            <p><h4 className="project-subtext">Developers:&nbsp;</h4>{developers}</p>}
+                            <p><b className="project-subtext">Developers:&nbsp;</b>{developers}</p>}
                         <p>{description}</p>
                     </div>
                     
