@@ -2,7 +2,9 @@ import React from 'react';
 import '../ContactUs/contact.css';
 import './internal.css';
 import Login from './Login.jsx';
+import Logout from './Logout.jsx';
 import { ReactEmbeddedGoogleCalendar } from 'react-embedded-google-calendar';
+import emails from '../../constants/emails';
 
 
 export default class Internal extends React.Component {
@@ -11,9 +13,13 @@ export default class Internal extends React.Component {
         this.state = {
             authenticated: false,
             textVal: '',
+            name: ''
         }
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
+        this.onSuccess = this.onSuccess.bind(this);
+        this.onFailure = this.onFailure.bind(this);
+        this.onLogout = this.onLogout.bind(this);
     }
     
     handleChange(event) {
@@ -32,24 +38,54 @@ export default class Internal extends React.Component {
         if (newWindow) newWindow.opener = null
       }
 
+    onSuccess = (name, email) => {
+        if (!emails.includes(email)) alert('Invalid email :(');
+        else {
+            const firstName = name.split(' ')[0];
+            this.setState({
+                authenticated: true,
+                name: firstName
+            });
+        }
+    }
+
+    onFailure = (res) => {
+        alert(`Failed to login. Reason: ${res} 😢`);
+    }
+
+    onLogout = () => {
+        this.setState({
+            authenticated: false,
+            name: ''
+        })
+    }
+
+    getGreeting = () => {
+        const greetings = ['howdy', 'hello', 'welcome', 'hey', 'greetings'];
+        const index = Math.floor(Math.random() * greetings.length);
+        return `${greetings[index]} ${this.state.name} :D`;
+    }
+
     render() {
         var display =
+        <div className="contact internal-container">
+            <h1 className="contactTitle">internal member portal!</h1>
+                <div id="underline"></div>
             <div>
-                    <p>Sign in to access the internal portal. If you're an active Codeology member and 
-                        do not have the password, please message one of the officers! If you're a spy go away!!
-                    </p>
-                <form onSubmit={this.handleSubmit}>
-                    <label> Password:
-                        <input type="password" value={this.state.textVal} onChange={this.handleChange} />
-                    </label>
-                    <input type="submit" value="Submit" />
-                </form>          
-            </div>     
+                <p>Sign in to access the internal portal. If you're an active Codeology member and 
+                    verification isn't working, please message one of the officers! If you're a spy go away!!
+                </p>
+                <Login success={this.onSuccess} failure={this.onFailure} />  
+            </div>   
+        </div>  
                
         if (this.state.authenticated) {
             display = 
+            <div className="contact internal-container">
+                <h1 className="contactTitle">{this.getGreeting()}</h1>
+                <Logout success={this.onLogout} />
+                <div id="underline"></div>
                 <div>
-                    <Login />
                     <div className="portal">
                         <div  id="bottombox"  className="row internal-announcements">
                         <h2 className="mint-highlight">ANNOUNCEMENTS</h2>
@@ -59,12 +95,12 @@ export default class Internal extends React.Component {
                                     <li><a href="https://bit.ly/cody-education-oh">Education office hours link</a> to book with Cindy and Andrew!</li>
                                 </ul>
                         </div>
+                        <h2 className="mint-highlight">ATTENDANCE FORM</h2>
+                        <iframe class="airtable-embed" src="https://airtable.com/embed/shrR1qHh4LgImD7jg?backgroundColor=purple" frameborder="0" onmousewheel="" width="100%" height="533" style={{background: "transparent", border: "1px solid #ccc"}}></iframe>
                         <div className="calendar-div">
                             <h2 className="mint-highlight">CALENDAR</h2>
                             <ReactEmbeddedGoogleCalendar publicUrl ="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;ctz=America%2FLos_Angeles&amp;src=aW5mb0Bjb2Rlb2xvZ3kuY2x1Yg&amp;color=%230B8043&amp;title=Codeology%20Master%20Calendar&amp;showPrint=0" style="border:solid 1px #777" width="100%" height="600" frameborder="0" scrolling="no"/>
                         </div>
-                        <h2 className="mint-highlight">ATTENDANCE FORM</h2>
-                        <iframe class="airtable-embed" src="https://airtable.com/embed/shrR1qHh4LgImD7jg?backgroundColor=purple" frameborder="0" onmousewheel="" width="100%" height="533" style={{background: "transparent", border: "1px solid #ccc"}}></iframe>
                     </div>
                     <div id="avo">
                         <img src={require("./pictures/avo.png")} height="300px"/>
@@ -76,14 +112,8 @@ export default class Internal extends React.Component {
                         <a target={"_blank"} href="https://discord.com/invite/6nGfjhg"  className="stickylink">Discord Link</a>
                     </div>
                 </div>
-        }
-        return (
-            <div className="contact">
-                <h1 className="contactTitle">internal member portal!</h1>
-                <div id="underline"></div>
-                {display}
             </div>
-        );
-        
+        }
+        return (display);
     }
 }

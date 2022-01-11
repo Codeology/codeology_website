@@ -2,8 +2,10 @@ import React from 'react';
 
 import { GoogleLogin } from 'react-google-login';
 /* Source: https://github.com/Sivanesh-S/react-google-authentication/ */
+/* Article: https://dev.to/sivaneshs/add-google-login-to-your-react-apps-in-10-mins-4del */
+
 const clientId =
-  '483004997442-natsp47p4a7fb5h8c69h9bq9htqdg7r1.apps.googleusercontent.com';
+  '560041491884-um6j4jt2t6kvt4pdr6tqnksftkvrnq7i.apps.googleusercontent.com';
 
 const refreshTokenSetup = (res) => {
 // Timing to renew access token
@@ -23,20 +25,15 @@ const refreshToken = async () => {
 // Setup first refresh timer
 setTimeout(refreshToken, refreshTiming);
 };
-function Login() {
+
+function Login(props) {
   const onSuccess = (res) => {
-    console.log('Login Success: currentUser:', res.profileObj);
-    alert(
-      `Logged in successfully welcome ${res.profileObj.name} 😍. \n See console for full profile object.`
-    );
     refreshTokenSetup(res);
+    props.success(res.profileObj.name, res.profileObj.email);
   };
 
   const onFailure = (res) => {
-    console.log('Login failed: res:', res);
-    alert(
-      `Failed to login. 😢`
-    );
+    console.log('Login failed: ', res);
   };
 
   return (

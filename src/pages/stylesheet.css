@@ -34,6 +34,10 @@ body {
 }
 
 /*font sizes*/
+h1, h2, .h2, h3, .h3, b, .b {
+  font-weight: bold;
+}
+
 /* Title of pages: see WallImage (about us, projects, etc.) */
 h1{
   font-size: 60px;
@@ -48,11 +52,6 @@ h2, .h2 {
 /* Emphasized descriptions/smaller titles: see PageDescription */
 h3, .h3 {
   font-size: 20px;
-  font-weight: bold;
-}
-
-b, .b {
-  font-size: 16px;
   font-weight: bold;
 }
 
