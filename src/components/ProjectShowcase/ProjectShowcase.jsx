@@ -1,15 +1,40 @@
 import React from 'react';
 import './project-component.css';
 import Popup from "reactjs-popup";
+import Fade from 'react-reveal/Fade';
 
 class ProjectShowcase extends React.Component {
+    constructor() {
+        super();
+        /* loaded: true when image is loaded (gets rid of awkward image loading transition) */
+        this.state = {
+            loaded: false
+        }
+    }
+
+    /* makes sure that loaded is reset when next semester's image is about to display */
+    componentWillUpdate() {
+        if (this.state.loaded) this.setState({ loaded: false });
+    }
+
     render() {
        const {title, imageSrc, github, leaders, developers, description, tech} = this.props;
+
         return ( 
-            <Popup modal trigger={
+            <Fade>
+                 <Popup modal trigger={
                 <div className='project-container'>
                     <div className="project-div">
-                        <img className="project-img" src={require(`../../images/projects/${imageSrc}`)} alt={title} />
+
+                        {/* placeholder image for loading purposes :( this took so long for me to figure out argh */}
+                        <img className="project-img" onLoad={() => this.setState({ loaded: true})} style={{display: 'none'}} src={require(`../../images/projects/${imageSrc}`)} alt={title} />
+                        
+                        <div className='project-img-container'>
+                            {this.state.loaded ? 
+                            <Fade><img className="project-img" src={require(`../../images/projects/${imageSrc}`)} alt={title} /></Fade>
+                            : <Fade><div className='project-img-loader'></div></Fade>} 
+                        </div>
+                        
                         <div id='project-row'>
                             <h3 id="project-title">{title}</h3>
                             {github && 
@@ -47,6 +72,9 @@ class ProjectShowcase extends React.Component {
                     
                 </div>
             </Popup>
+
+            </Fade>
+               
         );
     }
 }

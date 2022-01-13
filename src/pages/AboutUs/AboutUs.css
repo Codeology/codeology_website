@@ -13,11 +13,11 @@
 
 /* ----- PROJECTS INTRO ----- */
 #about-us-intro {
-  width: 75vw;
+  width: 100vw;
   position: relative;
-  left: 50%;
-  transform: translateX(-50%);
   margin-bottom: 22.5vh;
+  padding: 0 12.5vw;
+
 }
 
 #about-us-blurb {

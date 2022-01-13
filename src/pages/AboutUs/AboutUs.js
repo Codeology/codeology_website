@@ -1,5 +1,6 @@
 import React from 'react';
 import './front.svg';
+import Fade from 'react-reveal/Fade';
 
 import Wall from '../../images/group/Wall.png';
 import PageDescription from '../../components/PageDescription/PageDescription.js';
@@ -25,9 +26,11 @@ function AboutUs() {
 
       <WallImage image={Wall} title={'about us'} />
 
-      <PageDescription text={description} />
+      <Fade><PageDescription text={description} /></Fade>
 
+      
       <div id='about-us-intro'>
+      <Fade>
         <Heading className='no-margin'>Find Your Fit</Heading>
         {/* would like to make this an img carousel/scroll display */}
         <div id='about-us-img-container'>
@@ -39,18 +42,19 @@ function AboutUs() {
           Whether coding is already your passion or you’ve yet to print your first “Hello World,” Codeology aims to provide a tight-knit community to support you in “finding your fit” in the world of tech.
           Through projects, professional development, industry events, and social events, we offer opportunities to help you explore different roles in the tech industry and develop technical expertise in your area of interest.
         </p>
+        </Fade>
       </div>
       
+      
+        <img id="RedHand" src={require('../../images/illustrations/arm/red arm.png')} alt='' />
+        <PictureSection title={"Executive Leadership"} people={leadership}/>
 
-      <img id="RedHand" src={require('../../images/illustrations/arm/red arm.png')} alt='' />
-      <PictureSection title={"Executive Leadership"} people={leadership}/>
+        <img id="PinkHand" src={require('../../images/illustrations/arm/pink arm.png')} alt='' />
+        <PictureSection title={"Project Leaders"} people={projectLeaders}/>
 
-      <img id="PinkHand" src={require('../../images/illustrations/arm/pink arm.png')} alt='' />
-	  <PictureSection title={"Project Leaders"} people={projectLeaders}/>
-
-	  <img id="GreenHand" src={require('../../images/illustrations/arm/green arm.png')} alt='' />
-	  <PictureSection title={"Active Members"} people={actives}/>
-		  
+        <img id="GreenHand" src={require('../../images/illustrations/arm/green arm.png')} alt='' />
+        <PictureSection title={"Active Members"} people={actives}/>
+      
     </div>
   );
 }

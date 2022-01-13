@@ -1,5 +1,5 @@
 #landing {
-    background-image: linear-gradient(#DCF4D4, #DCF4D4, white);
+    background: linear-gradient(#DCF4D4, #DCF4D4, white);
     width: 100vw;
     height: 92vh;
     display: flex;
@@ -8,7 +8,7 @@
 }
 
 #border-box {
-    margin-top: -8vh;
+    border: none; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,6 +40,7 @@
 
 /* lettering */
 #findYourFit {
+    width: 80vw;
     max-width: 600px;
     object-fit: contain;
     z-index: 3;
@@ -47,7 +48,7 @@
 }
 
 #landing-text {
-    margin-top: 20px;
+    margin-top: 40px;
     width: 50vw;
     color: var(--darkgreen);
     text-align: center;
@@ -149,6 +150,7 @@
 }
 
 @media screen and (max-width: 900px) {
+
     #hands {
         display: none;
     }
@@ -161,10 +163,6 @@
 }
 
 @media screen and (max-width: 600px) {
-    #findYourFit {
-        max-width: 80vw;
-    }
-
     #laptop {
         width: 320px;
     }
@@ -175,5 +173,13 @@
 
     #apply {
         font-size: 20px !important;
+    }
+
+    #landing {
+        margin-top: 0;
+    }
+
+    #border-box {
+        padding-top: 0;
     }
 }

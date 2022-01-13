@@ -1,5 +1,6 @@
 import React from 'react';
 import '../ContactUs/contact.css';
+import Fade from 'react-reveal/Fade';
 
 export default function Apply() {
     return (
@@ -8,6 +9,7 @@ export default function Apply() {
             <div className="contact">
                 <h1 className="contactTitle"> apply </h1>
                 <div id="underline"></div>
+                <Fade>
                 <div id="bottombox">  
                     <h2>Come back in Spring 2022!</h2>
                     <img src={require("../../images/group/group.png")} alt="groupPic" width="50%"/>
@@ -15,6 +17,7 @@ export default function Apply() {
                     semester to apply! In the meantime, follow us 
                     on <a href="https://www.facebook.com/berkeleycodeology/">Facebook</a> and <a href="https://www.instagram.com/berkeleycodeology/?hl=en">Instagram</a> for more updates.</p> 
                 </div>
+                </Fade>
             </div>
 
             <img src={require('../../images/illustrations/puzzle/puzzle.png')} alt='' id='contact-puzzle1' />

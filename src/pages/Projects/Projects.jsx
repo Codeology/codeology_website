@@ -1,6 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
+import Fade from 'react-reveal/Fade';
 
 import ProjectShowcase from '../../components/ProjectShowcase/ProjectShowcase.jsx';
 import ProjectInfo from '../../constants/ProjectInfo.jsx';
@@ -49,6 +50,7 @@ class Projects extends React.Component {
 
     render() {
        const currSemester = Object.keys(ProjectInfo)[this.state.clicked];
+
        const projects = ProjectInfo[currSemester].map(project => 
             <ProjectShowcase title={project.title}
                          imageSrc={project.imageSrc}
@@ -76,6 +78,7 @@ class Projects extends React.Component {
                     <img src={require("../../images/illustrations/people/person3.png")} id="littlepeep3" alt='' />
                     <img src={require("../../images/illustrations/people/person4.png")} id="littlepeep4" alt='' />
 
+                    <Fade>
                     <PageDescription text={description} />
                     <div id='projects-intro'>
                         <div className='projects-type'>
@@ -92,9 +95,11 @@ class Projects extends React.Component {
                                 </ScrollToTop> 
                                 &nbsp;and we would love to help out!</p>
                         </div>
+                        </div>
 
-                    </div>
+                    </Fade>
 
+                    <Fade>
                     <Heading>Structure</Heading>
 
                     <img src={require("../../images/info/structure.png")} className="project-structure"
@@ -102,24 +107,27 @@ class Projects extends React.Component {
                     <img src={require("../../images/info/timeline.png")} className="project-timeline"
                         alt='Project Timeline: Members are matched to groups. Research, workshops, design, etc. with your team. Midsemester showcase. Continue working on your project. Final Showcase!' />
 
-                    <Heading>Projects</Heading>
-                    <p id='projects-showcase-intro'>Our projects through the years, designed and developed by Codeology members. Check out our&nbsp;
-                        <a href='https://github.com/Codeology' target='_blank' rel="noopener noreferrer">GitHub!</a>
-                    </p>
+                    </Fade>
 
-                    {/* buttons */}
-                    <div className="button-row">
-                        <div onClick = {this.pressLeft} className='projects-button projects-button-left unselectable'></div>
-                        <h3>{currSemester}</h3>
-                        <div onClick = {this.pressRight} className='projects-button projects-button-right'></div>
+                    <Fade>
+                        <Heading>Projects</Heading>
+                        <p id='projects-showcase-intro'>Our projects through the years, designed and developed by Codeology members. Check out our&nbsp;
+                            <a href='https://github.com/Codeology' target='_blank' rel="noopener noreferrer">GitHub!</a>
+                        </p>
+
+                        {/* buttons */}
+                        <div className="button-row">
+                            <div onClick = {this.pressLeft} className='projects-button projects-button-left unselectable'></div>
+                            <h3>{currSemester}</h3>
+                            <div onClick = {this.pressRight} className='projects-button projects-button-right'></div>
+                        </div>
+
+                        {/* projects */}
+                        <div className="project-page-div">
+                            {projects}
+                        </div>
+                    </Fade>
                     </div>
-
-                    {/* projects */}
-                    <div className="project-page-div">
-                        {projects}
-                    </div>
-                </div>
-
             </div>
         );
     }

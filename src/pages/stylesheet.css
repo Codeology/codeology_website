@@ -33,6 +33,11 @@ body {
   margin: 0;
 }
 
+/* shared classes */
+.hidden {
+  display: none;
+}
+
 /*font sizes*/
 h1, h2, .h2, h3, .h3, b, .b {
   font-weight: bold;

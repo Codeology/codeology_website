@@ -1,223 +1,71 @@
 /* Portrait */
-@media screen and (max-width: 600px) {
-
-    #landing {
-        height: 96vh;
-        margin-top: -10vh;
-    }
-
-    #find-your-fit {
-        position: relative;
-        height: 56vw;
-    }
-
-    #apply-contact {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .home-button, .white-button {
+@media screen and (max-width: 900px) {
+    .home-button {
         font-size: 16px;
         padding: 1.5vh 2vw;
         margin: .75vh;
         border-radius: 25px;
     }
 
-    .white-button {
-        margin-top: 2vh;
-    }
-
     .home-button {
         margin-top: 4vh;
     }
 
-    #border-box {
-        margin-top: 0;
-        border: 4px solid white;
-        padding: 12vh 16vw;
-    }
-
-    .handRow {
-        width: 100vw;
-        overflow-x: hidden;
-    }
-
-    .handRow img {
-        height: 20vh;
-        margin: 16vh 18vw;
-    }
-
-    #about {
-        margin-top: 4vh;
-        margin-bottom: 0;
-    }
-
-    #about img {
-        height: auto;
-        width: 86vw;
-        margin-top: 4vh;
-        margin-left: 0;
+    .content {
+        margin-bottom: 6vh;
     }
 
     .section {
+        margin: 7.5vh 0;
+    }
+
+    .text-left {
         flex-direction: column;
-        margin: 1vh;
     }
 
-    .text {
-        width: 86vw;
-    }
-    
-    .text p {
-        margin-bottom: 4vh;
-    }
-
-    #project {
+    .text-right {
         flex-direction: column-reverse;
         justify-content: baseline;
     }
 
-    .carousel {
+    .text {
         width: 86vw;
+        text-align: left;
+    }
+
+    .section-img, .carousel, .carousel-cell img {
+        width: 50vw;
+        height: auto;
         margin-top: 4vh;
-        margin-right: 0;
     }
 
-    .carousel-cell {
-        width: 86vw;
-        height: auto;
-    }
-    
-    .carousel-cell img {
-        width: inherit;
-        height: auto;
+    .carousel, .carousel-cell img {
+        width: 40vw;
     }
 
-    .big img {
-        width: 96vw;
-        transform: rotate(152deg) translateY(-2vh);
-        margin-left: -20vw;
+    .big2 {
+        left: 50vw;
     }
-    
-    .small img {
-        display: none;
+
+    .text.projects {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .section-img, .carousel, .carousel-cell img {
+        width: 65vw;
     }
 
     .sitting img {
-        width: 32vw;
-        margin-left: 4vw;
-        transform: translateY(67vh);
+        width: 75px;
     }
 
-    .big2 img {
-        /* width: 96vw;
-        transform: rotate(-80deg) translateX(-84vh);
-        margin-left: 56vw; */
-        display: none;
+    .standing img, .standing2 img {
+        height: 75px;
     }
 
-    .standing img {
-        width: 28vw;
-        transform: translateY(152vh);
-        margin-left: 12vw;
-        /* display: none; */
-    }
-
-    .standing2 img {
-        width: 16vw;
-        transform: translateY(152vh) scaleX(-1);
-        margin-left: 70vw;
-        /* display: none; */
-    }
-
-    .person {
-        display: none;
-    }
-
-    #project {
-        margin-bottom: 12vh;
-    }
-
-    #project .text {
-        margin-top: 4vh;
-    }
-
-    .text.projects {
-        margin-left: 0;
-    }
-
-    /* .hand {
-        animation: none;
-    } */
-}
-
-/* Landscape */
-@media screen and (max-width: 900px) and (min-width: 600px) {
-
-    .home-button, .white-button {
-        font-size: 1rem;
-        padding: 2.5vh 2vw;
-    }
-
-    #find-your-fit {
-        height: 18vw;
-    }
-
-    .content {
-        line-height: inherit;
-    }
-
-    .text {
-        width: 80vw;
-    }
-
-    .section {
-        margin: auto;
-        flex-direction: column;
-        /* width: 80vw; */
-    }
-    
-    .text p {
-        margin-bottom: 4vh;
-    }
-
-    #about {
-        margin-top: 12vh;
-    }
-
-    #about img {
-        height: auto;
-        width: 64vw;
-        margin-top: 8vh;
-        margin-left: 0;
-    }
-
-    #project {
-        flex-direction: column-reverse;
-        justify-content: baseline;
-    }
-
-    .text.projects {
-        margin-left: 0;
-    }
-
-    .carousel {
-        width: 44vw;
-        margin-top: 20vh;
-        margin-right: 0;
-    }
-
-    .carousel-cell {
-        width: 44vw;
-        height: auto;
-    }
-    
-    .carousel-cell img {
-        width: inherit;
-        height: auto;
-    }
-
-    .person, .big2, .small {
-        display: none;
+    .puzzle img {
+        height: 50vh;
     }
 }

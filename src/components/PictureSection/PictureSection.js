@@ -4,7 +4,7 @@ import Heading from '../Heading/Heading.js';
 
 function PictureSection(props) {
     return (
-        	<div className="test">
+			<div>
         	    <Heading>{props.title}</Heading>
         		<CardRow people={props.people}/>
         	</div>

@@ -1,13 +1,15 @@
 import React from 'react';
 import Popup from "reactjs-popup";
 import './Card.css';
+import Fade from 'react-reveal/Fade';
 
 class Card extends React.Component {
     render() {
       const {name, role, linkedin, resume, website, imgSrc, year, email, tree, leaf, blurb} = this.props;
       var display_links = linkedin != null || resume != null || website != null;
         return (
-          <Popup modal trigger={
+          <Fade>
+            <Popup modal trigger={
             <div className="cardSheet">
               {/* Card info  */}
                 <img className="cardImg" src={imgSrc} alt={name} />
@@ -25,7 +27,6 @@ class Card extends React.Component {
                 <h2 className="profile-name first-name">{name}</h2>
                 <img className="profile-img" src={imgSrc} alt={name}/>
               </div>
-            
 
               <p className="profile-text">
                 <span className="profile-category">Year:</span> {year} <br/>
@@ -50,7 +51,7 @@ class Card extends React.Component {
               </p>
             </div>
           </Popup>
-
+          </Fade>
         );
     }
   }

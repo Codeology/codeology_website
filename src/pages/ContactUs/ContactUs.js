@@ -3,7 +3,7 @@ import './contact.css';
 import { Helmet } from 'react-helmet';
 import {Link} from 'react-router-dom';
 import PageDescription from '../../components/PageDescription/PageDescription';
-import Heading from '../../components/Heading/Heading';
+import Fade from 'react-reveal/Fade';
 
 export default function ContactUs() {
     const description = "Do you have questions or concerns for us? Fill out our form or email us at info@codeology.club, and we'll get back to you as soon as possible!";
@@ -14,11 +14,14 @@ export default function ContactUs() {
             <Helmet>
                 <title>Codeology | Contact</title>
             </Helmet>
+
+            
             <div className="contact">
                 <h1 className="contactTitle"> contact us </h1>
                 <div id="underline"></div>
             </div>
 
+            <Fade>
             <PageDescription text={description} />
                 
             <div id='contact-content'>
@@ -40,6 +43,8 @@ export default function ContactUs() {
                     </iframe>
                 </div>
             </div>
+
+            </Fade>
 
             <img src={require('../../images/illustrations/puzzle/puzzle.png')} alt='' id='contact-puzzle1' />
             <img src={require('../../images/illustrations/puzzle/puzzle2.png')} alt='' id='contact-puzzle2' />

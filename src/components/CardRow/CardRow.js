@@ -26,6 +26,7 @@ function CardRow(props) {
 
 						</Card> ))}
 				</div>
+				
 			</div>
 	)
 	

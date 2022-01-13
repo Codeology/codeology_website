@@ -18,6 +18,7 @@
   width: 20px;
 }
 
+
 .project-subtext {
   color: var(--grey);
   overflow-wrap: normal;
@@ -25,11 +26,20 @@
   margin: 0;
 }
 
-.project-img {
+.project-img-container {
+  position: relative;
+}
+
+.project-img, .project-img-loader {
   width: 15vw;
   height: 15vw;
   object-fit: cover;
   margin: 20px 0;
+}
+
+.project-img-loader {
+  z-index: 1;
+  background-color: white;
 }
 
 /* ------ UNCLICKED ------ */
@@ -116,7 +126,7 @@
     width: 35vw;
   }
 
-  .project-img {
+  .project-img, .project-img-loader {
     width: 35vw;
     height: 35vw;
   }

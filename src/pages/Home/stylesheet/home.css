@@ -21,16 +21,46 @@
     color: white;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    overflow: hidden;
+    margin: 0;
+}
 
 .section {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    width: 75vw;
     margin: 8vh;
 }
 
+.section-img-container {
+    position: relative; 
+}
+
+.text-left, .text-right {
+    margin-bottom: 12vh;
+}
+
+#about {
+    z-index: 3;
+}
+
+#project {
+    z-index: 2;
+}
+
+#community {
+    z-index: 1;
+}
+
 .text {
+    position: relative;
     width: 25vw;
     display: flex;
     flex-direction: column;
@@ -40,101 +70,99 @@
     margin-bottom: 4vh;
 }
 
-/* ============================ */
-/* Background Puzzle Pieces & People Images */
-/* ============================ */
-
-.person {
-    position: absolute;
-}
-
-
-.big img {
-    width: 46vw;
-    transform: rotate(152deg) translateY(12%);
-    margin-left: 14vw;
-    opacity: 0.6;
-}
-
-.small img {
-    width: 8vw;
-    opacity: 0.5;
-    margin-left: 76vw;
-    transform: rotate(90deg) translateX(-40%);
-}
-
-.sitting img {
-    width: 8vw;
-    margin-left: 54vw;
-    transform: translateY(38vh);
-}
-
-.big2 img {
-    width: 36vw;
-    transform: rotate(-80deg) translate(-40vh, 10vw);
-    margin-left: 44vw;
-    z-index: -2;
-    opacity: 0.6;
-}
-
-.big3 img {
-    width: 28vw;
-    transform: rotate(20deg) translate(0vw, 130vh);
-    margin-left: 44vw;
-    z-index: -3;
-    opacity: 0.6;
-}
-
-.standing img {
-    position: relative;
-    width: 7vw;
-    transform: translateY(100vh);
-    margin-left: 24vw;
-    z-index: 1;
-}
-
-.standing2 img {
-    position: relative;
-    width: 4vw;
-    transform: translateY(100vh) scaleX(-1);
-    margin-left: 42vw;
-    z-index: 1;
-}
-
-#about {
-    margin-bottom: 12vh;
-}
-
-#about img {
-    height: 46vh;
-    /* border-radius: 36px; */
-    margin-left: 10%;
-}
-
-.carousel {
-    width: 25vw;
-    /* margin-right: 8%; */
-}
-
-.carousel-cell {
-    width: 25vw;
-    /* margin-right: 10px; */
-}
-
-.carousel-cell img {
-    width: 25vw;
-    height: inherit;
-}
-
-#project {
-    margin-bottom: 24vh;
-}
-
 .text.projects {
     margin-left: 8vw;
 }
 
+/* ============================ */
+/* Images */
+/* ============================ */
+.section-img {
+    width: 30vw;
+    min-width: 350px;
+    border-radius: 25px;
+}
+
+.carousel {
+    width: 25vw;
+    min-width: 300px;
+    border-radius: 25px;
+}
+
+.carousel-cell img {
+    width: 25vw;
+    min-width: 300px;
+    border-radius: 25px;
+}
+/* ============================ */
+
+/* ============================ */
+/* Background Puzzle Pieces & People Illustrations */
+/* ============================ */
+
 .puzzle {
     position: absolute;
-    opacity: 0.5;
+    opacity: 0.6;
+    z-index: -5;
 }
+
+.puzzle img {
+    position: absolute;
+    opacity: 0.6;
+}
+
+.big img {
+    height: 75vh;
+    top: -10vh;
+    left: -7.5vw;
+    transform: rotate(152deg);
+}
+
+.big2 img {
+    height: 70vh;
+    transform: rotate(75deg);
+    top: -15vh;
+    left: -5vw;
+}
+
+.big3 img {
+    height: 66vh;
+    transform: rotate(200deg);
+    top: -15vh;
+    left: -7.5vw;
+}
+
+.person {
+    position: absolute;
+    z-index: 1;
+}
+
+.sitting {
+    position: absolute;
+    bottom: -10%;
+    left: -15%;
+}
+
+.sitting img {
+    width: 100px;
+    height: auto;
+}
+
+.standing {
+    position: absolute;
+    bottom: -10%;
+    left: 60%;
+}
+
+.standing2 {
+    position: absolute;
+    bottom: -10%;
+    left: 15%;
+}
+
+.standing img, .standing2 img {
+    width: auto;
+    height: 125px;
+}
+
+/* ============================ */
