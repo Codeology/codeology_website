@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.d961bf2a.chunk.css",
-    "main.js": "/static/js/main.2f13858a.chunk.js",
-    "main.js.map": "/static/js/main.2f13858a.chunk.js.map",
+    "main.css": "/static/css/main.8bdaef5d.chunk.css",
+    "main.js": "/static/js/main.69ce4bd6.chunk.js",
+    "main.js.map": "/static/js/main.69ce4bd6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.99911b0c.js",
     "runtime-main.js.map": "/static/js/runtime-main.99911b0c.js.map",
     "static/css/2.e279ab09.chunk.css": "/static/css/2.e279ab09.chunk.css",
-    "static/js/2.e64b6f16.chunk.js": "/static/js/2.e64b6f16.chunk.js",
-    "static/js/2.e64b6f16.chunk.js.map": "/static/js/2.e64b6f16.chunk.js.map",
+    "static/js/2.79d39596.chunk.js": "/static/js/2.79d39596.chunk.js",
+    "static/js/2.79d39596.chunk.js.map": "/static/js/2.79d39596.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5f7067101bd59b31c4e582acdafb1508.js": "/precache-manifest.5f7067101bd59b31c4e582acdafb1508.js",
+    "precache-manifest.916f34462d6f0799dcea94ae0226d34a.js": "/precache-manifest.916f34462d6f0799dcea94ae0226d34a.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.e279ab09.chunk.css.map": "/static/css/2.e279ab09.chunk.css.map",
-    "static/css/main.d961bf2a.chunk.css.map": "/static/css/main.d961bf2a.chunk.css.map",
-    "static/js/2.e64b6f16.chunk.js.LICENSE.txt": "/static/js/2.e64b6f16.chunk.js.LICENSE.txt",
+    "static/css/main.8bdaef5d.chunk.css.map": "/static/css/main.8bdaef5d.chunk.css.map",
+    "static/js/2.79d39596.chunk.js.LICENSE.txt": "/static/js/2.79d39596.chunk.js.LICENSE.txt",
     "static/media/BallingWithData.png": "/static/media/BallingWithData.aa00550a.png",
     "static/media/Gentrification_IG.png": "/static/media/Gentrification_IG.66c4eb97.png",
     "static/media/PredictingFilmSuccess.png": "/static/media/PredictingFilmSuccess.00558d6b.png",
@@ -78,6 +78,7 @@
     "static/media/ethan.jpg": "/static/media/ethan.3e35efbf.jpg",
     "static/media/findYourFit-temp.png": "/static/media/findYourFit-temp.5f55a55a.png",
     "static/media/flappy.png": "/static/media/flappy.a2db3e8b.png",
+    "static/media/glassesguy2.svg": "/static/media/glassesguy2.410b94ff.svg",
     "static/media/grace.jpg": "/static/media/grace.a55314b7.jpg",
     "static/media/green-blob-girl.png": "/static/media/green-blob-girl.dfae377b.png",
     "static/media/group.png": "/static/media/group.804f588d.png",
@@ -149,8 +150,8 @@
     "static/media/shannon.jpg": "/static/media/shannon.5d30cc95.jpg",
     "static/media/shares.png": "/static/media/shares.252d9dd9.png",
     "static/media/shaylan.jpg": "/static/media/shaylan.eadc72dc.jpg",
-    "static/media/sitting_person.png": "/static/media/sitting_person.3847482d.png",
     "static/media/skate_fa21.jpg": "/static/media/skate_fa21.e116803d.jpg",
+    "static/media/smallpeeps right.png": "/static/media/smallpeeps right.f459cab2.png",
     "static/media/sneh.jpg": "/static/media/sneh.d5f3b2c0.jpg",
     "static/media/space.png": "/static/media/space.89201988.png",
     "static/media/spotify.png": "/static/media/spotify.57d6cf73.png",
@@ -183,8 +184,8 @@
   "entrypoints": [
     "static/js/runtime-main.99911b0c.js",
     "static/css/2.e279ab09.chunk.css",
-    "static/js/2.e64b6f16.chunk.js",
-    "static/css/main.d961bf2a.chunk.css",
-    "static/js/main.2f13858a.chunk.js"
+    "static/js/2.79d39596.chunk.js",
+    "static/css/main.8bdaef5d.chunk.css",
+    "static/js/main.69ce4bd6.chunk.js"
   ]
 }
