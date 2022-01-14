@@ -67,7 +67,7 @@ export default function Home() {
                         <div className='section-img-container'>
                             <img className='section-img' src={require("../../images/group/group_fa21.jpg")} alt='About' />
                             <div className="sitting person">
-                                <img src={require("../../images/illustrations/people/sitting_person.png")} alt='' />
+                                <img src={require("../../images/illustrations/people/smallpeeps right.png")} alt='' />
                             </div>
                         </div> 
                     </div>

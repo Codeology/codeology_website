@@ -53,7 +53,7 @@ class HomeRouter extends Component {
                     {backdrop} */}
 
                     <Navbar drawerClickHandler={this.drawerToggleClickHandler}/>
-                    <SideDrawer show={this.state.sideDrawerOpen}/>
+                    <SideDrawer show={this.state.sideDrawerOpen} close={this.drawerToggleClickHandler} />
                     {backdrop}
                     {/* Everything in Switch handles routing */}
                     <Switch>

@@ -146,6 +146,7 @@
 .sitting img {
     width: 100px;
     height: auto;
+    transform: scaleX(-1);
 }
 
 .standing {

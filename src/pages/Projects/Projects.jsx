@@ -59,7 +59,8 @@ class Projects extends React.Component {
                          leaders={project.leaders}
                          developers={project.developers}
                          tech={project.technologies}
-                         time={currSemester} />
+                         time={currSemester}
+                         key={project.title} />
        );
        const description = `Every semester, we introduce a diverse set of projects for our members to develop their skills in their area of interest. No matter your level of experience, there’s something here for everyone.`
 
@@ -74,10 +75,6 @@ class Projects extends React.Component {
                 <WallImage image={Wall} title={'projects'} />
 
                 <div className="project-body">
-                    { /* little peeps */}
-                    <img src={require("../../images/illustrations/people/person3.png")} id="littlepeep3" alt='' />
-                    <img src={require("../../images/illustrations/people/person4.png")} id="littlepeep4" alt='' />
-
                     <Fade>
                     <PageDescription text={description} />
                     <div id='projects-intro'>
@@ -100,7 +97,11 @@ class Projects extends React.Component {
                     </Fade>
 
                     <Fade>
-                    <Heading>Structure</Heading>
+                    <div className='heading-container'>
+                        <Heading>Structure</Heading>
+                        <img src={require("../../images/illustrations/people/person3.png")} id="littlepeep3" alt='' />
+                    </div>
+                    
 
                     <img src={require("../../images/info/structure.png")} className="project-structure"
                         alt='Project Manager: oversees all project teams. Project Leader: creates project ideas and leads team of developers. Project developer: work with your team to create a cool project!' />
@@ -110,7 +111,12 @@ class Projects extends React.Component {
                     </Fade>
 
                     <Fade>
-                        <Heading>Projects</Heading>
+                        <div className='heading-container'>
+                            <Heading>Projects</Heading>
+                            <img src={require("../../images/illustrations/people/glassesguy2.svg")} id="littlepeep4" alt='' />
+
+                        </div>
+                        
                         <p id='projects-showcase-intro'>Our projects through the years, designed and developed by Codeology members. Check out our&nbsp;
                             <a href='https://github.com/Codeology' target='_blank' rel="noopener noreferrer">GitHub!</a>
                         </p>

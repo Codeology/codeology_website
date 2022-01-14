@@ -9,23 +9,29 @@ const SideDrawer = props => {
         drawerClasses = 'side-drawer open';
     }
 
+    const close = () => {
+      const drawer = document.querySelector('.side-drawer');
+      drawer.classList.remove('open');
+      props.close();
+    }
+
   return (
     <nav className={drawerClasses}>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/" onClick={close}>Home</Link>
         </li>
         <li>
-          <Link to="/about">About Us</Link>
+          <Link to="/about" onClick={close}>About Us</Link>
         </li>
         <li>
-          <Link to="/projects">Projects</Link>
+          <Link to="/projects" onClick={close}>Projects</Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="/contact" onClick={close}>Contact</Link>
         </li>
         <li>
-          <Link to="/apply">Apply</Link>
+          <Link to="/apply" onClick={close}>Apply</Link>
         </li>
       </ul>
     </nav>

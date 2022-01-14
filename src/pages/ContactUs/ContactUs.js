@@ -37,8 +37,8 @@ export default function ContactUs() {
                     </div>
                 </div>
                 <div id='contact-form-section'>
-                    <iframe class="airtable-embed" src="https://airtable.com/embed/shr9tSZ94lFW31So8?backgroundColor=tealLight"
-                            frameborder="0" width="100%" height="533" title='Codeology Contact Form'
+                    <iframe className="airtable-embed" src="https://airtable.com/embed/shr9tSZ94lFW31So8?backgroundColor=tealLight"
+                            frameBorder="0" width="100%" height="533" title='Codeology Contact Form'
                             style={{background: 'transparent', border: '1px solid #ccc'}} >
                     </iframe>
                 </div>

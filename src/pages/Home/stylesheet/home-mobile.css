@@ -58,7 +58,7 @@
     }
 
     .sitting img {
-        width: 75px;
+        display: none;
     }
 
     .standing img, .standing2 img {

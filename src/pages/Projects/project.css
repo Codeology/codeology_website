@@ -70,14 +70,19 @@
 #littlepeep3 {
     height: 140px;
     position: absolute;
-    right: 9%;
-    top: 200vh;
+    top: 0;
+    right: 0;
 }
 #littlepeep4 {
     height: 170px;
     position: absolute;
-    left: 9%;
-    top: 150vh;
+    top: 0;
+    left: 0;
+    transform: scaleX(-1);
+}
+
+.heading-container {
+    position: relative;
 }
 
 .project-page-div {

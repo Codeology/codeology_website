@@ -89,7 +89,7 @@
     width: 20vw;
   }
 
-  .project-img {
+  .project-img, .project-img-loader {
     width: 20vw;
     height: 20vw;
   }
