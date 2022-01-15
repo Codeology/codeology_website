@@ -57,7 +57,7 @@
         width: 65vw;
     }
 
-    .sitting img {
+    .sitting img, .standing3 img {
         display: none;
     }
 

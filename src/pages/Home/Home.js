@@ -117,6 +117,9 @@ export default function Home() {
                         </div>
                         <div className='section-img-container'>
                             <img className='section-img' src={require("../../images/group/skate_fa21.jpg")} alt='Community' />
+                            <div className="standing3 person">
+                                <img src={require("../../images/illustrations/people/smallpeeps left.png")} alt='' />
+                            </div>
                         </div>
                     </div>
                 </Fade>

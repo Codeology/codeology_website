@@ -161,7 +161,14 @@
     left: 15%;
 }
 
-.standing img, .standing2 img {
+.standing3 {
+    position: absolute;
+    bottom: 0;
+    right: -25%;
+    transform: scaleX(-1);
+}
+
+.standing img, .standing2 img, .standing3 img {
     width: auto;
     height: 125px;
 }

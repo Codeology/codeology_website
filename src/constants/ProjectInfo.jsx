@@ -14,7 +14,8 @@ const ProjectInfo = {
         developers: 'Ashley Chang, Ernest Goh, Maya Zheng, Ramya Chitturi, Euhan Kim',
         description: "Traumatized by Flappy Bird and want revenge or just interested in game development/AI? Through this project, you’ll learn how to build games and simulations in Python, as well as how to train your computer to play them. We’ll start by developing Flappy Bird and implementing the NEAT genetic algorithm together. Then, you’ll have the chance tackle a game or problem of your own!",
         technologies: "Python (NEAT)",
-        imageSrc: "flappy.png"
+        imageSrc: "flappy.png",
+        github: "https://github.com/Codeology/flappy"
        },
        {
         title: "Build-A-Bear",

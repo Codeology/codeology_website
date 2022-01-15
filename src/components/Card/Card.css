@@ -12,31 +12,93 @@
   flex-direction: column;
 }
 
+.cardImg {
+  width: 185px;
+  height: 230px;
+  object-fit: cover;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-bottom: 1vw;
+  border-radius: 2vw;
+}
+
+.cardName {
+  margin-top: 5px;
+}
+
+.cardRole {
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-bottom: 2vw;
+  color: var(--gold);
+}
+
 /* profile popup */
+.profile-background {
+  max-height: 95vh;
+  padding: 50px;
+  background-color: white;
+  overflow: scroll;
+  border-radius: 30px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: relative;
+}
+
+.profile-main {
+  text-align: center;
+  margin-bottom: 15px;
+
+}
 
 .profile-name {
   background-color: var(--yellowish);
-  text-align: center;
+  top: 0;
+}
+
+.profile-role {
+  color: var(--gold);
+  margin-top: 15px;
+}
+
+.profile-img {
+  width: 225px;
+  height: 225px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin: 20px 0;
+}
+
+.profile-link-container {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.profile-link img {
+  width: 30px;
+}
+
+.profile-link img:hover {
+  filter: brightness(90%);
+  transition: 0.2s;
+}
+
+.profile-text {
+  text-align: left;
+  width: 100%;
 }
 
 .profile-category {
   font-weight: bold !important;
-}
-
-.profile-linkedin {
-  background-color: pink;
-}
-
-.profile-resume {
-  background-color: #C4EAEF;
-}
-
-.profile-website {
-  background-color: #C4CBEF;
-}
-
-.profile-blurb {
-  margin-top: 5px;
 }
 
 /* misc */
@@ -44,139 +106,39 @@
   background: rgba(0, 0, 0, 0.5);
 }
 
-/* Desktop View */
-@media only screen and (min-width: 901px) {
-    .cardImg {
-        width: 200px;
-        height: 250px;
-        object-fit: cover;
-        margin-left: 2vw;
-        margin-right: 2vw;
-        margin-bottom: 1vw;
-        border-radius: 2vw;
-    }
+/* Styling for mobile view */
+@media only screen and (max-width: 767px) {
+  .profile-background {
+    width: 80vw;
+    max-height: 80vh;
+  }
 
-    .cardName {
-        margin-top: 5px;
-    }
-
-    .cardRole {
-        margin-left: 2vw;
-        margin-right: 2vw;
-        margin-bottom: 2vw;
-        color: var(--gold);
-    }
-
-    .profile-background {
-      padding: 30px 50px 30px 50px;
-      background-color: white;
-      max-height: 90vh;
-      overflow: scroll;
-      border-radius: 40px;
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      flex-direction: row;
-
-      position: fixed;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-    }
-
-    .profile-text {
-      margin-left: 20px;
-      text-align: left;
-      width: 55%;
-      min-width: 300px;
-      height: 100%;
-      overflow: scroll;
-    }
-
-    .profile-img {
-      width: 250px;
-      height: 250px;
-      object-fit: cover;
-      margin-bottom: 20px;
-      margin-top: 20px;
-      border-radius: 20px;
-    }
-
-    .profile-link {
-      margin-left: 10px;
-      margin-right: 1px;
-      padding: 5px 10px 5px 10px;
-      font-weight: 500;
-      border-radius: 15px;
-      color:black;
-    }
+  .cardImg {
+    width: 150px;
+    height: 200px;
+  }
 }
 
-/* Styling for mobile view */
-@media only screen and (max-width: 900px) {
-    .cardSheet {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+@media only screen and (max-width: 400px) {
+  .cardImg {
+    width: 115px;
+    height: 145px;
+  }
 
-    .cardImg {
-        border-radius: 16px;
-        margin-left: 2vw;
-        margin-right: 2vw;
-        margin-bottom: 1vw;
-        width: 150px;
-        height: 200px;
-        object-fit: cover;
-    }
+  .cardRole {
+    margin-bottom: 15px;
+  }
 
-    .cardName {
-        margin-top: .75vw;
-    }
+  .profile-img {
+    width: 140px;
+    height: 140px;
+  }
 
-    .cardRole {
-        margin-bottom: 4vw;
-        color: var(--gold);
-    }
+  .profile-link-container {
+    width: 120px;
+  }
 
-    .profile-background {
-      padding: 20px;
-      background-color: white;
-      width: 82vw;
-      max-height: 90vh;
-      overflow: scroll;
-      border-radius: 40px;
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-
-      position: fixed;
-      left: 50%;
-      top:50%;
-      transform: translate(-50%, -50%);
-    }
-
-    .profile-text {
-      text-align: left;
-      width: 60vw;
-    }
-
-    .profile-img {
-      width: 200px;
-      height: 200px;
-      object-fit: cover;
-      margin-bottom: 20px;
-      margin-top: 20px;
-      border-radius: 20px;
-    }
-
-    .profile-link {
-      margin-left: 10px;
-      margin-right: 1px;
-      padding: 5px 10px 5px 10px;
-      font-weight: 500;
-      border-radius: 15px;
-      color:black;
-
-    }
+  .profile-link img {
+    width: 20px;
+  }
 }
