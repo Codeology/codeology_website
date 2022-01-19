@@ -38,7 +38,7 @@ export default function Apply() {
                                     <div className='event-list-item'>
                                         <b>Virtual Tabling</b>
                                         <ul>
-                                            <li><a href='tinyurl.com/codyDiscordSp22' target='_blank' rel="noopener noreferrer">Discord Link</a></li>
+                                            <li><a href='https://tinyurl.com/codyDiscordSp22' target='_blank' rel="noopener noreferrer">Discord Link</a></li>
                                             <li>Week 1 (1/19 - 1/21): 3 - 5 pm, 7 - 9 pm PST</li>
                                             <li>Week 2 (1/24 - 1/28): TBA</li>
                                         </ul>
@@ -46,7 +46,7 @@ export default function Apply() {
                                     <div className='event-list-item'>
                                         <b>Coffee Chats</b>
                                         <ul>
-                                            <li><a href='tinyurl.com/codyCoffeeSp22' target='_blank' rel="noopener noreferrer">Sign Up Link</a></li>
+                                            <li><a href='https://tinyurl.com/codyCoffeeSp22' target='_blank' rel="noopener noreferrer">Sign Up Link</a></li>
                                         </ul>
                                     </div>
                                 </div>
