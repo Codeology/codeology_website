@@ -31,10 +31,25 @@ export default function Apply() {
                             <b className='event-date'>1/19 - 1/28</b>
                             <div className='event-description'>
                                 <h3>Virtual Tabling + Coffee Chats</h3>
-                                <p>We will be hosting virtual tabling on Discord! Drop in any time to speak with a member about Codeology.
-                                   If you prefer speaking 1-on-1 or don't use Discord, sign up for a coffee chat! Stay tuned for more details
-                                   coming soon (including relevant links).
+                                <p>We will be hosting virtual tabling on Discord! Drop in any time during the time window to speak with a member about Codeology.
+                                   If you prefer speaking 1-on-1 or don't use Discord, sign up for a coffee chat instead! 
                                 </p>
+                                <div className='event-list'>
+                                    <div className='event-list-item'>
+                                        <b>Virtual Tabling</b>
+                                        <ul>
+                                            <li><a href='tinyurl.com/codyDiscordSp22' target='_blank' rel="noopener noreferrer">Discord Link</a></li>
+                                            <li>Week 1 (1/19 - 1/21): 3 - 5 pm, 7 - 9 pm PST</li>
+                                            <li>Week 2 (1/24 - 1/28): TBA</li>
+                                        </ul>
+                                    </div>
+                                    <div className='event-list-item'>
+                                        <b>Coffee Chats</b>
+                                        <ul>
+                                            <li><a href='tinyurl.com/codyCoffeeSp22' target='_blank' rel="noopener noreferrer">Sign Up Link</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -45,19 +60,19 @@ export default function Apply() {
                                 <p>Come to our infosessions to speak with our officers and ask any questions you may have! 
                                     We’ll be introducing our projects for this semester and talking about what it’s like to be in Codeology.
                                 </p>
-                                <div id='infosessions'>
-                                    <div>
+                                <div className='event-list'>
+                                    <div className='event-list-item'>
                                         <b>Infosession #1: 1/25, 8 - 9:30 pm PST</b>
                                         <ul>
                                             <li>Hybrid</li>
-                                            <li>Location: VLSB 2060 / <a href='/' className='unclickable-link'>Zoom Link</a></li>
+                                            <li>Location: VLSB 2060 / <a href='https://berkeley.zoom.us/my/danieltseng1529' target='_blank' rel="noopener noreferrer">Zoom Link</a></li>
                                         </ul>
                                     </div>
-                                    <div>
+                                    <div className='event-list-item'>
                                         <b>Infosession #2: 1/27, 8 - 9:30 pm PST</b>
                                         <ul>
                                             <li>Online</li>
-                                            <li>Location: <a href='/' className='unclickable-link'>Zoom Link</a></li>
+                                            <li>Location: <a href='https://berkeley.zoom.us/my/danieltseng1529' target='_blank' rel="noopener noreferrer">Zoom Link</a></li>
                                         </ul>
                                     </div>
                                 </div>

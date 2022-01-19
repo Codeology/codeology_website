@@ -23,13 +23,13 @@
 }
 
 .cardName {
-  margin-top: 5px;
+  margin-top: 2.5px;
 }
 
 .cardRole {
   margin-left: 2vw;
   margin-right: 2vw;
-  margin-bottom: 2vw;
+  margin-bottom: 25px;
   color: var(--gold);
 }
 
