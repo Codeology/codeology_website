@@ -66,6 +66,7 @@ export default function Apply() {
                                         <ul>
                                             <li>Hybrid</li>
                                             <li>Location: VLSB 2060 / <a href='https://berkeley.zoom.us/my/danieltseng1529' target='_blank' rel="noopener noreferrer">Zoom Link</a></li>
+                                            <li><a href='https://fb.me/e/2YPPPtn8h' target='_blank' rel="noopener noreferrer">Facebook RSVP</a></li>
                                         </ul>
                                     </div>
                                     <div className='event-list-item'>
@@ -73,6 +74,7 @@ export default function Apply() {
                                         <ul>
                                             <li>Online</li>
                                             <li>Location: <a href='https://berkeley.zoom.us/my/danieltseng1529' target='_blank' rel="noopener noreferrer">Zoom Link</a></li>
+                                            <li><a href='https://fb.me/e/1nq5RIAcQ' target='_blank' rel="noopener noreferrer">Facebook RSVP</a></li>
                                         </ul>
                                     </div>
                                 </div>
