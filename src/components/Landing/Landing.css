@@ -53,6 +53,7 @@
     color: var(--darkgreen);
     text-align: center;
     position: relative;
+    line-height: 1.5;
 }
 
 #apply-contact {
@@ -150,9 +151,12 @@
 }
 
 @media screen and (max-width: 900px) {
-
     #hands {
         display: none;
+    }
+
+    #landing-text {
+        width: 75vw;
     }
 }
 

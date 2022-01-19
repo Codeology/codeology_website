@@ -69,7 +69,7 @@ class HomeRouter extends Component {
                         <ContactUs />
                       </Route>
                       
-                      <Route path="/internal-member-portal">
+                      <Route path="/internal">
                         <Internal />
                       </Route>
 

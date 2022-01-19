@@ -83,6 +83,13 @@
   }
 
   .footer-col {
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+  }
+
+  .Footer img {
+    margin-right: 0;
   }
 }

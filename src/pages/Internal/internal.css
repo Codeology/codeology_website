@@ -1,115 +1,139 @@
 .internal-container {
-    min-height: 40vh;
-    padding: 0 5vw 5vh 5vw;
+    min-height: 100vh;
+    padding-left: 10vw;
 }
 
-#avo {
-    position: fixed;
-    left: 0;
-    top: 10vh;
-    display: flex;
-    flex-direction: column;
-    max-width: 18vw;
-    max-height: auto;
+.internal-content {
+    margin-top: 7.5vh;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
 }
 
-.portal {
-    margin-left: 18vw;
-    margin-right: 18vw;
+#tab-container, #links-container, #announcements {
+    margin: 50px 20vw;
 }
 
-.stickylink {
-    color: black;
-    background-color: var(--mintgreen);
-    transition: 0.2s;
-    border-radius: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.stickylink:hover {
-    color: black;
-    text-decoration: none;
-    background-color: var(--lmintgreen);
-  }
-
-#internal-announcements {
-    padding-right: 40px;
-    margin-right: 10px;
-}
-
-.important-links {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    max-width: 35%;
-}
-
-.important-link {
-    color: var(--forestgreen);
-}
-
-.important-link:hover {
-    color: var(--darkgrey);
-    text-decoration: none;
-}
-
-.calendar-div {
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-}
-
-.mint-highlight {
-    max-width: 30vw;
+/* ===================== */
+/*        HEADER         */
+/* ===================== */
+#internal-header {
+    position: relative;
     text-align: center;
-    margin-top: 2vh;
-    margin-left: auto;
-    margin-right:auto;
-    margin-bottom: 2vh;
-    background-color: var(--lmintgreen);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 75px !important;
 }
 
+.avobooty {
+    height: 175px;
+    width: auto;
+    transform: scaleX(-1);
+}
 
-@media screen and (max-width: 900px) {
-    #avo img{
-        display: none;
+/* ===================== */
+
+/* ===================== */
+/*         LINKS         */
+/* ===================== */
+#links-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#internal-subtitle {
+    color: var(--grey);
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+#quick-links {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#quick-links a {
+    color: var(--darkgrey);
+    box-shadow: 0px 0px 10px #e9e9e9;
+    padding: 15px;
+    margin: 5px;
+    border-left: 10px solid var(--forestgreen);
+    border-radius: 5px;
+}
+
+#quick-links a:hover {
+    text-decoration: none;
+    transform: translateX(2px);
+    transition: 0.2s;
+}
+/* ===================== */
+
+/* ===================== */
+/*     ANNOUNCEMENTS     */
+/* ===================== */
+#announcements {
+    padding: 50px 0;
+    background-color: var(--lmintgreen);
+    text-align: left;
+    border-radius: 15px;
+}
+
+#announcements h2 {
+    margin-bottom: 20px;
+    padding: 5px 20px 5px 15%;
+    width: fit-content;
+    background-color: var(--forestgreen);
+    color: white;
+}
+
+.announcements-text {
+    width: 80%;
+    margin: 0 10%;
+}
+/* ===================== */
+
+/* ===================== */
+/*         TABS          */
+/* ===================== */
+.form-desc {
+    margin-bottom: 30px;
+}
+
+/* ===================== */
+
+@media (max-width: 767px) {
+    #internal-header h1 {
+        font-size: 40px;
     }
 
-    #avo {
-        padding-top: 10vh;
-        flex-direction: row;
+    #internal-header {
+        margin-top: 0 !important;
+        margin-bottom: 15px;
+        
     }
 
-    .stickylink {
-        color: black;
-        background-color: var(--mintgreen);
-        transition: 0.2s;
-        font-size: 12px;
-        min-width: 20vw;
-        border-radius: 20px;
-        margin-left: 5px;
-        margin-right: 5px;
-        padding-left: 5px;
-        padding-right: 5px;
-        margin-top: 10px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+    .avobooty {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 50px;
     }
 
-    .mint-highlight{
-        padding-left: 0px;
-        margin-left: 0px;
+    #tab-container, #links-container, #announcements {
+        margin: 50px 10vw;
     }
 
-    .bottombox {
-        padding-left: 0vw;
-        margin-left: 0vw;
+    #links-container {
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
-  }
+
+    #announcements h2 {
+        padding-left: 5%;
+    }
+
+}
   

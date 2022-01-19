@@ -49,8 +49,8 @@ class Card extends React.Component {
             {/* Card info  */}
               <img className="cardImg" src={imgSrc} alt={name} />
               <div className='cardNameContainer'>
-                <b className="cardName">{name}</b>
-                <b className="cardRole subtext">{role}</b>
+                <b className="cardName midtext">{name}</b>
+                <b className="cardRole">{role}</b>
               </div>
                     
             </div>} 

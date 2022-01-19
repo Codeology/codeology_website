@@ -12,7 +12,7 @@ function ProjectShowcase(props) {
     useEffect(() => {
         if (currProject !== title && loaded) setLoaded(false);
         if (currProject !== title) setCurrProject(title);
-    });
+    }, [currProject, title, loaded]);
 
     return ( 
         <Fade>

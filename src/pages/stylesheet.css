@@ -34,8 +34,13 @@ body {
 }
 
 /* shared classes */
-.hidden {
+.hidden, .col {
   display: none;
+}
+
+/* .row shows only on desktop view; .col shows on mobile */
+.row {
+  display: block;
 }
 
 /*font sizes*/
@@ -60,14 +65,14 @@ h3, .h3 {
   font-weight: bold;
 }
 
-/* Longer descriptions */
-p {
-  font-size: 16px;
-  font-weight: 400;
+.midtext {
+  font-size: 18px;
 }
 
-.subtext {
-  font-size: 14px;
+/* Longer descriptions */
+p, li, em {
+  font-size: 16px;
+  font-weight: 400;
 }
 
 a, a:hover {
@@ -85,18 +90,26 @@ strong {
   }
 
   h2, .h2 {
-    font-size: 24px !important;
+    font-size: 28px !important;
   }
 
   h3, .h3 {
+    font-size: 18px;
+  }
+
+  .midtext {
     font-size: 16px;
   }
 
-  p, b, .b {
-    font-size: 14px;
+  p, b, .b, li, em {
+    font-size: 15px;
   }
 
-  .subtext {
-    font-size: 12px;
+  .col {
+    display: block;
+  }
+  
+  .row {
+    display: none;
   }
 }

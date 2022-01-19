@@ -30,6 +30,7 @@ function Footer() {
             <div id='footer-links'>
                 <div className='footer-links-col'>
                     <b>GENERAL</b>
+                    <ScrollToTop><Link to='/'>Home</Link></ScrollToTop>
                     <ScrollToTop><Link to='/about'>About</Link></ScrollToTop>
                     <ScrollToTop><Link to='/projects'>Projects</Link></ScrollToTop>
                     <ScrollToTop><Link to='/apply'>Apply</Link></ScrollToTop>
