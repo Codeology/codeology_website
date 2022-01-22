@@ -12,8 +12,7 @@ export default function Home() {
     const [imagesLoaded, setLoaded] = useState(false);
 
     const createProjectCarousel = () => {
-        const projects = ['flappy', 'classifai', 'bearyHungry', 'buildABear', 'shares', 'spotify',
-                          'bounc', 'zen'];
+        const projects = ['vendingmachine_square', 'bearwear', 'spotifai', 'shoptimum', 'calmemaybe', 'codythereum'];
         return ( 
             <Carousel wrap={true} touch={true}>
             {projects.map(project => {

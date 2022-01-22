@@ -21,7 +21,7 @@ function LoggedOn(props) {
         'Notion': "https://www.notion.so/calcodeology/Codeology-Notion-4d0c00b95f734f7889e2b374dcf4aad3",
         'Project Descriptions': 'https://www.notion.so/calcodeology/Project-Descriptions-be58334df4e742dcb24ad0abf7f50290',
     }
-    const greetings = ['howdy', 'hello', 'welcome', 'hey', 'greetings'];
+    const greetings = ['howdy', 'hello', 'welcome', 'hey', 'greetings', 'hi'];
     
     function handleSwitch(e, value) {
         setValue(value);

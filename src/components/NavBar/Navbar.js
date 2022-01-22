@@ -6,7 +6,8 @@ import { Link } from "react-router-dom";
 const Navbar = props => (
     <div className="topnav">
         <Link to="/" id="nav-logo">
-            <img id="logo" src={require('../../images/logos/codeology_text.png')} alt='Codeology' />
+            <img id="logo" className='row' src={require('../../images/logos/codeology_text.png')} alt='Codeology' />
+            <img id="logo-square" className='col' src={require('../../images/logos/codeology.png')} alt='Codeology' />
         </Link>
         <div className="toggleDiv">
             <Hamburger click={props.drawerClickHandler}/>

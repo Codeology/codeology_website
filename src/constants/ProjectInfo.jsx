@@ -1,43 +1,41 @@
 const ProjectInfo = {
-  /*
   "Spring 2022": [
     {
       title: "BearWear",
       leaders: "Rachel Xin, Chanbin Park",
-      description: "Can’t organize your closet because you have too many clothes? In this project, you will create your very own digital closet web application, where users can upload pictures of different clothing items and easily manage them online. Users of this application will be able to sign up, log in, add and delete pictures of their clothing, and scroll through their clothes sorted by category. First, we will implement a simple version of our app using plain HTML, CSS, and Javascript. Then, we will upgrade our app and implement more complex features using React.js and TailwindCSS. Finally, we will incorporate Firebase to handle user authentication and data storage. If you are interested in web development and want to learn about full-stack development through a fun project, this is for you!",
+      description: "In this project, you will create your very own digital closet web application, where users can sign up/in, upload pictures of different clothing items, and easily manage them online. You will learn the basics of full-stack development: front-end (design a website, routing) and backend (authentication, database). First, we will implement a simple version of our app using plain HTML, CSS, and Javascript. Then, we upgrade our app and complete our application using React.js, TailwindCSS, and Firebase.",
       technologies: "HTML, CSS, JavaScript, React, Firebase",
-      imageSrc: "classifai.png"
+      imageSrc: "bearwear.png"
     },
     {
       title: "SpotifAI",
       leaders: "Pradeep Muthaiya, Sady Behera",
-      description: "In this project, you will utilize Spotify’s API to create a custom playlist. You will use the user's music preferences to curate this playlist. Our first goal is to get comfortable with various API requests using the Spotify API along with user authentication. Next, you will perform ML techniques on songs from the user's and Spotify's very own featured playlists. You will do this by utilizing tools like NumPy, pandas, and sklearn. These ML techniques will enable you to add specific and optimal songs from the Spotify-generated playlists to the custom target playlist. Finally, you will create an interface on Dash to see different data visualizations based on your final data.",
+      description: "In this project, you will utilize Spotify’s API to create a custom playlist using the user's very own music preferences. Our first goal is to get comfortable with the Spotify API, after which you will perform ML techniques on songs from the user's and Spotify's very own featured playlists while using tools like NumPy, Pandas, and Sklearn. These techniques will enable you to add specific and optimal songs to the custom target playlist. Finally, you will create an interface on Dash to see different data visualizations based on your final data.",
       technologies: "Python, NumPy, Pandas, Sklearn, Dash",
-      imageSrc: "classifai.png"
+      imageSrc: "spotifai.png"
     },
     {
       title: "Shoptimum",
       leaders: "Kevin Chow, Eric Berndt",
-      description: "Shoptimum is a fully executable program that will find products, do product recommendation, and finally buy products. Specifically, the executable will web scrape several websites for a user specified product and pull data about each product found. The program will then use machine learning to determine which products are the best and will rank them in order for the user in the executable’s GUI. The user will then be able to purchase the product through the GUI. The only prerequisite for this project is knowing how to code in Python. Throughout the semester, we will teach different libraries including Selenium, Tensorflow, and various GUI frameworks in order to teach you how to Web Scrape, use Machine Learning, and how to build GUI’s.",
-      technologies: "Python, Selenium, JavaScript",
-      imageSrc: "classifai.png"
+      description: "Have you ever wanted to find the best price for your product, or the most reputable seller, but are too lazy to do the research yourself? Shoptimum is an executable program that finds products, recommends products, and finally helps users buy products. Shoptimum will web scrape several websites with Selenium for a user specified product and pull data about each product found. The program will use Tensorflow, a machine learning library, to recommend the best products and display them in the desktop app that will run on Electron, Javascript, HTML, CSS, and Flask. The user can then select a product and be redirected to its respective webpage.",
+      technologies: "Python, Selenium, JavaScript, Electron, Flask",
+      imageSrc: "shoptimum.png"
     },
     {
-      title: "Night Safety App",
-      leaders: "Euhan Kim",
-      description: "Build a night safety walking app for students at Berkeley. The user will enter their destination and about how long it’ll take them to reach there. If the user doesn’t arrive to the location on time, then the app will notify anyone they have added to their circle. We will use React Native, JavaScript, Node.js, AWS, etc. to build the whole app. If we have time at the end of the project, we’ll have the chance to develop it into a full app and add more features to it.",
+      title: "Cal Me Maybe",
+      leaders: "Euhan Kim, Maya Zheng, Joelle Siong Sin",
+      description: "Have you ever felt scared walking home late at night but forgot to call Bear Walk? In this project, we will be building a night safety walking app for students at Berkeley. The user will enter their destination and estimated arrival time, and if the user doesn’t arrive to the location on time, then the app will notify anyone they have added to their circle. We will use React Native, JavaScript, Node.js, AWS, etc. to build the both the frontend and backend of the app! Join this project to learn how to make a ✨stunning✨ app that will keep you beary safe!",
       technologies: "React Native, Node.js, AWS",
-      imageSrc: "classifai.png"
+      imageSrc: "calmemaybe.png"
     },
     {
       title: "Codythereum",
       leaders: "Ahmed Baqai, Ernest Goh",
-      description: "Cryptocurrency has been on everyone’s mind lately, and as developers, we’re looking to concentrate on a special crypto network, Ethereum. Unlike Bitcoin, Ethereum’s blockchain doesn’t only support the functionality of a payment ledger but allows accounts to take parts in special transactions. The duty of these transactions can be governed by smart contracts, a special account designed to run a specific set of code. Ethereum’s vast opcode instructions needed to execute code allow the network to be Turing-Complete. This means the network is able to compute just about anything, given enough resources. Hence, this project is intended to deep dive into the complex structure of the Ethereum; understanding the intricacies behind the powerful design while brainstorming several applications that can be hosted on the platform. The end result of our project will be our very own smart contract on the blockchain, with a frontend tool on the side catering user-friendly interaction.",
+      description: "Cryptocurrency has been on everyone’s mind lately, and as developers, we’re looking to concentrate on a special crypto network, Ethereum. This project is intended to deep dive into the complex structure of the network; understanding the intricacies behind the powerful design while brainstorming several applications that can be hosted on the platform. The end result of our project will be our very own smart contract on the blockchain, with a frontend tool on the side catering user-friendly interaction.",
       technologies: "Ethereum, Solidity",
-      imageSrc: "classifai.png"
+      imageSrc: "codythereum.png"
     }
   ],
-  */
    "Fall 2021": [
       {
         title: "ClassifAI",

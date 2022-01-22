@@ -39,7 +39,7 @@ export default function Apply() {
                                         <b>Virtual Tabling</b>
                                         <ul>
                                             <li><a href='https://tinyurl.com/codyDiscordSp22' target='_blank' rel="noopener noreferrer">Discord Link</a></li>
-                                            <li>Week 1 (1/19 - 1/21): 3 - 5 pm, 7 - 9 pm PST</li>
+                                            <li>Week 1 (1/19 - 1/21): 3-5pm, 7-9pm PST</li>
                                             <li>Week 2 (1/24 - 1/28): TBA</li>
                                         </ul>
                                     </div>
@@ -62,7 +62,7 @@ export default function Apply() {
                                 </p>
                                 <div className='event-list'>
                                     <div className='event-list-item'>
-                                        <b>Infosession #1: 1/25, 8 - 9:30 pm PST</b>
+                                        <b>Infosession #1: 1/25, 8-9:30 pm PST</b>
                                         <ul>
                                             <li>Hybrid</li>
                                             <li>Location: VLSB 2060 / <a href='https://berkeley.zoom.us/my/danieltseng1529' target='_blank' rel="noopener noreferrer">Zoom Link</a></li>
@@ -70,7 +70,7 @@ export default function Apply() {
                                         </ul>
                                     </div>
                                     <div className='event-list-item'>
-                                        <b>Infosession #2: 1/27, 8 - 9:30 pm PST</b>
+                                        <b>Infosession #2: 1/27, 8-9:30pm PST</b>
                                         <ul>
                                             <li>Online</li>
                                             <li>Location: <a href='https://berkeley.zoom.us/my/danieltseng1529' target='_blank' rel="noopener noreferrer">Zoom Link</a></li>
@@ -78,6 +78,20 @@ export default function Apply() {
                                         </ul>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+
+                        <div className='timeline-event'>
+                            <b className='event-date'>1/26</b>
+                            <div className='event-description'>
+                                <h3>ABCDs of Tech Infosession</h3>
+                                <p>New to the tech scene at Berkeley? Come explore some of the most exciting tech clubs on campus! You'll hear from ANova, Blueprint, Codeology, and Mobile Developers at Berkeley at this infosession!</p>
+                                <b>1/26, 8-9:30pm PST</b>
+                                <ul>
+                                    <li>Online</li>
+                                    <li>Location: <a href='https://tinyurl.com/abcdoftech' target='_blank' rel="noopener noreferrer">Zoom Link</a></li>
+                                    <li>View our <a href='https://fb.me/e/1nq5RIAcQ' target='_blank' rel="noopener noreferrer">Facebook event</a> for more details!</li>
+                                </ul>
                             </div>
                         </div>
 
@@ -116,7 +130,7 @@ export default function Apply() {
                         <div className='timeline-event'>
                             <b className='event-date'>2/3 - 5</b>
                             <div className='event-description'>
-                                <h3>1-on-1 Interviews</h3>
+                                <h3>Individual Interviews</h3>
                                 <p>A casual interview for us to get to know you better! 
                                     No technical experience needed; the interview will be strictly behavioral.
                                 </p>

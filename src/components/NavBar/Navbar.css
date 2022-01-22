@@ -14,13 +14,17 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 25px;
-  
 }
 
 #logo {
   block-size: fit-content;
   width: 200px;
   height: auto;
+}
+
+#logo-square {
+  width: 70px;
+  margin-left: -25%;
 }
 
 /* Style for logo items */
