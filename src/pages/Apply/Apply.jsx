@@ -90,7 +90,7 @@ export default function Apply() {
                                 <ul>
                                     <li>Online</li>
                                     <li>Location: <a href='https://tinyurl.com/abcdoftech' target='_blank' rel="noopener noreferrer">Zoom Link</a></li>
-                                    <li>View our <a href='https://fb.me/e/1nq5RIAcQ' target='_blank' rel="noopener noreferrer">Facebook event</a> for more details!</li>
+                                    <li>View our <a href='https://fb.me/e/5RX7b3FGC' target='_blank' rel="noopener noreferrer">Facebook event</a> for more details!</li>
                                 </ul>
                             </div>
                         </div>
