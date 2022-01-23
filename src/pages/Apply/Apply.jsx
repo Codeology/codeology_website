@@ -30,26 +30,13 @@ export default function Apply() {
                         <div className='timeline-event'>
                             <b className='event-date'>1/19 - 1/28</b>
                             <div className='event-description'>
-                                <h3>Virtual Tabling + Coffee Chats</h3>
-                                <p>We will be hosting virtual tabling on Discord! Drop in any time during the time window to speak with a member about Codeology.
-                                   If you prefer speaking 1-on-1 or don't use Discord, sign up for a coffee chat instead! 
+                                <h3>Tabling + Coffee Chats</h3>
+                                <p>We will begin on-campus tabling from <b>1/24 - 1/28 at 10am - 3pm!</b> Drop by any time to speak with a member about Codeology.</p>
+                                <p>Feel free to continue using our <a href='https://tinyurl.com/codyDiscordSp22' target='_blank' rel="noopener noreferrer">Recruitment Discord</a>
+                                &nbsp;to find announcements and ask questions.</p> 
+                                <p>If you can't make tabling in person, <a href='https://tinyurl.com/codycoffeesp22' target='_blank' rel="noopener noreferrer">sign up for a coffee chat!</a>
+                                    &nbsp;If slots run out or you aren't available during these times, keep checking back — more slots may open.
                                 </p>
-                                <div className='event-list'>
-                                    <div className='event-list-item'>
-                                        <b>Virtual Tabling</b>
-                                        <ul>
-                                            <li><a href='https://tinyurl.com/codyDiscordSp22' target='_blank' rel="noopener noreferrer">Discord Link</a></li>
-                                            <li>Week 1 (1/19 - 1/21): 3-5pm, 7-9pm PST</li>
-                                            <li>Week 2 (1/24 - 1/28): TBA</li>
-                                        </ul>
-                                    </div>
-                                    <div className='event-list-item'>
-                                        <b>Coffee Chats</b>
-                                        <ul>
-                                            <li><a href='https://tinyurl.com/codyCoffeeSp22' target='_blank' rel="noopener noreferrer">Sign Up Link</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
                             </div>
                         </div>
 
