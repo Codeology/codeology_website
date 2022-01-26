@@ -38,6 +38,10 @@ body {
   display: none;
 }
 
+button:focus, a:focus {
+  outline: none;
+}
+
 /* .row shows only on desktop view; .col shows on mobile */
 .row {
   display: block;

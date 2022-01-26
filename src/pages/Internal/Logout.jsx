@@ -19,7 +19,6 @@ function Logout(props) {
                 clientId={clientId}
                 buttonText="Logout"
                 onLogoutSuccess={onSuccess}
-                style={{ marginTop: '100px' }}
             />
         </div>
     )

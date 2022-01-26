@@ -1,30 +1,51 @@
-import React, { useState } from 'react';
+import React, { useState, useLayoutEffect, useEffect } from 'react';
 import '../ContactUs/contact.css';
 import './internal.css';
 import Logout from './Logout.jsx';
-import { ReactEmbeddedGoogleCalendar } from 'react-embedded-google-calendar';
-import TabList from '@material-ui/lab/TabList';
-import Tab from '@mui/material/Tab';
-import TabPanel from '@material-ui/lab/TabPanel';
-import TabContext from '@material-ui/lab/TabContext';
-import Box from '@mui/material/Box';
+import TabContainer from './TabContainer.jsx';
+
 
 function LoggedOn(props) {
-    const [value, setValue] = useState("0");
-    const links = {
-        'Class Master List': 'https://www.notion.so/calcodeology/4b880a65bec242d4a7708c63f0c13833?v=09ee1ccc47f14353ba67406951d284e2',
-        'Discord Link': "https://discord.com/invite/6nGfjhg",
-        'Education OH': "https://bit.ly/cody-education-oh",
-        'Figma Member Guide': "https://www.figma.com/file/AQhDGu6cq5HPN6oh4CIOGd/Codeology-Member-guide---FALL-'21",
-        'GitHub': 'https://github.com/Codeology',
-        'Member Guidelines': "https://www.notion.so/calcodeology/Member-Guidelines-6b7b17643c78424dbda438af1d4eca1d",
-        'Notion': "https://www.notion.so/calcodeology/Codeology-Notion-4d0c00b95f734f7889e2b374dcf4aad3",
-        'Project Descriptions': 'https://www.notion.so/calcodeology/Project-Descriptions-be58334df4e742dcb24ad0abf7f50290',
+    const [showSidebar, setSidebar] = useState(true);
+    const [width, setWidth] = useState(0); /* allows for sidebar opening/closing based on window resize */
+
+    const quickLinks = {
+        '👾 Discord': "https://discord.com/invite/6nGfjhg",
+        '👥 Facebook': 'https://www.facebook.com/berkeleycodeology',
+        '🐱 GitHub': 'https://github.com/Codeology',
+        '📷 Instagram': 'https://www.instagram.com/berkeleycodeology/?hl=en',
+        '🔗 LinkedIn': 'https://www.linkedin.com/company/berkeley-codeology/',
+        '💡 Notion': "https://www.notion.so/calcodeology/Codeology-Notion-4d0c00b95f734f7889e2b374dcf4aad3",
     }
+    const resources = {
+        '📚 Class Master List': 'https://www.notion.so/calcodeology/4b880a65bec242d4a7708c63f0c13833?v=09ee1ccc47f14353ba67406951d284e2',
+        '🧑‍🎓 Committee Descriptions': 'https://www.notion.so/calcodeology/Committee-Descriptions-73e69520cf2e4fb387977622c31f5ffb',
+        '⏰ Education OH': "https://bit.ly/cody-education-oh",
+        '🥑 Figma Member Guide': "https://www.figma.com/file/AQhDGu6cq5HPN6oh4CIOGd/Codeology-Member-guide---FALL-'21",
+        '🌟 Member Guidelines': "https://www.notion.so/calcodeology/Member-Guidelines-6b7b17643c78424dbda438af1d4eca1d",
+        '📝 Project Descriptions': 'https://www.notion.so/calcodeology/Project-Descriptions-be58334df4e742dcb24ad0abf7f50290',
+        '💼 Recruiting Master Sheet' : "https://docs.google.com/spreadsheets/u/2/d/1XyDlIqabP1eq0Hh3H3fMFNIiz1EceT6my8-rIrFbCsI/edit?usp=sharing"
+    }
+
     const greetings = ['howdy', 'hello', 'welcome', 'hey', 'greetings', 'hi'];
-    
-    function handleSwitch(e, value) {
-        setValue(value);
+
+    useEffect(() => { if (window.innerWidth <= 767) hideSide(); })
+
+    /* doesn't work for resizing :( */
+    function hideSide() {
+    const sidebar = document.querySelector('#internal-sidebar');
+    const showButton = document.querySelector('.show-sidebar');
+    sidebar.style.display = 'none';
+    showButton.style.display = 'block';
+    document.querySelector('#loggedon-content').style.display = 'block';
+    }
+
+    function showSide() {
+    const sidebar = document.querySelector('#internal-sidebar');
+    const showButton = document.querySelector('.show-sidebar');
+    sidebar.style.display = 'block';
+    showButton.style.display = 'none';
+    if (window.innerWidth <= 767) document.querySelector('#loggedon-content').style.display = 'none'; 
     }
 
     const openInNewTab = (url) => {
@@ -37,9 +58,9 @@ function LoggedOn(props) {
         return `${greetings[index]} ${props.name} :D`;
     }
 
-    const getLinks = () => {
+    const getLinks = (links) => {
         return (
-            <div id='quick-links' className='b'>
+            <div id='sidebar-links' className='b'>
                 {Object.keys(links).map(link => {
                     return (
                         <a href={links[link]} target='_target' rel='noopener noreferrer' key={link}>{link}</a>
@@ -50,19 +71,34 @@ function LoggedOn(props) {
     }
 
     return (
-        <div className="contact">
+        <div className="loggedon">
+                <div id='internal-sidebar'>
+                    <div id='internal-sidebar-content'>
+                        <div className='sidebar-link-div sidebar-btn-row'>
+                            <Logout success={props.onLogout} />
+                            <button className='toggle-sidebar' onClick={hideSide}>{'<'}</button>
+                        </div>
+                        <div className='sidebar-link-div'>
+                            <b className='internal-subtitle'>QUICK LINKS</b>
+                            {getLinks(quickLinks)}
+                        </div>
+                        <div className='sidebar-link-div'>
+                            <b className='internal-subtitle'>RESOURCES</b>
+                            {getLinks(resources)}
+                        </div>
+                        <div className='sidebar-link-div'>
+                            <img src={require("./pictures/avo.png")} className='avobooty' height="200px" alt='avobooty' />
+                        </div>
+                    </div>
+                </div>
+
+                <div id='loggedon-content'>
 
                 <div id='internal-header'>
-                    <Logout success={props.onLogout} />
+                    <button className='toggle-sidebar show-sidebar' onClick={showSide}>{'>'}</button>
                     <h1>{getGreeting()}</h1>
-                    <img src={require("./pictures/avo.png")} className='avobooty row' height="200px" alt='avobooty' />
                 </div>
                 <div id="underline"></div>
-                
-                <div id='links-container'>
-                    <b id='internal-subtitle'>QUICK LINKS</b>
-                    {getLinks()}
-                </div>
 
                 <div id='announcements'>
                     <h2>announcements</h2>
@@ -75,33 +111,9 @@ function LoggedOn(props) {
                     </ul>
                 </div>
 
-                <div id='tab-container'>
-                <TabContext value={value}>
-                    <Box sx={{ borderBottom: 1, borderColor: 'divider', 
-                    '& .MuiButtonBase-root': { color: 'var(--darkgrey)', fontWeight: 'bold', fontFamily: 'Karla' },
-                    '& .MuiButtonBase-root.Mui-selected': { outline: 'none' },
-                    '& .MuiTabs-indicator': { backgroundColor: 'var(--forestgreen)' }}}>
-                        <TabList onChange={handleSwitch} aria-label="secondary tabs example">
-                            <Tab label="Calendar" value="0" />
-                            <Tab label="Web Bio Form" value="1" />
-                        </TabList>
-                    </Box>
-
-                    <TabPanel value={"0"}>
-                        <div className="calendar-div">
-                            <ReactEmbeddedGoogleCalendar publicUrl ="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;ctz=America%2FLos_Angeles&amp;src=aW5mb0Bjb2Rlb2xvZ3kuY2x1Yg&amp;color=%230B8043&amp;title=Codeology%20Master%20Calendar&amp;showPrint=0" style={{border: "solid 1px #777"}} width="100%" height="600" frameborder="0" scrolling="no"/>
-                        </div>
-                    </TabPanel>
-
-                    <TabPanel value={"1"}>
-                        <div className='form-desc'>
-                            <b>Fill out whenever if you would like to update your bio! (or message Erin)</b>
-                        </div>
-                        <iframe title='web-bio' class="airtable-embed" src="https://airtable.com/embed/shrsjslkkPVJZ9tFi?backgroundColor=tealLight" frameborder="0" onmousewheel="" width="100%" height="533" style={{background: "transparent; border: 1px solid #ccc;"}}></iframe>
-                    </TabPanel>
-                    </TabContext>
-                </div>
-                <img src={require("./pictures/avo.png")} className='avobooty col' height="200px" alt='avobooty' />
+                <TabContainer />
+                
+            </div>
             </div>
 
         )
