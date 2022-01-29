@@ -41,12 +41,6 @@ class Landing extends React.Component {
                 <h3 id="landing-text">
                 Here at Codeology, we provide opportunities for you to explore the tech industry with a supportive community.
                 </h3>
-
-               <div id="apply-contact">
-                    <Link className="white-button" to="/contact">
-                        Contact Us
-                    </Link>
-                </div>
              </div>
 
             <div id="hands">

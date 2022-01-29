@@ -1,3 +1,10 @@
+#apps-closed {
+    width: 70%;
+    margin: 40px 15%;
+    color: var(--forestgreen);
+
+}
+
 #application-link {
     background-color: var(--forestgreen);
     border-radius: 12px;

@@ -5,24 +5,21 @@ import Heading from '../../components/Heading/Heading';
 import Fade from 'react-reveal/Fade';
 
 export default function Apply() {
-    /*
-    <div id="bottombox">  
-        <h2>Come back in Spring 2022!</h2>
-        <img src={require("../../images/group/group.png")} alt="groupPic" width="50%"/>
-        <p><br/>Applications are currently closed. Come visit our website during the first few weeks of the Spring 2022 
-        semester to apply! In the meantime, follow us 
-        on <a href="https://www.facebook.com/berkeleycodeology/">Facebook</a> and <a href="https://www.instagram.com/berkeleycodeology/?hl=en">Instagram</a> for more updates.</p> 
-    </div>
-    */
     return (
         <div>
 
             <div className="contact">
                 <h1 className="contactTitle"> apply </h1>
                 <div id="underline"></div>
+                {/*
                 <a href='https://airtable.com/shrYiTfYslEBym9GN?fbclid=IwAR2I3O2PuLN_Z_JbLAzZnWz0harbL1NavnyRYdetVghw78dYWtqm_5tU4qM' target='_blank' rel="noopener noreferrer">
                     <button id='application-link'>APPLICATION LINK - DUE 1/28, 11:59 PST</button>
                 </a>
+                */}
+                <h3 id='apps-closed'>
+                Applications are currently closed. Come visit our website during the first few weeks of the Fall 2022 semester to apply!
+                </h3>
+                
                 <Fade>
                     <div id='recruitment-timeline'>
                         <h2 id='timeline-title'>recruitment timeline</h2>

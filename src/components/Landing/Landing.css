@@ -5,15 +5,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 #border-box {
     border: none; 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    padding: 8vh;
     width: 80vw;
 }
 
@@ -44,7 +44,6 @@
     max-width: 600px;
     object-fit: contain;
     z-index: 3;
-    margin-top: 18vh;
 }
 
 #landing-text {
