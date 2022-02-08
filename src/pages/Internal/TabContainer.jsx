@@ -18,30 +18,49 @@ function TabContainer() {
         <div id='tab-container'>
                 <TabContext value={value}>
                     <Box sx={{ borderBottom: 1, borderColor: 'divider', 
-                    '& .MuiButtonBase-root': { color: 'var(--darkgrey)', fontWeight: 'bold', fontFamily: 'Karla' },
+                    '& .MuiButtonBase-root': { color: 'var(--darkgrey)', fontWeight: 'bold', fontFamily: 'Karla', marginRight: '25px'},
                     '& .MuiButtonBase-root.Mui-selected': { outline: 'none' },
-                    '& .MuiTabs-indicator': { backgroundColor: 'var(--forestgreen)' }}}>
-                        <TabList onChange={handleSwitch} aria-label="secondary tabs example">
+                    '& .MuiTabs-indicator': { backgroundColor: 'var(--forestgreen)', height: '4px'}}}>
+                        <TabList onChange={handleSwitch} aria-label="scrollable wrapped auto tabs example" variant="scrollable" scrollButtons="auto">
                             <Tab label="Calendar" value="0" />
-                            <Tab label="Web Bio Form" value="1" />
+                            <Tab label="[DUE 2/8]: RETREAT" value="1" />
+                            <Tab label="[DUE 2/8, 2/11]: RETREAT COVID TEST" value="2" />
+                            <Tab label="[DUE 2/9]: Project Preference" value="3" />
+                            <Tab label="[DUE 2/15]: Media Committee" value="4" />
                         </TabList>
                     </Box>
 
                     <TabPanel value={"0"}>
                         <div>
-                            <ReactEmbeddedGoogleCalendar publicUrl ="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;ctz=America%2FLos_Angeles&amp;src=aW5mb0Bjb2Rlb2xvZ3kuY2x1Yg&amp;color=%230B8043&amp;title=Codeology%20Master%20Calendar&amp;showPrint=0" style={{border: "solid 1px #777"}} width="100%" height="600" frameborder="0" scrolling="no"/>
+                        <iframe title='sp22 calendar' src="https://calendar.google.com/calendar/embed?src=c_56lpkkmm17m8s86h84sbe2j6l8%40group.calendar.google.com&ctz=Pacific%2FPitcairn" style={{border: 0, width: '100%', height: 600, frameBorder: 0, scrolling: 'no'}}></iframe>
                         </div>
                     </TabPanel>
 
                     <TabPanel value={"1"}>
-                        <div>
-                            <b>Fill out whenever if you would like to update your bio! (or message Erin)</b>
+                        {/*
+                            <div className='tab-description'>
+                            <b>go to retreat (if you can)! but only if you fill out this form!</b>
                         </div>
-                        <iframe title='web-bio' class="airtable-embed" src="https://airtable.com/embed/shrsjslkkPVJZ9tFi?backgroundColor=tealLight" frameborder="0" onmousewheel="" width="100%" height="533" style={{background: "transparent; border: 1px solid #ccc;"}}></iframe>
+
+                        */ }
+                        
+                        <iframe title='retreat' className="airtable-embed" src="https://airtable.com/embed/shrCqUy3IPoKZnDKV" frameBorder="0" width="100%" height="533" style={{background: "transparent", border: "1px solid #ccc"}}></iframe>
+                    </TabPanel>
+
+                    <TabPanel value={"2"}>
+                        <iframe title='covid test' className="airtable-embed" src="https://airtable.com/embed/shrnrCQfTqMJuHJwX" frameBorder="0" width="100%" height="533" style={{background: "transparent", border: "1px solid #ccc"}}></iframe>
+                    </TabPanel>
+
+                    <TabPanel value={"3"}>
+                        <iframe title='project' className="airtable-embed" src="https://airtable.com/embed/shr8YEVdiMAh2FB9f" frameBorder="0" width="100%" height="533" style={{background: "transparent", border: "1px solid #ccc"}}></iframe>
+                    </TabPanel>
+
+                    <TabPanel value={"4"}>
+                        <iframe title='media' className="airtable-embed" src="https://airtable.com/embed/shreSWuwPWb4QqDJZ" frameBorder="0" width="100%" height="533" style={{background: "transparent", border: "1px solid #ccc"}}></iframe>
                     </TabPanel>
                     </TabContext>
                 </div>
     )
 }
-
+ 
 export default TabContainer;

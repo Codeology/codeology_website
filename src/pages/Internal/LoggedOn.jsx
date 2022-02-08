@@ -16,10 +16,11 @@ function LoggedOn(props) {
         '📷 Instagram': 'https://www.instagram.com/berkeleycodeology/?hl=en',
         '🔗 LinkedIn': 'https://www.linkedin.com/company/berkeley-codeology/',
         '💡 Notion': "https://www.notion.so/calcodeology/Codeology-Notion-4d0c00b95f734f7889e2b374dcf4aad3",
+        '#️⃣ Slack': 'berkeley-codeology.slack.com'
     }
     const resources = {
         '📚 Class Master List': 'https://www.notion.so/calcodeology/4b880a65bec242d4a7708c63f0c13833?v=09ee1ccc47f14353ba67406951d284e2',
-        '🧑‍🎓 Committee Descriptions': 'https://www.notion.so/calcodeology/Committee-Descriptions-73e69520cf2e4fb387977622c31f5ffb',
+        '🍵 Committee Descriptions': 'https://www.notion.so/calcodeology/Committee-Descriptions-73e69520cf2e4fb387977622c31f5ffb',
         '⏰ Education OH': "https://bit.ly/cody-education-oh",
         '🥑 Figma Member Guide': "https://www.figma.com/file/AQhDGu6cq5HPN6oh4CIOGd/Codeology-Member-guide---FALL-'21",
         '🌟 Member Guidelines': "https://www.notion.so/calcodeology/Member-Guidelines-6b7b17643c78424dbda438af1d4eca1d",
@@ -103,10 +104,11 @@ function LoggedOn(props) {
                 <div id='announcements'>
                     <h2>announcements</h2>
                     <ul className="announcements-text">
-                        <li><b>THIS WEEK'S EVENTS:</b> Recruitment is starting!! <span role='img' aria-label=''>🥶</span></li>
-                        <li>Remember to fill out the  <a href="https://docs.google.com/spreadsheets/u/2/d/1XyDlIqabP1eq0Hh3H3fMFNIiz1EceT6my8-rIrFbCsI/edit?usp=sharing">Recruiting Master Sheet</a> for any interviews and  company info you have!</li>
-                        <li><a href="https://bit.ly/cody-education-oh" target='_blank' rel='noopener noreferrer'>
-                            Education office hours link</a> to book with Cindy and Angela!
+                        <li><b>THIS WEEK'S EVENTS: WELCOME NEW MEMBERS!!!</b></li>
+                        <li><b>RETREAT THIS WEEKEND!!</b> Fill out all retreat forms ASAP + <b>get tested!!!</b> Details on the form below</li>
+                        <li>Fill out <b>project preference forms!</b></li>
+                        <li>Fill out the <b>media committee form</b> if you would like to help us make cute 
+                            graphics + merch or photograph us! See Ash for more details
                         </li>
                     </ul>
                 </div>

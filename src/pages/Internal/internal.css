@@ -30,6 +30,11 @@
     margin-bottom: 50px;
 }
 
+.tab-description {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 /* ===================== */
 /*        HEADER         */
 /* ===================== */
@@ -113,7 +118,7 @@
     border-right: 1px solid rgb(243, 243, 243);
     padding-top: 25px;
     width: 30vw;
-    min-width: 250px;
+    min-width: 300px;
     padding-left: 3vw;
     line-height: 2.2;
 }

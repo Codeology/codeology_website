@@ -47,7 +47,24 @@ const emails = [
     'tiffanylinyifeng@berkeley.edu',
     'vaibg@berkeley.edu',
     'varun_murthy@berkeley.edu',
-    'sreevidyaganga0@berkeley.edu'
+    'sreevidyaganga0@berkeley.edu',
+    'dganesh@berkeley.edu',
+    'shuaivzhou@berkeley.edu',
+    'charlesming@berkeley.edu',
+    'kerrine@berkeley.edu',
+    'laur@berkeley.edu',
+    'justinxu@berkeley.edu',
+    'zhang.michael@berkeley.edu',
+    'tavleenbhatia@berkeley.edu',
+    'ocarmont@berkeley.edu',
+    'kxyr@berkeley.edu',
+    'tommyhang@berkeley.edu',
+    'pradyunkumar@berkeley.edu',
+    'angelmau@berkeley.edu',
+    'grace.wj@berkeley.edu',
+    'annie.xu2025@berkeley.edu',
+    'jadaklein@berkeley.edu',
+    'victoriahnguyen@berkeley.edu'
 ];
 
 export default emails;

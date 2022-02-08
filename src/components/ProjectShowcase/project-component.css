@@ -4,6 +4,7 @@
   flex-direction: column;
   text-align: left;
   width: 15vw;
+  
   left: 50%;
   transform: translateX(-50%);
 }
@@ -42,15 +43,20 @@
   background-color: white;
 }
 
+.project-img, .project-container {
+  border-radius: 7.5px;
+}
+
 /* ------ UNCLICKED ------ */
 .project-container {
   position: relative;
   width: 18vw;
-  padding-bottom: 5%;
+  padding-bottom: 10%;
+  border-bottom: 10px solid white;
 }
 
 .project-container:hover {
-  margin-top: -5px;
+  transform: translateY(-5px);
   box-shadow: 0px 0px 10px #e9e9e9;
   transition: 0.2s;
   cursor: pointer;
