@@ -179,5 +179,14 @@
     .show-sidebar {
         top: -35%;
     }
+
+    #announcements {
+        margin: 50px 0vw 0 0vw;
+        border-radius: 0;
+    }
+
+    #tab-container {
+        margin: 50px 2.5vw 0 2.5vw;
+    }
 }
   

@@ -41,7 +41,7 @@ const emails = [
     'alanliu2345@berkeley.edu',
     'ashchu@berkeley.edu',
     'gracealtree@berkeley.edu',
-    'jasmineang@gmail.com',
+    'jasmineang@berkeley.edu',
     'krishnaravi@berkeley.edu',
     'tiffaniechau@berkeley.edu',
     'tiffanylinyifeng@berkeley.edu',
@@ -64,7 +64,9 @@ const emails = [
     'grace.wj@berkeley.edu',
     'annie.xu2025@berkeley.edu',
     'jadaklein@berkeley.edu',
-    'victoriahnguyen@berkeley.edu'
+    'victoriahnguyen@berkeley.edu',
+    'andrew.wang334@berkeley.edu',
+    'amyxjhuang@berkeley.edu'
 ];
 
 export default emails;

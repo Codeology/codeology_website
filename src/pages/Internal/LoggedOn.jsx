@@ -22,7 +22,7 @@ function LoggedOn(props) {
         '📚 Class Master List': 'https://www.notion.so/calcodeology/4b880a65bec242d4a7708c63f0c13833?v=09ee1ccc47f14353ba67406951d284e2',
         '🍵 Committee Descriptions': 'https://www.notion.so/calcodeology/Committee-Descriptions-73e69520cf2e4fb387977622c31f5ffb',
         '⏰ Education OH': "https://bit.ly/cody-education-oh",
-        '🥑 Figma Member Guide': "https://www.figma.com/file/AQhDGu6cq5HPN6oh4CIOGd/Codeology-Member-guide---FALL-'21",
+        '🥑 Figma Member Guide': "https://tinyurl.com/codyMemSp22",
         '🌟 Member Guidelines': "https://www.notion.so/calcodeology/Member-Guidelines-6b7b17643c78424dbda438af1d4eca1d",
         '📝 Project Descriptions': 'https://www.notion.so/calcodeology/Project-Descriptions-be58334df4e742dcb24ad0abf7f50290',
         '💼 Recruiting Master Sheet' : "https://docs.google.com/spreadsheets/u/2/d/1XyDlIqabP1eq0Hh3H3fMFNIiz1EceT6my8-rIrFbCsI/edit?usp=sharing"
@@ -109,6 +109,9 @@ function LoggedOn(props) {
                         <li>Fill out <b>project preference forms!</b></li>
                         <li>Fill out the <b>media committee form</b> if you would like to help us make cute 
                             graphics + merch or photograph us! See Ash for more details
+                        </li>
+                        <li>
+                            Are you interested in designing/adding features to the website? Message Erin if you're interested in joining web committee!!
                         </li>
                     </ul>
                 </div>
