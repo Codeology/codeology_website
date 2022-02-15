@@ -16,7 +16,7 @@ function LoggedOn(props) {
         '📷 Instagram': 'https://www.instagram.com/berkeleycodeology/?hl=en',
         '🔗 LinkedIn': 'https://www.linkedin.com/company/berkeley-codeology/',
         '💡 Notion': "https://www.notion.so/calcodeology/Codeology-Notion-4d0c00b95f734f7889e2b374dcf4aad3",
-        '#️⃣ Slack': 'berkeley-codeology.slack.com'
+        '#️⃣ Slack': 'https://berkeley-codeology.slack.com'
     }
     const resources = {
         '📚 Class Master List': 'https://www.notion.so/calcodeology/4b880a65bec242d4a7708c63f0c13833?v=09ee1ccc47f14353ba67406951d284e2',
@@ -104,9 +104,9 @@ function LoggedOn(props) {
                 <div id='announcements'>
                     <h2>announcements</h2>
                     <ul className="announcements-text">
-                        <li><b>THIS WEEK'S EVENTS: WELCOME NEW MEMBERS!!!</b></li>
-                        <li><b>RETREAT THIS WEEKEND!!</b> Fill out all retreat forms ASAP + <b>get tested!!!</b> Details on the form below</li>
-                        <li>Fill out <b>project preference forms!</b></li>
+                        <li><b>THIS WEEK'S EVENTS:</b></li>
+                        <li>Hope yall had fun at retreat!! Please get tested now</li>
+                        <li>Get your tree/leaf coffee chats done!</li>
                         <li>Fill out the <b>media committee form</b> if you would like to help us make cute 
                             graphics + merch or photograph us! See Ash for more details
                         </li>

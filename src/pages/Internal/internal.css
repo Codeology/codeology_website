@@ -5,7 +5,8 @@
 
 .internal-content {
     margin-top: 7.5vh;
-    width: 80%;
+    margin-right: 10%;
+    text-align: center;
 }
 
 .loggedon {
@@ -33,6 +34,8 @@
 .tab-description {
     margin-bottom: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 /* ===================== */
@@ -62,10 +65,10 @@
 }
 
 .show-sidebar {
-    left: 5%;
-    top: 0%;
-    position: absolute;
     display: none;
+    position: absolute;
+    left: 10%;
+    text-align: left;
 }
 
 .sidebar-btn-row {
@@ -177,7 +180,7 @@
     }
 
     .show-sidebar {
-        top: -35%;
+        display: flex; 
     }
 
     #announcements {

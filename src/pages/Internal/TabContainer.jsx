@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './internal.css';
-import { ReactEmbeddedGoogleCalendar } from 'react-embedded-google-calendar';
 import TabList from '@material-ui/lab/TabList';
 import Tab from '@mui/material/Tab';
 import TabPanel from '@material-ui/lab/TabPanel';
@@ -23,10 +22,8 @@ function TabContainer() {
                     '& .MuiTabs-indicator': { backgroundColor: 'var(--forestgreen)', height: '4px'}}}>
                         <TabList onChange={handleSwitch} aria-label="scrollable wrapped auto tabs example" variant="scrollable" scrollButtons="auto">
                             <Tab label="Calendar" value="0" />
-                            <Tab label="[DUE 2/8]: RETREAT" value="1" />
-                            <Tab label="[DUE 2/8, 2/11]: RETREAT COVID TEST" value="2" />
-                            <Tab label="[DUE 2/9]: Project Preference" value="3" />
-                            <Tab label="[DUE 2/15]: Media Committee" value="4" />
+                            <Tab label="[DUE 2/15]: Media Committee" value="1" />
+                            <Tab label="[DUE 2/22]: Website" value="2" />
                         </TabList>
                     </Box>
 
@@ -37,26 +34,15 @@ function TabContainer() {
                     </TabPanel>
 
                     <TabPanel value={"1"}>
-                        {/*
-                            <div className='tab-description'>
-                            <b>go to retreat (if you can)! but only if you fill out this form!</b>
-                        </div>
-
-                        */ }
-                        
-                        <iframe title='retreat' className="airtable-embed" src="https://airtable.com/embed/shrCqUy3IPoKZnDKV" frameBorder="0" width="100%" height="533" style={{background: "transparent", border: "1px solid #ccc"}}></iframe>
+                        <iframe title='media' className="airtable-embed" src="https://airtable.com/embed/shreSWuwPWb4QqDJZ" frameBorder="0" width="100%" height="533"  style={{border: 0, width: '100%', height: 600, frameBorder: 0, scrolling: 'no'}}></iframe>
                     </TabPanel>
 
                     <TabPanel value={"2"}>
-                        <iframe title='covid test' className="airtable-embed" src="https://airtable.com/embed/shrnrCQfTqMJuHJwX" frameBorder="0" width="100%" height="533" style={{background: "transparent", border: "1px solid #ccc"}}></iframe>
-                    </TabPanel>
-
-                    <TabPanel value={"3"}>
-                        <iframe title='project' className="airtable-embed" src="https://airtable.com/embed/shr8YEVdiMAh2FB9f" frameBorder="0" width="100%" height="533" style={{background: "transparent", border: "1px solid #ccc"}}></iframe>
-                    </TabPanel>
-
-                    <TabPanel value={"4"}>
-                        <iframe title='media' className="airtable-embed" src="https://airtable.com/embed/shreSWuwPWb4QqDJZ" frameBorder="0" width="100%" height="533" style={{background: "transparent", border: "1px solid #ccc"}}></iframe>
+                        <div className='tab-description'>
+                            <b>NEW MEMBERS: Fill out this form so you can be added to the website!</b>
+                            <b>Old members: Message Erin if there's any changes you want to make to your bio!</b>
+                        </div>
+                        <iframe title='web' className="airtable-embed" src="https://airtable.com/embed/shrsjslkkPVJZ9tFi" frameBorder="0" width="100%" height="533" style={{border: 0, width: '100%', height: 600, frameBorder: 0, scrolling: 'no'}}></iframe>
                     </TabPanel>
                     </TabContext>
                 </div>
