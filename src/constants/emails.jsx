@@ -66,7 +66,8 @@ const emails = [
     'jadaklein@berkeley.edu',
     'victoriahnguyen@berkeley.edu',
     'andrew.wang334@berkeley.edu',
-    'amyxjhuang@berkeley.edu'
+    'amyxjhuang@berkeley.edu',
+    'kylehuuuaaa@berkeley.edu'
 ];
 
 export default emails;

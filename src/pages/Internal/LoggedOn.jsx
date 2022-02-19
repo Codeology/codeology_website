@@ -9,7 +9,7 @@ function LoggedOn(props) {
     const [showSidebar, setSidebar] = useState(true);
     const [width, setWidth] = useState(0); /* allows for sidebar opening/closing based on window resize */
 
-    const quickLinks = {
+    const socials = {
         '👾 Discord': "https://discord.com/invite/6nGfjhg",
         '👥 Facebook': 'https://www.facebook.com/berkeleycodeology',
         '🐱 GitHub': 'https://github.com/Codeology',
@@ -24,7 +24,9 @@ function LoggedOn(props) {
         '⏰ Education OH': "https://bit.ly/cody-education-oh",
         '🥑 Figma Member Guide': "https://tinyurl.com/codyMemSp22",
         '🌟 Member Guidelines': "https://www.notion.so/calcodeology/Member-Guidelines-6b7b17643c78424dbda438af1d4eca1d",
+        '👵 Mentor Bios': 'https://bit.ly/cody-mentors-sp22',
         '📝 Project Descriptions': 'https://www.notion.so/calcodeology/Project-Descriptions-be58334df4e742dcb24ad0abf7f50290',
+        '📸 Photos': 'https://tinyurl.com/codyFotos',
         '💼 Recruiting Master Sheet' : "https://docs.google.com/spreadsheets/u/2/d/1XyDlIqabP1eq0Hh3H3fMFNIiz1EceT6my8-rIrFbCsI/edit?usp=sharing"
     }
 
@@ -80,8 +82,8 @@ function LoggedOn(props) {
                             <button className='toggle-sidebar' onClick={hideSide}>{'<'}</button>
                         </div>
                         <div className='sidebar-link-div'>
-                            <b className='internal-subtitle'>QUICK LINKS</b>
-                            {getLinks(quickLinks)}
+                            <b className='internal-subtitle'>SOCIALS</b>
+                            {getLinks(socials)}
                         </div>
                         <div className='sidebar-link-div'>
                             <b className='internal-subtitle'>RESOURCES</b>
@@ -104,15 +106,19 @@ function LoggedOn(props) {
                 <div id='announcements'>
                     <h2>announcements</h2>
                     <ul className="announcements-text">
-                        <li><b>THIS WEEK'S EVENTS:</b></li>
-                        <li>Hope yall had fun at retreat!! Please get tested now</li>
-                        <li>Get your tree/leaf coffee chats done!</li>
-                        <li>Fill out the <b>media committee form</b> if you would like to help us make cute 
-                            graphics + merch or photograph us! See Ash for more details
+                        <li><b>Member dues due by 2/22!!</b> Venmo @ucbcodeology $25 by then or it will be +$1 for each day late. Talk to Daniel or Jasper if you have financial concerns!</li>
+                        <li><b>Retreat dues due by 2/22!!</b> If you went to retreat, venmo @ucbcodeology $60 by then or it will be +$1 for each day late. Talk to Daniel or Jasper if you have financial concerns!</li>
+                        <li>If you drove/need to be reimbursed for retreat, fill out 
+                            <a href="https://airtable.com/shrmwngeLGLSXhYvN" target="_blank" rel="noopener noreferrer"> this form.</a>
                         </li>
-                        <li>
-                            Are you interested in designing/adding features to the website? Message Erin if you're interested in joining web committee!!
+                        <li><b>Board game social</b> this Saturday at 7pm @ The Standard!</li>
+                        <li>Get your tree/leaf coffee chats done + fill out <a href="https://tinyurl.com/codeologytreeleaf" target="_blank" rel="noopener noreferrer">preference forms by Tuesday!</a></li>
+                        <li>New members: fill out <a href="https://airtable.com/shrsjslkkPVJZ9tFi" target="_blank" rel="noopener noreferrer">website form</a> by Tuesday :)</li>
+                        <li>If you have any photos you would like to upload to our album, please do it 
+                            <a href="https://tinyurl.com/codyFotos" target="_blank" rel="noopener noreferrer"> here!</a>
                         </li>
+                        <li>Schedule <a href="https://bit.ly/cody-education-oh" target="_blank" rel="noopener noreferrer">education OH</a> with Cindy and Angela!</li>
+
                     </ul>
                 </div>
 
