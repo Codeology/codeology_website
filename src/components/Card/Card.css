@@ -54,37 +54,27 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
-}
-
-.profile-main {
   text-align: center;
-  margin-bottom: 15px;
-
 }
 
 .profile-name {
   background-color: var(--yellowish);
-  top: 0;
 }
 
 .profile-role {
   color: var(--gold);
-  margin-top: 15px;
 }
 
 .profile-img {
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   border-radius: 20px;
-  margin: 20px;
+  margin: 25px;
 }
 
 .profile-link-container {
   position: relative;
-  left: 50%;
-  transform: translateX(-50%);
   width: 200px;
 
   display: flex;
@@ -99,6 +89,10 @@
 .profile-link img:hover {
   filter: brightness(90%);
   transition: 0.2s;
+}
+
+.profile-blurb {
+  margin-top: 20px;
 }
 
 .profile-text {

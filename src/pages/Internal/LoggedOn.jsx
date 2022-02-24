@@ -25,6 +25,7 @@ function LoggedOn(props) {
         '🥑 Figma Member Guide': "https://tinyurl.com/codyMemSp22",
         '🌟 Member Guidelines': "https://www.notion.so/calcodeology/Member-Guidelines-6b7b17643c78424dbda438af1d4eca1d",
         '👵 Mentor Bios': 'https://bit.ly/cody-mentors-sp22',
+        '🥰 Nice Things': 'https://tinyurl.com/NiceThingsSp22',
         '📝 Project Descriptions': 'https://www.notion.so/calcodeology/Project-Descriptions-be58334df4e742dcb24ad0abf7f50290',
         '📸 Photos': 'https://tinyurl.com/codyFotos',
         '💼 Recruiting Master Sheet' : "https://docs.google.com/spreadsheets/u/2/d/1XyDlIqabP1eq0Hh3H3fMFNIiz1EceT6my8-rIrFbCsI/edit?usp=sharing"
@@ -106,19 +107,14 @@ function LoggedOn(props) {
                 <div id='announcements'>
                     <h2>announcements</h2>
                     <ul className="announcements-text">
-                        <li><b>Member dues due by 2/22!!</b> Venmo @ucbcodeology $25 by then or it will be +$1 for each day late. Talk to Daniel or Jasper if you have financial concerns!</li>
-                        <li><b>Retreat dues due by 2/22!!</b> If you went to retreat, venmo @ucbcodeology $60 by then or it will be +$1 for each day late. Talk to Daniel or Jasper if you have financial concerns!</li>
-                        <li>If you drove/need to be reimbursed for retreat, fill out 
-                            <a href="https://airtable.com/shrmwngeLGLSXhYvN" target="_blank" rel="noopener noreferrer"> this form.</a>
-                        </li>
-                        <li><b>Board game social</b> this Saturday at 7pm @ The Standard!</li>
-                        <li>Get your tree/leaf coffee chats done + fill out <a href="https://tinyurl.com/codeologytreeleaf" target="_blank" rel="noopener noreferrer">preference forms by Tuesday!</a></li>
-                        <li>New members: fill out <a href="https://airtable.com/shrsjslkkPVJZ9tFi" target="_blank" rel="noopener noreferrer">website form</a> by Tuesday :)</li>
-                        <li>If you have any photos you would like to upload to our album, please do it 
-                            <a href="https://tinyurl.com/codyFotos" target="_blank" rel="noopener noreferrer"> here!</a>
-                        </li>
+                        <li><b>Tree-Leaf Reveal</b> will be this Saturday from 8-11PM at Pradeep's place! This is <b>REQUIRED</b> for everyone picking up and for all new members (if safe).
+                        <b> Message Joelle and Jun Hee if you are unable to come</b> as soon as possible, especially if you are a tree or a leaf</li>
+                        <li>At this time, we are still planning on having reveal in person. If you are able to take a covid test, <b>please take one as soon as you can</b> to hopefully get results back before Saturday.
+                            If you are unable to, <b>please stay at home</b> if you are not feeling well or if you have been exposed to someone who has tested positive for covid.</li>
+                        <li><b>Message Joelle or Jun Hee your birthdays</b> if you haven't already!</li>
+                        <li><b>Mentorship groups have been released!</b> Send a message to your mentor if they have not already reached out to you. Schedule a meeting together to talk about goals for the semester and send photos in buddies!</li>
+                        <li><a href="https://tinyurl.com/NiceThingsSp22" target="_blank" rel="noopener noreferrer">NICE THINGS! </a>Drop your wholesome confessions here! Confessions will be revealed at next GM!</li>
                         <li>Schedule <a href="https://bit.ly/cody-education-oh" target="_blank" rel="noopener noreferrer">education OH</a> with Cindy and Angela!</li>
-
                     </ul>
                 </div>
 

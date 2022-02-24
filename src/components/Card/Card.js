@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 
 class Card extends React.Component {
     render() {
-      const {name, role, linkedin, resume, website, imgSrc, year, email, tree, leaf, blurb} = this.props;
+      const {name, role, linkedin, website, imgSrc, year, email, tree, leaf, blurb} = this.props;
 
       const links = {
         email: {
@@ -15,10 +15,6 @@ class Card extends React.Component {
         linkedin: {
           href: linkedin,
           img: 'linkedin_green.svg'
-        },
-        resume: {
-          href: resume,
-          img: 'resume_green.svg'
         },
         website: {
           href: website,
@@ -58,13 +54,13 @@ class Card extends React.Component {
 
           {/* Profile popup content */}
           <div className="profile-background">
-            <div className='profile-main'>
-              <h2 className="profile-name">{name}</h2>
-              <h3 className='profile-role'>{role}</h3>
-              <img className="profile-img" src={imgSrc} alt={name}/>
-              {getLinks()}
-            </div>
+            <h2 className="profile-name">{name}</h2>
+            <h3 className='profile-role'>{role}</h3>
+            <img className="profile-img" src={imgSrc} alt={name}/>
+            {getLinks()}
+            <p className="profile-blurb">{blurb} </p>
 
+            {/*
             <p className="profile-text">
               <span className="profile-category">Year:</span> {year} <br/>
               {tree && <><span className="profile-category">Tree:</span> {tree} <br/></>}
@@ -72,8 +68,8 @@ class Card extends React.Component {
               <br/>
 
               <p className="profile-blurb">{blurb} </p>
-
             </p>
+            */}
           </div>
         </Popup>
         </Fade>
