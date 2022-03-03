@@ -915,7 +915,7 @@ const a = [
         name: 'Oliver Carmont',
         img:  null,
         role: 'Active Member',
-        email: null,
+        email: 'ocarmont@berkeley.edu',
         year: 'Freshman',
         committee: null,
         project: null,
@@ -924,7 +924,7 @@ const a = [
         linkedin: null,
         resume: null,
         website: null,
-        blurb: null,
+        blurb: "Heyy! I'm a freshman from Spain, who loves playing soccer, running and binging on cheez-its.",
     },
     {
         name: 'Pradyun Kumar',
