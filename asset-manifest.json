@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.b57530e1.chunk.css",
-    "main.js": "/static/js/main.6fd3692b.chunk.js",
-    "main.js.map": "/static/js/main.6fd3692b.chunk.js.map",
+    "main.js": "/static/js/main.c09ce310.chunk.js",
+    "main.js.map": "/static/js/main.c09ce310.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.99911b0c.js",
     "runtime-main.js.map": "/static/js/runtime-main.99911b0c.js.map",
     "static/css/2.4fadf49f.chunk.css": "/static/css/2.4fadf49f.chunk.css",
-    "static/js/2.126a2df0.chunk.js": "/static/js/2.126a2df0.chunk.js",
-    "static/js/2.126a2df0.chunk.js.map": "/static/js/2.126a2df0.chunk.js.map",
+    "static/js/2.30113baf.chunk.js": "/static/js/2.30113baf.chunk.js",
+    "static/js/2.30113baf.chunk.js.map": "/static/js/2.30113baf.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3efe8ba88ee3106f8a731fb4a9ef347e.js": "/precache-manifest.3efe8ba88ee3106f8a731fb4a9ef347e.js",
+    "precache-manifest.d7900eeb7be18517ab9dec06d5b84e3b.js": "/precache-manifest.d7900eeb7be18517ab9dec06d5b84e3b.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.4fadf49f.chunk.css.map": "/static/css/2.4fadf49f.chunk.css.map",
     "static/css/main.b57530e1.chunk.css.map": "/static/css/main.b57530e1.chunk.css.map",
-    "static/js/2.126a2df0.chunk.js.LICENSE.txt": "/static/js/2.126a2df0.chunk.js.LICENSE.txt",
+    "static/js/2.30113baf.chunk.js.LICENSE.txt": "/static/js/2.30113baf.chunk.js.LICENSE.txt",
     "static/media/BallingWithData.png": "/static/media/BallingWithData.aa00550a.png",
     "static/media/Gentrification_IG.png": "/static/media/Gentrification_IG.66c4eb97.png",
     "static/media/GitHub-Mark.eps": "/static/media/GitHub-Mark.8d6f6ff0.eps",
@@ -143,6 +143,7 @@
     "static/media/movies.png": "/static/media/movies.0a0030a4.png",
     "static/media/nikita.jpg": "/static/media/nikita.5dadca4e.jpg",
     "static/media/nitzan.jpg": "/static/media/nitzan.7694ae7b.jpg",
+    "static/media/oliver.jpg": "/static/media/oliver.5f13f289.jpg",
     "static/media/omar.jpg": "/static/media/omar.e4f376be.jpg",
     "static/media/person3.png": "/static/media/person3.7ca050ef.png",
     "static/media/person4.png": "/static/media/person4.4f2b00ce.png",
@@ -216,8 +217,8 @@
   "entrypoints": [
     "static/js/runtime-main.99911b0c.js",
     "static/css/2.4fadf49f.chunk.css",
-    "static/js/2.126a2df0.chunk.js",
+    "static/js/2.30113baf.chunk.js",
     "static/css/main.b57530e1.chunk.css",
-    "static/js/main.6fd3692b.chunk.js"
+    "static/js/main.c09ce310.chunk.js"
   ]
 }
