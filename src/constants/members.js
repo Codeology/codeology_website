@@ -893,7 +893,7 @@ const a = [
         project: null,
         resume: null,
         website: null,
-        repeat: '1',
+        repeat: '2',
         blurb: "coffee, frank, n friends !!! say hi :)",
     },
     {
