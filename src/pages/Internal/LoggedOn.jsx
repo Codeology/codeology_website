@@ -107,14 +107,19 @@ function LoggedOn(props) {
                 <div id='announcements'>
                     <h2>announcements</h2>
                     <ul className="announcements-text">
-                        <li><b>Tree-Leaf Reveal</b> will be this Saturday from 8-11PM at Pradeep's place! This is <b>REQUIRED</b> for everyone picking up and for all new members (if safe).
-                        <b> Message Joelle and Jun Hee if you are unable to come</b> as soon as possible, especially if you are a tree or a leaf</li>
-                        <li>At this time, we are still planning on having reveal in person. If you are able to take a covid test, <b>please take one as soon as you can</b> to hopefully get results back before Saturday.
-                            If you are unable to, <b>please stay at home</b> if you are not feeling well or if you have been exposed to someone who has tested positive for covid.</li>
-                        <li><b>Message Joelle or Jun Hee your birthdays</b> if you haven't already!</li>
-                        <li><b>Mentorship groups have been released!</b> Send a message to your mentor if they have not already reached out to you. Schedule a meeting together to talk about goals for the semester and send photos in buddies!</li>
-                        <li><a href="https://tinyurl.com/NiceThingsSp22" target="_blank" rel="noopener noreferrer">NICE THINGS! </a>Drop your wholesome confessions here! Confessions will be revealed at next GM!</li>
-                        <li>Schedule <a href="https://bit.ly/cody-education-oh" target="_blank" rel="noopener noreferrer">education OH</a> with Cindy and Angela!</li>
+                        <li>If you are missing any apparel [Ash] will not be bringing to GM anymore! Please grab from [Ash] by the end of this month (DM [Ash] and we can figure out pick up)</li>
+                        <li>Submit your <a href="https://tinyurl.com/NiceThingsSp22" target="_blank" rel="noopener noreferrer">NICE THINGS! </a></li>
+                        <li>DUE by FRI 3/11 MIDNIGHT: <a href="https://tinyurl.com/fotoMerch" target="_blank" rel="noopener noreferrer">PHOTOSHOOT DATE/MERCH PREF FORM </a></li>
+                        <li>Bash workshop slides (w/ solutions): <a href="https://docs.google.com/presentation/d/1S3OsoN90ftMVvAXdRkF9qItL727wMQ7vtmcZyN572P4/edit?usp=sharing" target="_blank" rel="noopener noreferrer">here </a> </li>
+                        <li>meet up with mentors round 2.0! (study date or decompress)</li>
+                        <li>There will be a kickback Saturday at 9PM! The location will be announced later.</li>
+                        <li>Berkeley Project Day - April 16: <a href="https://tinyurl.com/bpsp22signup" target="_blank" rel="noopener noreferrer">RSVP by March 18th Here!</a></li>
+                        <li>Six Flags - April 23: <a href="https://airtable.com/shr90588pje0wedhN" target="_blank" rel="noopener noreferrer">RSVP by March 18th Here!</a></li>
+                        <li>Reach out to Daniel, Jasper, Joelle or Jun Hee if you have financial concerns! We want to make socials as accessible as possible and would love to answer qs/help you out!.</li>
+                        <li>RECURRING LINKS: <a href="https://airtable.com/shr0J7brwC6dtBqPG" target="_blank" rel="noopener noreferrer">Anonymous Feedback Form</a>,
+                            <a href="https://airtable.com/shr3Vull6K4QVdU4U" target="_blank" rel="noopener noreferrer"> Reimbursement Form</a>,
+                            <a href="http://bit.ly/cody-education-oh" target="_blank" rel="noopener noreferrer"> Education OH</a>,
+                            <a href="https://tinyurl.com/codySp22Drive" target="_blank" rel="noopener noreferrer"> GM Slides</a> </li>
                     </ul>
                 </div>
 
