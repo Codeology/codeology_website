@@ -107,19 +107,60 @@ function LoggedOn(props) {
                 <div id='announcements'>
                     <h2>announcements</h2>
                     <ul className="announcements-text">
-                        <li>If you are missing any apparel [Ash] will not be bringing to GM anymore! Please grab from [Ash] by the end of this month (DM [Ash] and we can figure out pick up)</li>
-                        <li>Submit your <a href="https://tinyurl.com/NiceThingsSp22" target="_blank" rel="noopener noreferrer">NICE THINGS! </a></li>
-                        <li>DUE by FRI 3/11 MIDNIGHT: <a href="https://tinyurl.com/fotoMerch" target="_blank" rel="noopener noreferrer">PHOTOSHOOT DATE/MERCH PREF FORM </a></li>
-                        <li>Bash workshop slides (w/ solutions): <a href="https://docs.google.com/presentation/d/1S3OsoN90ftMVvAXdRkF9qItL727wMQ7vtmcZyN572P4/edit?usp=sharing" target="_blank" rel="noopener noreferrer">here </a> </li>
-                        <li>meet up with mentors round 2.0! (study date or decompress)</li>
-                        <li>There will be a kickback Saturday at 9PM! The location will be announced later.</li>
-                        <li>Berkeley Project Day - April 16: <a href="https://tinyurl.com/bpsp22signup" target="_blank" rel="noopener noreferrer">RSVP by March 18th Here!</a></li>
-                        <li>Six Flags - April 23: <a href="https://airtable.com/shr90588pje0wedhN" target="_blank" rel="noopener noreferrer">RSVP by March 18th Here!</a></li>
-                        <li>Reach out to Daniel, Jasper, Joelle or Jun Hee if you have financial concerns! We want to make socials as accessible as possible and would love to answer qs/help you out!.</li>
-                        <li>RECURRING LINKS: <a href="https://airtable.com/shr0J7brwC6dtBqPG" target="_blank" rel="noopener noreferrer">Anonymous Feedback Form</a>,
-                            <a href="https://airtable.com/shr3Vull6K4QVdU4U" target="_blank" rel="noopener noreferrer"> Reimbursement Form</a>,
-                            <a href="http://bit.ly/cody-education-oh" target="_blank" rel="noopener noreferrer"> Education OH</a>,
-                            <a href="https://tinyurl.com/codySp22Drive" target="_blank" rel="noopener noreferrer"> GM Slides</a> </li>
+
+                        <li><b>Media:</b>
+                            <ul>
+                                <li>Submit <a href="https://tinyurl.com/NiceThingsSp22" target="_blank" rel="noopener noreferrer">NICE THINGS!</a>
+                                <ul>
+                                    <li>BDAY EDITION: from this week on we’ll also be using NICE THINGS to put together bday cards! SO GO SUBMIT SOME NICE MESSAGES!! uwu</li>
+                                    <li>UPCOMING BDAYS INCLUDE: Upcoming: Lincoln (3/19), Grace J (3/25), Cynthia (3/30), Kevin C (3/31)</li>
+                                    <li>Old: Victoria (3/14) (pls fill out bday specific nice things by next GM - 3/29)</li>  
+                                </ul>
+                                </li>
+                                <li>if you weren’t at this weeks GM but would like to order last sem’s merch (hoodies + tote bags) pls dm me! (Ash)</li>
+                            </ul>
+                        </li>
+
+                        <li><b>Social:</b>
+                            <ul>
+                                <li>NO OFFICIAL SOCIALS OVER BREAK! But feel free to host ur own :)</li>
+                                <li>Berkeley Project Day - April 16, Six Flags - April 23! (RSVP date passed)</li>
+                                <li>Reach out to Daniel, Jasper, Joelle or Jun Hee if you have financial concerns! We want to make socials as accessible as possible and would love to answer qs/help you out!</li>
+                            </ul>
+                        </li>
+
+                        <li><b>Education:</b>
+                            <ul>
+                                <li>Meet with your mentor! (study date or decompress)</li>
+                                <li>Schedule <a href="https://bit.ly/cody-education-oh" target="_blank" rel="noopener noreferrer">education OH</a> with Cindy and Angela!</li>
+                            </ul>
+                        </li>
+
+                        <li><b>Industry:</b>
+                            <ul>
+                                <li>Mark your calendars ~ APRIL 6TH 6:30pm - 8pm</li>
+                                <li>This event is <b>SUPER mandatory</b> & please bring friends :D</li>
+                                <li>Update your resumes~</li>
+                            </ul>
+                        </li>
+                        
+                        <li><b>Recurring Links: (forms also linked below :D)</b>
+                            <ul>
+                                <li>If you have feedback, please submit them anonymously 
+                                <a href="https://airtable.com/shr0J7brwC6dtBqPG" target="_blank" rel="noopener noreferrer"> here! </a>
+                                    If you would like us to follow up, please put your name there in the note.</li>
+                                <li>
+                                    If you have bought something for Codeology, please fill out this 
+                                    <a href="https://airtable.com/shr3Vull6K4QVdU4U" target="_blank" rel="noopener noreferrer"> reimbursement form!</a>
+                                </li>
+                                <li>
+                                    Drive containing all of our slides can be found 
+                                    <a href="https://tinyurl.com/codySp22Drive" target="_blank" rel="noopener noreferrer"> here.</a>
+                                </li>
+                            </ul>
+
+                        </li>
+                        
                     </ul>
                 </div>
 
