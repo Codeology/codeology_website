@@ -108,6 +108,7 @@ function LoggedOn(props) {
                 <div id='announcements'>
                     <h2>announcements</h2>
                     <ul className="announcements-text">
+
                         <li><b>Media:</b>
                             <ul>
                                 <li>Submit <a href="https://tinyurl.com/NiceThingsSp22" target="_blank" rel="noopener noreferrer">NICE THINGS!</a>
@@ -120,6 +121,7 @@ function LoggedOn(props) {
                                 <li>if you weren’t at this weeks GM but would like to order last sem’s merch (hoodies + tote bags) pls dm me! (Ash)</li>
                             </ul>
                         </li>
+
                         <li><b>Social:</b>
                             <ul>
                                 <li>NO OFFICIAL SOCIALS OVER BREAK! But feel free to host ur own :)</li>
@@ -127,12 +129,14 @@ function LoggedOn(props) {
                                 <li>Reach out to Daniel, Jasper, Joelle or Jun Hee if you have financial concerns! We want to make socials as accessible as possible and would love to answer qs/help you out!</li>
                             </ul>
                         </li>
+
                         <li><b>Education:</b>
                             <ul>
                                 <li>Meet with your mentor! (study date or decompress)</li>
                                 <li>Schedule <a href="https://bit.ly/cody-education-oh" target="_blank" rel="noopener noreferrer">education OH</a> with Cindy and Angela!</li>
                             </ul>
                         </li>
+
                         <li><b>Industry:</b>
                             <ul>
                                 <li>Mark your calendars ~ APRIL 6TH 6:30pm - 8pm</li>
@@ -140,6 +144,7 @@ function LoggedOn(props) {
                                 <li>Update your resumes~</li>
                             </ul>
                         </li>
+                        
                         <li><b>Recurring Links: (forms also linked below :D)</b>
                             <ul>
                                 <li>If you have feedback, please submit them anonymously 
