@@ -3,6 +3,7 @@ const ProjectInfo = {
     {
       title: "BearWear",
       leaders: "Rachel Xin, Chanbin Park",
+      developers: "Michael Zhang, Justin Xu, Annie Xu, Amogh Maganahalli, Angel Mau",
       description: "In this project, you will create your very own digital closet web application, where users can sign up/in, upload pictures of different clothing items, and easily manage them online. You will learn the basics of full-stack development: front-end (design a website, routing) and backend (authentication, database). First, we will implement a simple version of our app using plain HTML, CSS, and Javascript. Then, we upgrade our app and complete our application using React.js, TailwindCSS, and Firebase.",
       technologies: "HTML, CSS, JavaScript, React, Firebase",
       imageSrc: "bearwear.png"
@@ -10,6 +11,7 @@ const ProjectInfo = {
     {
       title: "SpotifAI",
       leaders: "Pradeep Muthaiya, Sady Behera",
+      developers: "Tavleen Bhatia, Dhruv Ganesh, Tommy Hang, Mizuho Li, Victoria Nguyen, Kevin Nguyen",
       description: "In this project, you will utilize Spotify’s API to create a custom playlist using the user's very own music preferences. Our first goal is to get comfortable with the Spotify API, after which you will perform ML techniques on songs from the user's and Spotify's very own featured playlists while using tools like NumPy, Pandas, and Sklearn. These techniques will enable you to add specific and optimal songs to the custom target playlist. Finally, you will create an interface on Dash to see different data visualizations based on your final data.",
       technologies: "Python, NumPy, Pandas, Sklearn, Dash",
       imageSrc: "spotifai.png"
@@ -17,6 +19,7 @@ const ProjectInfo = {
     {
       title: "Shoptimum",
       leaders: "Kevin Chow, Eric Berndt",
+      developers: "Ash Chang, Kerrine Tai, Kylie Ren, Charles Ming, Chetan Khanna, Cynthia Lan",
       description: "Have you ever wanted to find the best price for your product, or the most reputable seller, but are too lazy to do the research yourself? Shoptimum is an executable program that finds products, recommends products, and finally helps users buy products. Shoptimum will web scrape several websites with Selenium for a user specified product and pull data about each product found. The program will use Tensorflow, a machine learning library, to recommend the best products and display them in the desktop app that will run on Electron, Javascript, HTML, CSS, and Flask. The user can then select a product and be redirected to its respective webpage.",
       technologies: "Python, Selenium, JavaScript, Electron, Flask",
       imageSrc: "shoptimum.png"
@@ -24,6 +27,7 @@ const ProjectInfo = {
     {
       title: "Cal Me Maybe",
       leaders: "Euhan Kim, Maya Zheng, Joelle Siong Sin",
+      developers: "Ramya Chitturi, Pradyun Kumar, Grace Juan, Victor Zhou, Jada Klein, Laura Pei",
       description: "Have you ever felt scared walking home late at night but forgot to call Bear Walk? In this project, we will be building a night safety walking app for students at Berkeley. The user will enter their destination and estimated arrival time, and if the user doesn’t arrive to the location on time, then the app will notify anyone they have added to their circle. We will use React Native, JavaScript, Node.js, AWS, etc. to build the both the frontend and backend of the app! Join this project to learn how to make a ✨stunning✨ app that will keep you beary safe!",
       technologies: "React Native, Node.js, AWS",
       imageSrc: "calmemaybe.png"
@@ -31,6 +35,7 @@ const ProjectInfo = {
     {
       title: "Codythereum",
       leaders: "Ahmed Baqai, Ernest Goh",
+      developers: "Stephen Yang, Jun Hee Han, Oliver Carmont, Lincoln Too, David Lim",
       description: "Cryptocurrency has been on everyone’s mind lately, and as developers, we’re looking to concentrate on a special crypto network, Ethereum. This project is intended to deep dive into the complex structure of the network; understanding the intricacies behind the powerful design while brainstorming several applications that can be hosted on the platform. The end result of our project will be our very own smart contract on the blockchain, with a frontend tool on the side catering user-friendly interaction.",
       technologies: "Ethereum, Solidity",
       imageSrc: "codythereum.png"
