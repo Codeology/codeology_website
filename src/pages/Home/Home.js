@@ -7,24 +7,10 @@ import { Helmet } from 'react-helmet';
 import ScrollToTop from '../../utils/ScrollToTop';
 import Landing from '../../components/Landing/Landing';
 import Fade from 'react-reveal/Fade';
+import PhotoCarousel from '../../components/PhotoCarousel/PhotoCarousel'
 
 export default function Home() {
     const [imagesLoaded, setLoaded] = useState(false);
-
-    const createProjectCarousel = () => {
-        const projects = ['vendingmachine_square', 'bearwear', 'spotifai', 'shoptimum', 'calmemaybe', 'codythereum'];
-        return ( 
-            <Carousel wrap={true} touch={true}>
-            {projects.map(project => {
-                    return (
-                        <Carousel.Item className="carousel-cell" interval={2500}>
-                            <img src={require(`../../images/projects/${project}.png`)} alt={project} />
-                        </Carousel.Item> 
-                    )
-                })}
-            </Carousel> 
-        )     
-    }
 
     const loaded = () => { setLoaded(true); }
     
@@ -75,7 +61,7 @@ export default function Home() {
                 <Fade>
                     <div id="project" className="section text-right">
                         <div className='section-img-container'>
-                            {createProjectCarousel()}
+                        <PhotoCarousel image_folder = 'projects' pics={['vendingmachine_square', 'bearwear', 'spotifai', 'shoptimum', 'calmemaybe', 'codythereum']} />;
                             <div className="standing person">
                                 <img src={require("../../images/illustrations/people/standing1.png")} alt='' />
                             </div>
@@ -115,7 +101,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className='section-img-container'>
-                            <img className='section-img' src={require("../../images/group/skate_fa21.jpg")} alt='Community' />
+                            <PhotoCarousel image_folder = 'group' pics={['skate_fa21', 'smallgroup_river', 'tree_doe', 'magicforest_reveal', 'campus_blossoms', 'fun_glade', 'retreat_sp22']} />;
                             <div className="standing3 person">
                                 <img src={require("../../images/illustrations/people/smallpeeps left.png")} alt='' />
                             </div>
