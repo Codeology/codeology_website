@@ -136,7 +136,7 @@ export const leadership = [
         linkedin: "https://www.linkedin.com/in/larissatsai/",
         resume: null,
         website: null,
-        blurb: "Hi! I'm Larissa, an intended CS major from Maryland. I spend my time scrolling through Instagram looking at cute animals. I also like baking, crosswords, and my Spotify playlists:) ",
+        blurb: "Hi! I'm Larissa, a CS major from Maryland. I love making Spotify playlists and buying boba/Sheng Kee to procrastinate. I'm currently learning amigurumi and making my way through various animes!",
     },
     {
         name: 'Maya Zheng',
@@ -833,7 +833,7 @@ const a = [
         linkedin: "https://www.linkedin.com/in/laurapei/",
         resume: null,
         website: "https://lauraspberry.github.io/",
-        blurb: "hi i'm a second year EECS major from SoCal and i love anything artsy and everything egg",
+        blurb: "hello! I'm a second year EECS major from the Los Angeles area, and I love gudetama, good food, and sleeping for more than 9 hours <3",
     },
     {
         name: 'Lauren Zheng',
