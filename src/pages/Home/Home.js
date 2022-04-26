@@ -61,7 +61,7 @@ export default function Home() {
                 <Fade>
                     <div id="project" className="section text-right">
                         <div className='section-img-container'>
-                        <PhotoCarousel image_folder = 'projects' pics={['vendingmachine_square', 'bearwear', 'spotifai', 'shoptimum', 'calmemaybe', 'codythereum']} />;
+                        <PhotoCarousel image_folder = 'projects' pics={['vendingmachine_square', 'bearwear', 'spotifai', 'shoptimum', 'calmemaybe', 'codythereum']} />
                             <div className="standing person">
                                 <img src={require("../../images/illustrations/people/standing1.png")} alt='' />
                             </div>
@@ -101,7 +101,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className='section-img-container'>
-                            <PhotoCarousel image_folder = 'group' pics={['skate_fa21', 'smallgroup_river', 'tree_doe', 'magicforest_reveal', 'campus_blossoms', 'fun_glade', 'retreat_sp22']} />;
+                            <PhotoCarousel image_folder = 'group' pics={['skate_fa21', 'smallgroup_river', 'tree_doe', 'campus_blossoms', 'fun_glade', 'retreat_sp22']} />
                             <div className="standing3 person">
                                 <img src={require("../../images/illustrations/people/smallpeeps left.png")} alt='' />
                             </div>
