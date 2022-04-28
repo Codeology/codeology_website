@@ -1,12 +1,12 @@
 const ProjectInfo = {
   "Spring 2022": [
     {
-      title: "BearWear",
+      title: "Bearwear",
       leaders: "Rachel Xin, Chanbin Park",
       developers: "Michael Zhang, Justin Xu, Annie Xu, Amogh Maganahalli, Angel Mau",
       description: "In this project, you will create your very own digital closet web application, where users can sign up/in, upload pictures of different clothing items, and easily manage them online. You will learn the basics of full-stack development: front-end (design a website, routing) and backend (authentication, database). First, we will implement a simple version of our app using plain HTML, CSS, and Javascript. Then, we upgrade our app and complete our application using React.js, TailwindCSS, and Firebase.",
       technologies: "HTML, CSS, JavaScript, React, Firebase",
-      imageSrc: "bearwear.png"
+      imageSrc: "bearwear.png",
     },
     {
       title: "SpotifAI",

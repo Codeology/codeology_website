@@ -150,7 +150,8 @@ export const leadership = [
         linkedin: "https://www.linkedin.com/in/maya-zheng-15868b208 ",
         resume: null,
         website: null,
-        blurb: "Movie nerd, bubble tea, matcha and roller coaster enthusiast. I'm also pretty interested in 3D graphics and animation. ",
+        email: "mayaz@berkeley.edu",
+        blurb: "Hi! I'm Maya, a sophomore studying CS. I like watching random movies, going on hikes, stand up comedy and roller coasters(!!!). I also have a growing boba problem... ",
     },
     {
         name: 'Ashley Chang',
@@ -382,7 +383,8 @@ export const projectLeaders = [
         linkedin: "https://www.linkedin.com/in/maya-zheng-15868b208 ",
         resume: null,
         website: null,
-        blurb: "Movie nerd, bubble tea, matcha and roller coaster enthusiast. I'm also pretty interested in 3D graphics and animation. ",
+        email: "mayaz@berkeley.edu",
+        blurb: "Hi! I'm Maya, a sophomore studying CS. I like watching random movies, going on hikes, stand up comedy and roller coasters(!!!). I also have a growing boba problem... ",
     },
     {
         name: 'Pradeep Muthaiya',
@@ -939,7 +941,7 @@ const a = [
         linkedin: null,
         resume: null,
         website: null,
-        blurb: "i love to eat, play basketball and try new things ",
+        blurb: "Hi, I'm Shannon! I like playing basketball, snowboarding, and driving to 99ranch. Most importantly, if I could only eat one carb for the rest of my life it would be bread.",
     },
     {
         name: 'Tavleen Bhatia',
