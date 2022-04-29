@@ -820,7 +820,7 @@ const a = [
         linkedin: 'https://www.linkedin.com/in/lauren-zheng-2606',
         resume: null,
         website: null,
-        blurb: "I love plushies, guitars, kdramas, and tea. ",
+        blurb: "hi !!! I’m Lauren. I like playing the guitar, cooking, and red velvet cupcakes :o",
     },
     {
         name: 'Lincoln Too',
@@ -971,7 +971,7 @@ const a = [
         linkedin: "https://www.linkedin.com/in/tiffanielchau/",
         resume: null,
         website: null,
-        blurb: "I'm a simple girl; there are three things I love: good food, opening packages, and being around awesome people. Codeology fulfills 2 out of those three things which makes me very happy. :) I'm interested in exploring the tech industry while deciding what to do with my life in college. ",
+        blurb: "there are three things I love: good food, squirrels, and being around awesome people. Codeology fulfills 2 out of those three things which makes me very happy. :)",
     },
     {
         name: 'Tiffany Feng',
