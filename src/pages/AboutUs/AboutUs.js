@@ -47,7 +47,7 @@ function AboutUs() {
       
       
         <img id="RedHand" src={require('../../images/illustrations/arm/red arm.png')} alt='' />
-        <PictureSection title={"Executive Leadership"} people={leadership}/>
+        <PictureSection title={"Officer Team"} people={leadership}/>
 
         <img id="PinkHand" src={require('../../images/illustrations/arm/pink arm.png')} alt='' />
         <PictureSection title={"Project Leaders"} people={projectLeaders}/>
