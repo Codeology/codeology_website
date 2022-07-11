@@ -22,8 +22,8 @@ Make sure you have the `npm` module installed locally! All pages are respectivel
 5. Push the changes to the repo.
 
 ###  Changing the About Us Page 
-1. Download the member photo to `AboutUs/Constants/images/people` and name it "Name.jpg". If it's a repeat do "Name2.jpg" and so on 
-2. Go to `AboutUs/Constants/members.js` to add the member information  
+1. Download the member photo to `src/images/members` and name it "Name.jpg". If it's a repeat do "Name2.jpg" and so on 
+2. Go to `src/Constants/members.js` to add the member information  
 3. If it's repeating add "repeating: 2" or 3  or  whatever... 😝 
 
 
