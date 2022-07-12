@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.b57530e1.chunk.css",
-    "main.js": "/static/js/main.1bc2ed1c.chunk.js",
-    "main.js.map": "/static/js/main.1bc2ed1c.chunk.js.map",
+    "main.css": "/static/css/main.072bd498.chunk.css",
+    "main.js": "/static/js/main.6c745496.chunk.js",
+    "main.js.map": "/static/js/main.6c745496.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.99911b0c.js",
     "runtime-main.js.map": "/static/js/runtime-main.99911b0c.js.map",
-    "static/css/2.4fadf49f.chunk.css": "/static/css/2.4fadf49f.chunk.css",
-    "static/js/2.16f8b853.chunk.js": "/static/js/2.16f8b853.chunk.js",
-    "static/js/2.16f8b853.chunk.js.map": "/static/js/2.16f8b853.chunk.js.map",
+    "static/css/2.1ebb0010.chunk.css": "/static/css/2.1ebb0010.chunk.css",
+    "static/js/2.a9237b7a.chunk.js": "/static/js/2.a9237b7a.chunk.js",
+    "static/js/2.a9237b7a.chunk.js.map": "/static/js/2.a9237b7a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.6033db3a58d817653ae63a44f69de815.js": "/precache-manifest.6033db3a58d817653ae63a44f69de815.js",
+    "precache-manifest.770d2f56a39915d90b2bfb5041026243.js": "/precache-manifest.770d2f56a39915d90b2bfb5041026243.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.4fadf49f.chunk.css.map": "/static/css/2.4fadf49f.chunk.css.map",
-    "static/css/main.b57530e1.chunk.css.map": "/static/css/main.b57530e1.chunk.css.map",
-    "static/js/2.16f8b853.chunk.js.LICENSE.txt": "/static/js/2.16f8b853.chunk.js.LICENSE.txt",
+    "static/css/2.1ebb0010.chunk.css.map": "/static/css/2.1ebb0010.chunk.css.map",
+    "static/css/main.072bd498.chunk.css.map": "/static/css/main.072bd498.chunk.css.map",
+    "static/js/2.a9237b7a.chunk.js.LICENSE.txt": "/static/js/2.a9237b7a.chunk.js.LICENSE.txt",
+    "static/js/main.6c745496.chunk.js.LICENSE.txt": "/static/js/main.6c745496.chunk.js.LICENSE.txt",
     "static/media/Anthony.png": "/static/media/Anthony.2df4de91.png",
     "static/media/BallingWithData.png": "/static/media/BallingWithData.aa00550a.png",
     "static/media/Gentrification_IG.png": "/static/media/Gentrification_IG.66c4eb97.png",
@@ -242,9 +243,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.99911b0c.js",
-    "static/css/2.4fadf49f.chunk.css",
-    "static/js/2.16f8b853.chunk.js",
-    "static/css/main.b57530e1.chunk.css",
-    "static/js/main.1bc2ed1c.chunk.js"
+    "static/css/2.1ebb0010.chunk.css",
+    "static/js/2.a9237b7a.chunk.js",
+    "static/css/main.072bd498.chunk.css",
+    "static/js/main.6c745496.chunk.js"
   ]
 }
