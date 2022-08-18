@@ -25,31 +25,34 @@ export default function Apply() {
                         <h2 id='timeline-title'>recruitment timeline</h2>
 
                         <div className='timeline-event'>
-                            <b className='event-date'>1/19 - 1/28</b>
+                            <b className='event-date'>8/25 - 9/2</b>
                             <div className='event-description'>
                                 <h3>Tabling + Coffee Chats</h3>
-                                <p>We will begin on-campus tabling from <b>1/24 - 1/28 at 10am - 3pm!</b> Drop by any time to speak with a member about Codeology.</p>
+                                <p>Drop by to speak with a member about Codeology!</p>
+                                {/* <p>We will begin on-campus tabling from <b>8/25 - 9/02 at 10am - 3pm!</b> Drop by any time to speak with a member about Codeology.</p>
                                 <p>Feel free to continue using our <a href='https://tinyurl.com/codyDiscordSp22' target='_blank' rel="noopener noreferrer">Recruitment Discord</a>
                                 &nbsp;to find announcements and ask questions.</p> 
                                 <p>If you can't make tabling in person, <a href='https://tinyurl.com/codycoffeesp22' target='_blank' rel="noopener noreferrer">sign up for a coffee chat!</a>
                                     &nbsp;If slots run out or you aren't available during these times, keep checking back — more slots may open.
-                                </p>
+                                </p> */}
+                                <b>More information about these events will be available when the application opens.</b>
                             </div>
                         </div>
 
                         <div className='timeline-event'>
-                            <b className='event-date'>1/25 - 27</b>
+                            <b className='event-date'>8/30-9/1</b>
                             <div className='event-description'>
                                 <h3>Infosessions</h3>
                                 <p>Come to our infosessions to speak with our officers and ask any questions you may have! 
                                     We’ll be introducing our projects for this semester and talking about what it’s like to be in Codeology.
                                 </p>
-                                <div className='event-list'>
+                                <b>More information about these events will be available when the application opens.</b>
+                                {/* <div className='event-list'>
                                     <div className='event-list-item'>
-                                        <b>Infosession #1: 1/25, 8-9:30 pm PST</b>
+                                        <b>Infosession #1: 8/30, 8-9:30 pm PST</b>
                                         <ul>
                                             <li>Hybrid</li>
-                                            <li>Location: VLSB 2060 / <a href='https://berkeley.zoom.us/my/danieltseng1529' target='_blank' rel="noopener noreferrer">Zoom Link</a></li>
+                                            <li>Location: SOCS 20 / <a href='https://berkeley.zoom.us/my/danieltseng1529' target='_blank' rel="noopener noreferrer">Zoom Link</a></li>
                                             <li><a href='https://fb.me/e/2YPPPtn8h' target='_blank' rel="noopener noreferrer">Facebook RSVP</a></li>
                                         </ul>
                                     </div>
@@ -61,38 +64,39 @@ export default function Apply() {
                                             <li><a href='https://fb.me/e/1nq5RIAcQ' target='_blank' rel="noopener noreferrer">Facebook RSVP</a></li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
 
                         <div className='timeline-event'>
-                            <b className='event-date'>1/26</b>
+                            <b className='event-date'>8/30</b>
                             <div className='event-description'>
                                 <h3>ABCDs of Tech Infosession</h3>
                                 <p>New to the tech scene at Berkeley? Come explore some of the most exciting tech clubs on campus! You'll hear from ANova, Blueprint, Codeology, and Mobile Developers at Berkeley at this infosession!</p>
-                                <b>1/26, 8-9:30pm PST</b>
-                                <ul>
+                                {/* <b>8/30, 8-9:30pm PST</b> */}
+                                {/* <ul>
                                     <li>Online</li>
                                     <li>Location: <a href='https://tinyurl.com/abcdoftech' target='_blank' rel="noopener noreferrer">Zoom Link</a></li>
                                     <li>View our <a href='https://fb.me/e/5RX7b3FGC' target='_blank' rel="noopener noreferrer">Facebook event</a> for more details!</li>
-                                </ul>
+                                </ul> */}
+                                <b>More information about the event will be available when the application opens.</b>
                             </div>
                         </div>
 
                         <div className='timeline-event'>
-                            <b className='event-date'>1/28</b>
+                            <b className='event-date'>9/1</b>
                             <div className='event-description'>
                                 <h3>Applications Due!</h3>
                                 <p>Fill out an application to share your story and what you can get out of being a part of Codeology.</p>
-                                <b>Applications are due on 1/28 at 11:59 pm PST.</b><br/>
-                                <a href='https://airtable.com/shrYiTfYslEBym9GN?fbclid=IwAR2I3O2PuLN_Z_JbLAzZnWz0harbL1NavnyRYdetVghw78dYWtqm_5tU4qM' target='_blank' rel="noopener noreferrer">
+                                <b>Applications will be due on 9/01 at 11:59 pm PST.</b><br/>
+                                {/* <a href='https://airtable.com/shrYiTfYslEBym9GN?fbclid=IwAR2I3O2PuLN_Z_JbLAzZnWz0harbL1NavnyRYdetVghw78dYWtqm_5tU4qM' target='_blank' rel="noopener noreferrer">
                                     Start your application!
-                                </a>
+                                </a> */}
                             </div>
                         </div>
 
                         <div className='timeline-event'>
-                            <b className='event-date'>1/30 - 2/1</b>
+                            <b className='event-date'>9/3 - 9/5</b>
                             <div className='event-description'>
                                 <h3>Group Interviews</h3>
                                 <p>Applicants accepted past the written application will participate in group interviews, 
@@ -102,7 +106,7 @@ export default function Apply() {
                         </div>
 
                         <div className='timeline-event'>
-                            <b className='event-date'>2/2</b>
+                            <b className='event-date'>9/6</b>
                             <div className='event-description'>
                                 <h3>Social Night</h3>
                                 <p>An event for accepted applicants to get to know Codeology members and fellow applicants. 
@@ -112,7 +116,7 @@ export default function Apply() {
                         </div>
 
                         <div className='timeline-event'>
-                            <b className='event-date'>2/3 - 5</b>
+                            <b className='event-date'>9/7-9/9</b>
                             <div className='event-description'>
                                 <h3>Individual Interviews</h3>
                                 <p>A casual interview for us to get to know you better! 
