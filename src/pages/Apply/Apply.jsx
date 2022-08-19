@@ -12,30 +12,49 @@ export default function Apply() {
                 <h1 className="contactTitle"> apply </h1>
                 <div id="underline"></div>
                 {/*
-                <a href='https://airtable.com/shrYiTfYslEBym9GN?fbclid=IwAR2I3O2PuLN_Z_JbLAzZnWz0harbL1NavnyRYdetVghw78dYWtqm_5tU4qM' target='_blank' rel="noopener noreferrer">
-                    <button id='application-link'>APPLICATION LINK - DUE 1/28, 11:59 PST</button>
+                <a href='https://tinyurl.com/codyF22Application' target='_blank' rel="noopener noreferrer">
+                    <button id='application-link'>APPLICATION LINK - DUE 9/1, 11:59 PST</button>
                 </a>
                 */}
-                <h3 id='apps-closed'>
+                <h3 id='apps-closed'>Applications are not open right now, but fill out the interest form below to hear from us when applications open!</h3>
+                <a href='https://tinyurl.com/CodeologyMailing' target='_blank' rel="noopener noreferrer">
+                    <button id='interest-link'>Interest Form</button>
+                </a>
+               
+                {/* <h3 id='apps-closed'>
                 Applications are currently closed. Come visit our website during the first few weeks of the Fall 2022 semester to apply!
-                </h3>
+                </h3> */}
                 
                 <Fade>
                     <div id='recruitment-timeline'>
                         <h2 id='timeline-title'>recruitment timeline</h2>
 
                         <div className='timeline-event'>
-                            <b className='event-date'>8/25 - 9/2</b>
+                            <b className='event-date'>8/25 - 9/1</b>
                             <div className='event-description'>
                                 <h3>Tabling + Coffee Chats</h3>
                                 <p>Drop by to speak with a member about Codeology!</p>
-                                {/* <p>We will begin on-campus tabling from <b>8/25 - 9/02 at 10am - 3pm!</b> Drop by any time to speak with a member about Codeology.</p>
+                                {/* <p>We will begin on-campus tabling from <b>8/25 - 9/01 at 10am - 3pm!</b> Drop by any time to speak with a member about Codeology.</p>
                                 <p>Feel free to continue using our <a href='https://tinyurl.com/codyDiscordSp22' target='_blank' rel="noopener noreferrer">Recruitment Discord</a>
                                 &nbsp;to find announcements and ask questions.</p> 
                                 <p>If you can't make tabling in person, <a href='https://tinyurl.com/codycoffeesp22' target='_blank' rel="noopener noreferrer">sign up for a coffee chat!</a>
                                     &nbsp;If slots run out or you aren't available during these times, keep checking back — more slots may open.
                                 </p> */}
                                 <b>More information about these events will be available when the application opens.</b>
+                            </div>
+                        </div>
+
+                        <div className='timeline-event'>
+                            <b className='event-date'>8/29</b>
+                            <div className='event-description'>
+                                <h3>Clubs and Cookies</h3>
+                                {/* <p>We will begin on-campus tabling from <b>8/25 - 9/01 at 10am - 3pm!</b> Drop by any time to speak with a member about Codeology.</p>
+                                <p>Feel free to continue using our <a href='https://tinyurl.com/codyDiscordSp22' target='_blank' rel="noopener noreferrer">Recruitment Discord</a>
+                                &nbsp;to find announcements and ask questions.</p> 
+                                <p>If you can't make tabling in person, <a href='https://tinyurl.com/codycoffeesp22' target='_blank' rel="noopener noreferrer">sign up for a coffee chat!</a>
+                                    &nbsp;If slots run out or you aren't available during these times, keep checking back — more slots may open.
+                                </p> */}
+                                <b>More information about this event will be available when the application opens.</b>
                             </div>
                         </div>
 
@@ -51,16 +70,16 @@ export default function Apply() {
                                     <div className='event-list-item'>
                                         <b>Infosession #1: 8/30, 8-9:30 pm PST</b>
                                         <ul>
-                                            <li>Hybrid</li>
-                                            <li>Location: SOCS 20 / <a href='https://berkeley.zoom.us/my/danieltseng1529' target='_blank' rel="noopener noreferrer">Zoom Link</a></li>
+                                            <li>In Person</li>
+                                            <li>Location: SOCS 20</li>
                                             <li><a href='https://fb.me/e/2YPPPtn8h' target='_blank' rel="noopener noreferrer">Facebook RSVP</a></li>
                                         </ul>
                                     </div>
                                     <div className='event-list-item'>
                                         <b>Infosession #2: 1/27, 8-9:30pm PST</b>
                                         <ul>
-                                            <li>Online</li>
-                                            <li>Location: <a href='https://berkeley.zoom.us/my/danieltseng1529' target='_blank' rel="noopener noreferrer">Zoom Link</a></li>
+                                            <li>In Person</li>
+                                            <li>Location: SOCS 20</li>
                                             <li><a href='https://fb.me/e/1nq5RIAcQ' target='_blank' rel="noopener noreferrer">Facebook RSVP</a></li>
                                         </ul>
                                     </div>
@@ -73,10 +92,10 @@ export default function Apply() {
                             <div className='event-description'>
                                 <h3>ABCDs of Tech Infosession</h3>
                                 <p>New to the tech scene at Berkeley? Come explore some of the most exciting tech clubs on campus! You'll hear from ANova, Blueprint, Codeology, and Mobile Developers at Berkeley at this infosession!</p>
-                                {/* <b>8/30, 8-9:30pm PST</b> */}
+                                {/* <b>8/31, 8-9:30pm PST</b> */}
                                 {/* <ul>
-                                    <li>Online</li>
-                                    <li>Location: <a href='https://tinyurl.com/abcdoftech' target='_blank' rel="noopener noreferrer">Zoom Link</a></li>
+                                    <li>In Person</li>
+                                    <li>Location: Dwinelle 145</li>
                                     <li>View our <a href='https://fb.me/e/5RX7b3FGC' target='_blank' rel="noopener noreferrer">Facebook event</a> for more details!</li>
                                 </ul> */}
                                 <b>More information about the event will be available when the application opens.</b>
@@ -88,8 +107,8 @@ export default function Apply() {
                             <div className='event-description'>
                                 <h3>Applications Due!</h3>
                                 <p>Fill out an application to share your story and what you can get out of being a part of Codeology.</p>
-                                <b>Applications will be due on 9/01 at 11:59 pm PST.</b><br/>
-                                {/* <a href='https://airtable.com/shrYiTfYslEBym9GN?fbclid=IwAR2I3O2PuLN_Z_JbLAzZnWz0harbL1NavnyRYdetVghw78dYWtqm_5tU4qM' target='_blank' rel="noopener noreferrer">
+                                <b>Applications will be due on 9/1 at 11:59 pm PST.</b><br/>
+                                {/* <a href='https://tinyurl.com/codyF22Application' target='_blank' rel="noopener noreferrer">
                                     Start your application!
                                 </a> */}
                             </div>

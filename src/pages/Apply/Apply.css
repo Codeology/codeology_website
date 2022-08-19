@@ -20,6 +20,21 @@
     transition: 0.2s;
 }
 
+#interest-link {
+    background-color: var(--forestgreen);
+    border-radius: 12px;
+    border: none;
+    width: 50vw;
+    padding: 10px;
+    margin: 0px 0px 40px 0;
+    color: white;
+}
+
+#application-link:hover {
+    filter: brightness(90%);
+    transition: 0.2s;
+}
+
 .unclickable-link, .unclickable-link:hover {
     color: var(--grey);
     pointer-events: none;
