@@ -37,7 +37,7 @@ export default function Apply() {
                                 <b>8/25 - 9/1 Weekdays, 10am - 3pm PST</b>
                                 <ul>
                                     <li>In Person</li>
-                                    <li>Location: Memorial Glade (Lower Sproul on 9/1)</li>
+                                    <li>Location: Memorial Glade (Upper Sproul on 9/1)</li>
                                 </ul>
                             </div>
                         </div>
