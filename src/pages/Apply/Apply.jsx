@@ -16,10 +16,10 @@ export default function Apply() {
                     <button id='application-link'>APPLICATION LINK - DUE 9/1, 11:59 PST</button>
                 </a>
                
-                {/* <h3 id='apps-closed'>Applications are not open right now, but fill out the interest form below to hear from us when applications open!</h3>
+                <h3 id='headline'>Fill out the interest form below to hear about updates!</h3>
                 <a href='https://tinyurl.com/CodeologyMailing' target='_blank' rel="noopener noreferrer">
                     <button id='interest-link'>Interest Form</button>
-                </a> */}
+                </a>
                
                 {/* <h3 id='apps-closed'>
                 Applications are currently closed. Come visit our website during the first few weeks of the Fall 2022 semester to apply!
@@ -43,10 +43,10 @@ export default function Apply() {
                         </div>
 
                         <div className='timeline-event'>
-                            <b className='event-date'>8/25 - 9/1</b>
+                            <b className='event-date'>8/27 - 9/01</b>
                             <div className='event-description'>
                                 <h3>Coffee Chats</h3>
-                                <p>If you can't make tabling in person, <a href='https://tinyurl.com/codycoffeefa22' target='_blank' rel="noopener noreferrer">sign up for a coffee chat!</a> <br></br>
+                                <p>If you can't make tabling in person, <a href='https://tinyurl.com/codyF22Chats' target='_blank' rel="noopener noreferrer">sign up for a coffee chat!</a> <br></br>
                                     If slots run out or you aren't available during these times, keep checking back — more slots may open.
                                 </p>
                                 <b>8/25 - 9/1, time varies by slot</b>
