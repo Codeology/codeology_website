@@ -11,15 +11,15 @@ export default function Apply() {
             <div className="contact">
                 <h1 className="contactTitle"> apply </h1>
                 <div id="underline"></div>
-                {/*
+                
                 <a href='https://tinyurl.com/codyF22Application' target='_blank' rel="noopener noreferrer">
                     <button id='application-link'>APPLICATION LINK - DUE 9/1, 11:59 PST</button>
                 </a>
-                */}
-                <h3 id='apps-closed'>Applications are not open right now, but fill out the interest form below to hear from us when applications open!</h3>
+               
+                {/* <h3 id='apps-closed'>Applications are not open right now, but fill out the interest form below to hear from us when applications open!</h3>
                 <a href='https://tinyurl.com/CodeologyMailing' target='_blank' rel="noopener noreferrer">
                     <button id='interest-link'>Interest Form</button>
-                </a>
+                </a> */}
                
                 {/* <h3 id='apps-closed'>
                 Applications are currently closed. Come visit our website during the first few weeks of the Fall 2022 semester to apply!
@@ -32,15 +32,28 @@ export default function Apply() {
                         <div className='timeline-event'>
                             <b className='event-date'>8/25 - 9/1</b>
                             <div className='event-description'>
-                                <h3>Tabling + Coffee Chats</h3>
-                                <p>Drop by to speak with a member about Codeology!</p>
-                                {/* <p>We will begin on-campus tabling from <b>8/25 - 9/01 at 10am - 3pm!</b> Drop by any time to speak with a member about Codeology.</p>
-                                <p>Feel free to continue using our <a href='https://tinyurl.com/codyDiscordSp22' target='_blank' rel="noopener noreferrer">Recruitment Discord</a>
-                                &nbsp;to find announcements and ask questions.</p> 
-                                <p>If you can't make tabling in person, <a href='https://tinyurl.com/codycoffeesp22' target='_blank' rel="noopener noreferrer">sign up for a coffee chat!</a>
-                                    &nbsp;If slots run out or you aren't available during these times, keep checking back — more slots may open.
-                                </p> */}
-                                <b>More information about these events will be available when the application opens.</b>
+                                <h3>Tabling</h3>
+                                <p>We will begin on-campus tabling during the first week of recruitment! Drop by any time to speak with a member about Codeology.</p>
+                                <b>8/25 - 9/1 Weekdays, 10am - 3pm PST</b>
+                                <ul>
+                                    <li>In Person</li>
+                                    <li>Location: Memorial Glade (Lower Sproul on 9/1)</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div className='timeline-event'>
+                            <b className='event-date'>8/25 - 9/1</b>
+                            <div className='event-description'>
+                                <h3>Coffee Chats</h3>
+                                <p>If you can't make tabling in person, <a href='https://tinyurl.com/codycoffeefa22' target='_blank' rel="noopener noreferrer">sign up for a coffee chat!</a> <br></br>
+                                    If slots run out or you aren't available during these times, keep checking back — more slots may open.
+                                </p>
+                                <b>8/25 - 9/1, time varies by slot</b>
+                                <ul>
+                                    <li>In Person/Online</li>
+                                    <li>Location: varies by slot</li>
+                                </ul>
                             </div>
                         </div>
 
@@ -48,57 +61,64 @@ export default function Apply() {
                             <b className='event-date'>8/29</b>
                             <div className='event-description'>
                                 <h3>Clubs and Cookies</h3>
-                                {/* <p>We will begin on-campus tabling from <b>8/25 - 9/01 at 10am - 3pm!</b> Drop by any time to speak with a member about Codeology.</p>
-                                <p>Feel free to continue using our <a href='https://tinyurl.com/codyDiscordSp22' target='_blank' rel="noopener noreferrer">Recruitment Discord</a>
-                                &nbsp;to find announcements and ask questions.</p> 
-                                <p>If you can't make tabling in person, <a href='https://tinyurl.com/codycoffeesp22' target='_blank' rel="noopener noreferrer">sign up for a coffee chat!</a>
-                                    &nbsp;If slots run out or you aren't available during these times, keep checking back — more slots may open.
-                                </p> */}
-                                <b>More information about this event will be available when the application opens.</b>
-                            </div>
-                        </div>
-
-                        <div className='timeline-event'>
-                            <b className='event-date'>8/30-9/1</b>
-                            <div className='event-description'>
-                                <h3>Infosessions</h3>
-                                <p>Come to our infosessions to speak with our officers and ask any questions you may have! 
-                                    We’ll be introducing our projects for this semester and talking about what it’s like to be in Codeology.
-                                </p>
-                                <b>More information about these events will be available when the application opens.</b>
-                                {/* <div className='event-list'>
-                                    <div className='event-list-item'>
-                                        <b>Infosession #1: 8/30, 8-9:30 pm PST</b>
-                                        <ul>
-                                            <li>In Person</li>
-                                            <li>Location: SOCS 20</li>
-                                            <li><a href='https://fb.me/e/2YPPPtn8h' target='_blank' rel="noopener noreferrer">Facebook RSVP</a></li>
-                                        </ul>
-                                    </div>
-                                    <div className='event-list-item'>
-                                        <b>Infosession #2: 1/27, 8-9:30pm PST</b>
-                                        <ul>
-                                            <li>In Person</li>
-                                            <li>Location: SOCS 20</li>
-                                            <li><a href='https://fb.me/e/1nq5RIAcQ' target='_blank' rel="noopener noreferrer">Facebook RSVP</a></li>
-                                        </ul>
-                                    </div>
-                                </div> */}
+                                <p> New to the tech club scene at Cal? Craving some yummy cookies?</p>
+                                <p> Come join us at Clubs and Cookies, an event to learn about some of the biggest tech clubs on campus  
+                                    Get to know Launchpad, Codebase, Machine Learning at Berkeley, Blockchain at Berkeley, Blueprint, Product Space at Berkeley, Codeology, and Web Development at Berkeley all in one (delicious) event and chat directly with current members!
+                                </p>    
+                                <p> If you'll be in attendance, please fill out this quick <a href="https://tinyurl.com/clubsandcookiesinterest-fa22">interest form</a>! </p>
+                                <b>8/29, 8-10 pm PST</b>
+                                <ul>
+                                    <li>In Person</li>
+                                    <li>Location: VLSB 2050</li>
+                                    <li>View our <a href='https://fb.me/e/1YZKUc4F7' target='_blank' rel="noopener noreferrer">Facebook event</a> for more details!</li>
+                                </ul>                                
                             </div>
                         </div>
 
                         <div className='timeline-event'>
                             <b className='event-date'>8/30</b>
                             <div className='event-description'>
+                                <h3>Codeology Infosession #1</h3>
+                                <p>Come to our infosession to speak with our officers and ask any questions you may have! 
+                                    We’ll be introducing our projects for this semester and talking about what it’s like to be in Codeology.
+                                </p>
+                                <b>8/30, 8-9:30 pm PST</b>
+                                <ul>
+                                    <li>In Person</li>
+                                    <li>Location: SOCS 20</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div className='timeline-event'>
+                            <b className='event-date'>8/31</b>
+                            <div className='event-description'>
                                 <h3>ABCDs of Tech Infosession</h3>
-                                <p>New to the tech scene at Berkeley? Come explore some of the most exciting tech clubs on campus! You'll hear from ANova, Blueprint, Codeology, and Mobile Developers at Berkeley at this infosession!</p>
-                                {/* <b>8/31, 8-9:30pm PST</b> */}
-                                {/* <ul>
+                                <p>New to the tech scene at Berkeley? Come explore some of the most exciting tech clubs on campus while drinking some free boba! You'll hear from ANova, Blueprint, Codeology, and Mobile Developers at Berkeley at this infosession!</p>
+                                <b>8/31, 8-9:30pm PST</b>
+                                <ul>
                                     <li>In Person</li>
                                     <li>Location: Dwinelle 145</li>
-                                    <li>View our <a href='https://fb.me/e/5RX7b3FGC' target='_blank' rel="noopener noreferrer">Facebook event</a> for more details!</li>
-                                </ul> */}
-                                <b>More information about the event will be available when the application opens.</b>
+                                    <li>View our <a href='https://fb.me/e/20oEH2rXi' target='_blank' rel="noopener noreferrer">Facebook event</a> for more details!</li>
+                                </ul>
+                                {/* <b>More information about the event will be available when the application opens.</b> */}
+                            </div>
+                        </div>
+
+                        <div className='timeline-event'>
+                            <b className='event-date'>9/1</b>
+                            <div className='event-description'>
+                                <h3>Codeology Infosession #2</h3>
+                                <p>Come to our infosession to speak with our officers and ask any questions you may have! 
+                                    We’ll be introducing our projects for this semester and talking about what it’s like to be in Codeology.
+                                </p>
+                                <p>note: the content will be the same for both infosessions!</p>
+                                <b>9/1, 8-9:30pm PST</b>
+                                <ul>
+                                    <li>In Person</li>
+                                    <li>Location: SOCS 20</li>
+                                    {/* <li><a href='https://fb.me/e/1nq5RIAcQ' target='_blank' rel="noopener noreferrer">Facebook RSVP</a></li> */}
+                                </ul>
                             </div>
                         </div>
 
@@ -108,16 +128,16 @@ export default function Apply() {
                                 <h3>Applications Due!</h3>
                                 <p>Fill out an application to share your story and what you can get out of being a part of Codeology.</p>
                                 <b>Applications will be due on 9/1 at 11:59 pm PST.</b><br/>
-                                {/* <a href='https://tinyurl.com/codyF22Application' target='_blank' rel="noopener noreferrer">
+                                <a href='https://tinyurl.com/codyF22Application' target='_blank' rel="noopener noreferrer">
                                     Start your application!
-                                </a> */}
+                                </a>
                             </div>
                         </div>
 
                         <div className='timeline-event'>
                             <b className='event-date'>9/3 - 9/5</b>
                             <div className='event-description'>
-                                <h3>Group Interviews</h3>
+                                <h3>Group Interviews (Invite Only)</h3>
                                 <p>Applicants accepted past the written application will participate in group interviews, 
                                     where we can get an idea of how you interact and solve problems in a group setting.
                                 </p>
@@ -127,9 +147,8 @@ export default function Apply() {
                         <div className='timeline-event'>
                             <b className='event-date'>9/6</b>
                             <div className='event-description'>
-                                <h3>Social Night</h3>
-                                <p>An event for accepted applicants to get to know Codeology members and fellow applicants. 
-                                    We have some activities planned, so be sure to come out and have some fun with us!
+                                <h3>Social Night (Invite Only)</h3>
+                                <p> A fun event to meet fellow applicants, as well as current Codeology officers and members!
                                 </p>
                             </div>
                         </div>
@@ -137,7 +156,7 @@ export default function Apply() {
                         <div className='timeline-event'>
                             <b className='event-date'>9/7-9/9</b>
                             <div className='event-description'>
-                                <h3>Individual Interviews</h3>
+                                <h3>Individual Interviews (Invite Only)</h3>
                                 <p>A casual interview for us to get to know you better! 
                                     No technical experience needed; the interview will be strictly behavioral.
                                 </p>
