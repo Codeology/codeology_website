@@ -1,4 +1,38 @@
 const ProjectInfo = {
+  "Fall 2022": [
+    {
+      title: "wwwebology",
+      leaders: "Ramya, Sebi",
+      // developers: "Michael Zhang, Justin Xu, Annie Xu, Amogh Maganahalli, Angel Mau",
+      description: "Come learn all about web development! We will use HTML, CSS, and JavaScript to first teach you how to create your own website and game. Then, we will build a Google Chrome extension that blocks websites on all synced devices!",
+      // technologies: "HTML, CSS, JavaScript, React, Firebase",
+      imageSrc: "www.png",
+    },
+    {
+      title: "cod3Dology",
+      leaders: "Maya, Kerrine",
+      // developers: "Tavleen Bhatia, Dhruv Ganesh, Tommy Hang, Mizuho Li, Victoria Nguyen, Kevin Nguyen",
+      description: "This project is for anyone who wants to explore the world of game development! You’ll have the chance to build your own 3D game from scratch using Unity and Blender. We’ll first teach you the basics of Unity and CAD by leading you through a simple project, then give you the chance to design and create your own game!",
+      // technologies: "Python, NumPy, Pandas, Sklearn, Dash",
+      imageSrc: "3d.png"
+    },
+    {
+      title: "Haste Street Capital",
+      leaders: "Stephen, Euhan",
+      // developers: "Ash Chang, Kerrine Tai, Kylie Ren, Charles Ming, Chetan Khanna, Cynthia Lan",
+      description: "Do you want to earn big bucks? This project will teach you the basics of algorithmic trading so. We’ll be using the QuantConnect platform, test your models on historical data, and execute real-time trades.  At the end, you’ll have a chance to build your own models and compete with fellow project members to get the most profit!",
+      // technologies: "Python, Selenium, JavaScript, Electron, Flask",
+      imageSrc: "capital.png"
+    },
+    {
+      title: "Jay-Zam",
+      leaders: "Pradyun, Grace",
+      // developers: "Ramya Chitturi, Pradyun Kumar, Grace Juan, Victor Zhou, Jada Klein, Laura Pei",
+      description: "In Jay-Zam, we will design a web-app that can listen to Jay-Z songs and decide which song it is. This is a beginner-friendly project focused on introducing students to both web-development through HTML/CSS, JS, and Flask, as well as machine learning concepts and models like RandomForests and Neural Networks. We’ll teach you all the fundamentals, and you’ll get the chance to design your own websites and experiment with machine learning models!      ",
+      // technologies: "React Native, Node.js, AWS",
+      imageSrc: "music.png"
+    }
+  ],
   "Spring 2022": [
     {
       title: "Bearwear",
