@@ -5,7 +5,7 @@ const ProjectInfo = {
       leaders: "Ramya, Sebi",
       // developers: "Michael Zhang, Justin Xu, Annie Xu, Amogh Maganahalli, Angel Mau",
       description: "Come learn all about web development! We will use HTML, CSS, and JavaScript to first teach you how to create your own website and game. Then, we will build a Google Chrome extension that blocks websites on all synced devices!",
-      technologies: "HTML/CSS, JS, and Flask",
+      technologies: "In-depth HTML, CSS, and JS",
       imageSrc: "www.png",
     },
     {
@@ -29,7 +29,7 @@ const ProjectInfo = {
       leaders: "Pradyun, Grace",
       // developers: "Ramya Chitturi, Pradyun Kumar, Grace Juan, Victor Zhou, Jada Klein, Laura Pei",
       description: "In Jay-Zam, we will design a web-app that can listen to Jay-Z songs and decide which song it is. This is a beginner-friendly project focused on introducing students to both web-development through HTML/CSS, JS, and Flask, as well as machine learning concepts and models like RandomForests and Neural Networks. We’ll teach you all the fundamentals, and you’ll get the chance to design your own websites and experiment with machine learning models!      ",
-      technologies: "Python, HTML/CSS, JS, and Flask",
+      technologies: "Python, HTML, CSS, JS, and Flask",
       imageSrc: "music.png"
     }
   ],
