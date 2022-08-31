@@ -15,7 +15,7 @@ export const leadership = [
         linkedin: "https://www.linkedin.com/in/ashchang/",
         resume: null,
         website: null,
-        blurb: "hi! im ash and some things i love are music (lots of mandopop, kpop/krap, calm english(?)), asian dramas/anime, and pocket camp<3 i also enjoy cooking and running (sometimes)!",
+        blurb: "hi im ash! i love cooking, music (lots of mandopop, kpop/krnb:3), and photography:D i also love collecting giant plushies that take up too much space in my room:')",
     },
         {
         name: 'Joelle Siong Sin',
@@ -259,7 +259,7 @@ export const projectLeaders = [
         linkedin: 'https://linkedin.com/in/shaylan-dias/',
         resume: 'https://drive.google.com/file/d/18bhSmX8ZJpiR0C2ecscp3rjGO5reg1qU/view',
         website: 'https://shaylanmdias.com',
-        blurb: "Hi! I'm Shaylan, I'm an EECS major who loves swimming, backpacking and lifting! I'm also a gaming/marvel/fantasy nerd lol",
+        blurb: "Hi! I'm Shaylan, I'm an EECS major who loves swimming, backpacking, lifting, and music festivals! I'm also a gaming/marvel/anything fantasy nerd so hit me up about whatever :)",
     },
     {
         name: 'Erin Tsai',
@@ -756,8 +756,9 @@ const a = [
         resume: null,
         tree: null,
         leaf: null,
-        website: null,
-        blurb: 'lover of Minecraft, milk, and mushrooms <33',
+        linkedin: 'https://www.linkedin.com/in/victoriianguyen/',
+        website: 'https://victoriianguyen.github.io/',
+        blurb: 'lover of minecraft, milk, and mushrooms <33',
     },
     {
         name: 'Vidya Ganga',
