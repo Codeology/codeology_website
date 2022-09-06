@@ -226,7 +226,7 @@ export const leadership = [
         linkedin: null,
         resume: null,
         website: null,
-        blurb: "Hi I'm Cynthia! I like going to the beach, going on spontaneous adventures and grabbing food! ",
+        blurb: "Hi I’m Cynthia! I like going to the beach, spontaneous trips and card games!",
     },
 ]
 
