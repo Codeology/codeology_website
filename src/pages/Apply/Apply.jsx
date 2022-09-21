@@ -128,9 +128,9 @@ export default function Apply() {
                                 <h3>Applications Due!</h3>
                                 <p>Fill out an application to share your story and what you can get out of being a part of Codeology.</p>
                                 <b>Applications will be due on 9/1 at 11:59 pm PST.</b><br/>
-                                <a href='https://tinyurl.com/codyF22Application' target='_blank' rel="noopener noreferrer">
+                                {/* <a href='https://tinyurl.com/codyF22Application' target='_blank' rel="noopener noreferrer">
                                     Start your application!
-                                </a>
+                                </a> */}
                             </div>
                         </div>
 
