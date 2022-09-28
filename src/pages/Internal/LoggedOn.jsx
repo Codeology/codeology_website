@@ -108,7 +108,7 @@ function LoggedOn(props) {
                 <div id='announcements'>
                     <h2>announcements</h2>
                     <ul className="announcements-text">
-                        <li>Check out our GM Slides!
+                        <li><b>Check out our GM Slides:</b>
                                 <ul>
                                     <li><a href="https://docs.google.com/presentation/d/1Vki92e1gqdJm5RTiEZwHq5TCJmXpiUC94ZwXr3oEyJ8/edit?usp=sharing" target="_blank" rel="noopener noreferrer">GM 3 Slides</a></li>
                                     <li><a href="https://docs.google.com/presentation/d/18Q66X9dEq__9Rq_e2mGpmuR9tKILZfh5Fn0EcG48HZc/edit" target="_blank" rel="noopener noreferrer">GM 2 Slides</a></li>
