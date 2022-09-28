@@ -108,16 +108,12 @@ function LoggedOn(props) {
                 <div id='announcements'>
                     <h2>announcements</h2>
                     <ul className="announcements-text">
-                        <li><b>GM Slides:</b>
-                            <ul>
-                                <li>Check out our GM Slides!
+                        <li>Check out our GM Slides!
                                 <ul>
                                     <li><a href="https://docs.google.com/presentation/d/1Vki92e1gqdJm5RTiEZwHq5TCJmXpiUC94ZwXr3oEyJ8/edit?usp=sharing" target="_blank" rel="noopener noreferrer">GM 3 Slides</a></li>
                                     <li><a href="https://docs.google.com/presentation/d/18Q66X9dEq__9Rq_e2mGpmuR9tKILZfh5Fn0EcG48HZc/edit" target="_blank" rel="noopener noreferrer">GM 2 Slides</a></li>
                                     <li><a href="https://docs.google.com/presentation/u/1/d/1qWsgOozXF2RZKYwbUZl3ioiW68awpmxeAZyy0Hy8kzo/edit?usp=sharing" target="_blank" rel="noopener noreferrer">GM 1 Slides</a></li>
                                 </ul>
-                                </li>
-                            </ul>
                         </li>
                         <li><b>Media:</b>
                             <ul>
