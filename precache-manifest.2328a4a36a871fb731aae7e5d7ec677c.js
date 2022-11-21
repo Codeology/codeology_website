@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "920bfa1ee47ebce62d5ef95bab800e7d",
+    "revision": "8a491b8c17314e3e41d2ed91ad654b05",
     "url": "/index.html"
   },
   {
-    "revision": "37c5fd1ca6a9c2ca56a1",
+    "revision": "5c7df0df30ac68fede35",
     "url": "/static/css/2.1ebb0010.chunk.css"
   },
   {
-    "revision": "43d158a3256fe8ef16f1",
-    "url": "/static/css/main.212dd183.chunk.css"
+    "revision": "81f70cb677a63ad89e62",
+    "url": "/static/css/main.b3ea92b1.chunk.css"
   },
   {
-    "revision": "37c5fd1ca6a9c2ca56a1",
-    "url": "/static/js/2.f0deb15b.chunk.js"
+    "revision": "5c7df0df30ac68fede35",
+    "url": "/static/js/2.735098c1.chunk.js"
   },
   {
     "revision": "3066135519664c1fc7cc1682aa2c7a92",
-    "url": "/static/js/2.f0deb15b.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.735098c1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "43d158a3256fe8ef16f1",
-    "url": "/static/js/main.6e670ae1.chunk.js"
+    "revision": "81f70cb677a63ad89e62",
+    "url": "/static/js/main.cae9c48e.chunk.js"
   },
   {
     "revision": "4e0e34f265fae8f33b01b27ae29d9d6f",
-    "url": "/static/js/main.6e670ae1.chunk.js.LICENSE.txt"
+    "url": "/static/js/main.cae9c48e.chunk.js.LICENSE.txt"
   },
   {
     "revision": "7cdd07cd8578cb7be0ba",
@@ -114,6 +114,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2e97d205ef49823a5f49f24c3a27633c",
     "url": "/static/media/alyssa.2e97d205.jpg"
+  },
+  {
+    "revision": "eee59b5429584c87b854fa780cbf75c5",
+    "url": "/static/media/amazon.eee59b54.png"
   },
   {
     "revision": "dbb5a524091848f83b330ae301802396",
@@ -376,10 +380,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ethan.3e35efbf.jpg"
   },
   {
-    "revision": "9db4040c00bd1a57cd16ade54ace0d74",
-    "url": "/static/media/ethan2.9db4040c.jpg"
-  },
-  {
     "revision": "b2bc6e497624a580a476843806996325",
     "url": "/static/media/euhan.b2bc6e49.jpg"
   },
@@ -406,6 +406,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "410b94ff6a1039d1842e2250ca4496b0",
     "url": "/static/media/glassesguy2.410b94ff.svg"
+  },
+  {
+    "revision": "ff629c02385f2f3a199b7e0b3065d077",
+    "url": "/static/media/googleLogo.ff629c02.png"
   },
   {
     "revision": "a55314b71178b3440577060c9407d956",
@@ -620,6 +624,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/maya.196c2044.jpg"
   },
   {
+    "revision": "65ee299a24f117709db0e5fadb2efd9f",
+    "url": "/static/media/meta.65ee299a.png"
+  },
+  {
     "revision": "661a48e8b9bc0a0522c6e55f317b4322",
     "url": "/static/media/micah.661a48e8.jpg"
   },
@@ -636,12 +644,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/michelle.f9802325.jpg"
   },
   {
+    "revision": "ac45b086f5686ceb0e714c339f292715",
+    "url": "/static/media/microsoft.ac45b086.webp"
+  },
+  {
     "revision": "92d117a22535b18174409dd63a960c25",
     "url": "/static/media/mizuho.92d117a2.jpg"
   },
   {
     "revision": "0a0030a41fc04e1447a346074a9c772a",
     "url": "/static/media/movies.0a0030a4.png"
+  },
+  {
+    "revision": "28beeac9bf5b80240635ff40e7854f0a",
+    "url": "/static/media/nasa2Jpl.28beeac9.png"
+  },
+  {
+    "revision": "cb570d355e52785c80fd5c979818875d",
+    "url": "/static/media/nasaJpl.cb570d35.png"
   },
   {
     "revision": "5dadca4e545bcbe706cf772657daa78e",
@@ -658,6 +678,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e4f376be8705f9e95cfacb6a5312f9d9",
     "url": "/static/media/omar.e4f376be.jpg"
+  },
+  {
+    "revision": "600d3d03057d03e14894ab7679d7825c",
+    "url": "/static/media/paypal.600d3d03.png"
   },
   {
     "revision": "4b0ddfd8951abce0a8b4f031747c986b",
@@ -742,6 +766,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ea39cdb6870b4d15617bc2c63e601be7",
     "url": "/static/media/richard.ea39cdb6.jpg"
+  },
+  {
+    "revision": "79234120392906edf61ecacd9ad63d98",
+    "url": "/static/media/rivian.79234120.png"
   },
   {
     "revision": "dcd177ee8ddcd40f009b9bfa15fae14c",
