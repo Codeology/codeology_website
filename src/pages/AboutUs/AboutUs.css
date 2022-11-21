@@ -86,3 +86,60 @@
     left: 0;
   }
 }
+
+.destinations_img {
+  width:65px;
+  margin:20px;
+  position:static;
+}
+#dest_nasajpl {
+  width:80px;
+}
+
+@media only screen and (max-width: 800px)  {
+  .destinations_img {
+    margin:15px;
+    width:50px;
+  }
+  #dest_nasajpl {
+    width:65px;
+  }
+  
+  #about-us-destinations-container {
+  }
+}
+
+@media only screen and (max-width: 500px)  {
+  .destinations_img {
+    margin:12px;
+    width:35px;
+  }
+  #dest_nasajpl {
+    width:45px;
+  }
+}
+
+@media only screen and (max-width: 400px)  {
+  #dest_nasajpl {
+    display:none;
+  }
+  #dest_amazon {
+    display:none;
+  }
+  #dest_paypal {
+    display:none;
+  }
+}
+
+
+#about-us-destinations-container {
+  width:50%;
+  max-width:576px;
+  /* display:flex; */
+  /* flex-direction:column; */
+  align-items:center;
+  position: relative;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+}

@@ -44,6 +44,19 @@ function AboutUs() {
         </p>
         </Fade>
       </div>
+
+
+      <Heading className='no-margin'>Destinations</Heading>
+        {/* would like to make this an img carousel/scroll display */}
+        <div id='about-us-destinations-container'>
+          <img className="destinations_img" src={require('../../images/destinations/rivian.png')} alt='Rivian' />
+          <img className="destinations_img" src={require('../../images/destinations/meta.png')} alt='Meta' />
+          <img className="destinations_img" src={require('../../images/destinations/googleLogo.png')} alt='Google' />
+          <img className="destinations_img" src={require('../../images/destinations/microsoft.webp')} alt='Microsoft' />
+          <img id="dest_nasajpl" className="destinations_img" src={require('../../images/destinations/nasaJpl.png')} alt='NASA JPL' />
+          <img id="dest_amazon" className="destinations_img" src={require('../../images/destinations/amazon.png')} alt='Amazon' />
+          <img id="dest_paypal" className="destinations_img" src={require('../../images/destinations/paypal.png')} alt='Paypal' />
+        </div>
       
       
         <img id="RedHand" src={require('../../images/illustrations/arm/red arm.png')} alt='' />
