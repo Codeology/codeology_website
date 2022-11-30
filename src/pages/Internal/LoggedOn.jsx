@@ -15,17 +15,16 @@ function LoggedOn(props) {
         '🐱 GitHub': 'https://github.com/Codeology',
         '📷 Instagram': 'https://www.instagram.com/berkeleycodeology/?hl=en',
         '🔗 LinkedIn': 'https://www.linkedin.com/company/berkeley-codeology/',
-        '💡 Notion': "https://www.notion.so/Codeology-Notion-fc078bdfc07a488ab19eda6ea04fe2c7",
+        '💡 Notion': "https://www.notion.so/Codeology-Member-Hub-Fall-2022-9050ba25600d4790ace10f80e3c21a2e",
         '#️⃣ Slack': 'https://berkeley-codeology.slack.com'
     }
     const resources = {
         '📚 Class Master List': 'https://www.notion.so/a52cfbc125cd4a59ad792d9eeddb4996?v=a893d9046221443698c34651173388ed',
         '🍵 Committee Descriptions': 'https://docs.google.com/document/d/1sUFz0gS9LG0vo02zngor1QcA8F9tyuKcRh_vpzKShGs/edit',
-        '⏰ Education OH': "https://www.notion.so/Education-1ad6bdfe4f4340669251e7274e122b52",
+        '⏰ Education': "https://www.notion.so/Education-1ad6bdfe4f4340669251e7274e122b52",
         '🥑 Figma Member Guide': "https://tinyurl.com/codyMemSp22",
         '🌟 Member Guidelines': "https://www.notion.so/calcodeology/Member-Guidelines-6b7b17643c78424dbda438af1d4eca1d",
         '🥰 Nice Things': 'https://airtable.com/shrEE3SJiDbtltp5v',
-        '📝 Project Descriptions': 'https://www.notion.so/calcodeology/Project-Descriptions-be58334df4e742dcb24ad0abf7f50290',
         '📸 Photos': 'https://photos.app.goo.gl/DUYaCJbvDzfSyMHL7',
         '💼 Recruiting Master Sheet' : "https://docs.google.com/spreadsheets/u/2/d/1XyDlIqabP1eq0Hh3H3fMFNIiz1EceT6my8-rIrFbCsI/edit?usp=sharing"
     }
