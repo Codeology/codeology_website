@@ -15,20 +15,17 @@ function LoggedOn(props) {
         '🐱 GitHub': 'https://github.com/Codeology',
         '📷 Instagram': 'https://www.instagram.com/berkeleycodeology/?hl=en',
         '🔗 LinkedIn': 'https://www.linkedin.com/company/berkeley-codeology/',
-        '💡 Notion': "https://www.notion.so/calcodeology/Codeology-Notion-4d0c00b95f734f7889e2b374dcf4aad3",
+        '💡 Notion': "https://www.notion.so/Codeology-Member-Hub-Fall-2022-9050ba25600d4790ace10f80e3c21a2e",
         '#️⃣ Slack': 'https://berkeley-codeology.slack.com'
     }
     const resources = {
-        '📚 Class Master List': 'https://www.notion.so/calcodeology/4b880a65bec242d4a7708c63f0c13833?v=09ee1ccc47f14353ba67406951d284e2',
-        '🍵 Committee Descriptions': 'https://www.notion.so/calcodeology/Committee-Descriptions-73e69520cf2e4fb387977622c31f5ffb',
-        '⏰ Education OH': "https://bit.ly/cody-education-oh",
+        '📚 Class Master List': 'https://www.notion.so/a52cfbc125cd4a59ad792d9eeddb4996?v=a893d9046221443698c34651173388ed',
+        '🍵 Committee Descriptions': 'https://docs.google.com/document/d/1sUFz0gS9LG0vo02zngor1QcA8F9tyuKcRh_vpzKShGs/edit',
+        '⏰ Education': "https://www.notion.so/Education-1ad6bdfe4f4340669251e7274e122b52",
         '🥑 Figma Member Guide': "https://tinyurl.com/codyMemSp22",
-        '🤝🏿 GM Slides': "https://tinyurl.com/codySp22Drive",
         '🌟 Member Guidelines': "https://www.notion.so/calcodeology/Member-Guidelines-6b7b17643c78424dbda438af1d4eca1d",
-        '👵 Mentor Bios': 'https://bit.ly/cody-mentors-sp22',
-        '🥰 Nice Things': 'https://tinyurl.com/NiceThingsSp22',
-        '📝 Project Descriptions': 'https://www.notion.so/calcodeology/Project-Descriptions-be58334df4e742dcb24ad0abf7f50290',
-        '📸 Photos': 'https://tinyurl.com/codyFotos',
+        '🥰 Nice Things': 'https://airtable.com/shrEE3SJiDbtltp5v',
+        '📸 Photos': 'https://photos.app.goo.gl/DUYaCJbvDzfSyMHL7',
         '💼 Recruiting Master Sheet' : "https://docs.google.com/spreadsheets/u/2/d/1XyDlIqabP1eq0Hh3H3fMFNIiz1EceT6my8-rIrFbCsI/edit?usp=sharing"
     }
 
@@ -108,66 +105,48 @@ function LoggedOn(props) {
                 <div id='announcements'>
                     <h2>announcements</h2>
                     <ul className="announcements-text">
-                        <li><b>Check out our GM Slides:</b>
-                                <ul>
-                                    <li><a href="https://docs.google.com/presentation/d/1Vki92e1gqdJm5RTiEZwHq5TCJmXpiUC94ZwXr3oEyJ8/edit?usp=sharing" target="_blank" rel="noopener noreferrer">GM 3 Slides</a></li>
-                                    <li><a href="https://docs.google.com/presentation/d/18Q66X9dEq__9Rq_e2mGpmuR9tKILZfh5Fn0EcG48HZc/edit" target="_blank" rel="noopener noreferrer">GM 2 Slides</a></li>
-                                    <li><a href="https://docs.google.com/presentation/u/1/d/1qWsgOozXF2RZKYwbUZl3ioiW68awpmxeAZyy0Hy8kzo/edit?usp=sharing" target="_blank" rel="noopener noreferrer">GM 1 Slides</a></li>
-                                </ul>
-                        </li>
-                        <li><b>Media:</b>
-                            <ul>
-                                <li>Submit <a href="https://tinyurl.com/NiceThingsSp22" target="_blank" rel="noopener noreferrer">NICE THINGS!</a>
-                                <ul>
-                                    <li>BDAY EDITION: from this week on we’ll also be using NICE THINGS to put together bday cards! SO GO SUBMIT SOME NICE MESSAGES!! uwu</li>
-                                    <li>UPCOMING BDAYS INCLUDE: Upcoming: Lincoln (3/19), Grace J (3/25), Cynthia (3/30), Kevin C (3/31)</li>
-                                    <li>Old: Victoria (3/14) (pls fill out bday specific nice things by next GM - 3/29)</li>  
-                                </ul>
-                                </li>
-                                <li>if you weren’t at this weeks GM but would like to order last sem’s merch (hoodies + tote bags) pls dm me! (Ash)</li>
-                            </ul>
-                        </li>
-
-                        <li><b>Social:</b>
-                            <ul>
-                                <li>NO OFFICIAL SOCIALS OVER BREAK! But feel free to host ur own :)</li>
-                                <li>Berkeley Project Day - April 16, Six Flags - April 23! (RSVP date passed)</li>
-                                <li>Reach out to Daniel, Jasper, Joelle or Jun Hee if you have financial concerns! We want to make socials as accessible as possible and would love to answer qs/help you out!</li>
-                            </ul>
-                        </li>
 
                         <li><b>Education:</b>
                             <ul>
-                                <li>Meet with your mentor! (study date or decompress)</li>
-                                <li>Schedule <a href="https://bit.ly/cody-education-oh" target="_blank" rel="noopener noreferrer">education OH</a> with Cindy and Angela!</li>
+                                <li>In-person Application/Leetcode Grind Sesh this Thursday 11/3!</li>
+                                <li>Will be rewarding people who have been actively recruiting/practicing/doing HW</li>
                             </ul>
                         </li>
 
                         <li><b>Industry:</b>
                             <ul>
-                                <li>Mark your calendars ~ APRIL 6TH 6:30pm - 8pm</li>
-                                <li>This event is <b>SUPER mandatory</b> & please bring friends :D</li>
-                                <li>Update your resumes~</li>
+                                <li>Hallo Industry committee wants to help Cody members better "find their fit"! </li>
+                                <li>Plz fill out this short, anon form about your interests in & out of tech </li>
+                                <li>Thank u!https://forms.gle/7gVYi7nwYuEVh3KW7</li>
                             </ul>
                         </li>
                         
                         <li><b>Recurring Links: (forms also linked below :D)</b>
                             <ul>
                                 <li>If you have feedback, please submit them anonymously 
-                                <a href="https://airtable.com/shr0J7brwC6dtBqPG" target="_blank" rel="noopener noreferrer"> here! </a>
+                                <a href="https://tinyurl.com/codyF22Feedback" target="_blank" rel="noopener noreferrer"> here! </a>
                                     If you would like us to follow up, please put your name there in the note.</li>
                                 <li>
                                     If you have bought something for Codeology, please fill out this 
-                                    <a href="https://airtable.com/shr3Vull6K4QVdU4U" target="_blank" rel="noopener noreferrer"> reimbursement form!</a>
-                                </li>
-                                <li>
-                                    Drive containing all of our slides can be found 
-                                    <a href="https://tinyurl.com/codySp22Drive" target="_blank" rel="noopener noreferrer"> here.</a>
+                                    <a href="https://airtable.com/shrxpQyVJZctJ4pVw" target="_blank" rel="noopener noreferrer"> reimbursement form!</a>
                                 </li>
                             </ul>
 
                         </li>
-                        
+
+                        <li><b>Check out our GM Slides:</b>
+                                <ul>
+                                    <li><a href="https://docs.google.com/presentation/d/1AWgCnU4MLEEVClSUtU_DcZzTSD9g4KCuuR0Qa3wqNYg/edit#slide=id.g152bc3645e7_0_0" target="_blank" rel="noopener noreferrer">GM 7 Slides</a></li>
+                                    <li><a href="https://docs.google.com/presentation/d/1CJYCkd7A77kmVMSroIz_YKcZ2bLJVoFwA2jJS6hIOhQ/edit#slide=id.g1744af504cb_0_27" target="_blank" rel="noopener noreferrer">GM 6 Slides</a></li>
+                                    <li><a href="https://docs.google.com/presentation/d/1eOyBotRoG0KAqh9xggQn8Xd6UXqLYTRCuAeMbZpOemg/edit" target="_blank" rel="noopener noreferrer">GM 5 Slides</a></li>
+                                    <li><a href="https://docs.google.com/presentation/d/1mGnvXab50w9bqqK-D1UmOq12qjikiPodS-p8Vm-V6oU/edit#slide=id.g152bc3645e7_0_0" target="_blank" rel="noopener noreferrer">GM 4 Slides</a></li>
+                                    <li><a href="https://docs.google.com/presentation/d/1Vki92e1gqdJm5RTiEZwHq5TCJmXpiUC94ZwXr3oEyJ8/edit?usp=sharing" target="_blank" rel="noopener noreferrer">GM 3 Slides</a></li>
+                                    <li><a href="https://docs.google.com/presentation/d/18Q66X9dEq__9Rq_e2mGpmuR9tKILZfh5Fn0EcG48HZc/edit" target="_blank" rel="noopener noreferrer">GM 2 Slides</a></li>
+                                    <li><a href="https://docs.google.com/presentation/u/1/d/1qWsgOozXF2RZKYwbUZl3ioiW68awpmxeAZyy0Hy8kzo/edit?usp=sharing" target="_blank" rel="noopener noreferrer">GM 1 Slides</a></li>
+
+                                    
+                                </ul>
+                        </li>
                     </ul>
                 </div>
 
