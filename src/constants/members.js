@@ -636,7 +636,7 @@ const a = [{
     //     linkedin: "https://www.linkedin.com/in/mallikaparulekar/",
     //     resume: 'https://drive.google.com/file/d/1JF8Vr_nSIWZkEu12A21TLXBcvM4YatlS/view?usp=sharing',
     //     website: null,
-    //     blurb: "Hi! I'm Mallika - a sophomore studying computer science who's also interested in math, economics and the law. When I'm not drinking boba and playing tennis, you can find me building things, trying my hand at fullstack and being a human learning about machine learning :)",
+    //     blurb: "test Hi! I'm Mallika - a sophomore studying computer science who's also interested in math, economics and the law. When I'm not drinking boba and playing tennis, you can find me building things, trying my hand at fullstack and being a human learning about machine learning :)",
     // },
     {
         name: 'Oliver Carmont',
