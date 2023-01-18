@@ -194,7 +194,7 @@ export const leadership = [{
         project: null,
         resume: null,
         website: null,
-        blurb: "I like lifting, console gaming and eating! ",
+        blurb: "I like lifting and console gaming!",
     },
     {
         name: 'Ergun Acikoz',
