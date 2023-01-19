@@ -88,7 +88,7 @@ export default function Apply() {
                                 <b>1/24, 8-9:30 pm PST</b>
                                 <ul>
                                     <li>In Person</li>
-                                    <li>Location: SOCS 126</li>
+                                    <li>Location: Mulford 240</li>
                                 </ul>
                             </div>
                         </div>
@@ -101,7 +101,7 @@ export default function Apply() {
                                 <b>1/25, 8-9:30pm PST</b>
                                 <ul>
                                     <li>In Person</li>
-                                    <li>Location: VLSB 2050</li>
+                                    <li>Location: TBD</li>
                                     {/* <li>View our <a href='https://fb.me/e/20oEH2rXi' target='_blank' rel="noopener noreferrer">Facebook event</a> for more details!</li> */}
                                 </ul>
                                 {/* <b>More information about the event will be available when the application opens.</b> */}
@@ -119,7 +119,7 @@ export default function Apply() {
                                 <b>1/26, 8-9:30pm PST</b>
                                 <ul>
                                     <li>In Person</li>
-                                    <li>Location: SOCS 166</li>
+                                    <li>Location: TBD</li>
                                     {/* <li><a href='https://fb.me/e/1nq5RIAcQ' target='_blank' rel="noopener noreferrer">Facebook RSVP</a></li> */}
                                 </ul>
                             </div>
