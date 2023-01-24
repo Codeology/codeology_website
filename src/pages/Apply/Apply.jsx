@@ -120,7 +120,7 @@ export default function Apply() {
                                 <b>1/26, 8-9:30pm PST</b>
                                 <ul>
                                     <li>In Person</li>
-                                    <li>Location: TBD</li>
+                                    <li>Location: Evans 9</li>
                                     {/* <li><a href='https://fb.me/e/1nq5RIAcQ' target='_blank' rel="noopener noreferrer">Facebook RSVP</a></li> */}
                                 </ul>
                             </div>
