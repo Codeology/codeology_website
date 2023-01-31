@@ -163,7 +163,7 @@ export default function Apply() {
                         </div>
 
                         <div className='timeline-event'>
-                            <b className='event-date'>2/1-2/3</b>
+                            <b className='event-date'>2/1-2/2</b>
                             <div className='event-description'>
                                 <h3>Final Individual Interviews (Invite Only)</h3>
                                 <p>A casual interview for us to get to know you better! 
