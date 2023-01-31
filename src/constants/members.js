@@ -271,7 +271,22 @@ export const leadership = [{
         resume: null,
         website: null,
         blurb: 'i like oatmeal and warm hugs <3',
-    }
+    },
+    {
+        name: 'Shaylan Dias',
+        img: null,
+        role: 'Advisor',
+        email: 'shaylandias@berkeley.edu',
+        year: 'Junior',
+        committee: null,
+        project: 'Shares^2',
+        tree: 'Kyle Hua',
+        leaf: 'Krishna Ravi, Sady Behera',
+        linkedin: 'https://linkedin.com/in/shaylan-dias/',
+        resume: 'https://drive.google.com/file/d/18bhSmX8ZJpiR0C2ecscp3rjGO5reg1qU/view',
+        website: 'https://shaylanmdias.com',
+        blurb: "Hi! I'm Shaylan, I'm an EECS major who loves swimming, backpacking, lifting, and music festivals! I'm also a gaming/marvel/anything fantasy nerd so hit me up about whatever :)",
+    },
 ]
 
 export const projectLeaders = [{
@@ -652,21 +667,6 @@ const a = [{
         resume: null,
         website: null,
         blurb: "Heyy! I'm a sophomore from Spain, who loves playing soccer, running and binging on cheez-its.",
-    },
-    {
-        name: 'Shaylan Dias',
-        img: null,
-        role: 'Active Member',
-        email: 'shaylandias@berkeley.edu',
-        year: 'Junior',
-        committee: null,
-        project: 'Shares^2',
-        tree: 'Kyle Hua',
-        leaf: 'Krishna Ravi, Sady Behera',
-        linkedin: 'https://linkedin.com/in/shaylan-dias/',
-        resume: 'https://drive.google.com/file/d/18bhSmX8ZJpiR0C2ecscp3rjGO5reg1qU/view',
-        website: 'https://shaylanmdias.com',
-        blurb: "Hi! I'm Shaylan, I'm an EECS major who loves swimming, backpacking, lifting, and music festivals! I'm also a gaming/marvel/anything fantasy nerd so hit me up about whatever :)",
     },
     {
         name: 'Stephen Yang',

@@ -139,7 +139,7 @@ export default function Apply() {
                         </div>
 
                         <div className='timeline-event'>
-                            <b className='event-date'>TBD</b>
+                            <b className='event-date'>1/28-1/30</b>
                             <div className='event-description'>
                                 <h3>First Round Interviews (Invite Only)</h3>
                                 <p>Applicants accepted past the written application will participate in first round interviews, 
@@ -149,16 +149,21 @@ export default function Apply() {
                         </div>
 
                         <div className='timeline-event'>
-                            <b className='event-date'>TBD</b>
+                            <b className='event-date'>1/31</b>
                             <div className='event-description'>
                                 <h3>Social Night (Invite Only)</h3>
-                                <p> A fun event to meet fellow applicants, as well as current Codeology officers and members!
-                                </p>
+                                <p> A fun event to meet fellow applicants, as well as current Codeology officers and members!</p>
+
+                                <b>1/31, 8-9:30pm PST</b>
+                                <ul>
+                                    <li>In Person</li>
+                                    <li>Location: *Refer to Invitation*</li>
+                                </ul>
                             </div>
                         </div>
 
                         <div className='timeline-event'>
-                            <b className='event-date'>TBD</b>
+                            <b className='event-date'>2/1-2/3</b>
                             <div className='event-description'>
                                 <h3>Final Individual Interviews (Invite Only)</h3>
                                 <p>A casual interview for us to get to know you better! 
