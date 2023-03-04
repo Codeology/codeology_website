@@ -25,9 +25,9 @@ export default function Apply() {
                 Applications are currently closed. Come visit our website during the first few weeks of the Fall 2023 semester to apply and check out our events!
                 </h3>
 
-                
+
                 <Fade>
-                    <div id='recruitment-timeline'>
+                     {/* <div id='recruitment-timeline'>
                         <h2 id='timeline-title'>recruitment timeline</h2>
 
                         <div className='timeline-event'>
@@ -48,7 +48,7 @@ export default function Apply() {
                             <div className='event-description'>
                                 <h3>Coffee Chats</h3>
                                 <p>If you can't make tabling in person, 
-                                    {/* sign up for a coffee chat *releasing on 1/19* */}
+                                    #sign up for a coffee chat *releasing on 1/19 
                                     <a href='https://www.notion.so/Codeology-Spring-2023-Coffee-Chats-1-22-1-26-9c470edbd00244a398128b338a563710' target='_blank' rel="noopener noreferrer"> sign up for a coffee chat!</a> 
                                     <br></br>
                                     If slots run out or you aren't available during these times, keep checking back — more slots may open.
@@ -69,12 +69,12 @@ export default function Apply() {
                                 <p> Come join us at Clubs and Cookies, an event to learn about some of the biggest tech clubs on campus  
                                     Get to know Launchpad, Codebase, Machine Learning at Berkeley, Blockchain at Berkeley, Blueprint, Product Space at Berkeley, Codeology, and Web Development at Berkeley all in one (delicious) event and chat directly with current members!
                                 </p>    
-                                {/* <p> If you'll be in attendance, please fill out this quick <a href="https://tinyurl.com/clubsandcookiesinterest-fa22">interest form</a>! </p> */}
+                                # <p> If you'll be in attendance, please fill out this quick <a href="https://tinyurl.com/clubsandcookiesinterest-fa22">interest form</a>! </p> 
                                 <b>1/23, 8-9:30 pm PST</b>
                                 <ul>
                                     <li>In Person</li>
                                     <li>Location: VLSB 2050</li>
-                                    {/* <li>View our <a href='https://fb.me/e/1YZKUc4F7' target='_blank' rel="noopener noreferrer">Facebook event</a> for more details!</li> */}
+                                    # <li>View our <a href='https://fb.me/e/1YZKUc4F7' target='_blank' rel="noopener noreferrer">Facebook event</a> for more details!</li> 
                                 </ul>                                
                             </div>
                         </div>
@@ -103,9 +103,9 @@ export default function Apply() {
                                 <ul>
                                     <li>Online</li>
                                     <li>Location: <a href='https://berkeley.zoom.us/my/abcds' target='_blank' rel="noopener noreferrer">Zoom</a> </li>
-                                    {/* <li>View our <a href='https://fb.me/e/20oEH2rXi' target='_blank' rel="noopener noreferrer">Facebook event</a> for more details!</li> */}
+                                    # <li>View our <a href='https://fb.me/e/20oEH2rXi' target='_blank' rel="noopener noreferrer">Facebook event</a> for more details!</li> 
                                 </ul>
-                                {/* <b>More information about the event will be available when the application opens.</b> */}
+                                # <b>More information about the event will be available when the application opens.</b> 
                             </div>
                         </div>
 
@@ -121,7 +121,7 @@ export default function Apply() {
                                 <ul>
                                     <li>In Person</li>
                                     <li>Location: Evans 9</li>
-                                    {/* <li><a href='https://fb.me/e/1nq5RIAcQ' target='_blank' rel="noopener noreferrer">Facebook RSVP</a></li> */}
+                                    # <li><a href='https://fb.me/e/1nq5RIAcQ' target='_blank' rel="noopener noreferrer">Facebook RSVP</a></li> 
                                 </ul>
                             </div>
                         </div>
@@ -167,12 +167,12 @@ export default function Apply() {
                             <div className='event-description'>
                                 <h3>Final Individual Interviews (Invite Only)</h3>
                                 <p>A casual interview for us to get to know you better! 
-                                    {/* No technical experience needed; the interview will be strictly behavioral. */}
+                                    # No technical experience needed; the interview will be strictly behavioral.
                                 </p>
                             </div>
                         </div>
-                    </div>
-                    </Fade>
+                    </div> */}
+                    </Fade> 
 
                     <Fade>
                     <div id='faqs'>
