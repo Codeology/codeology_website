@@ -61,7 +61,7 @@ export default function Home() {
                 <Fade>
                     <div id="project" className="section text-right">
                         <div className='section-img-container'>
-                        <PhotoCarousel image_folder = 'projects' pics={['vendingmachine_square', 'bearwear', 'spotifai', 'shoptimum', 'calmemaybe', 'codythereum']} />
+                        <PhotoCarousel image_folder = 'projects' pics={['cody.mp3', 'bearchainAI', 'OpenCavo', 'AvoMaps']} />
                             <div className="standing person">
                                 <img src={require("../../images/illustrations/people/standing1.png")} alt='' />
                             </div>

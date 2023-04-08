@@ -6,7 +6,7 @@ const ProjectInfo = {
       // developers: "Tavleen Bhatia, Dhruv Ganesh, Tommy Hang, Mizuho Li, Victoria Nguyen, Kevin Nguyen",
       description: "With openCaVo, we will simplify the (sometimes) annoying task of taking attendance with a slight invasion of privacy. We will be building openCaVo, a React Native app that takes pictures of people, identifies them, and consolidates a list of the names of people in the picture. First, we will supply and store pictures using Firebase. Then, to recognize faces, we will process the images using OpenCV along with some ML concepts. Finally, we will wrap everything into an API to be called by our React Native app! Join this project for a fun introduction to full stack development, computer vision, and machine learning!",
       // technologies: "",
-      imageSrc: "3d.png"
+      imageSrc: "OpenCavo.png"
     },
     {
       title: "cody.mp3",
@@ -14,7 +14,7 @@ const ProjectInfo = {
       // developers: "",
       description: "In this project, you’ll be learning key fundamentals of data science and machine learning, focusing on audio processing. First, we’ll be running you through the basics of modeling and neural networks with our own audio sets, and through the help of libraries like Tensorflow, Librosa, and Sklearn, we’ll be writing code capable of processing and classifying mp3 files. Later on, you’ll be able to apply these concepts to your own sets of audio files, and come out of the project with a basic ML foundation and the skills to create your own models in the future! ",
       // technologies: "",
-      imageSrc: "3d.png"
+      imageSrc: "cody.mp3.png"
     },
     {
       title: "bearchainAI",
@@ -22,7 +22,7 @@ const ProjectInfo = {
       // developers: "",
       description: "Tech moves fast, and the fields of blockchain and AI are no exception. Having the ability to operate at the cutting edge is fundamental for both feeding your curiosity and advancing your career in computer science. Our project serves as a gateway of understanding to these technologies, providing hands-on experience with the latest tools and frameworks. We’ll be building a web application that utilizes the GPT-3 Davinci artificial intelligence model (fine-tuned with web scraped references) to generate new fanfictions. Motivated by the issue of creator credit in AI-generated media, new fanfiction along with their reference authors will be recorded on the Ethereum blockchain as non-fungible tokens (NFTs). ",
       // technologies: "",
-      imageSrc: "3d.png"
+      imageSrc: "bearchainAI.png"
     },
     {
       title: "AvoMaps",
@@ -30,7 +30,7 @@ const ProjectInfo = {
       // developers: "",
       description: "Have you ever wanted to build a mobile application, but didn’t know where to begin? With AvoMaps, we will kickstart your journey by navigating the Apple iOS ecosystem. We’ll be learning about the basics of mobile development using Swift, SwiftUI, and Xcode. With these skills, you’ll get to build your own maps application using the GoogleMaps SDK/API! ",
       // technologies: "",
-      imageSrc: "3d.png"
+      imageSrc: "AvoMaps.png"
     }
   ],
   "Fall 2022": [
