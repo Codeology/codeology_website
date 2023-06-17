@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.85b75577.chunk.css",
-    "main.js": "/static/js/main.ff339c7d.chunk.js",
-    "main.js.map": "/static/js/main.ff339c7d.chunk.js.map",
+    "main.js": "/static/js/main.770eb8ee.chunk.js",
+    "main.js.map": "/static/js/main.770eb8ee.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.99911b0c.js",
     "runtime-main.js.map": "/static/js/runtime-main.99911b0c.js.map",
     "static/css/2.1ebb0010.chunk.css": "/static/css/2.1ebb0010.chunk.css",
-    "static/js/2.d33b467e.chunk.js": "/static/js/2.d33b467e.chunk.js",
-    "static/js/2.d33b467e.chunk.js.map": "/static/js/2.d33b467e.chunk.js.map",
+    "static/js/2.a737b28b.chunk.js": "/static/js/2.a737b28b.chunk.js",
+    "static/js/2.a737b28b.chunk.js.map": "/static/js/2.a737b28b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.a950b089af553e5a4859309152436a5b.js": "/precache-manifest.a950b089af553e5a4859309152436a5b.js",
+    "precache-manifest.71530df90e2960023c62931aa4eeedcf.js": "/precache-manifest.71530df90e2960023c62931aa4eeedcf.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.1ebb0010.chunk.css.map": "/static/css/2.1ebb0010.chunk.css.map",
     "static/css/main.85b75577.chunk.css.map": "/static/css/main.85b75577.chunk.css.map",
-    "static/js/2.d33b467e.chunk.js.LICENSE.txt": "/static/js/2.d33b467e.chunk.js.LICENSE.txt",
-    "static/js/main.ff339c7d.chunk.js.LICENSE.txt": "/static/js/main.ff339c7d.chunk.js.LICENSE.txt",
+    "static/js/2.a737b28b.chunk.js.LICENSE.txt": "/static/js/2.a737b28b.chunk.js.LICENSE.txt",
+    "static/js/main.770eb8ee.chunk.js.LICENSE.txt": "/static/js/main.770eb8ee.chunk.js.LICENSE.txt",
     "static/media/Anthony.png": "/static/media/Anthony.2df4de91.png",
     "static/media/AvoMaps.png": "/static/media/AvoMaps.3791c954.png",
     "static/media/BallingWithData.png": "/static/media/BallingWithData.aa00550a.png",
@@ -139,7 +139,6 @@
     "static/media/jimmy2.jpg": "/static/media/jimmy2.ab554db8.jpg",
     "static/media/jinsu.jpg": "/static/media/jinsu.00eb834d.jpg",
     "static/media/joelle.jpg": "/static/media/joelle.18364406.jpg",
-    "static/media/john.jpg": "/static/media/john.38a3fdb1.jpg",
     "static/media/joshua.jpg": "/static/media/joshua.5e8fd900.jpg",
     "static/media/jun.jpg": "/static/media/jun.c4d3bbae.jpg",
     "static/media/justin.jpg": "/static/media/justin.fd108674.jpg",
@@ -284,8 +283,8 @@
   "entrypoints": [
     "static/js/runtime-main.99911b0c.js",
     "static/css/2.1ebb0010.chunk.css",
-    "static/js/2.d33b467e.chunk.js",
+    "static/js/2.a737b28b.chunk.js",
     "static/css/main.85b75577.chunk.css",
-    "static/js/main.ff339c7d.chunk.js"
+    "static/js/main.770eb8ee.chunk.js"
   ]
 }
