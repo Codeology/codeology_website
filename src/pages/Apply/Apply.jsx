@@ -12,14 +12,14 @@ export default function Apply() {
                 <h1 className="contactTitle"> apply </h1>
                 <div id="underline"></div>
                 
-                {/* <a href='https://tinyurl.com/CodySP23App' target='_blank' rel="noopener noreferrer">
+                <a href='https://tinyurl.com/CodySP23App' target='_blank' rel="noopener noreferrer">
                     <button id='application-link'>APPLICATION LINK - DUE 1/26, 11:59 PST</button>
-                </a>  */}
+                </a>
                
-                {/* <h3 id='headline'>Fill out the interest form below to hear about updates!</h3>
+                <h3 id='headline'>Fill out the interest form below to hear about updates!</h3>
                 <a href='https://tinyurl.com/CodeologyMailing' target='_blank' rel="noopener noreferrer">
                     <button id='interest-link'>Interest Form</button>
-                </a> */}
+                </a>
                
                 <h3 id='apps-closed'>
                 Applications are currently closed. Come visit our website during the first few weeks of the Fall 2023 semester to apply and check out our events!
@@ -27,7 +27,7 @@ export default function Apply() {
 
 
                 <Fade>
-                     {/* <div id='recruitment-timeline'>
+                     <div id='recruitment-timeline'>
                         <h2 id='timeline-title'>recruitment timeline</h2>
 
                         <div className='timeline-event'>
@@ -171,7 +171,7 @@ export default function Apply() {
                                 </p>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                     </Fade> 
 
                     <Fade>

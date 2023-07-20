@@ -673,7 +673,7 @@ const a = [{
         name: 'Mizuho Li',
         img: null,
         email: 'limizuho@berkeley.edu',
-        role: 'Active Member',
+        role: 'Active Membergit ',
         year: "Junior",
         committee: null,
         project: "Build a Bear",
