@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.fe0f4ee6.chunk.css",
-    "main.js": "/static/js/main.40114af4.chunk.js",
-    "main.js.map": "/static/js/main.40114af4.chunk.js.map",
+    "main.js": "/static/js/main.81aa272b.chunk.js",
+    "main.js.map": "/static/js/main.81aa272b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.99911b0c.js",
     "runtime-main.js.map": "/static/js/runtime-main.99911b0c.js.map",
     "static/css/2.1ebb0010.chunk.css": "/static/css/2.1ebb0010.chunk.css",
-    "static/js/2.77b7549f.chunk.js": "/static/js/2.77b7549f.chunk.js",
-    "static/js/2.77b7549f.chunk.js.map": "/static/js/2.77b7549f.chunk.js.map",
+    "static/js/2.43bcfaac.chunk.js": "/static/js/2.43bcfaac.chunk.js",
+    "static/js/2.43bcfaac.chunk.js.map": "/static/js/2.43bcfaac.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0b8e82b228fd174c8fb39f731a90a7be.js": "/precache-manifest.0b8e82b228fd174c8fb39f731a90a7be.js",
+    "precache-manifest.78daac966280fd36ec5ea2eba39fbe91.js": "/precache-manifest.78daac966280fd36ec5ea2eba39fbe91.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.1ebb0010.chunk.css.map": "/static/css/2.1ebb0010.chunk.css.map",
     "static/css/main.fe0f4ee6.chunk.css.map": "/static/css/main.fe0f4ee6.chunk.css.map",
-    "static/js/2.77b7549f.chunk.js.LICENSE.txt": "/static/js/2.77b7549f.chunk.js.LICENSE.txt",
-    "static/js/main.40114af4.chunk.js.LICENSE.txt": "/static/js/main.40114af4.chunk.js.LICENSE.txt",
+    "static/js/2.43bcfaac.chunk.js.LICENSE.txt": "/static/js/2.43bcfaac.chunk.js.LICENSE.txt",
+    "static/js/main.81aa272b.chunk.js.LICENSE.txt": "/static/js/main.81aa272b.chunk.js.LICENSE.txt",
     "static/media/Anthony.png": "/static/media/Anthony.2df4de91.png",
     "static/media/AvoMaps.png": "/static/media/AvoMaps.3791c954.png",
     "static/media/BallingWithData.png": "/static/media/BallingWithData.aa00550a.png",
@@ -32,6 +32,7 @@
     "static/media/adithya.jpg": "/static/media/adithya.b23e49cc.jpg",
     "static/media/ahmed.jpg": "/static/media/ahmed.18d0691b.jpg",
     "static/media/alan.jpg": "/static/media/alan.9553cdf5.jpg",
+    "static/media/alena.jpg": "/static/media/alena.1181d285.jpg",
     "static/media/alex.jpg": "/static/media/alex.dc42fd07.jpg",
     "static/media/ali.jpg": "/static/media/ali.64f98453.jpg",
     "static/media/allan.jpg": "/static/media/allan.5c228568.jpg",
@@ -146,6 +147,7 @@
     "static/media/jimmy2.jpg": "/static/media/jimmy2.ab554db8.jpg",
     "static/media/jinsu.jpg": "/static/media/jinsu.00eb834d.jpg",
     "static/media/joelle.jpg": "/static/media/joelle.18364406.jpg",
+    "static/media/john.jpg": "/static/media/john.38a3fdb1.jpg",
     "static/media/joshua.jpg": "/static/media/joshua.5e8fd900.jpg",
     "static/media/jun.jpg": "/static/media/jun.c4d3bbae.jpg",
     "static/media/justin.jpg": "/static/media/justin.fd108674.jpg",
@@ -203,7 +205,7 @@
     "static/media/pink arm.png": "/static/media/pink arm.f4482da2.png",
     "static/media/pink-blob-boy.png": "/static/media/pink-blob-boy.d8b18d0e.png",
     "static/media/pradeep.jpg": "/static/media/pradeep.d3e0f3cd.jpg",
-    "static/media/pradyun.jpg": "/static/media/pradyun.1ddf5050.jpg",
+    "static/media/pradyun.jpg": "/static/media/pradyun.18e1cefb.jpg",
     "static/media/project_fa21.jpg": "/static/media/project_fa21.c79d3629.jpg",
     "static/media/projects.png": "/static/media/projects.53bc0c80.png",
     "static/media/projectsRec.png": "/static/media/projectsRec.69d7b3f7.png",
@@ -293,8 +295,8 @@
   "entrypoints": [
     "static/js/runtime-main.99911b0c.js",
     "static/css/2.1ebb0010.chunk.css",
-    "static/js/2.77b7549f.chunk.js",
+    "static/js/2.43bcfaac.chunk.js",
     "static/css/main.fe0f4ee6.chunk.css",
-    "static/js/main.40114af4.chunk.js"
+    "static/js/main.81aa272b.chunk.js"
   ]
 }
