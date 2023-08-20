@@ -17,6 +17,8 @@ import './AboutUs.css';
 function AboutUs() {
 
   const description = `Codeology is a UC Berkeley student-run club fostering self-exploration and self-development within the tech field. `
+  const destinations = ['rivian', 'meta', 'google', 'microsoft', 'paypal', 'amazon', 'nasajpl', 'asana', 'atlassian', 'citadel', 'databricks', 'datadog', 'uber', 'imc', 
+                            'optiver', 'scale', 'squarespace', 'statefarm', 'hp']
   
   return (
     <div className="AboutUs">
@@ -57,13 +59,9 @@ function AboutUs() {
         <Heading className='no-margin'>Destinations</Heading>
         {/* would like to make this an img carousel/scroll display */}
         <div id='about-us-destinations-container'>
-          <img className="destinations_img" src={require('../../images/destinations/rivian.png')} alt='Rivian' />
-          <img className="destinations_img" src={require('../../images/destinations/meta.png')} alt='Meta' />
-          <img className="destinations_img" src={require('../../images/destinations/googleLogo.png')} alt='Google' />
-          <img className="destinations_img" src={require('../../images/destinations/microsoft.webp')} alt='Microsoft' />
-          <img id="dest_nasajpl" className="destinations_img" src={require('../../images/destinations/nasaJpl.png')} alt='NASA JPL' />
-          <img id="dest_amazon" className="destinations_img" src={require('../../images/destinations/amazon.png')} alt='Amazon' />
-          <img id="dest_paypal" className="destinations_img" src={require('../../images/destinations/paypal.png')} alt='Paypal' />
+          {destinations.map(dest => (  
+            <img className="destinations_img" src={require('../../images/destinations/' + dest + '.png')} alt={dest} />  
+          ))}  
         </div>
       
       
