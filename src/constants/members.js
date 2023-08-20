@@ -308,6 +308,21 @@ export const leadership = [
 
 export const projectLeaders = [
     {
+        name: 'Alena Chao',
+        img: null,
+        role: 'Project Leader',
+        year: "",
+        committee: null,
+        email: "alenachao@berkeley.edu",
+        project: null,
+        tree: '',
+        leaf: null,
+        linkedin: "https://www.linkedin.com/in/alenachao",
+        resume: null,
+        website: null,
+        blurb: "hallo my name is alena and im a sophomore in eecs!! talk to me abt being a god in brawl stars, being trash at badminton, enhypens latest album, or literally anything else :D looking forward to meeting u!!",
+    },
+    {
         name: 'Andrew Zhang',
         img: null,
         role: 'Project Leader',
