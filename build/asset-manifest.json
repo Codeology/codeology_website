@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.fe0f4ee6.chunk.css",
-    "main.js": "/static/js/main.6fd54318.chunk.js",
-    "main.js.map": "/static/js/main.6fd54318.chunk.js.map",
+    "main.js": "/static/js/main.4324e6ff.chunk.js",
+    "main.js.map": "/static/js/main.4324e6ff.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.99911b0c.js",
     "runtime-main.js.map": "/static/js/runtime-main.99911b0c.js.map",
     "static/css/2.1ebb0010.chunk.css": "/static/css/2.1ebb0010.chunk.css",
-    "static/js/2.43bcfaac.chunk.js": "/static/js/2.43bcfaac.chunk.js",
-    "static/js/2.43bcfaac.chunk.js.map": "/static/js/2.43bcfaac.chunk.js.map",
+    "static/js/2.24b6de82.chunk.js": "/static/js/2.24b6de82.chunk.js",
+    "static/js/2.24b6de82.chunk.js.map": "/static/js/2.24b6de82.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c30ed3556cd4bec9a4587611983de00d.js": "/precache-manifest.c30ed3556cd4bec9a4587611983de00d.js",
+    "precache-manifest.a48245d3a80cb598724bafb6a1899183.js": "/precache-manifest.a48245d3a80cb598724bafb6a1899183.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.1ebb0010.chunk.css.map": "/static/css/2.1ebb0010.chunk.css.map",
     "static/css/main.fe0f4ee6.chunk.css.map": "/static/css/main.fe0f4ee6.chunk.css.map",
-    "static/js/2.43bcfaac.chunk.js.LICENSE.txt": "/static/js/2.43bcfaac.chunk.js.LICENSE.txt",
-    "static/js/main.6fd54318.chunk.js.LICENSE.txt": "/static/js/main.6fd54318.chunk.js.LICENSE.txt",
+    "static/js/2.24b6de82.chunk.js.LICENSE.txt": "/static/js/2.24b6de82.chunk.js.LICENSE.txt",
+    "static/js/main.4324e6ff.chunk.js.LICENSE.txt": "/static/js/main.4324e6ff.chunk.js.LICENSE.txt",
     "static/media/Anthony.png": "/static/media/Anthony.2df4de91.png",
     "static/media/AvoMaps.png": "/static/media/AvoMaps.3791c954.png",
     "static/media/BallingWithData.png": "/static/media/BallingWithData.aa00550a.png",
@@ -190,6 +190,7 @@
     "static/media/movies.png": "/static/media/movies.0a0030a4.png",
     "static/media/nasa2Jpl.png": "/static/media/nasa2Jpl.28beeac9.png",
     "static/media/nasajpl.png": "/static/media/nasajpl.cb570d35.png",
+    "static/media/natalie.jpg": "/static/media/natalie.ac361e2f.jpg",
     "static/media/nikita.jpg": "/static/media/nikita.5dadca4e.jpg",
     "static/media/nitzan.jpg": "/static/media/nitzan.7694ae7b.jpg",
     "static/media/oliver.jpg": "/static/media/oliver.35a772ca.jpg",
@@ -295,8 +296,8 @@
   "entrypoints": [
     "static/js/runtime-main.99911b0c.js",
     "static/css/2.1ebb0010.chunk.css",
-    "static/js/2.43bcfaac.chunk.js",
+    "static/js/2.24b6de82.chunk.js",
     "static/css/main.fe0f4ee6.chunk.css",
-    "static/js/main.6fd54318.chunk.js"
+    "static/js/main.4324e6ff.chunk.js"
   ]
 }
