@@ -145,7 +145,7 @@ export default function Apply() {
                                 <b>8/30, 8-9:30 pm PST</b>
                                 <ul>
                                     <li>In Person</li>
-                                    <li>Location: Dwinelle 209</li>
+                                    <li>Location: Dwinelle 89</li>
                                 </ul>
                             </div>
                         </div>

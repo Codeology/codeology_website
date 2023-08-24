@@ -65,8 +65,8 @@
 }
 
 #header-logo {
-    width: 232.575px;
-    height: 232.575px;
+    width: 15%;
+    height: 15%;
     flex-shrink: 0;
     margin-right: -60px;
 }
@@ -230,6 +230,38 @@
     #recruitment-timeline, #faqs {
         width: 90vw;
         margin-left: 5vw;
+    }
+
+    .header {
+        
+    }
+
+    #application-link {
+        background-color: var(--forestgreen);
+        border-radius: 12px;
+        border: none;
+        width: 35vw;
+        padding: 10px;
+        color: white;
+        margin-left: 0px;
+        margin-top: 0px;
+        font-size: 10px;
+    }
+
+    #interest-link {
+        background-color: var(--forestgreen);
+        border-radius: 12px;
+        border: none;
+        width: 35vw;
+        padding: 10px;
+        color: white;
+        margin-left: 5px;
+        margin-top: 0px;
+        font-size: 10px;
+    }
+
+    #header-title {
+        font-size: 40px;
     }
 }
 
