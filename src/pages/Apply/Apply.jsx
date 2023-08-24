@@ -79,8 +79,8 @@ export default function Apply() {
                             <div className='event-description'>
                                 <h3>Coffee Chats</h3>
                                 <p>If you can't make tabling in person, 
-                                    sign up for a coffee chat *releasing on 8/24* 
-                                    {/* <a href='https://www.notion.so/Codeology-Fall-2023-Coffee-Chats-8-26-8-31-60f0a28b603d46038c4a9c136153432c?pvs=4' target='_blank' rel="noopener noreferrer"> sign up for a coffee chat!</a>  */}
+                                    {/* sign up for a coffee chat *releasing on 8/24*  */}
+                                    <a href='https://www.notion.so/Codeology-Fall-2023-Coffee-Chats-8-26-8-31-60f0a28b603d46038c4a9c136153432c?pvs=4' target='_blank' rel="noopener noreferrer"> sign up for a coffee chat!</a> 
                                     <br></br>
                                     If slots run out or you aren't available during these times, keep checking back — more slots may open.
                                 </p>
