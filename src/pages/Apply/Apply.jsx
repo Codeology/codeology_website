@@ -23,7 +23,7 @@ export default function Apply() {
                             <a href='https://tinyurl.com/CodeologyApp' target='_blank' rel="noopener noreferrer">
                                 <button id='application-link'>application link - due 11:59pm 8/31</button>
                             </a>
-                            <a id='interest-link-container' href='https://airtable.com/appDp58fEjBoqmI77/shrK6E3Uy9XY5F9vl' target='_blank' rel="noopener noreferrer">
+                            <a id='interest-link-container' href='https://airtable.com/applyaocpRcADTuUY/shrNDr7HZflvSctfJ' target='_blank' rel="noopener noreferrer">
                                 <button id='interest-link'>Interest Form</button>
                             </a>
                         </div>
@@ -145,7 +145,7 @@ export default function Apply() {
                                 <b>8/30, 8-9:30 pm PST</b>
                                 <ul>
                                     <li>In Person</li>
-                                    <li>Location: Dwinelle 89</li>
+                                    <li>Location: Dwinelle 79</li>
                                 </ul>
                             </div>
                         </div>
