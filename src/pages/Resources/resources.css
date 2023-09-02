@@ -1,0 +1,121 @@
+/* Little peeps! */
+#littlepeep1 {
+    height: 170px;
+    position: absolute;
+    left: 7%;
+    top: 100%;
+}
+#littlepeep2 {
+    height: 170px;
+    position: absolute;
+    right: 12%;
+    top: 170%;
+}
+
+#littlepeep3 {
+    height: 140px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#littlepeep4 {
+    height: 170px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(-1);
+}
+
+.heading-container {
+    position: relative;
+}
+
+#courses-container {
+    width:90%;
+    max-width:2500px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+}
+
+#resource-contact-container {
+    margin: 100px auto;
+}
+
+
+.course_img {
+    width: 120%;
+    min-width:50px;
+    max-width: 300px;
+    height: 120%;
+    min-height:50px;
+    max-height: 350px;
+    padding: 25px;
+}
+
+.course-wrapper {
+    margin: 40px;
+    position:static;
+    box-shadow: 0 2px 2px rgb(0 0 0 / 0.2);
+    border-radius: 4px;
+}
+
+.course-wrapper:hover {
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.button {
+    color: white;
+    background-color: var(--forestgreen);
+    transition: 0.2s;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-color: #fff;
+    margin: 30px;
+    font-size: 20px;
+    box-shadow: none;
+  }
+  
+
+  /* @media (max-width: 1000px) {
+    .project-body {
+        margin-right: 5vw;
+        margin-left: 5vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    // Little peeps! 
+    #littlepeep1, #littlepeep2, #littlepeep3, #littlepeep4 {
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 767px) {
+    #projects-intro {
+        flex-direction: column;
+    }
+
+    .projects-type {
+        margin: 10px;
+    }
+    
+    .project-structure {
+        width: 75vw;
+        padding-left: 0px;
+    }
+
+    .project-timeline {
+        width: 75vw;
+        padding-left: 0px;
+    }
+
+    .button-row h3 {
+        font-size: 14pt;
+    }
+} */

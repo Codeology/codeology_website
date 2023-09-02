@@ -1149,10 +1149,66 @@ const insertImg = (persons) => {
     }
 }
 
+export const resourceContacts = [
+    {
+        name: 'Joelle Siong Sin',
+        img: null,
+        role: 'Senior, IEOR/CS',
+        email: 'jsiongsin@berkeley.edu',
+        year: "Senior",
+        committee: null,
+        project: null,
+        tree: "Sami!",
+        leaf: null,
+        linkedin: "https://www.linkedin.com/in/joellesiongsin/",
+        resume: null,
+        website: null,
+        blurb: "Hi! My name is Joelle, I’m a senior studying IEOR.  I’m interested in product management and the intersection of CS and Operations Research! Happy to chat more about changing majors, PM internships, or any similar interests!",
+    },
+    {
+        name: 'Pradyun Kumar',
+        img: null,
+        role: 'Junior, CS/Econ',
+        email: 'pradyunkumar@berkeley.edu',
+        year: 'Junior',
+        committee: null,
+        project: null,
+        tree: null,
+        leaf: null,
+        linkedin: null,
+        resume: null,
+        website: null,
+        blurb: "hi I like guacomole and anime and Kpop and listening to piano while I study",
+    },
+    {
+        name: 'Victor Zhou',
+        img: null,
+        role: 'Senior, CS',
+        email: 'shuaivzhou@berkeley.edu',
+        linkedin: null,
+        blurb: "Reach out to me with any questions about pursuing software engineering!",
+    },
+    {
+        name: 'Raghav Punnam',
+        img: null,
+        role: 'Sophomore, EECS',
+        committee: null,
+        email: "raghavpu@berkeley.edu",
+        project: null,
+        tree: '',
+        leaf: null,
+        linkedin: "https://www.linkedin.com/in/raghav-punnam/",
+        resume: null,
+        website: null,
+        blurb: "Hey, I'm Raghav! I have spent a lot of time self-learning about app/web full-stack development. I've worked on many projects within these fields. Feel free to reach out if you have any questions about these fields!",
+    },
+]
+
 export const actives = a.slice(0, 1).concat(a.slice(1).sort(compare)); // sort everything after avocodeology!
 insertImg(leadership);
 insertImg(projectLeaders);
 insertImg(a);
+insertImg(resourceContacts);
 
 // saving bios from people who haven't graduated/quit but aren't in member database :'(
 /*

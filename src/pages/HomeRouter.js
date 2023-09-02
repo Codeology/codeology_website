@@ -11,6 +11,7 @@ import AboutUs from './AboutUs/AboutUs.js';
 import Projects from './Projects/Projects.jsx';
 import ContactUs from './ContactUs/ContactUs.js';
 import Apply from './Apply/Apply.jsx';
+import Resources from './Resources/Resources.jsx';
 import Internal from './Internal/Internal.jsx';
 import Navbar from '../components/NavBar/Navbar.js';
 
@@ -67,6 +68,10 @@ class HomeRouter extends Component {
 
                       <Route path="/contact">
                         <ContactUs />
+                      </Route>
+
+                      <Route path="/resources">
+                        <Resources/>
                       </Route>
                       
                       <Route path="/internal">
