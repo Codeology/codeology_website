@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1c2affaa7be9d0150835a16604362162",
+    "revision": "ef48ebe7081b5ec56af000ee66c29347",
     "url": "/index.html"
   },
   {
-    "revision": "7a2281da028346411709",
+    "revision": "ef1642e4a1fa28384a87",
     "url": "/static/css/2.1ebb0010.chunk.css"
   },
   {
-    "revision": "0b71fa5fa7f9a45010f2",
-    "url": "/static/css/main.c9e3f9b6.chunk.css"
+    "revision": "1478a3e2ff4fddc57fa6",
+    "url": "/static/css/main.710b1eff.chunk.css"
   },
   {
-    "revision": "7a2281da028346411709",
-    "url": "/static/js/2.9977e2ae.chunk.js"
+    "revision": "ef1642e4a1fa28384a87",
+    "url": "/static/js/2.9ecefa7c.chunk.js"
   },
   {
     "revision": "3066135519664c1fc7cc1682aa2c7a92",
-    "url": "/static/js/2.9977e2ae.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.9ecefa7c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0b71fa5fa7f9a45010f2",
-    "url": "/static/js/main.a41817b9.chunk.js"
+    "revision": "1478a3e2ff4fddc57fa6",
+    "url": "/static/js/main.8f781994.chunk.js"
   },
   {
     "revision": "4e0e34f265fae8f33b01b27ae29d9d6f",
-    "url": "/static/js/main.a41817b9.chunk.js.LICENSE.txt"
+    "url": "/static/js/main.8f781994.chunk.js.LICENSE.txt"
   },
   {
     "revision": "7cdd07cd8578cb7be0ba",
@@ -464,6 +464,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/fun_glade.08098ad0.png"
   },
   {
+    "revision": "3b837148180be5614e40809eef3f6ff9",
+    "url": "/static/media/game_development.3b837148.svg"
+  },
+  {
     "revision": "410b94ff6a1039d1842e2250ca4496b0",
     "url": "/static/media/glassesguy2.410b94ff.svg"
   },
@@ -510,6 +514,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "53e2ddab3c079f73148eb59d14cb4ec5",
     "url": "/static/media/info.53e2ddab.png"
+  },
+  {
+    "revision": "fbd6b5b304e69db7427b4908c2b85040",
+    "url": "/static/media/ios_app_development.fbd6b5b3.svg"
   },
   {
     "revision": "589feab79de612da36d24de32a3e8625",
@@ -674,6 +682,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5716e3112b4a48fa1cc30417f7502c03",
     "url": "/static/media/lyric.5716e311.jpg"
+  },
+  {
+    "revision": "598606da976d44716a03ab8d2b0c613e",
+    "url": "/static/media/machine_learning.598606da.svg"
   },
   {
     "revision": "e4248def15306d2cef276163def20167",
@@ -1110,6 +1122,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "af4f8e1d21b471cb5173bc7e5920be7d",
     "url": "/static/media/vscodeology.af4f8e1d.png"
+  },
+  {
+    "revision": "d4eb40f31c7c002d7b4df50330a2ed84",
+    "url": "/static/media/web_development.d4eb40f3.svg"
   },
   {
     "revision": "24817fd41bcb3681394c13eea74e9310",
