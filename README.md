@@ -27,4 +27,4 @@ Make sure you have the `npm` module installed locally! All pages are respectivel
 3. If it's repeating add "repeating: 2" or 3  or  whatever... 😝 
 
 
-POC for questions: Amy Huang (amyxjhuang@berkeley.edu)
+Point of contact for questions: Angel Mau (angelmau@berkeley.edu)
