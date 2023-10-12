@@ -1,4 +1,4 @@
-# codeology.club
+# codeology.berkeley.edu
 Welcome to Codeology's new club website!
 
 ## Project Structure
@@ -18,8 +18,10 @@ Make sure you have the `npm` module installed locally! All pages are respectivel
 1. Clone this repo
 2. Run `npm install`
 3. Run `npm start` to test your changes.
-4. Once you finished editing, run `npm run deploy` to deploy the changes.
-5. Push the changes to the repo.
+
+### Commit Changes
+1. Push the changes to the repo.
+2. 
 
 ###  Changing the About Us Page 
 1. Download the member photo to `src/images/members` and name it "Name.jpg". If it's a repeat do "Name2.jpg" and so on 
