@@ -490,7 +490,7 @@ export const projectLeaders = [
 ]
 
 const a = [{
-        name: 'Avocodeology',
+        name: 'Avo',
         img: null,
         role: 'Mascot',
         year: '??',
