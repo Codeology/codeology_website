@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "./static/css/main.710b1eff.chunk.css",
-    "main.js": "./static/js/main.6c754548.chunk.js",
-    "main.js.map": "./static/js/main.6c754548.chunk.js.map",
+    "main.js": "./static/js/main.53dc500f.chunk.js",
+    "main.js.map": "./static/js/main.53dc500f.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.7e68999a.js",
     "runtime-main.js.map": "./static/js/runtime-main.7e68999a.js.map",
     "static/css/2.1ebb0010.chunk.css": "./static/css/2.1ebb0010.chunk.css",
     "static/js/2.9ecefa7c.chunk.js": "./static/js/2.9ecefa7c.chunk.js",
     "static/js/2.9ecefa7c.chunk.js.map": "./static/js/2.9ecefa7c.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.896ef2b86a28857cabdc740447ffa74f.js": "./precache-manifest.896ef2b86a28857cabdc740447ffa74f.js",
+    "precache-manifest.65bb1d319303b8a9a3b95f41080559d8.js": "./precache-manifest.65bb1d319303b8a9a3b95f41080559d8.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.1ebb0010.chunk.css.map": "./static/css/2.1ebb0010.chunk.css.map",
     "static/css/main.710b1eff.chunk.css.map": "./static/css/main.710b1eff.chunk.css.map",
     "static/js/2.9ecefa7c.chunk.js.LICENSE.txt": "./static/js/2.9ecefa7c.chunk.js.LICENSE.txt",
-    "static/js/main.6c754548.chunk.js.LICENSE.txt": "./static/js/main.6c754548.chunk.js.LICENSE.txt",
+    "static/js/main.53dc500f.chunk.js.LICENSE.txt": "./static/js/main.53dc500f.chunk.js.LICENSE.txt",
     "static/media/Anthony.png": "./static/media/Anthony.2df4de91.png",
     "static/media/AvoMaps.png": "./static/media/AvoMaps.3791c954.png",
     "static/media/BallingWithData.png": "./static/media/BallingWithData.aa00550a.png",
@@ -59,7 +59,7 @@
     "static/media/asli.png": "./static/media/asli.f2deb9f3.png",
     "static/media/atlassian.png": "./static/media/atlassian.835e1275.png",
     "static/media/avo.png": "./static/media/avo.f088d9aa.png",
-    "static/media/avocodeology.jpg": "./static/media/avocodeology.d2e7000a.jpg",
+    "static/media/avo.jpg": "./static/media/avo.d2e7000a.jpg",
     "static/media/ayush.jpg": "./static/media/ayush.254b5aa6.jpg",
     "static/media/bearchainAI.png": "./static/media/bearchainAI.620c34ba.png",
     "static/media/bearwear.png": "./static/media/bearwear.7dffddc7.png",
@@ -301,6 +301,6 @@
     "static/css/2.1ebb0010.chunk.css",
     "static/js/2.9ecefa7c.chunk.js",
     "static/css/main.710b1eff.chunk.css",
-    "static/js/main.6c754548.chunk.js"
+    "static/js/main.53dc500f.chunk.js"
   ]
 }
