@@ -20,8 +20,9 @@
 
 #logo {
   block-size: fit-content;
-  width: 200px;
+  width: 300px;
   height: auto;
+  padding-left: 50px;
 }
 
 #logo-square {
