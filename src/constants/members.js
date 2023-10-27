@@ -703,7 +703,7 @@ const a = [{
         name: 'Mizuho Li',
         img: null,
         email: 'limizuho@berkeley.edu',
-        role: 'Active Membergit ',
+        role: 'Active Member',
         year: "Junior",
         committee: null,
         project: "Build a Bear",
@@ -911,7 +911,7 @@ const a = [{
         linkedin: "https://www.linkedin.com/in/laurapei/",
         resume: null,
         website: "https://lauraspberry.github.io/",
-        blurb: "hello! I'm a second year EECS major from the Los Angeles area, and I love gudetama, good food, and sleeping for more than 9 hours <3",
+        blurb: "hello! I'm a senior studying EECS from the Los Angeles area, and I love gudetama, good food, and sleeping for more than 9 hours <3",
     },
     {
         name: 'Lauren Zheng',
