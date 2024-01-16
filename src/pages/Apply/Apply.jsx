@@ -86,7 +86,7 @@ export default function Apply() {
                                 <b> Friday 1/19, 8-10:30 pm PST</b>
                                 <ul>
                                     <li>In Person</li>
-                                    <li>Location: Hearst Field Annex 1</li>
+                                    <li>Location: Chou 150</li>
                                     {/* <li>View our <a href='https://fb.me/e/1YZKUc4F7' target='_blank' rel="noopener noreferrer">Facebook event</a> for more details!</li>  */}
                                 </ul>                                
                             </div>
@@ -182,7 +182,7 @@ export default function Apply() {
                                 <h3>Applications Due!</h3>
                                 <p>Fill out an application to share your story and what you can get out of being a part of Codeology.</p>
                                 <b>Applications will be due on 1/25 at 11:59 pm PST.</b><br/>
-                                <a href='http://tinyurl.com/CodeologyApplication' target='_blank' rel="noopener noreferrer">
+                                <a href='http://tinyurl.com/SP24CodyApp' target='_blank' rel="noopener noreferrer">
                                     Start your application!
                                 </a>
                             </div>
