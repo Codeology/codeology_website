@@ -17,7 +17,7 @@ import './AboutUs.css';
 function AboutUs() {
 
   const description = `Codeology is a UC Berkeley student-run club fostering self-exploration and self-development within the tech field. `
-  const destinations = ['rivian', 'meta', 'google', 'microsoft', 'paypal', 'amazon', 'nasajpl', 'asana', 'atlassian', 'citadel', 'databricks', 'datadog', 'uber', 'imc', 
+  const destinations = ['rivian', 'meta', 'google', 'microsoft', 'paypal', 'amazon', 'nasaJpl', 'asana', 'atlassian', 'citadel', 'databricks', 'datadog', 'uber', 'imc', 
                             'optiver', 'scale', 'squarespace', 'statefarm', 'hp']
   
   return (
