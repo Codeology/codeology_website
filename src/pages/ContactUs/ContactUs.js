@@ -12,7 +12,7 @@ export default function ContactUs() {
         <div>
 
             <Helmet>
-                <title>Codeology | Contact</title>
+                <title>Codeology | Contact Us</title>
             </Helmet>
 
             

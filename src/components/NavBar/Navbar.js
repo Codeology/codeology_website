@@ -17,7 +17,7 @@ const Navbar = props => (
             <Link className="not-apply b" to="/about">About Us</Link>
             <Link className="not-apply b" to="/projects">Projects</Link>
             <Link className="not-apply b" to="/resources">Resources</Link>
-            <Link className="not-apply b" to="/contact">Contact</Link>
+            <Link className="not-apply b" to="/contact">Contact Us</Link>
             {/* <Link className="not-apply" to="/internal">Internal</Link> */}
             <Link to="/apply" className="apply button b">APPLY</Link>
         </div>

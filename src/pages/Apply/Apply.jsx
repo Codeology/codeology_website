@@ -26,6 +26,11 @@ export default function Apply() {
                             <a id='interest-link-container' href='http://tinyurl.com/SP24InterestForm' target='_blank' rel="noopener noreferrer">
                                 <button id='interest-link'>Interest Form</button>
                             </a>
+                            {/*
+                            <a href='INSERT LINK' target='_blank' rel="noopener noreferrer">
+                                <button id='recruitment-calendar'>Add our recruitment calendar!</button>
+                            </a>
+                            */}
                         </div>
                     </div>
                 </div>               
@@ -159,7 +164,7 @@ export default function Apply() {
                         <div className='timeline-event'>
                             <div className="event-date-container">
                                 <img src={require('../../images/illustrations/misc/squiggle.png')} alt='' id='event-date-design' style={{transform: 'rotate(' + randomSquiggleRotation() + 'deg)'}}/>
-                                <b className='event-date'>1/24</b>
+                                <b className='event-date'>1/25</b>
                             </div>
                             <div className='event-description'>
                                 <h3>Codeology Infosession #2</h3>
@@ -167,7 +172,7 @@ export default function Apply() {
                                     We’ll be introducing our projects for this semester and talking about what it’s like to be in Codeology.
                                 </p>
                                 <p>note: the content will be the same for both infosessions!</p>
-                                <b>Thursday 1/24, 8-9:30pm PST</b>
+                                <b>Thursday 1/25, 8-9:30pm PST</b>
                                 <ul>
                                     <li>In Person</li>
                                     <li>Location: SOCS (Social Sciences Building) 20</li>
