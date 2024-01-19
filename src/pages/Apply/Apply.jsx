@@ -20,10 +20,10 @@ export default function Apply() {
                         <div className="header-text">
                             <h1 id='header-title'>Apply to Codeology</h1>
                             <p id='header-subtext'>Start your journey in tech and become part of the Codeology family!</p>
-                            <a href='https://tinyurl.com/CodeologyApp' target='_blank' rel="noopener noreferrer">
-                                <button id='application-link'>application link - due 11:59pm 8/31</button>
+                            <a href='http://tinyurl.com/SP24CodyApp' target='_blank' rel="noopener noreferrer">
+                                <button id='application-link'>Application due Thursday, 1/25 11:59 PM</button>
                             </a>
-                            <a id='interest-link-container' href='https://airtable.com/applyaocpRcADTuUY/shrNDr7HZflvSctfJ' target='_blank' rel="noopener noreferrer">
+                            <a id='interest-link-container' href='http://tinyurl.com/SP24InterestForm' target='_blank' rel="noopener noreferrer">
                                 <button id='interest-link'>Interest Form</button>
                             </a>
                         </div>
@@ -41,15 +41,15 @@ export default function Apply() {
                         <div className='timeline-event'>
                             <div className="event-date-container">
                                 <img src={require('../../images/illustrations/misc/squiggle.png')} alt='' id='event-date-design' style={{transform: 'rotate(' + randomSquiggleRotation() + 'deg)'}}/>
-                                <b className='event-date'>8/24 - 8/31</b>
+                                <b className='event-date'>1/18 - 1/25</b>
                             </div>
                             <div className='event-description'>
                                 <h3>Tabling</h3>
                                 <p>We will begin on-campus tabling during the first week of recruitment! Drop by any time to speak with a member about Codeology.</p>
-                                <b>8/24 - 8/31 Weekdays, 10am - 3pm PST</b>
+                                <b>1/18 - 1/25 Weekdays, 10am - 3pm PST</b>
                                 <ul>
                                     <li>In Person</li>
-                                    <li>Location: Memorial Glade (Upper Sproul on 8/29)</li>
+                                    <li>Location: Memorial Glade</li>
                                 </ul>
                             </div>
                         </div>
@@ -57,76 +57,16 @@ export default function Apply() {
                         <div className='timeline-event'>
                             <div className="event-date-container">
                                 <img src={require('../../images/illustrations/misc/squiggle.png')} alt='' id='event-date-design' style={{transform: 'rotate(' + randomSquiggleRotation() + 'deg)'}}/>
-                                <b className='event-date'>8/25</b>
+                                <b className='event-date'>1/18</b>
                             </div>
                             <div className='event-description'>
                                 <h3>ABCDs of Tech Infosession</h3>
                                 <p>New to the tech scene at Berkeley? Come explore some of the most exciting tech clubs on campus! You'll hear from ANova, Blueprint, Codeology, and Mobile Developers at Berkeley at this infosession!</p>
-                                <b>8/25, 8-9:30pm PST</b>
+                                <b>Thursday 1/18, 8-10pm PST</b>
                                 <ul>
-                                    <li>Online</li>
-                                    <li>Location: <a href='https://tinyurl.com/fa23abcds' target='_blank' rel="noopener noreferrer">Zoom</a> </li>
+                                    <li>In-Person</li>
+                                    <li>Location: Dwinelle 155 </li>
                                     {/* # <li>View our <a href='https://fb.me/e/20oEH2rXi' target='_blank' rel="noopener noreferrer">Facebook event</a> for more details!</li>  */}
-                                </ul>
-                            </div>
-                        </div>
-                        
-                        <div className='timeline-event'>
-                            <div className="event-date-container">
-                                <img src={require('../../images/illustrations/misc/squiggle.png')} alt='' id='event-date-design' style={{transform: 'rotate(' + randomSquiggleRotation() + 'deg)'}}/>
-                                <b className='event-date'>8/26 - 8/31</b>
-                            </div>
-                            <div className='event-description'>
-                                <h3>Coffee Chats</h3>
-                                <p>If you can't make tabling in person, 
-                                    {/* sign up for a coffee chat *releasing on 8/24*  */}
-                                    <a href='https://www.notion.so/Codeology-Fall-2023-Coffee-Chats-8-26-8-31-60f0a28b603d46038c4a9c136153432c?pvs=4' target='_blank' rel="noopener noreferrer"> sign up for a coffee chat!</a> 
-                                    <br></br>
-                                    If slots run out or you aren't available during these times, keep checking back — more slots may open.
-                                </p>
-                                <b>8/26 - 8/31, time varies by slot</b>
-                                <ul>
-                                    <li>In Person/Online</li>
-                                    <li>Location: varies by slot</li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div className='timeline-event'>
-                            <div className="event-date-container">
-                                <img src={require('../../images/illustrations/misc/squiggle.png')} alt='' id='event-date-design' style={{transform: 'rotate(' + randomSquiggleRotation() + 'deg)'}}/>
-                                <b className='event-date'>8/28</b>
-                            </div>                            
-                            <div className='event-description'>
-                                <h3>Clubs and Cookies</h3>
-                                <p> New to the tech club scene at Cal? Craving some yummy cookies?</p>
-                                <p> Come join us at Clubs and Cookies, an event to learn about some of the biggest tech clubs on campus  
-                                    Get to know SAAS, Blueprint, Codeology, Codebase, Launchpad, Data Science Society, Girls Who Code, and Web Development at Berkeley all in one (delicious) event and chat directly with current members!
-                                </p>    
-                                {/* # <p> If you'll be in attendance, please fill out this quick <a href="https://tinyurl.com/clubsandcookiesinterest-fa22">interest form</a>! </p>  */}
-                                <b>8/28, 8-10:00 pm PST</b>
-                                <ul>
-                                    <li>In Person</li>
-                                    <li>Location: Hearst Field Annex 1</li>
-                                    {/* <li>View our <a href='https://fb.me/e/1YZKUc4F7' target='_blank' rel="noopener noreferrer">Facebook event</a> for more details!</li>  */}
-                                </ul>                                
-                            </div>
-                        </div>
-
-                        <div className='timeline-event'>
-                            <div className="event-date-container">
-                                <img src={require('../../images/illustrations/misc/squiggle.png')} alt='' id='event-date-design' style={{transform: 'rotate(' + randomSquiggleRotation() + 'deg)'}}/>
-                                <b className='event-date'>8/29</b>
-                            </div>
-                            <div className='event-description'>
-                                <h3>Codeology Infosession #1</h3>
-                                <p>Come to our infosession to speak with our officers and ask any questions you may have! 
-                                    We’ll be introducing our projects for this semester and talking about what it’s like to be in Codeology.
-                                </p>
-                                <b>8/29, 8-9:30 pm PST</b>
-                                <ul>
-                                    <li>In Person</li>
-                                    <li>Location: Dwinelle 229</li>
                                 </ul>
                             </div>
                         </div>
@@ -142,18 +82,84 @@ export default function Apply() {
                                 <p>Attend diversity night and learn more about the experiences of diverse groups in tech club scene at Berkeley.
                                     Meet Connex, Blueprint, Launchpad, Web Development at Berkeley, Machine Learning @ Berkeley, and Codeology to chat directly with our members!
                                 </p> 
-                                <b>8/30, 8-9:30 pm PST</b>
+                                <b>Friday 1/19, 8-10:30 pm PST</b>
                                 <ul>
                                     <li>In Person</li>
-                                    <li>Location: Dwinelle 79</li>
+                                    <li>Location: Chou N150</li>
                                 </ul>
+                            </div>
+                        </div>
+                        
+                        <div className='timeline-event'>
+                            <div className="event-date-container">
+                                <img src={require('../../images/illustrations/misc/squiggle.png')} alt='' id='event-date-design' style={{transform: 'rotate(' + randomSquiggleRotation() + 'deg)'}}/>
+                                <b className='event-date'>1/21 - 1/25</b>
+                            </div>
+                            <div className='event-description'>
+                                <h3>Coffee Chats</h3>
+                                <p>If you can't make tabling in person, 
+                                    {/* sign up for a coffee chat *releasing on 1/18*  */}
+                                    <a href='http://tinyurl.com/CodyCoffeeChats' target='_blank' rel="noopener noreferrer"> sign up for a coffee chat!</a> 
+                                    <br></br>
+                                    If slots run out or you aren't available during these times, keep checking back — more slots may open.
+                                </p>
+                                <b>1/21 - 1/25, time varies by slot</b>
+                                <ul>
+                                    <li>In Person/Online</li>
+                                    <li>Location: varies by slot</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        
+                
+                        
+                        
+                        <div className='timeline-event'>
+                            <div className="event-date-container">
+                                <img src={require('../../images/illustrations/misc/squiggle.png')} alt='' id='event-date-design' style={{transform: 'rotate(' + randomSquiggleRotation() + 'deg)'}}/>
+                                <b className='event-date'>1/22</b>
+                            </div>                            
+                            <div className='event-description'>
+                                <h3>Clubs and Cookies</h3>
+                                <p> New to the tech club scene at Cal? Craving some yummy cookies?</p>
+                                <p> Come join us at Clubs and Cookies, an event to learn about some of the biggest tech clubs on campus  
+                                    Get to know SAAS, Blueprint, Codeology, Codebase, Launchpad, Data Science Society, Girls Who Code, and Web Development at Berkeley all in one (delicious) event and chat directly with current members!
+                                </p>    
+                                {/* # <p> If you'll be in attendance, please fill out this quick <a href="https://tinyurl.com/clubsandcookiesinterest-fa22">interest form</a>! </p>  */}
+                                <b>Monday 1/22, 8-10 pm PST</b>
+                                <ul>
+                                    <li>In person</li>
+                                    <li>Location: VLSB 2050</li>
+                                    {/* <li>View our <a href='https://fb.me/e/1YZKUc4F7' target='_blank' rel="noopener noreferrer">Facebook event</a> for more details!</li>  */}
+                                </ul>                                
                             </div>
                         </div>
 
                         <div className='timeline-event'>
                             <div className="event-date-container">
                                 <img src={require('../../images/illustrations/misc/squiggle.png')} alt='' id='event-date-design' style={{transform: 'rotate(' + randomSquiggleRotation() + 'deg)'}}/>
-                                <b className='event-date'>8/31</b>
+                                <b className='event-date'>1/23</b>
+                            </div>
+                            <div className='event-description'>
+                                <h3>Codeology Infosession #1</h3>
+                                <p>Come to our infosession to speak with our officers and ask any questions you may have! 
+                                    We’ll be introducing our projects for this semester and talking about what it’s like to be in Codeology.
+                                </p>
+                                <b>Tuesday 1/23, 8-9:30 pm PST</b>
+                                <ul>
+                                    <li>In Person</li>
+                                    <li>Location: Wheeler 108</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    
+
+                        <div className='timeline-event'>
+                            <div className="event-date-container">
+                                <img src={require('../../images/illustrations/misc/squiggle.png')} alt='' id='event-date-design' style={{transform: 'rotate(' + randomSquiggleRotation() + 'deg)'}}/>
+                                <b className='event-date'>1/24</b>
                             </div>
                             <div className='event-description'>
                                 <h3>Codeology Infosession #2</h3>
@@ -161,10 +167,10 @@ export default function Apply() {
                                     We’ll be introducing our projects for this semester and talking about what it’s like to be in Codeology.
                                 </p>
                                 <p>note: the content will be the same for both infosessions!</p>
-                                <b>8/31, 8-9:30pm PST</b>
+                                <b>Thursday 1/24, 8-9:30pm PST</b>
                                 <ul>
                                     <li>In Person</li>
-                                    <li>Location: Dwinelle 229</li>
+                                    <li>Location: SOCS (Social Sciences Building) 20</li>
                                 </ul>
                             </div>
                         </div>
@@ -172,13 +178,13 @@ export default function Apply() {
                         <div className='timeline-event'>
                             <div className="event-date-container">
                                 <img src={require('../../images/illustrations/misc/squiggle.png')} alt='' id='event-date-design' style={{transform: 'rotate(' + randomSquiggleRotation() + 'deg)'}}/>
-                                <b className='event-date'>8/31</b>
+                                <b className='event-date'>1/25</b>
                             </div>
                             <div className='event-description'>
                                 <h3>Applications Due!</h3>
                                 <p>Fill out an application to share your story and what you can get out of being a part of Codeology.</p>
-                                <b>Applications will be due on 8/31 at 11:59 pm PST.</b><br/>
-                                <a href='https://tinyurl.com/CodeologyApp' target='_blank' rel="noopener noreferrer">
+                                <b>Applications will be due on Thursday, 1/25 at 11:59 pm PST.</b><br/>
+                                <a href='http://tinyurl.com/SP24CodyApp' target='_blank' rel="noopener noreferrer">
                                     Start your application!
                                 </a>
                             </div>
@@ -187,12 +193,12 @@ export default function Apply() {
                         <div className='timeline-event'>
                             <div className="event-date-container">
                                 <img src={require('../../images/illustrations/misc/squiggle.png')} alt='' id='event-date-design' style={{transform: 'rotate(' + randomSquiggleRotation() + 'deg)'}}/>
-                                <b className='event-date'>9/02 - 9/04</b>
+                                <b className='event-date'>1/27 - 1/29</b>
                             </div>
                             <div className='event-description'>
                                 <h3>First Round Interviews (Invite Only)</h3>
                                 <p>Applicants accepted past the written application will participate in first round interviews, 
-                                    where we can get an idea of how you interact and solve problems.
+                                where we can get an idea of how you work in a group environment and solve problems.
                                 </p>
                             </div>
                         </div>
@@ -200,13 +206,13 @@ export default function Apply() {
                         <div className='timeline-event'>
                             <div className="event-date-container">
                                 <img src={require('../../images/illustrations/misc/squiggle.png')} alt='' id='event-date-design' style={{transform: 'rotate(' + randomSquiggleRotation() + 'deg)'}} />
-                                <b className='event-date'>9/05</b>
+                                <b className='event-date'>1/30</b>
                             </div>
                             <div className='event-description'>
                                 <h3>Social Night (Invite Only)</h3>
                                 <p> A fun event to meet fellow applicants, as well as current Codeology officers and members!</p>
 
-                                <b>9/05, 8-9:30pm PST</b>
+                                <b>Tuesday 1/30, 8-9:30pm PST</b>
                                 <ul>
                                     <li>In Person</li>
                                     <li>Location: *Refer to Invitation*</li>
@@ -217,7 +223,7 @@ export default function Apply() {
                         <div className='timeline-event'>
                             <div className="event-date-container">
                                 <img src={require('../../images/illustrations/misc/squiggle.png')} alt='' id='event-date-design' />
-                                <b className='event-date'>9/06 - 9/07</b>
+                                <b className='event-date'>1/31 - 2/2</b>
                             </div>
                             <div className='event-description'>
                                 <h3>Final Individual Interviews (Invite Only)</h3>
