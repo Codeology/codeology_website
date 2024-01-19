@@ -79,7 +79,7 @@ export default function Apply() {
                         <div className='timeline-event'>
                             <div className="event-date-container">
                                 <img src={require('../../images/illustrations/misc/squiggle.png')} alt='' id='event-date-design' style={{transform: 'rotate(' + randomSquiggleRotation() + 'deg)'}}/>
-                                <b className='event-date'>8/30</b>
+                                <b className='event-date'>1/19</b>
                             </div>
                             <div className='event-description'>
                                 <h3>Tech Diversity Night</h3>
