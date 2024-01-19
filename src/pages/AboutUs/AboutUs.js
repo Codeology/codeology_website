@@ -1,6 +1,6 @@
 import React from 'react';
-import './front.svg';
-import Fade from 'react-reveal/Fade';
+// import './front.svg';
+import { Fade } from 'react-awesome-reveal';
 
 import Wall from '../../images/group/Wall.png';
 import PageDescription from '../../components/PageDescription/PageDescription.js';

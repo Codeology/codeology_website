@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './internal.css';
-import TabList from '@material-ui/lab/TabList';
+import TabList from '@mui/lab/TabList';
 import Tab from '@mui/material/Tab';
-import TabPanel from '@material-ui/lab/TabPanel';
-import TabContext from '@material-ui/lab/TabContext';
+import TabPanel from '@mui/lab/TabPanel';
+import TabContext from '@mui/lab/TabContext';
 import Box from '@mui/material/Box';
 
 function TabContainer() {

@@ -3,7 +3,7 @@ import './contact.css';
 import { Helmet } from 'react-helmet';
 import {Link} from 'react-router-dom';
 import PageDescription from '../../components/PageDescription/PageDescription';
-import Fade from 'react-reveal/Fade';
+import { Fade } from 'react-awesome-reveal';
 
 export default function ContactUs() {
     const description = "Do you have questions or concerns for us? Fill out our form or email us at info@codeology.club, and we'll get back to you as soon as possible!";

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './project-component.css';
 import Popup from "reactjs-popup";
-import Fade from 'react-reveal/Fade';
+import  { Fade } from 'react-awesome-reveal';
 
 function ProjectShowcase(props) {
     const [loaded, setLoaded] = useState(false); /* true when image is loaded (gets rid of awkward image loading transition) */

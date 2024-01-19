@@ -1,7 +1,7 @@
 import React from 'react';
 import './Apply.css';
 import Heading from '../../components/Heading/Heading';
-import Fade from 'react-reveal/Fade';
+import { Fade } from 'react-awesome-reveal';
 
 export default function Apply() {
     function randomSquiggleRotation() {

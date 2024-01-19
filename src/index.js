@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import HomeRouter from './pages/HomeRouter';
 import * as serviceWorker from './serviceWorker';
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HomeRouter />
+    <ParallaxProvider>
+      <HomeRouter />
+    </ParallaxProvider>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );

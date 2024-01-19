@@ -1,6 +1,6 @@
 import React from 'react';
-import { Parallax } from 'react-parallax';
-import Fade from 'react-reveal/Fade';
+import { Parallax, ParallaxBanner, ParallaxBannerLayer } from 'react-scroll-parallax';
+import { Fade } from 'react-awesome-reveal';
 import './WallImage.css';
 
 
@@ -23,15 +23,22 @@ class WallImage extends React.Component {
                 <img onLoad={() => this.setState({ loaded: true })} style={{ display: 'none'}} src={this.props.image} alt={this.props.title} />
                     {this.state.loaded && 
                     <Fade>
-                        <Parallax
+                    {/* <Parallax translateY={[-20, 10]}>
+                        <img className='banner' src={this.props.image} alt={this.props.title} />
+
+                    </Parallax> */}
+                    <ParallaxBanner style={{ aspectRatio: '2 / 1', height:'32vh' }}>
+                        <ParallaxBannerLayer image={this.props.image} speed={-20} />
+                    </ParallaxBanner>
+                        {/* <Parallax
                             className='parallax-banner'
                             bgImage={this.props.image}
                             strength={300}
                             height={"60vh"}
                             bgImageStyle={{width:"100%", height:"auto"}}>                        
                             <div className="img-container" ></div>
-                        </Parallax>
-                        <img className='banner' src={this.props.image} alt={this.props.title} />
+                        </Parallax> */}
+                        {/* <img className='banner' src={this.props.image} alt={this.props.title} /> */}
                     </Fade>}
                     </div>
                    <h1 className="textOverlay-white">{this.props.title}</h1>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
-import Fade from 'react-reveal/Fade';
+import { Fade } from 'react-awesome-reveal';
 
 import ProjectShowcase from '../../components/ProjectShowcase/ProjectShowcase.jsx';
 import ProjectInfo from '../../constants/ProjectInfo.jsx';

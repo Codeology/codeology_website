@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { GoogleLogout } from 'react-google-login';
+// import { GoogleLogout } from 'react-google-login';
 /* Source: https://github.com/Sivanesh-S/react-google-authentication/ */
 /* Article: https://dev.to/sivaneshs/add-google-login-to-your-react-apps-in-10-mins-4del */
 
@@ -15,11 +15,11 @@ function Logout(props) {
   
     return (
         <div>
-            <GoogleLogout
+            {/* <GoogleLogout
                 clientId={clientId}
                 buttonText="Logout"
                 onLogoutSuccess={onSuccess}
-            />
+            /> */}
         </div>
     )
 }

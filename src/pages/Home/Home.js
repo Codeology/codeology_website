@@ -6,7 +6,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import { Helmet } from 'react-helmet';
 import ScrollToTop from '../../utils/ScrollToTop';
 import Landing from '../../components/Landing/Landing';
-import Fade from 'react-reveal/Fade';
+import { Fade } from 'react-awesome-reveal';
 import PhotoCarousel from '../../components/PhotoCarousel/PhotoCarousel'
 
 export default function Home() {

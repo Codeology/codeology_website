@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {
   HashRouter as Router,
-  Switch,
+  Routes,
   Route,
 } from "react-router-dom";
 
@@ -14,6 +14,7 @@ import Apply from './Apply/Apply.jsx';
 import Resources from './Resources/Resources.jsx';
 import Internal from './Internal/Internal.jsx';
 import Navbar from '../components/NavBar/Navbar.js';
+import ScrollToTop from '../utils/ScrollToTop.js';
 
 import './stylesheet.css';
 
@@ -47,6 +48,7 @@ class HomeRouter extends Component {
         }
         return (
             <Router>
+                <ScrollToTop />
                 <div>
                     {/* Nav bar */}
                     {/* <Navbar drawerClickHandler = {this.drawerToggleClickHandler}/>
@@ -57,36 +59,16 @@ class HomeRouter extends Component {
                     <SideDrawer show={this.state.sideDrawerOpen} close={this.drawerToggleClickHandler} />
                     {backdrop}
                     {/* Everything in Switch handles routing */}
-                    <Switch>
-                      <Route path="/about">
-                        <AboutUs />
-                      </Route>
+                    <Routes>
+                      <Route path="/about" element={<AboutUs />} />
+                      <Route path="/projects" element={<Projects />} />
+                      <Route path="/contact" element={<ContactUs />} />
+                      <Route path="/resources" element={<Resources />} />
+                      <Route path="/internal" element={<Internal />} />
+                      <Route path="/apply" element={<Apply />} />
+                      <Route path="/" element={<Home />} />
 
-                      <Route path="/projects">
-                        <Projects />
-                      </Route>
-
-                      <Route path="/contact">
-                        <ContactUs />
-                      </Route>
-
-                      <Route path="/resources">
-                        <Resources/>
-                      </Route>
-                      
-                      <Route path="/internal">
-                        <Internal />
-                      </Route>
-
-                      <Route path="/apply">
-                        <Apply />
-                      </Route>
-
-                      <Route path="/">
-                        <Home />
-                      </Route>
-
-                    </Switch>
+                    </Routes>
 
                     <Footer />
 

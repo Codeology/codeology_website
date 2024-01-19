@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { GoogleLogin } from 'react-google-login';
+// import { GoogleLogin } from 'react-google-login';
 /* Source: https://github.com/Sivanesh-S/react-google-authentication/ */
 /* Article: https://dev.to/sivaneshs/add-google-login-to-your-react-apps-in-10-mins-4del */
 
@@ -38,7 +38,7 @@ function Login(props) {
 
   return (
     <div>
-      <GoogleLogin
+      {/* <GoogleLogin
         clientId={clientId}
         buttonText="Log In"
         onSuccess={onSuccess}
@@ -46,7 +46,7 @@ function Login(props) {
         cookiePolicy={'single_host_origin'}
         style={{ marginTop: '100px' }}
         isSignedIn={true}
-      />
+      /> */}
     </div>
   );
 }

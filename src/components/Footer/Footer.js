@@ -31,15 +31,21 @@ function Footer() {
                 <div id='footer-links'>
                     <div className='footer-links-col'>
                         <b>GENERAL</b>
-                        <ScrollToTop><Link to='/'>Home</Link></ScrollToTop>
-                        <ScrollToTop><Link to='/about'>About</Link></ScrollToTop>
-                        <ScrollToTop><Link to='/projects'>Projects</Link></ScrollToTop>
-                        <ScrollToTop><Link to='/apply'>Apply</Link></ScrollToTop>
+                        <Link style={{ textDecoration: 'none' }} to='/'>Home</Link>
+                        <Link style={{ textDecoration: 'none' }} to='/about'>About</Link>
+                        <Link style={{ textDecoration: 'none' }} to='/projects'>Projects</Link>
+                        <Link style={{ textDecoration: 'none' }} to='/apply'>Apply</Link>
+
+                        {/* <ScrollToTop><Link to='/'>Home</Link></ScrollToTop> */}
+                        {/* <ScrollToTop><Link to='/about'>About</Link></ScrollToTop> */}
+                        {/* <ScrollToTop><Link to='/projects'>Projects</Link></ScrollToTop> */}
+                        {/* <ScrollToTop><Link to='/apply'>Apply</Link></ScrollToTop> */}
                     </div>
                     <div className='footer-links-col'>
                         <b>CONTACT</b>
-                        <ScrollToTop><Link to='/contact'>Contact Us</Link></ScrollToTop>
-                        <a href='mailto: info@codeology.club' target='_blank' rel="noopener noreferrer">Email</a>
+                        <Link style={{ textDecoration: 'none' }} to='/contact'>Contact Us</Link>
+                        {/* <ScrollToTop><Link to='/contact'>Contact Us</Link></ScrollToTop> */}
+                        <a style={{ textDecoration: 'none' }} href='mailto: info@codeology.club' target='_blank' rel="noopener noreferrer">Email</a>
                         <a href="https://www.ocf.berkeley.edu">
                             <img src="http://www.ocf.berkeley.edu/hosting-logos/ocf-hosted-penguin.svg"
                                 alt="Hosted by the OCF" Style="border: 0; margin-top: 30px; height: 40px" />

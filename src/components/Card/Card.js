@@ -1,7 +1,7 @@
 import React from 'react';
 import Popup from "reactjs-popup";
 import './Card.css';
-import Fade from 'react-reveal/Fade';
+import { Fade } from 'react-awesome-reveal';
 
 class Card extends React.Component {
     render() {
