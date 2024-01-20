@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.42a4e3aa.css",
-    "main.js": "./static/js/main.9d3bd037.js",
+    "main.js": "./static/js/main.ddc47ed8.js",
     "static/media/smallgroup_river.png": "./static/media/smallgroup_river.6cf4362a4257b160aee4.png",
     "static/media/fun_glade.png": "./static/media/fun_glade.78a5afc341a03fbd51c0.png",
     "static/media/retreat_sp22.png": "./static/media/retreat_sp22.6a2d9df4a62cbe212d4a.png",
@@ -153,10 +153,10 @@
     "static/media/sadyant.jpg": "./static/media/sadyant.092c8b04859727a9297b.jpg",
     "static/media/seawarden.png": "./static/media/seawarden.e783320ff3590d799a59.png",
     "static/media/space.png": "./static/media/space.b56d512ac3c35724a0cc.png",
-    "static/media/xina.jpg": "./static/media/xina.b358f801fa55b3e3414f.jpg",
     "static/media/kevinchai.jpg": "./static/media/kevinchai.d540cf64b98e577ff91b.jpg",
     "static/media/amazon.png": "./static/media/amazon.1866f5899161a77895ee.png",
     "static/media/jaewon.jpg": "./static/media/jaewon.b63c35471b5e1d7da422.jpg",
+    "static/media/xina.jpg": "./static/media/xina.6530cd221ace2e0dbe24.jpg",
     "static/media/minjune.jpg": "./static/media/minjune.bd547b32fe227ec295b3.jpg",
     "static/media/chatbot.png": "./static/media/chatbot.a8bd7f858c3229f386fc.png",
     "static/media/imc.png": "./static/media/imc.89f744d6da920e3b62ab.png",
@@ -297,10 +297,10 @@
     "index.html": "./index.html",
     "static/media/email_green.svg": "./static/media/email_green.6ae004b05727b31fea5b.svg",
     "main.42a4e3aa.css.map": "./static/css/main.42a4e3aa.css.map",
-    "main.9d3bd037.js.map": "./static/js/main.9d3bd037.js.map"
+    "main.ddc47ed8.js.map": "./static/js/main.ddc47ed8.js.map"
   },
   "entrypoints": [
     "static/css/main.42a4e3aa.css",
-    "static/js/main.9d3bd037.js"
+    "static/js/main.ddc47ed8.js"
   ]
 }
