@@ -15,6 +15,10 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
+if (window.location.href==="https://codeology.club") {
+    window.location.href = "https://codeology.berkeley.edu"; 
+}
+
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
