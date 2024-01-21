@@ -19,9 +19,11 @@ Make sure you have the `npm` module installed locally! All pages are respectivel
 2. Run `npm install`
 3. Run `npm start` to test your changes.
 
-### Commit Changes
-1. Push the changes to the repo.
-2. 
+### Commiting Changes
+1. Create a feature branch (set branch name as `<name>/<feature>`, e.g. `avo/update`).
+2. Push the changes to the repo.
+3. Rebase feature branch to `main`.
+4. Squash and merge branch, then delete the branch.
 
 ###  Changing the About Us Page 
 1. Download the member photo to `src/images/members` and name it "Name.jpg". If it's a repeat do "Name2.jpg" and so on 
