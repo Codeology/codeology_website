@@ -25,6 +25,12 @@ Make sure you have the `npm` module installed locally! All pages are respectivel
 3. Rebase feature branch to `main`.
 4. Squash and merge branch, then delete the branch.
 
+Alternatively for direct changes to master branch:
+1. Run `npm run build`
+2. Stage changes through `git add .` or `git add <files>`
+3. Message: `git commit -m "describe changes"`
+4. Push to master: `git push`
+
 ###  Changing the About Us Page 
 1. Download the member photo to `src/images/members` and name it "Name.jpg". If it's a repeat do "Name2.jpg" and so on 
 2. Go to `src/Constants/members.js` to add the member information  
