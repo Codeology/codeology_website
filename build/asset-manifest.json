@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.42a4e3aa.css",
-    "main.js": "./static/js/main.f86dda08.js",
+    "main.js": "./static/js/main.fb7beaab.js",
     "static/media/smallgroup_river.png": "./static/media/smallgroup_river.6cf4362a4257b160aee4.png",
     "static/media/fun_glade.png": "./static/media/fun_glade.78a5afc341a03fbd51c0.png",
     "static/media/retreat_sp22.png": "./static/media/retreat_sp22.6a2d9df4a62cbe212d4a.png",
@@ -23,11 +23,13 @@
     "static/media/clubPhoto.png": "./static/media/clubPhoto.a0b3a001474e26458efb.png",
     "static/media/kate.jpg": "./static/media/kate.26b03d95c856b0ec9fad.jpg",
     "static/media/andrew2.jpg": "./static/media/andrew2.e3d8c77cdcc2f2a38581.jpg",
+    "static/media/samhita.jpg": "./static/media/samhita.098dc6d2b9c920b20b45.jpg",
     "static/media/joelle.jpg": "./static/media/joelle.7fc41e1b921933dfbd4c.jpg",
     "static/media/ramya1.jpg": "./static/media/ramya1.f5a03e4ce39e44050953.jpg",
     "static/media/charles.jpg": "./static/media/charles.e2743988f9c97fbc6425.jpg",
     "static/media/april.jpg": "./static/media/april.3a6325cf749524676b63.jpg",
     "static/media/allen.jpg": "./static/media/allen.8059afd9718e6ba6b886.jpg",
+    "static/media/aarushi2.jpg": "./static/media/aarushi2.23ec7368e73ca15f3b9d.jpg",
     "static/media/magicforest_reveal.png": "./static/media/magicforest_reveal.65b6f173d0b1633d820c.png",
     "static/media/campus_blossoms.png": "./static/media/campus_blossoms.c0457607dc61136ec4b5.png",
     "static/media/amogh.jpg": "./static/media/amogh.64e495799f99f4fa2b30.jpg",
@@ -87,12 +89,14 @@
     "static/media/ashley4.jpg": "./static/media/ashley4.08eddc5aea4775708e4d.jpg",
     "static/media/avo.jpg": "./static/media/avo.0208eeac975f05027444.jpg",
     "static/media/avocodeology.jpg": "./static/media/avocodeology.0208eeac975f05027444.jpg",
+    "static/media/navi.jpg": "./static/media/navi.c9f80dc2b2d5d2b16119.jpg",
     "static/media/jag.jpg": "./static/media/jag.ba493326cd706cd55de3.jpg",
     "static/media/david - old mem.jpg": "./static/media/david - old mem.fdd9668cc529b8058a1f.jpg",
     "static/media/alena.jpg": "./static/media/alena.78b8f3a5dea9606289f1.jpg",
     "static/media/christina.jpg": "./static/media/christina.2324dd9e9b45c5dccb80.jpg",
     "static/media/trevor - old mem.jpg": "./static/media/trevor - old mem.323d99f9a5f52b2eacdc.jpg",
     "static/media/richard.jpg": "./static/media/richard.980fe889408f876dabdd.jpg",
+    "static/media/vivek.jpg": "./static/media/vivek.59fdc8ea4d057f0b4cd1.jpg",
     "static/media/shoptimum.png": "./static/media/shoptimum.4d5fcb64764630f7e1d8.png",
     "static/media/GitHub-Mark.eps": "./static/media/GitHub-Mark.17ce969cc2f903c47f46.eps",
     "static/media/charlize.jpg": "./static/media/charlize.fa954b60d977d557175d.jpg",
@@ -123,6 +127,7 @@
     "static/media/daniel.jpg": "./static/media/daniel.b0594e266d38f6211d67.jpg",
     "static/media/nasaJpl.png": "./static/media/nasaJpl.f4fe9f18337af60aff2f.png",
     "static/media/jada.jpg": "./static/media/jada.7edcefc8ccae2d73c407.jpg",
+    "static/media/heidy.jpg": "./static/media/heidy.674c77a496f97ed0593e.jpg",
     "static/media/razvan.jpg": "./static/media/razvan.421e25af136fff0ce52c.jpg",
     "static/media/personal_portfolio.png": "./static/media/personal_portfolio.ba63dd1b3c5c94080a92.png",
     "static/media/sneh.jpg": "./static/media/sneh.9f51e8b8fe7023d1f775.jpg",
@@ -139,6 +144,7 @@
     "static/media/elizabeth.jpg": "./static/media/elizabeth.9e6912f418ac35ee92ae.jpg",
     "static/media/dhruv.jpg": "./static/media/dhruv.77761608a9bb0fb92cfc.jpg",
     "static/media/bounc.png": "./static/media/bounc.df29dbfa0436eeb9e23c.png",
+    "static/media/hailey.jpg": "./static/media/hailey.c2fe24bbf4f7679710a4.jpg",
     "static/media/flyer.png": "./static/media/flyer.49cdc823a704b4a330cf.png",
     "static/media/movies.png": "./static/media/movies.f76e362461a2a3b9e359.png",
     "static/media/kevin3.jpg": "./static/media/kevin3.13a1fbd49d1d09bb5586.jpg",
@@ -156,6 +162,7 @@
     "static/media/kevinchai.jpg": "./static/media/kevinchai.d540cf64b98e577ff91b.jpg",
     "static/media/amazon.png": "./static/media/amazon.1866f5899161a77895ee.png",
     "static/media/jaewon.jpg": "./static/media/jaewon.b63c35471b5e1d7da422.jpg",
+    "static/media/ashwin.jpg": "./static/media/ashwin.9e92dc2686a03e1115d3.jpg",
     "static/media/xina.jpg": "./static/media/xina.6530cd221ace2e0dbe24.jpg",
     "static/media/minjune.jpg": "./static/media/minjune.bd547b32fe227ec295b3.jpg",
     "static/media/chatbot.png": "./static/media/chatbot.a8bd7f858c3229f386fc.png",
@@ -180,6 +187,7 @@
     "static/media/web_hand1.png": "./static/media/web_hand1.4d32edce95935ffe96dc.png",
     "static/media/danica.jpg": "./static/media/danica.8cffc95ae4e198ca8d4e.jpg",
     "static/media/web_hand2.png": "./static/media/web_hand2.578e7b10231926e5bfb1.png",
+    "static/media/esme.jpg": "./static/media/esme.eb734cc011b05c27adf6.jpg",
     "static/media/sample.png": "./static/media/sample.33442e7bbda73bf01f24.png",
     "static/media/nitzan.jpg": "./static/media/nitzan.30aea49dccf67d9a417e.jpg",
     "static/media/stella.jpg": "./static/media/stella.a14520d407ba4ffedec3.jpg",
@@ -297,10 +305,10 @@
     "index.html": "./index.html",
     "static/media/email_green.svg": "./static/media/email_green.6ae004b05727b31fea5b.svg",
     "main.42a4e3aa.css.map": "./static/css/main.42a4e3aa.css.map",
-    "main.f86dda08.js.map": "./static/js/main.f86dda08.js.map"
+    "main.fb7beaab.js.map": "./static/js/main.fb7beaab.js.map"
   },
   "entrypoints": [
     "static/css/main.42a4e3aa.css",
-    "static/js/main.f86dda08.js"
+    "static/js/main.fb7beaab.js"
   ]
 }
