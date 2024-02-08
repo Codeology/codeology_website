@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.42a4e3aa.css",
-    "main.js": "./static/js/main.fb7beaab.js",
+    "main.css": "./static/css/main.36b85079.css",
+    "main.js": "./static/js/main.fcb5c2b9.js",
     "static/media/smallgroup_river.png": "./static/media/smallgroup_river.6cf4362a4257b160aee4.png",
     "static/media/fun_glade.png": "./static/media/fun_glade.78a5afc341a03fbd51c0.png",
     "static/media/retreat_sp22.png": "./static/media/retreat_sp22.6a2d9df4a62cbe212d4a.png",
@@ -304,11 +304,11 @@
     "static/media/linkedin_green.svg": "./static/media/linkedin_green.f981dfe0fa598076cb9e.svg",
     "index.html": "./index.html",
     "static/media/email_green.svg": "./static/media/email_green.6ae004b05727b31fea5b.svg",
-    "main.42a4e3aa.css.map": "./static/css/main.42a4e3aa.css.map",
-    "main.fb7beaab.js.map": "./static/js/main.fb7beaab.js.map"
+    "main.36b85079.css.map": "./static/css/main.36b85079.css.map",
+    "main.fcb5c2b9.js.map": "./static/js/main.fcb5c2b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.42a4e3aa.css",
-    "static/js/main.fb7beaab.js"
+    "static/css/main.36b85079.css",
+    "static/js/main.fcb5c2b9.js"
   ]
 }

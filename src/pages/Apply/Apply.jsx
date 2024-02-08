@@ -21,7 +21,7 @@ export default function Apply() {
                             <h1 id='header-title'>Apply to Codeology</h1>
                             <p id='header-subtext'>Start your journey in tech and become part of the Codeology family!</p>
                             <a href='http://tinyurl.com/SP24CodyApp' target='_blank' rel="noopener noreferrer">
-                                <button id='application-link'>Application due Thursday, 1/25 11:59 PM</button>
+                                <button id='application-link'>Application closed</button>
                             </a>
                             <a id='interest-link-container' href='http://tinyurl.com/SP24InterestForm' target='_blank' rel="noopener noreferrer">
                                 <button id='interest-link'>Interest Form</button>
@@ -35,10 +35,9 @@ export default function Apply() {
                     </div>
                 </div>               
                
-                {/* <h3 id='apps-closed'>
-                Applications are currently closed. Come visit our website during the first few weeks of the Fall 2023 semester to apply and check out our events!
-                </h3> */}
-
+                <h3 id='apps-closed'>
+                Applications are currently closed. Interested in joining us next semester? Fill out our interest form to be added to our mailing list or email us at <a href='info@codeology.club' target='_blank' rel="noopener noreferrer"> info@codeology.club</a> if you have any questions!
+                </h3>
 
                 <Fade>
                      <div id='recruitment-timeline'>

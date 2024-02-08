@@ -11,8 +11,8 @@
 
 #apps-closed {
     width: 70%;
-    margin: 40px 15%;
-    color: var(--forestgreen);
+    margin: 40px 15% 0vh;
+    color: var(--red);
 }
 
 #headline {

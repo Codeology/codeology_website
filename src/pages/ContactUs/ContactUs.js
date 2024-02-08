@@ -27,13 +27,15 @@ export default function ContactUs() {
             <div id='contact-content'>
                 <div id='contact-text-section'>
                     <div className='contact-text'>
-                        <h2>Students</h2>
-                        <p>Interested in joining us? Click <Link to="/apply"> here</Link> to apply, and email us if you have any questions!</p> 
-                    </div>
-                    <div className='contact-text'>
                         <h2>Companies & Nonprofits</h2>
                         <p>Every semester, Codeology offers special projects geared to serve our community and organizations that have project ideas. 
                             If you or your organization have meaningful project ideas, please reach out to us!</p>
+                    </div>
+                    <div className='contact-text'>
+                        <h2>Sponsors</h2>
+                        <p>Thank you for your interest in supporting us! Codeology greatly appreciates your help in furthering our mission– 
+                            please reach out to us for any inquiries!
+                        </p>
                     </div>
                 </div>
                 <div id='contact-form-section'>
