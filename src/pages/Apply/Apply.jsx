@@ -36,7 +36,7 @@ export default function Apply() {
                 </div>               
                
                 <h3 id='apps-closed'>
-                Applications are currently closed. Interested in joining us next semester? Fill out our interest form to be added to our mailing list or email us at <a href='info@codeology.club' target='_blank' rel="noopener noreferrer"> info@codeology.club</a> if you have any questions!
+                Interested in joining us next semester? Contact us through email at <a href='info@codeology.club' target='_blank' rel="noopener noreferrer"> info@codeology.club</a> or fill out this <a href='https://docs.google.com/forms/d/e/1FAIpQLSci1toyIHGzn_GoDk-QfjIA895cyN1EnrJFp3OyeazO2hbtaQ/viewform' target='_blank' rel="noopener noreferrer"> student inquiry form</a> if you have any questions!
                 </h3>
 
                 <Fade>
