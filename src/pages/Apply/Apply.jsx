@@ -12,7 +12,6 @@ export default function Apply() {
 
     return (
         <div>
-
             <div className="contact">
                 <div className='header-container'>
                     <div className="header">
@@ -21,24 +20,26 @@ export default function Apply() {
                             <h1 id='header-title'>Apply to Codeology</h1>
                             <p id='header-subtext'>Start your journey in tech and become part of the Codeology family!</p>
                             <a href='http://tinyurl.com/SP24CodyApp' target='_blank' rel="noopener noreferrer">
-                                <button id='application-link'>Application closed</button>
+                                <button id='application-link'>Application Closed</button>
                             </a>
+                            <p id="padding"></p>
                             <a id='interest-link-container' href='http://tinyurl.com/SP24InterestForm' target='_blank' rel="noopener noreferrer">
-                                <button id='interest-link'>Interest Form</button>
+                                <button id='interest-link'>Join Our Email List</button>
                             </a>
-                            {/*
-                            <a href='INSERT LINK' target='_blank' rel="noopener noreferrer">
-                                <button id='recruitment-calendar'>Add our recruitment calendar!</button>
+                            <a id='interest-link-container' href='https://docs.google.com/forms/d/e/1FAIpQLSci1toyIHGzn_GoDk-QfjIA895cyN1EnrJFp3OyeazO2hbtaQ/viewform' target='_blank' rel="noopener noreferrer">
+                                <button id='interest-link'>Ask Us a Question</button>
                             </a>
-                            */}
+                            <a id='interest-link-container' href='mailto:info@codeology.club' target='_blank' rel="noopener noreferrer">
+                                <button id='interest-link'>Email Us</button>
+                            </a>
+                            
+                            <a id='interest-link-container' href='http://tinyurl.com/SP24CodyCalendar' target='_blank' rel="noopener noreferrer">
+                                <button id='interest-link'>Recruitment Calendar</button>
+                            </a>
                         </div>
                     </div>
                 </div>               
-               
-                <h3 id='apps-closed'>
-                Interested in joining us next semester? Contact us through email at <a href='info@codeology.club' target='_blank' rel="noopener noreferrer"> info@codeology.club</a> or fill out this <a href='https://docs.google.com/forms/d/e/1FAIpQLSci1toyIHGzn_GoDk-QfjIA895cyN1EnrJFp3OyeazO2hbtaQ/viewform' target='_blank' rel="noopener noreferrer"> student inquiry form</a> if you have any questions!
-                </h3>
-
+                
                 <Fade>
                      <div id='recruitment-timeline'>
 
@@ -114,9 +115,6 @@ export default function Apply() {
                                 </ul>
                             </div>
                         </div>
-
-                        
-                
                         
                         
                         <div className='timeline-event'>
@@ -157,8 +155,6 @@ export default function Apply() {
                                 </ul>
                             </div>
                         </div>
-
-                    
 
                         <div className='timeline-event'>
                             <div className="event-date-container">
@@ -279,7 +275,6 @@ export default function Apply() {
                         </div>
                     </div>
                     
-                   
                 </Fade>
             </div>
 

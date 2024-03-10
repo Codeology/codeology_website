@@ -22,14 +22,16 @@
 }
 
 #application-link {
-    background-color: var(--forestgreen);
+    background-color: #d97a77;
     border-radius: 12px;
     border: none;
-    width: 18vw;
+    width: 65.5vw;
+    height: 3vw, auto;
     padding: 10px;
     color: white;
     margin-left: 0px;
     margin-top: 0px;
+    font-size: 25px;
 }
 
 #application-link:hover {
@@ -41,16 +43,20 @@
     background-color: var(--forestgreen);
     border-radius: 12px;
     border: none;
-    width: 18vw;
+    width: 16vw;
     padding: 10px;
     color: white;
-    margin-left: 5px;
+    margin-right: 0.5vw;
     margin-top: 0px;
 }
 
-#application-link:hover {
+#interest-link:hover {
     filter: brightness(90%);
     transition: 0.2s;
+}
+
+#padding {
+    margin:0.5vw;
 }
 
 
