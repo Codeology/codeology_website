@@ -47,7 +47,7 @@
     padding: 10px;
     color: white;
     margin-right: 0.5vw;
-    margin-top: 0px;
+    margin-top: 0.5vw;
 }
 
 #interest-link:hover {
@@ -243,27 +243,28 @@
     }
 
     #application-link {
-        background-color: var(--forestgreen);
+        background-color: #d97a77;
         border-radius: 12px;
         border: none;
-        width: 35vw;
+        width: 65.5vw;
+        height: 3vw, auto;
         padding: 10px;
         color: white;
         margin-left: 0px;
         margin-top: 0px;
-        font-size: 10px;
+        font-size: 14px;
     }
-
+    
     #interest-link {
         background-color: var(--forestgreen);
         border-radius: 12px;
         border: none;
-        width: 35vw;
+        width: 16vw;
         padding: 10px;
         color: white;
-        margin-left: 5px;
-        margin-top: 0px;
-        font-size: 10px;
+        margin-right: 0.5vw;
+        margin-top: 0.5vw;
+        font-size: 12px;
     }
 
     #header-title {

@@ -22,7 +22,7 @@ export default function Apply() {
                             <a href='http://tinyurl.com/SP24CodyApp' target='_blank' rel="noopener noreferrer">
                                 <button id='application-link'>Application Closed</button>
                             </a>
-                            <p id="padding"></p>
+                            <br></br>
                             <a id='interest-link-container' href='http://tinyurl.com/SP24InterestForm' target='_blank' rel="noopener noreferrer">
                                 <button id='interest-link'>Join Our Email List</button>
                             </a>
