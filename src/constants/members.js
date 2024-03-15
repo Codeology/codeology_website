@@ -1509,6 +1509,32 @@ const a = [{
         linkedin: "https://www.linkedin.com/in/shinggao/",
         blurb: "hi my name is shing and i am a bioe + eecs major. i love nature and my cat and i have lots of photographs of both. i have a complex relationship with pop music. ask me about my notes app ;p",
     },
+    {
+        name: 'AJ DeMarinis',
+        img: null,
+        role: 'Active Member',
+        email: '',
+        year: '',
+        committee: null,
+        project: null,
+        tree: '',
+        leaf: '',
+        linkedin: "https://www.linkedin.com/in/andrew-demarinis-96b76a241",
+        blurb: "I'm a 61B TA so come to my OH",
+    },
+    {
+        name: 'Ava Shah',
+        img: null,
+        role: 'Active Member',
+        email: '',
+        year: '',
+        committee: null,
+        project: null,
+        tree: '',
+        leaf: '',
+        linkedin: "https://www.linkedin.com/in/ava-shah-03709773",
+        blurb: "I love IEOR and Moffitt",
+    },
 ];
 
 function compare(a, b) {
