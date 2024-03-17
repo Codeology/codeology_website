@@ -2,8 +2,6 @@ import React from 'react';
 import './Apply.css';
 import Heading from '../../components/Heading/Heading';
 import { Fade } from 'react-awesome-reveal';
-// Scroll to Top experiments
-import ScrollToTop from "../../utils/ScrollToTop.js"
 
 export default function Apply() {
     function randomSquiggleRotation() {
@@ -240,7 +238,7 @@ export default function Apply() {
                     </Fade> 
 
                     <Fade>
-                    <button onCLick="ScrollToTop()">Scroll to Top</button>
+
                     <div id='faqs'>
                         <Heading>FAQs</Heading>
                         <div className='faq'>
