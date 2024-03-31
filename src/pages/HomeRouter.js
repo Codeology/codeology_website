@@ -15,6 +15,7 @@ import Resources from './Resources/Resources.jsx';
 import Internal from './Internal/Internal.jsx';
 import Navbar from '../components/NavBar/Navbar.js';
 import ScrollToTop from '../utils/ScrollToTop.js';
+import {scrollTop} from '../utils/ScrollToTop.js';
 
 import './stylesheet.css';
 
@@ -46,9 +47,25 @@ class HomeRouter extends Component {
         if (this.state.sideDrawerOpen) {
             backdrop = <Backdrop click={this.backdropClickHandler}/>;
         }
+
+        /* Scroll to Top Button Logic */
+        /* Credits: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */ 
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        let appear_dist = 1500;
+
+        function scrollFunction() {
+            if (document.body.scrollTop > appear_dist 
+                || document.documentElement.scrollTop > appear_dist) {
+                document.getElementById("scrollTopButton").style.display = "block";
+            } else {
+                document.getElementById("scrollTopButton").style.display = "none";
+            }
+        } 
+
         return (
             <Router>
-                <ScrollToTop />
+                <ScrollToTop/>
                 <div>
                     {/* Nav bar */}
                     {/* <Navbar drawerClickHandler = {this.drawerToggleClickHandler}/>
@@ -71,6 +88,8 @@ class HomeRouter extends Component {
                     </Routes>
 
                     <Footer />
+                    {/* Scroll Top Button */}
+                    <button id="scrollTopButton" onClick={scrollTop}>Scroll To Top</button>
 
                 </div>
             </Router>
