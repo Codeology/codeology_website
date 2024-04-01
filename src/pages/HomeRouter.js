@@ -17,6 +17,7 @@ import Navbar from '../components/NavBar/Navbar.js';
 import ScrollToTop from '../utils/ScrollToTop.js';
 import {scrollTop} from '../utils/ScrollToTop.js';
 
+
 import './stylesheet.css';
 
 import SideDrawer from '../components/SideDrawer/SideDrawer';
@@ -57,9 +58,9 @@ class HomeRouter extends Component {
         function scrollFunction() {
             if (document.body.scrollTop > appear_dist 
                 || document.documentElement.scrollTop > appear_dist) {
-                document.getElementById("scrollTopButton").style.display = "block";
+                document.getElementById("scrollTopButton").style.animation = "fadeIn 0.5s";
             } else {
-                document.getElementById("scrollTopButton").style.display = "none";
+                document.getElementById("scrollTopButton").style.animation = "fadeOut 0.5s";
             }
         } 
 
@@ -89,7 +90,9 @@ class HomeRouter extends Component {
 
                     <Footer />
                     {/* Scroll Top Button */}
-                    <button id="scrollTopButton" onClick={scrollTop}>Scroll To Top</button>
+                    <button id="scrollTopButton" onClick={scrollTop}>
+                        <img id="scrollTopImg" src={require("../images/logos/avo_scroll_up.png")} alt="Scroll to Top" border="0"/>
+                    </button>
 
                 </div>
             </Router>
