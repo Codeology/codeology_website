@@ -58,9 +58,13 @@ class HomeRouter extends Component {
         function scrollFunction() {
             if (document.body.scrollTop > appear_dist 
                 || document.documentElement.scrollTop > appear_dist) {
-                document.getElementById("scrollTopButton").style.animation = "fadeIn 0.5s";
+                // Transition from no scroll to scroll button
+                document.getElementById("scrollTopButton").style.opacity="1";
+                document.getElementById("scrollTopButton").style.pointerEvents = "auto";
+                
             } else {
-                document.getElementById("scrollTopButton").style.animation = "fadeOut 0.5s";
+                document.getElementById("scrollTopButton").style.opacity = "0";
+                document.getElementById("scrollTopButton").style.pointerEvents = "none";
             }
         } 
 

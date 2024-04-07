@@ -92,11 +92,12 @@ strong {
   bottom: 20px;
   right: 20px;
   position: fixed;
-
-  animation-fill-mode: forwards;
+  opacity: 0;
+  transition: opacity 0.5s;
 
   height: 4vw;
   width: 4vw;
+  /* For if the image can't load */
   font-size: 8px;
   background-color: transparent;
   color: black;
@@ -106,10 +107,6 @@ strong {
 
 #scrollTopImg {
   display: block;
-  bottom: 20px;
-  right: 20px;
-  position: fixed;
-
   height: 4vw;
   width: 4vw;
 }
@@ -117,24 +114,6 @@ strong {
 #scrollTopImg:hover {
   filter: brightness(75%);
   transition: 0.5s;
-}
-
-/* Animation to let button fade in and out instead of pop in*/
-@keyframes fadeIn {
-  0% { 
-    opacity: 0; 
-  }
-  100% { 
-    opacity: 1; 
-    visibility: visible;
-  }
-}
-@keyframes fadeOut {
-  0% { opacity: 1; }
-  100% { 
-    opacity: 0; 
-    visibility: hidden;
-  }
 }
 
 @media (max-width: 767px) {
@@ -164,5 +143,33 @@ strong {
   
   .row {
     display: none;
+  }
+
+  #scrollTopButton {
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+    opacity: 0;
+    transition: opacity 0.5s;
+
+    height: 10vw;
+    width: 10vw;
+    /* For if the image can't load */
+    font-size: 8px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-radius: 1vw;
+  }
+
+  #scrollTopImg {
+    display: block;
+    height: 10vw;
+    width: 10vw;
+  }
+
+  #scrollTopImg:hover {
+    filter: brightness(75%);
+    transition: 0.5s;
   }
 }
