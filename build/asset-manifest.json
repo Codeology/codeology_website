@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.3e881f20.css",
-    "main.js": "./static/js/main.627c3a0c.js",
+    "main.css": "./static/css/main.2a230e75.css",
+    "main.js": "./static/js/main.209119fb.js",
     "static/media/smallgroup_river.png": "./static/media/smallgroup_river.6cf4362a4257b160aee4.png",
     "static/media/fun_glade.png": "./static/media/fun_glade.78a5afc341a03fbd51c0.png",
     "static/media/retreat_sp22.png": "./static/media/retreat_sp22.6a2d9df4a62cbe212d4a.png",
@@ -269,6 +269,7 @@
     "static/media/uber.png": "./static/media/uber.c6c853d713d11a3c1c3d.png",
     "static/media/Gentrification_IG.png": "./static/media/Gentrification_IG.5f2aca58804492133d98.png",
     "static/media/tavleen.jpg": "./static/media/tavleen.cb476461c17dcd60f727.jpg",
+    "static/media/avo_scroll_up.png": "./static/media/avo_scroll_up.9ae51d5b3d68f033fd1c.png",
     "static/media/statefarm.png": "./static/media/statefarm.12b3bc645c4317d6575e.png",
     "static/media/google.png": "./static/media/google.0590aaf0fe36e23dcc8c.png",
     "static/media/lincoln.jpg": "./static/media/lincoln.e825f9954b6eb4079b72.jpg",
@@ -312,11 +313,11 @@
     "static/media/linkedin_green.svg": "./static/media/linkedin_green.5594761e91db4df698db.svg",
     "index.html": "./index.html",
     "static/media/email_green.svg": "./static/media/email_green.6098b2495b102ec38754.svg",
-    "main.3e881f20.css.map": "./static/css/main.3e881f20.css.map",
-    "main.627c3a0c.js.map": "./static/js/main.627c3a0c.js.map"
+    "main.2a230e75.css.map": "./static/css/main.2a230e75.css.map",
+    "main.209119fb.js.map": "./static/js/main.209119fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e881f20.css",
-    "static/js/main.627c3a0c.js"
+    "static/css/main.2a230e75.css",
+    "static/js/main.209119fb.js"
   ]
 }
