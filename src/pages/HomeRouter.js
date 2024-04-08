@@ -61,7 +61,6 @@ class HomeRouter extends Component {
                 // Transition from no scroll to scroll button
                 document.getElementById("scrollTopButton").style.opacity="1";
                 document.getElementById("scrollTopButton").style.pointerEvents = "auto";
-                
             } else {
                 document.getElementById("scrollTopButton").style.opacity = "0";
                 document.getElementById("scrollTopButton").style.pointerEvents = "none";
