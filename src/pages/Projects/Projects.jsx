@@ -5,6 +5,7 @@ import { Fade } from 'react-awesome-reveal';
 
 import ProjectShowcase from '../../components/ProjectShowcase/ProjectShowcase.jsx';
 import ProjectInfo from '../../constants/ProjectInfo.jsx';
+import {ClientProjectInfo} from '../../constants/ProjectInfo.jsx';
 import PageDescription from '../../components/PageDescription/PageDescription';
 import Wall from '../../images/group/project_fa21.jpg';
 import WallImage from '../../components/WallImage/WallImage';
@@ -49,20 +50,35 @@ class Projects extends React.Component {
     }
 
     render() {
-       const currSemester = Object.keys(ProjectInfo)[this.state.clicked];
+        const currSemester = Object.keys(ProjectInfo)[this.state.clicked];
 
-       const projects = ProjectInfo[currSemester].map(project => 
+        const projects = ProjectInfo[currSemester].map(project => 
+                <ProjectShowcase title={project.title}
+                            imageSrc={project.imageSrc}
+                            github={project.github}
+                            description={project.description}
+                            leaders={project.leaders}
+                            developers={project.developers}
+                            tech={project.technologies}
+                            time={currSemester}
+                            key={project.title} />
+        );
+        const description = `Every semester, we introduce a diverse set of projects for our members to develop their skills in their area of interest. No matter your level of experience, there’s something here for everyone.`
+
+        /* Client Projects */
+        /* Currently grouping all client projects together into 1 chunk */
+        const client_projects = ClientProjectInfo["All Client Projects"].map(project => 
             <ProjectShowcase title={project.title}
-                         imageSrc={project.imageSrc}
-                         github={project.github}
-                         description={project.description}
-                         leaders={project.leaders}
-                         developers={project.developers}
-                         tech={project.technologies}
-                         time={currSemester}
-                         key={project.title} />
-       );
-       const description = `Every semester, we introduce a diverse set of projects for our members to develop their skills in their area of interest. No matter your level of experience, there’s something here for everyone.`
+                        imageSrc={project.imageSrc}
+                        github={project.github}
+                        description={project.dev_description}
+                        leaders={project.leaders}
+                        developers={project.developers}
+                        tech={project.technologies}
+                        time={currSemester}
+                        key={project.title} />
+        );
+
 
         return (
             <div>
@@ -112,9 +128,8 @@ class Projects extends React.Component {
 
                     <Fade>
                         <div className='heading-container'>
-                            <Heading>Projects</Heading>
+                            <Heading>Internal Projects</Heading>
                             <img src={require("../../images/illustrations/people/glassesguy2.svg")} id="littlepeep4" alt='' />
-
                         </div>
                         
                         <p id='projects-showcase-intro'>Our projects through the years, designed and developed by Codeology members. Check out our&nbsp;
@@ -133,7 +148,19 @@ class Projects extends React.Component {
                             {projects}
                         </div>
                     </Fade>
-                    </div>
+
+                    {/* Client Projects */}
+                    <Fade>
+                        <div classname='heading-container'>
+                            <Heading>Client Projects</Heading>
+                        </div>
+
+                        {/* client projects */}
+                        <div className="project-page-div">
+                            {client_projects}
+                        </div>
+                    </Fade>
+                </div>
             </div>
         );
     }
