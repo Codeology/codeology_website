@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { Fade } from 'react-awesome-reveal';
 
 import ProjectShowcase from '../../components/ProjectShowcase/ProjectShowcase.jsx';
+import {ClientProjectShowcase} from '../../components/ProjectShowcase/ProjectShowcase.jsx';
 import ProjectInfo from '../../constants/ProjectInfo.jsx';
 import {ClientProjectInfo} from '../../constants/ProjectInfo.jsx';
 import PageDescription from '../../components/PageDescription/PageDescription';
@@ -68,14 +69,15 @@ class Projects extends React.Component {
         /* Client Projects */
         /* Currently grouping all client projects together into 1 chunk */
         const client_projects = ClientProjectInfo["All Client Projects"].map(project => 
-            <ProjectShowcase title={project.title}
+            <ClientProjectShowcase title={project.title}
                         imageSrc={project.imageSrc}
                         github={project.github}
-                        description={project.dev_description}
+                        dev_description={project.dev_description}
+                        company_description={project.company_description}
                         leaders={project.leaders}
                         developers={project.developers}
                         tech={project.technologies}
-                        time={currSemester}
+                        semester={project.semester}
                         key={project.title} />
         );
 
@@ -155,7 +157,12 @@ class Projects extends React.Component {
                             <Heading>Client Projects</Heading>
                         </div>
 
-                        {/* client projects */}
+                        {/* A blurb */}
+                        <p id='projects-showcase-intro'>
+                            Companies we have worked with in the past!
+                        </p>
+
+                        {/* Client Project Info */}
                         <div className="project-page-div">
                             {client_projects}
                         </div>
