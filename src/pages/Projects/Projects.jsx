@@ -78,9 +78,9 @@ class Projects extends React.Component {
                         developers={project.developers}
                         tech={project.technologies}
                         semester={project.semester}
-                        key={project.title} />
+                        key={project.title} 
+                        id="projects-client-flex"/>
         );
-
 
         return (
             <div>

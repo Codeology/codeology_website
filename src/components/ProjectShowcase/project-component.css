@@ -19,6 +19,12 @@
   width: 20px;
 }
 
+#project-client-row {
+  display: ;
+  /* flex-direction: row;
+  justify-content: space-between; */
+  margin-right:10vw;
+}
 
 .project-subtext {
   color: var(--grey);

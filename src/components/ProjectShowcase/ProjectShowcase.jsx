@@ -100,7 +100,7 @@ export function ClientProjectShowcase(props) {
                         : <Fade><div className='project-img-loader'></div></Fade>} 
                     </div>
                     
-                    <div id='project-row'>
+                    <div id='project-client-row'>
                         <h3 id="project-title">{title}</h3>
                         {github && 
                         <a href={github} target="_blank" rel="noopener noreferrer">

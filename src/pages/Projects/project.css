@@ -134,7 +134,7 @@
     cursor: auto;
 }
 
-  @media (max-width: 1000px) {
+@media (max-width: 1000px) {
     .project-body {
         margin-right: 5vw;
         margin-left: 5vw;
@@ -147,6 +147,7 @@
         visibility: hidden;
     }
 }
+
 
 @media (max-width: 767px) {
     #projects-intro {
