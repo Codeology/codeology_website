@@ -90,7 +90,7 @@ export function ClientProjectShowcase(props) {
             <Popup modal trigger={
             <div className='project-client-container'>
                 <div className="project-client-div">
-                    
+
                     {/* placeholder image for loading purposes :( this took so long for me to figure out argh */}
                     <img className="project-client-img" onLoad={() => setLoaded(true)} style={{display: 'none'}} src={require(`../../images/projects/${imageSrc}`)} alt={title} />
                     
@@ -133,9 +133,9 @@ export function ClientProjectShowcase(props) {
                         <p><b className="project-subtext">Leader(s):&nbsp;</b>{leaders}</p>}
                     {developers && 
                         <p><b className="project-subtext">Developers:&nbsp;</b>{developers}</p>}
+                    <p><b className="project-subtext">Development:&nbsp;</b>{dev_description}</p>
                     {company_description &&
                         <p><b className="project-subtext">About the Company:&nbsp;</b>{company_description}</p>}
-                    <p><b className="project-subtext">Development:&nbsp;</b>{dev_description}</p>
                 </div>
                 
             </div>
