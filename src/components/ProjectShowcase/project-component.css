@@ -19,12 +19,65 @@
   width: 20px;
 }
 
-#project-client-row {
-  display: ;
-  /* flex-direction: row;
-  justify-content: space-between; */
-  margin-right:10vw;
+/* Client Project Cards */
+.project-client-div {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 15vw;
+  
+  left: 50%;
+  transform: translateX(-50%);
 }
+
+#project-client-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#project-client-row img {
+  width: 20px;
+}
+
+.project-client-container {
+  position: relative;
+  width: 18vw;
+  margin-right: 5vw;
+  padding-bottom: 10%;
+  border-bottom: 10px solid white;
+}
+
+.project-client-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 0px 10px #e9e9e9;
+  transition: 0.2s;
+  cursor: pointer;
+  border-bottom: 10px solid var(--forestgreen);
+}
+
+.project-client-img-container {
+  position: relative;
+}
+
+.project-client-img, .project-client-img-loader {
+  width: 15vw;
+  height: 15vw;
+  object-fit: cover;
+  margin: 20px 0;
+}
+
+.project-client-img-loader {
+  z-index: 1;
+  background-color: white;
+}
+
+.project-client-img, .project-client-container {
+  border-radius: 7.5px;
+}
+
+/* End Client Project CSS */
 
 .project-subtext {
   color: var(--grey);
@@ -110,6 +163,22 @@
     width: 25vw;
   }
 
+  /* Client Projects */
+  project-client-div {
+    width: 20vw;
+  }
+
+  .project-client-img, .project-client-img-loader {
+    width: 20vw;
+    height: 20vw;
+  }
+
+  .project-client-container {
+    width: 25vw;
+    margin-right: 0px;
+  }
+  /* End Client Projects*/
+
   #project-modal {
     flex-direction: column;
     width: 75vw;
@@ -146,4 +215,21 @@
   .project-container {
     width: 40vw;
   }
+
+  /* Client Projects */
+  .project-client-div {
+    width: 35vw;
+  }
+
+  .project-client-img, .project-client-img-loader {
+    padding-left:0;
+    width: 35vw;
+    height: 35vw;
+  }
+
+  .project-client-container {
+    width: 40vw;
+    margin-right: 0px;
+  }
+  /* End Client Projects*/
 }

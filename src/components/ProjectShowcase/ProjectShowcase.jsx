@@ -88,16 +88,16 @@ export function ClientProjectShowcase(props) {
     return ( 
         <Fade>
             <Popup modal trigger={
-            <div className='project-container'>
-                <div className="project-div">
-
-                    {/* placeholder image for loading purposes :( this took so long for me to figure out argh */}
-                    <img className="project-img" onLoad={() => setLoaded(true)} style={{display: 'none'}} src={require(`../../images/projects/${imageSrc}`)} alt={title} />
+            <div className='project-client-container'>
+                <div className="project-client-div">
                     
-                    <div className='project-img-container'>
+                    {/* placeholder image for loading purposes :( this took so long for me to figure out argh */}
+                    <img className="project-client-img" onLoad={() => setLoaded(true)} style={{display: 'none'}} src={require(`../../images/projects/${imageSrc}`)} alt={title} />
+                    
+                    <div className='project-client-img-container'>
                         {loaded ? 
-                        <Fade><img className="project-img" src={require(`../../images/projects/${imageSrc}`)} alt={title} /></Fade>
-                        : <Fade><div className='project-img-loader'></div></Fade>} 
+                        <Fade><img className="project-client-img" src={require(`../../images/projects/${imageSrc}`)} alt={title} /></Fade>
+                        : <Fade><div className='project-client-img-loader'></div></Fade>} 
                     </div>
                     
                     <div id='project-client-row'>

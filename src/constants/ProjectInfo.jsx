@@ -305,7 +305,7 @@ export const ClientProjectInfo = {
       title: "Cozmicgo",
       semester: "Fall 2023, Spring 2023",
       leaders: "Shaylan Dias, Raghav Punnam, Liz Weaver, Ramya Chitturi",
-      developers: "Lauren Zheng, Larissa Tsai, Danica Tang",
+      developers: "Lauren Zheng, Larissa Tsai, Danica Tang, Alyssa Smith, Allan Chen, Sarah Keifer, Razvan Turcu",
       company_description: "Cozmicgo is a social media app that allows users to book and host events with their friends! Their mission is to create a social networking app where communities can gather and enjoy in-person activities. Unlike other social networking apps, activities are bookable straight from a user’s content feed. Cozmicgo believes that the best way to enjoy in-person activities are through great community and the valuable experience that happens in the journey.",
       dev_description: "Our team debugged functions that were used in the social networking app such as ratings, buttons, and blocking using Swift. We engineered the backend to fix the bugs and improved on the User Experience and Design. ",
       technologies: "Git, Swift",
