@@ -159,7 +159,7 @@ class Projects extends React.Component {
 
                         {/* A blurb */}
                         <p id='projects-showcase-intro'>
-                            Companies we have worked with in the past!
+                        Codeology offers a wide range of services for your company, such as Software Development, Machine Learning, Data Analysis, and Fullstack development. From ready-to-use apps to web scraping and data analytics, our teams collaborate in small groups led by industry-experienced students to deliver innovative solutions tailored to your needs.
                         </p>
 
                         {/* Client Project Info */}
