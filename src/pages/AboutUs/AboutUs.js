@@ -56,6 +56,14 @@ function AboutUs() {
         <img id="GreenHand" src={require('../../images/illustrations/arm/green arm.png')} alt='' />
         <PictureSection title={"Active Members"} people={actives}/>
       
+        <Heading className='no-margin'>Sponsors</Heading>
+        {/* would like to make this an img carousel/scroll display */}
+        <div id='about-us-destinations-container'>
+          {destinations.map(dest => (  
+            <img className="destinations_img" src={require('../../images/destinations/' + dest + '.png')} alt={dest} />  
+          ))}  
+        </div>
+        
         <Heading className='no-margin'>Destinations</Heading>
         {/* would like to make this an img carousel/scroll display */}
         <div id='about-us-destinations-container'>
