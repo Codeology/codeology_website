@@ -19,7 +19,8 @@ function AboutUs() {
   const description = `Codeology is a UC Berkeley student-run club fostering self-exploration and self-development within the tech field. `
   const destinations = ['rivian', 'meta', 'google', 'microsoft', 'paypal', 'amazon', 'nasaJpl', 'asana', 'atlassian', 'citadel', 'databricks', 'datadog', 'uber', 'imc', 
                             'optiver', 'scale', 'squarespace', 'statefarm', 'hp']
-  
+  const sponsors = ['eecs', 'skydeck']
+
   return (
     <div className="AboutUs">
       <Helmet>
@@ -58,10 +59,10 @@ function AboutUs() {
       
         <Heading className='no-margin'>Sponsors</Heading>
         {/* would like to make this an img carousel/scroll display */}
-        <div id='about-us-destinations-container'>
-          {destinations.map(dest => (  
-            <img className="destinations_img" src={require('../../images/destinations/' + dest + '.png')} alt={dest} />  
-          ))}  
+        <div id='about-us-sponsor-container'>
+          {sponsors.map(sponsor => (
+            <img className="sponsors_img" src={require('../../images/sponsors/' + sponsor + '.png')} alt={sponsor} />
+          ))}
         </div>
         
         <Heading className='no-margin'>Destinations</Heading>

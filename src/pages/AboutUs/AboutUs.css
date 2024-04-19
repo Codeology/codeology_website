@@ -93,6 +93,15 @@
   position:static;
 }
 
+.sponsors_img {
+  width: 250px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: static;
+}
+
 @media only screen and (max-width: 800px)  {
   .destinations_img {
     margin:15px;
@@ -120,7 +129,7 @@
 } */
 
 
-#about-us-destinations-container {
+#about-us-destinations-container, #about-us-sponsor-container {
   width:70%;
   max-width:825px;
   /* display:flex; */
