@@ -174,3 +174,60 @@
 }
 
 /* ============================ */
+
+/* ==== Sponsors and Destinations ==== */
+#sponsors, #destinations {
+    width: 100vw;
+    position: relative;
+    padding: 0 12.5vw;
+    align-items: center;
+}
+
+.destinations_img {
+    width:80px;
+    margin:20px;
+    position:static;
+}
+
+.sponsors_img {
+    width: 250px;
+    margin: 10px;
+    position: static;
+}
+
+#members-destinations-container, #members-sponsor-container {
+    width:70%;
+    max-width:825px;
+    left: 16%;
+    position: relative;
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+}
+
+@media only screen and (max-width: 800px)  {
+    .destinations_img {
+        margin:15px;
+        width:50px;
+    }
+
+    .sponsors_img {
+        margin:10px;
+        width:125px;
+    }
+}
+
+@media only screen and (max-width: 500px)  {
+    .destinations_img {
+        margin:12px;
+        width:35px;
+    }
+
+    .sponsors_img {
+        margin:8px;
+        width:100px;
+    }
+}

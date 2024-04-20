@@ -8,11 +8,16 @@ import ScrollToTop from '../../utils/ScrollToTop';
 import Landing from '../../components/Landing/Landing';
 import { Fade } from 'react-awesome-reveal';
 import PhotoCarousel from '../../components/PhotoCarousel/PhotoCarousel'
+import Heading from '../../components/Heading/Heading.js';
 
 export default function Home() {
     const [imagesLoaded, setLoaded] = useState(false);
 
     const loaded = () => { setLoaded(true); }
+
+    const destinations = ['rivian', 'meta', 'google', 'microsoft', 'paypal', 'amazon', 'nasaJpl', 'asana', 'atlassian', 'citadel', 'databricks', 'datadog', 'uber', 'imc', 
+                            'optiver', 'scale', 'squarespace', 'statefarm', 'hp']
+    const sponsors = ['eecs', 'skydeck']
     
     return (
         <div>
@@ -41,7 +46,7 @@ export default function Home() {
                             Cal students, as well as help our members explore their specific
                             technical and professional interests.</b>
                             <ScrollToTop>
-                                <Link className="home-button learn" to="/about">
+                                <Link className="home-button learn" to="/members">
                                     Learn More
                                 </Link>
                             </ScrollToTop>
@@ -109,6 +114,29 @@ export default function Home() {
                     </div>
                 </Fade>
 
+                <div id="sponsors">
+                    <Fade>
+                        <Heading className='no-margin'>Sponsors</Heading>
+                        {/* would like to make this an img carousel/scroll display */}
+                        <div id='members-sponsor-container'>
+                            {sponsors.map(sponsor => (
+                                <img className="sponsors_img" src={require('../../images/sponsors/' + sponsor + '.png')} alt={sponsor} />
+                            ))}
+                        </div>
+                    </Fade>
+                </div>
+                
+                <div id="destinations">
+                    <Fade>
+                        <Heading className='no-margin'>Destinations</Heading>
+                        {/* would like to make this an img carousel/scroll display */}
+                        <div id='members-destinations-container'>
+                            {destinations.map(dest => (  
+                                <img className="destinations_img" src={require('../../images/destinations/' + dest + '.png')} alt={dest} />  
+                            ))}  
+                        </div>
+                    </Fade>
+                </div>
             </div>
 
         </div>
