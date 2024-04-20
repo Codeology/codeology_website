@@ -32,14 +32,14 @@ function Footer() {
                     <div className='footer-links-col'>
                         <b>GENERAL</b>
                         <Link style={{ textDecoration: 'none' }} to='/'>Home</Link>
-                        <Link style={{ textDecoration: 'none' }} to='/about'>About</Link>
+                        <Link style={{ textDecoration: 'none' }} to='/members'>Members</Link>
                         <Link style={{ textDecoration: 'none' }} to='/projects'>Projects</Link>
                         <Link style={{ textDecoration: 'none' }} to='/apply'>Apply</Link>
 
-                        {/* <ScrollToTop><Link to='/'>Home</Link></ScrollToTop> */}
-                        {/* <ScrollToTop><Link to='/about'>About</Link></ScrollToTop> */}
-                        {/* <ScrollToTop><Link to='/projects'>Projects</Link></ScrollToTop> */}
-                        {/* <ScrollToTop><Link to='/apply'>Apply</Link></ScrollToTop> */}
+                        {/* <ScrollToTop><Link to='/'>Home</Link></ScrollToTop>
+                        <ScrollToTop><Link to='/about'>About</Link></ScrollToTop>
+                        <ScrollToTop><Link to='/projects'>Projects</Link></ScrollToTop>
+                        <ScrollToTop><Link to='/apply'>Apply</Link></ScrollToTop> */}
                     </div>
                     <div className='footer-links-col'>
                         <b>CONTACT</b>

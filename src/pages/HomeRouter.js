@@ -7,7 +7,7 @@ import {
 
 import Home from './Home/Home.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import AboutUs from './AboutUs/AboutUs.js';
+import Members from './Members/Members.js';
 import Projects from './Projects/Projects.jsx';
 import ContactUs from './ContactUs/ContactUs.js';
 import Apply from './Apply/Apply.jsx';
@@ -81,7 +81,7 @@ class HomeRouter extends Component {
                     {backdrop}
                     {/* Everything in Switch handles routing */}
                     <Routes>
-                      <Route path="/about" element={<AboutUs />} />
+                      <Route path="/members" element={<Members />} />
                       <Route path="/projects" element={<Projects />} />
                       <Route path="/contact" element={<ContactUs />} />
                       <Route path="/resources" element={<Resources />} />

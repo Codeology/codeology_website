@@ -14,7 +14,7 @@ const Navbar = props => (
         </div>
         <div id="nav-items">
             <Link className="not-apply b" to="/">Home</Link>
-            <Link className="not-apply b" to="/about">About Us</Link>
+            <Link className="not-apply b" to="/members">Members</Link>
             <Link className="not-apply b" to="/projects">Projects</Link>
             <Link className="not-apply b" to="/resources">Resources</Link>
             <Link className="not-apply b" to="/contact">Contact Us</Link>

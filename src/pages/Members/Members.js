@@ -6,15 +6,15 @@ import Wall from '../../images/group/Wall.png';
 import PageDescription from '../../components/PageDescription/PageDescription.js';
 import PictureSection from '../../components/PictureSection/PictureSection.js';
 import WallImage from '../../components/WallImage/WallImage.js';
-import Heading from '../../components/Heading/Heading';
+import Heading from '../../components/Heading/Heading.js';
 
 import {actives} from '../../constants/members.js';
 import {leadership} from '../../constants/members.js'
 import {projectLeaders} from '../../constants/members.js';
 import { Helmet } from 'react-helmet';
-import './AboutUs.css';
+import './Members.css';
 
-function AboutUs() {
+function Members() {
 
   const description = `Codeology is a UC Berkeley student-run club fostering self-exploration and self-development within the tech field. `
   const destinations = ['rivian', 'meta', 'google', 'microsoft', 'paypal', 'amazon', 'nasaJpl', 'asana', 'atlassian', 'citadel', 'databricks', 'datadog', 'uber', 'imc', 
@@ -22,26 +22,26 @@ function AboutUs() {
   const sponsors = ['eecs', 'skydeck']
 
   return (
-    <div className="AboutUs">
+    <div className="Members">
       <Helmet>
-        <title>Codeology | About Us</title>
+        <title>Codeology | Members</title>
       </Helmet>
 
-      <WallImage image={Wall} title={'about us'} />
+      <WallImage image={Wall} title={'members'} />
 
       <Fade><PageDescription text={description} /></Fade>
 
       
-      <div id='about-us-intro'>
+      <div id='members-intro'>
       <Fade>
         <Heading className='no-margin'>Find Your Fit</Heading>
         {/* would like to make this an img carousel/scroll display */}
-        <div id='about-us-img-container'>
-          <img id='about-us-img' src={require('../../images/group/retreat_fa21.jpg')} alt='Codeology' />
-          <img id='about-us-img-person' src={require('../../images/illustrations/people/person4.png')} alt='' />
+        <div id='members-img-container'>
+          <img id='members-img' src={require('../../images/group/retreat_fa21.jpg')} alt='Codeology' />
+          <img id='members-img-person' src={require('../../images/illustrations/people/person4.png')} alt='' />
         </div>
         
-        <p id='about-us-blurb'>
+        <p id='members-blurb'>
           Whether coding is already your passion or you've yet to print your first “Hello World,” Codeology aims to provide a tight-knit community to support you in “finding your fit” in the world of tech.
           Through projects, professional development, industry events, and social events, we offer opportunities to help you explore different roles in the tech industry and develop technical expertise in your area of interest.
         </p>
@@ -59,7 +59,7 @@ function AboutUs() {
       
         <Heading className='no-margin'>Sponsors</Heading>
         {/* would like to make this an img carousel/scroll display */}
-        <div id='about-us-sponsor-container'>
+        <div id='members-sponsor-container'>
           {sponsors.map(sponsor => (
             <img className="sponsors_img" src={require('../../images/sponsors/' + sponsor + '.png')} alt={sponsor} />
           ))}
@@ -67,7 +67,7 @@ function AboutUs() {
         
         <Heading className='no-margin'>Destinations</Heading>
         {/* would like to make this an img carousel/scroll display */}
-        <div id='about-us-destinations-container'>
+        <div id='members-destinations-container'>
           {destinations.map(dest => (  
             <img className="destinations_img" src={require('../../images/destinations/' + dest + '.png')} alt={dest} />  
           ))}  
@@ -78,4 +78,4 @@ function AboutUs() {
   );
 }
 
-export default AboutUs;
+export default Members;

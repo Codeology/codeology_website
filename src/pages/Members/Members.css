@@ -7,13 +7,13 @@
   --picture-layer-2: 2;
 }
 
-.AboutUs {
+.Members {
   text-align: center;
   margin-bottom: 7.5vh;
 }
 
 /* ----- PROJECTS INTRO ----- */
-#about-us-intro {
+#members-intro {
   width: 100vw;
   position: relative;
   margin-bottom: 22.5vh;
@@ -21,22 +21,22 @@
 
 }
 
-#about-us-blurb {
+#members-blurb {
   line-height: 1.75em;
   font-weight: 400;
 }
 
-#about-us-img {
+#members-img {
   width: 40%;
   min-width: 200px;
   margin-bottom: 5vh;
 }
 
-#about-us-img-container {
+#members-img-container {
   position: relative;
 }
 
-#about-us-img-person {
+#members-img-person {
   position: absolute;
   width: 10%;
   min-width: 75px;
@@ -74,15 +74,15 @@
     display: none;
   }
 
-  #about-us-intro {
+  #members-intro {
     margin-bottom: 5vh;
   }
 
-  #about-us-img {
+  #members-img {
     width: 60%;
   }
 
-  #about-us-img-person {
+  #members-img-person {
     left: 0;
   }
 }
@@ -129,7 +129,7 @@
 } */
 
 
-#about-us-destinations-container, #about-us-sponsor-container {
+#members-destinations-container, #members-sponsor-container {
   width:70%;
   max-width:825px;
   /* display:flex; */
