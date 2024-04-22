@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import './stylesheet/aboutus.css';
-import './stylesheet/aboutus-mobile.css';
+import './stylesheet/about.css';
+import './stylesheet/about-mobile.css';
 import {Link} from 'react-router-dom';
 import Carousel from 'react-bootstrap/Carousel';
 import { Helmet } from 'react-helmet';
@@ -10,7 +10,7 @@ import { Fade } from 'react-awesome-reveal';
 import PhotoCarousel from '../../components/PhotoCarousel/PhotoCarousel.js'
 import Heading from '../../components/Heading/Heading.js';
 
-export default function AboutUs() {
+export default function About() {
     const [imagesLoaded, setLoaded] = useState(false);
 
     const loaded = () => { setLoaded(true); }
@@ -46,7 +46,7 @@ export default function AboutUs() {
                             Cal students, as well as help our members explore their specific
                             technical and professional interests.</b>
                             <ScrollToTop>
-                                <Link className="aboutus-button learn" to="/members">
+                                <Link className="about-button learn" to="/members">
                                     Learn More
                                 </Link>
                             </ScrollToTop>
@@ -84,7 +84,7 @@ export default function AboutUs() {
                                 to data analytics to iOS development and more. Check out what we're offering 
                                 this semester!</b>
                             <ScrollToTop>
-                                <Link className="aboutus-button learn" to="/projects">Learn More</Link>
+                                <Link className="about-button learn" to="/projects">Learn More</Link>
                             </ScrollToTop>
                             <div className="big2 puzzle">
                                 <img src={require("../../images/illustrations/puzzle/big_puzzle2.png")} alt='' />

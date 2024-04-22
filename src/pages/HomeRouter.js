@@ -5,7 +5,7 @@ import {
   Route,
 } from "react-router-dom";
 
-import AboutUs from './AboutUs/AboutUs.js';
+import About from './About/About.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Members from './Members/Members.js';
 import Projects from './Projects/Projects.jsx';
@@ -87,7 +87,7 @@ class HomeRouter extends Component {
                       <Route path="/resources" element={<Resources />} />
                       <Route path="/internal" element={<Internal />} />
                       <Route path="/apply" element={<Apply />} />
-                      <Route path="/" element={<AboutUs />} />
+                      <Route path="/" element={<About />} />
 
                     </Routes>
 
