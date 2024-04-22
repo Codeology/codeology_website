@@ -195,10 +195,24 @@
     position: static;
 }
 
-#members-destinations-container, #members-sponsor-container {
+#members-sponsor-container {
     width:70%;
     max-width:825px;
     margin: auto;
+    position: relative;
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+}
+
+#members-destinations-container {
+    width:70%;
+    max-width:825px;
+    margin: auto;
+    margin-bottom: 9vh;
     position: relative;
 
     display:flex;
