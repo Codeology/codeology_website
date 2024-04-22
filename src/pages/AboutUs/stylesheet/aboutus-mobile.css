@@ -1,13 +1,13 @@
 /* Portrait */
 @media screen and (max-width: 900px) {
-    .home-button {
+    .aboutus-button {
         font-size: 16px;
         padding: 1.5vh 2vw;
         margin: .75vh;
         border-radius: 25px;
     }
 
-    .home-button {
+    .aboutus-button {
         margin-top: 4vh;
     }
 

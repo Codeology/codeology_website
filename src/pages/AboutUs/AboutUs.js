@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
-import './stylesheet/home.css';
-import './stylesheet/home-mobile.css';
+import './stylesheet/aboutus.css';
+import './stylesheet/aboutus-mobile.css';
 import {Link} from 'react-router-dom';
 import Carousel from 'react-bootstrap/Carousel';
 import { Helmet } from 'react-helmet';
-import ScrollToTop from '../../utils/ScrollToTop';
-import Landing from '../../components/Landing/Landing';
+import ScrollToTop from '../../utils/ScrollToTop.js';
+import Landing from '../../components/Landing/Landing.js';
 import { Fade } from 'react-awesome-reveal';
-import PhotoCarousel from '../../components/PhotoCarousel/PhotoCarousel'
+import PhotoCarousel from '../../components/PhotoCarousel/PhotoCarousel.js'
 import Heading from '../../components/Heading/Heading.js';
 
-export default function Home() {
+export default function AboutUs() {
     const [imagesLoaded, setLoaded] = useState(false);
 
     const loaded = () => { setLoaded(true); }
@@ -46,7 +46,7 @@ export default function Home() {
                             Cal students, as well as help our members explore their specific
                             technical and professional interests.</b>
                             <ScrollToTop>
-                                <Link className="home-button learn" to="/members">
+                                <Link className="aboutus-button learn" to="/members">
                                     Learn More
                                 </Link>
                             </ScrollToTop>
@@ -84,7 +84,7 @@ export default function Home() {
                                 to data analytics to iOS development and more. Check out what we're offering 
                                 this semester!</b>
                             <ScrollToTop>
-                                <Link className="home-button learn" to="/projects">Learn More</Link>
+                                <Link className="aboutus-button learn" to="/projects">Learn More</Link>
                             </ScrollToTop>
                             <div className="big2 puzzle">
                                 <img src={require("../../images/illustrations/puzzle/big_puzzle2.png")} alt='' />

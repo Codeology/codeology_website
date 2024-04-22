@@ -1,7 +1,7 @@
 /* ============================ */
 /* Styles used throughout page */
 /* ============================ */
-.home-button {
+.aboutus-button {
     width: fit-content;
     padding: 1.5vh 1vw;
     text-decoration: none;
@@ -10,12 +10,12 @@
     transition: 0.2s;
 }
 
-.home-button {
+.aboutus-button {
     color: white;
     background: #6FCF97;
 }
 
-.home-button:hover {
+.aboutus-button:hover {
     background-color: #4DAB74;
     text-decoration: none;
     color: white;
@@ -231,3 +231,5 @@
         width:100px;
     }
 }
+
+/* ============================ */
