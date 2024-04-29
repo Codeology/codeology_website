@@ -21,6 +21,7 @@ class WallImage extends React.Component {
                     {/* placeholder image to load */}
                     <img onLoad={() => this.setState({ loaded: true })} style={{ display: 'none'}} src={this.props.image} alt={this.props.title} />
 
+                    {/* If the element is loaded, display the banner and text */}
                     {this.state.loaded && 
                     <Fade>
                         <ParallaxBanner className="parallaxBanner" style={{ aspectRatio: '2 / 1' }}>
