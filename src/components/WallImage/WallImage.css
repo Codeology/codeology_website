@@ -2,47 +2,44 @@
     position: relative;
     text-align: center;
     color: white;
-    filter: brightness(50%);
     background-color: #444444;
 }
-
-.banner {
-    display: none;
-}
-
 .textOverlay-white {
-    color: white;
-    position: absolute;
+    /* Positioning */
+    position: absolute; /* Position relative to the imagecontainer */
+    top: 50%; /* Place the element 50% from the top of the container */
+    transform: translateY(-50%); /* Translate the element back by half its own height */
+    z-index: 1; /* Bring this element in front of the image */
+    /* Sizing */
     width: 100vw;
+    /* Text */
+    color: white;
     text-align: center;
-    top: 25vh;
     white-space: nowrap;
     letter-spacing: 2px;
 }
 
-.img-container, .imageContainer {
+.img-container, .imageContainer, .parallaxBanner {
     width: 100vw;
-    height: 32vh;
+    height: 38vh;
     max-height: 315px;
 }
 
-@media screen and (max-width: 900px) {
-    .imageContainer {
-        max-height: 100%;
-    }
-    .banner {
-        position: relative;
-        display: block;
-        width: 100vw;
-        height: 55vh;
-        object-fit: cover;
-    }
+#parallax-image {
+    filter: brightness(50%); /* Dim the image */
+}
 
-    .parallax-banner {
-        display: none;
+@media screen and (max-width: 900px) {
+    .imageContainer, .parallaxBanner {
+        max-height: 100%;
     }
 
     .textOverlay-white {
-        bottom: 50%;
-      }
+        top: 50%; /* Have the text centered from the top */
+        translate: translateY(-50%) /* Have to bring it back by half its height */ 
+    }
+
+    #parallax-image {
+        filter: brightness(50%);
+    }
 }

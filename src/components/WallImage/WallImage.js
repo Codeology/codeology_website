@@ -18,32 +18,19 @@ class WallImage extends React.Component {
             <div>
                 {/* header photo */}
                 <div className="imageContainer">
+                    {/* placeholder image to load */}
+                    <img onLoad={() => this.setState({ loaded: true })} style={{ display: 'none'}} src={this.props.image} alt={this.props.title} />
 
-                {/* placeholder image to load */}
-                <img onLoad={() => this.setState({ loaded: true })} style={{ display: 'none'}} src={this.props.image} alt={this.props.title} />
+                    {/* If the element is loaded, display the banner and text */}
                     {this.state.loaded && 
                     <Fade>
-                    {/* <Parallax translateY={[-20, 10]}>
-                        <img className='banner' src={this.props.image} alt={this.props.title} />
-
-                    </Parallax> */}
-                    <ParallaxBanner style={{ aspectRatio: '2 / 1', height:'32vh' }}>
-                        <ParallaxBannerLayer image={this.props.image} speed={-20} />
-                    </ParallaxBanner>
-                        {/* <Parallax
-                            className='parallax-banner'
-                            bgImage={this.props.image}
-                            strength={300}
-                            height={"60vh"}
-                            bgImageStyle={{width:"100%", height:"auto"}}>                        
-                            <div className="img-container" ></div>
-                        </Parallax> */}
-                        {/* <img className='banner' src={this.props.image} alt={this.props.title} /> */}
+                        <ParallaxBanner className="parallaxBanner" style={{ aspectRatio: '2 / 1' }}>
+                            <h1 className="textOverlay-white">{this.props.title}</h1>
+                            <ParallaxBannerLayer id="parallax-image" image={this.props.image} speed={-20} />
+                        </ParallaxBanner>
                     </Fade>}
-                    </div>
-                   <h1 className="textOverlay-white">{this.props.title}</h1>
-            </div>
-              
+                </div>
+            </div> 
         )
     }
 }

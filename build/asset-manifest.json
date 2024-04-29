@@ -318,6 +318,7 @@
     "static/media/resume_green.svg": "./static/media/resume_green.f9202e5d73884b925a03.svg",
     "static/media/linkedin_green.svg": "./static/media/linkedin_green.f981dfe0fa598076cb9e.svg",
     "index.html": "./index.html",
+<<<<<<< HEAD
     "static/media/email_green.svg": "./static/media/email_green.6ae004b05727b31fea5b.svg",
     "main.19ad7392.css.map": "./static/css/main.19ad7392.css.map",
     "main.d710c999.js.map": "./static/js/main.d710c999.js.map"
@@ -325,5 +326,14 @@
   "entrypoints": [
     "static/css/main.19ad7392.css",
     "static/js/main.d710c999.js"
+=======
+    "static/media/email_green.svg": "./static/media/email_green.6098b2495b102ec38754.svg",
+    "main.4d2a857c.css.map": "./static/css/main.4d2a857c.css.map",
+    "main.f2994de7.js.map": "./static/js/main.f2994de7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d2a857c.css",
+    "static/js/main.f2994de7.js"
+>>>>>>> banner_img
   ]
 }
