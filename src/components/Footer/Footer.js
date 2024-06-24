@@ -33,6 +33,7 @@ function Footer() {
                         <b>GENERAL</b>
                         <Link style={{ textDecoration: 'none' }} to='/'>Home</Link>
                         <Link style={{ textDecoration: 'none' }} to='/members'>Members</Link>
+                        <Link style={{ textDecoration: 'none' }} to='/industry'>Industry</Link>
                         <Link style={{ textDecoration: 'none' }} to='/projects'>Projects</Link>
                         <Link style={{ textDecoration: 'none' }} to='/apply'>Apply</Link>
 
