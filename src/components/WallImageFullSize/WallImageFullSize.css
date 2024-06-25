@@ -1,0 +1,46 @@
+.imageContainer {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: #444444;
+}
+.textOverlay-white {
+    /* Positioning */
+    position: absolute; /* Position relative to the imagecontainer */
+    top: 50%; /* Place the element 50% from the top of the container */
+    transform: translateY(-50%); /* Translate the element back by half its own height */
+    z-index: 1; /* Bring this element in front of the image */
+    /* Sizing */
+    width: 100vw;
+    /* Text */
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+    letter-spacing: 2px;
+}
+
+.img-container, .imageContainer, .parallaxBanner {
+    width: 100vw;
+    height: 80vh;
+    max-height: 100vh;
+}
+
+#parallax-image {
+    filter: brightness(50%); /* Dim the image */
+}
+
+@media screen and (max-width: 900px) {
+    .imageContainer, .parallaxBanner {
+        height:38vh;
+        max-height: 100%;
+    }
+
+    .textOverlay-white {
+        top: 50%; /* Have the text centered from the top */
+        translate: translateY(-50%) /* Have to bring it back by half its height */ 
+    }
+
+    #parallax-image {
+        filter: brightness(50%);
+    }
+}
