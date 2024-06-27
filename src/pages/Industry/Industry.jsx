@@ -17,14 +17,17 @@ class Industry extends React.Component {
 
     render () {
         const description = "We partner with leading companies to develop custom software and facilitate student outreach."
-        
+
         return (<div>
+            {/* Makes sure that page loads scrolled to the top */}
+            <ScrollToTop/>
+
             <Helmet>
                 <title>Codeology | Industry</title>
             </Helmet>
 
             {/* header photo */}
-            <WallImage id="industry-wall-image" image={Wall} title={'industry'} />
+            <WallImage image={Wall} title={'industry'} />
 
             <PageDescription  text={description}/>
 
@@ -63,6 +66,11 @@ class Industry extends React.Component {
                 </Fade>
 
             </div>
+
+            {/* Contact */}
+            <Link id="contact-us" to='/contact'>
+                Contact
+            </Link>
         </div>);
     }
 }

@@ -13,3 +13,30 @@
 
     font-size: 20px;
 }
+
+#contact-us {
+    /* Button position */
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+    /* Button Appearance */
+    display: block;
+    height: auto;
+    width: 120px;
+    border-radius: 20px;
+    background-color: var(--forestgreen);
+    border: none;
+
+    /* Text */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#contact-us:hover {
+    transition: 0.2s;
+    filter: brightness(90%);
+}

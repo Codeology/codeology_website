@@ -19,11 +19,11 @@
     letter-spacing: 2px;
 }
 
-.img-container, .imageContainer, .parallaxBanner {
+/* .img-container, .imageContainer, .parallaxBanner {
     width: 100vw;
     height: 80vh;
     max-height: 100vh;
-}
+} */
 
 #parallax-image {
     filter: brightness(50%); /* Dim the image */

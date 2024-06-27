@@ -14,9 +14,18 @@ class WallImageFullSize extends React.Component {
     }
 
     render() {
+        const wall_image_height = `
+            .img-container, .imageContainer, .parallaxBanner : {
+                height : ${this.props.height};
+                max-height: 215px;
+            }
+        `
         return (
             <div>
                 {/* header photo */}
+                <style>
+                    {wall_image_height}
+                </style>
                 <div className="imageContainer">
                     {/* placeholder image to load */}
                     <img onLoad={() => this.setState({ loaded: true })} style={{ display: 'none'}} src={this.props.image} alt={this.props.title} />
