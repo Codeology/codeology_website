@@ -1,3 +1,13 @@
+/* Services Info */
+export const ServiceInfo = {
+
+}
+
+/* Client Info */
+export const ClientInfo = {
+  
+}
+
 /* Client Projects */
 /* Just grouping everything together for now */
 export const ClientProjectInfo = {
