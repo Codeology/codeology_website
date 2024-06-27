@@ -52,7 +52,6 @@ class Industry extends React.Component {
                 <Fade>
                     <p className="section-description">Each semester, we equip our members with hands-on experience in various tools and technologies through diverse internal projects and professional client projects.</p>
                 </Fade>
-
             </div>
 
             {/* past partners */}
