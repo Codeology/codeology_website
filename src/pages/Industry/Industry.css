@@ -18,7 +18,7 @@
     /* Button position */
     position: fixed;
     right: 20px;
-    bottom: 20px;
+    bottom: 70px;
 
     /* Button Appearance */
     display: block;
@@ -27,6 +27,7 @@
     border-radius: 20px;
     background-color: var(--forestgreen);
     border: none;
+    z-index: 99;
 
     /* Text */
     color: white;
@@ -39,4 +40,18 @@
 #contact-us:hover {
     transition: 0.2s;
     filter: brightness(90%);
+    text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+    #contact-us {
+        /* Button location */
+        right: 25px;
+
+        /* Button Appearance */
+        width: 90px;
+
+        /* Text */
+        font-size: 14px;
+    }
 }
