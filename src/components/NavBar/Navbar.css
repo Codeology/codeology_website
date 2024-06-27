@@ -47,6 +47,8 @@
 }
 
 .not-apply, .not-apply:hover {
+  text-wrap: nowrap;
+  margin-left: 10px;
   color: rgba(0, 0, 0, 0.84);
   text-decoration: none;
 }
@@ -76,6 +78,7 @@
   border-radius: 20px;
   padding-left: 40px;
   padding-right: 40px;
+  margin: 10px;
 
   /* Text */
   color: white;
