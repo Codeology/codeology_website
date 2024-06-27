@@ -7,6 +7,7 @@ import PageDescription from '../../components/PageDescription/PageDescription.js
 import PictureSection from '../../components/PictureSection/PictureSection.js';
 import WallImage from '../../components/WallImage/WallImage.js';
 import Heading from '../../components/Heading/Heading.js';
+import ScrollToTop from '../../utils/ScrollToTop.js';
 
 import {actives} from '../../constants/members.js';
 import {leadership} from '../../constants/members.js'
@@ -20,6 +21,9 @@ function Members() {
 
   return (
     <div className="Members">
+      {/* Makes sure that page loads scrolled to the top */}
+      <ScrollToTop/>
+
       <Helmet>
         <title>Codeology | Members</title>
       </Helmet>
