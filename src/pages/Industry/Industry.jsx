@@ -40,7 +40,6 @@ class Industry extends React.Component {
                 <Fade>
                     <p className="section-description">We provide a comprehensive suite of technical services to accommodate clients from various industries. Our developers are always open to exploring new stacks.</p>
                 </Fade>
-
             </div>
             
             {/* past clients */}
@@ -63,7 +62,6 @@ class Industry extends React.Component {
                 <Fade>
                     <p className="section-description">We promote our industry partners by hosting on-campus career panels, tech talks, and recruiting info-sessions attended by hundreds of Berkeley students every semester.</p>
                 </Fade>
-
             </div>
 
             {/* Contact */}
