@@ -21,8 +21,8 @@
 
 .img-container, .imageContainer, .parallaxBanner {
     width: 100vw;
-    height: 38vh;
-    max-height: 315px;
+    height: 50vh;
+    max-height: 500px;
 }
 
 #parallax-image {
