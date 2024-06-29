@@ -1,19 +1,35 @@
+/* Services */
 .services-body {
     margin-right: 30px;
     margin-left: 30px;
-    padding-left: 10vw;
-    padding-right: 10vw;
     text-align: center;
 }
 
 .section-description {
-    width: 50vw;
+    /* CSS Box */
     margin: auto;
     margin-bottom: 30px;
 
+    width: 50vw;
+
+    /* Text */
     font-size: 20px;
 }
 
+.service-cards {
+    /* CSS Box */
+
+    /* Flex Boxes */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Industry Cards */
+
+/* Past Partners */
+
+/* Contact Buton */
 #contact-us {
     /* Button position */
     position: fixed;
@@ -43,6 +59,7 @@
     text-decoration: underline;
 }
 
+/* For smaller screens */
 @media (max-width: 767px) {
     #contact-us {
         /* Button location */

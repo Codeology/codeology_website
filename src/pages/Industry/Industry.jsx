@@ -1,13 +1,20 @@
+/* React imports */
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import { Fade } from 'react-awesome-reveal';
 
+/* Our Components and Functions */
 import PageDescription from '../../components/PageDescription/PageDescription';
 import Wall from '../../images/industry/industry_group_photo.jpg';
 import WallImage from '../../components/WallImage/WallImage';
 import ScrollToTop from '../../utils/ScrollToTop';
 import Heading from '../../components/Heading/Heading';
+import ServiceCard from '../../components/Service Card/ServiceCard'
+
+/* Constants imoprt */
+import {ServiceInfo, ClientInfo} from '../../constants/IndustryInfo.jsx'
+
 import './Industry.css'
 
 class Industry extends React.Component {
@@ -17,6 +24,14 @@ class Industry extends React.Component {
 
     render () {
         const description = "We partner with leading companies to develop custom software and facilitate student outreach."
+
+        /* Service Cards */
+        const services = ServiceInfo["Current Services"].map(service_item =>
+            <ServiceCard service={service_item.service}
+                description={service_item.description} />
+        )
+
+        /* Industry Cards */
 
         return (<div>
             {/* Makes sure that page loads scrolled to the top */}
@@ -40,6 +55,10 @@ class Industry extends React.Component {
                 <Fade>
                     <p className="section-description">We provide a comprehensive suite of technical services to accommodate clients from various industries. Our developers are always open to exploring new stacks.</p>
                 </Fade>
+
+                <div className="service-cards">
+                    {services}
+                </div>
             </div>
             
             {/* past clients */}
