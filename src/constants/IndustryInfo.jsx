@@ -1,11 +1,62 @@
 /* Services Info */
 export const ServiceInfo = {
-
+  "Current Services": [
+    {
+      service: "Mobile Development",
+      description: "We develop full-stack mobile applications for a variety of functions using React Native, Swift, and SwiftUI."
+    },
+    {
+      service: "Full-Stack Development",
+      description: "We leverage front and back-end stacks to build web apps, dashboards, and other custom tools with React, HTML/CSS, JavaScript, Flask, and Firebase."
+    },
+    {
+      service: "Machine Learning",
+      description: "We research the latest developments in ML/AI and use OpenCV, TensorFlow, PyTorch, and more to train intelligent models like chat bots and image classifiers."
+    },
+    {
+      service: "Data Science & Analytics",
+      description: "Leveraging tools like SQL, Tableau, and pandas, we build data pipelines, create visualizations, and perform in-depth analysis to draw thoughtful conclusions."
+    },
+    {
+      service: "UI/UX Design",
+      description: "As part of our development process, we integrate user feedback to design full project prototypes in Figma."
+    },
+    {
+      service: "Product Management",
+      description: "Our highly-skilled and experienced advisors and project leaders oversee the development cycle of every project."
+    }
+  ]
 }
 
 /* Client Info */
 export const ClientInfo = {
-  
+  "All Client Info": [
+    {
+      imgSrc: "clients/IBM Logo.png",
+      technology: "Machine Learning",
+      description: "Authored technical explainers for IBM Developer on various ML/AI concepts; created interactive Jupyter Notebooks to guide users through data science and machine learning with scikit-learn."
+    },
+    {
+      imgSrc: "clients/Cozmicgo Logo.png",
+      technology: "Mobile Development",
+      description: "Developed a mobile app for social networking and seamless event planning, implementing core features and in-app purchases with the Stripe API. Migrated code base from Swift to React Native."
+    },
+    {
+      imgSrc: "clients/ByteKitchen Logo.png",
+      technology: "Full-Stack Development",
+      description: "Developed a dashboard and paired mobile app with React, React Native, Firebase, and TypeScript for employee scheduling and management; adapted code for various business environments."
+    },
+    {
+      imgSrc: "clients/Quantcast Logo.png",
+      technology: "Back-End Development",
+      description: "Developed a multi-process web scraper using Python, Scrapy, and Kafka queues; identified bottlenecks and optimized scraper to parse sites up to 10x faster than Quantcast’s original methods."
+    },
+    {
+      imgSrc: "clients/Kinship Logo.png",
+      technology: "Mobile Development",
+      description: "Developed a mobile app with React Native, Jira, and Confluence for users to book appointments with their pets; implemented customization features for more personalized user experiences."
+    }
+  ]
 }
 
 /* Client Projects */
