@@ -42,7 +42,7 @@ class Industry extends React.Component {
             </Helmet>
 
             {/* header photo */}
-            <WallImage image={Wall} title={'industry'} />
+            <WallImage image={Wall} title={'Industry'} />
 
             <PageDescription  text={description}/>
 

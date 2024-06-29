@@ -20,7 +20,7 @@ export default function ContactUs() {
 
             
             <div className="contact">
-                <h1 className="contactTitle"> contact us </h1>
+                <h1 className="contactTitle"> Contact Us </h1>
                 <div id="underline"></div>
             </div>
 

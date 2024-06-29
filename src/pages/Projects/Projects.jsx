@@ -92,7 +92,7 @@ class Projects extends React.Component {
                 </Helmet>
 
                 {/* header photo */}
-                <WallImage image={Wall} title={'projects'} />
+                <WallImage image={Wall} title={'Projects'} />
 
                 <div className="project-body">
                     <Fade>

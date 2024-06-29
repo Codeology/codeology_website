@@ -28,7 +28,7 @@ function Members() {
         <title>Codeology | Members</title>
       </Helmet>
 
-      <WallImage image={Wall} title={'members'} />
+      <WallImage image={Wall} title={'Members'} />
 
       <Fade><PageDescription text={description} /></Fade>
 
