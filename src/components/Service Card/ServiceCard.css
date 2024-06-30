@@ -13,7 +13,7 @@
     padding-right: 25px;
 
     width: 35vw;
-    height: 20vh;
+    height: 10em;
 }
 
 #service {
@@ -21,7 +21,7 @@
     margin-bottom: 10px;
 
     /* Text */
-    font-size: 18px;
+    font-size: 20px;
     color: #25976C;
     font-weight: bold;
     text-align: left;
@@ -32,21 +32,25 @@
     margin-bottom: 0px;
 
     /* Text */
+    font-size: 18px;
     color: #202020;
     text-align: left;
     line-height: 1.2;
 }
 
 /* For smaller screens */ 
-@media (max-width: 1040px) {
+@media (max-width: 1200px) {
     #card {
-        height: 28vh;
+        height: 12.5em;
+
+        padding: 25px;
     }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 850px) {
     #card {
         height: auto;
+        width: 70vw;
 
         padding: 25px;
     }
