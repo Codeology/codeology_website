@@ -6,7 +6,7 @@ function IndustryCard(props) {
 
     return (<Fade>
         <div id="industry-card">
-            <img id="image" src={require(`../../images/industry/${imgSrc}`)} alt="" />
+            <img id="industry-image" src={require(`../../images/industry/${imgSrc}`)} alt="" />
 
             <p id="technology">{technology}</p>
 

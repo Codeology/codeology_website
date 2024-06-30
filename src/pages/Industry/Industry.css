@@ -41,8 +41,8 @@
 #contact-us {
   /* Button position */
   position: fixed;
-  right: 20px;
-  bottom: 70px;
+  left: 20px;
+  bottom: 10px;
 
   /* Button Appearance */
   display: block;
