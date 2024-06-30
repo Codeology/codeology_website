@@ -11,6 +11,7 @@ import WallImage from '../../components/WallImage/WallImage';
 import ScrollToTop from '../../utils/ScrollToTop';
 import Heading from '../../components/Heading/Heading';
 import ServiceCard from '../../components/Service Card/ServiceCard'
+import IndustryCard from '../../components/Industry Card/IndustryCard'
 
 /* Constants imoprt */
 import {ServiceInfo, ClientInfo} from '../../constants/IndustryInfo.jsx'
@@ -32,6 +33,11 @@ class Industry extends React.Component {
         )
 
         /* Industry Cards */
+        const clients = ClientInfo["All Client Info"].map(client_item =>
+            <IndustryCard imgSrc={client_item.imgSrc}
+                technology={client_item.technology}
+                description={client_item.description}/>
+        )
 
         return (<div>
             {/* Makes sure that page loads scrolled to the top */}
@@ -47,7 +53,7 @@ class Industry extends React.Component {
             <PageDescription  text={description}/>
 
             {/* services */}
-            <div className="services-body">
+            <div className="section-body">
                 <Fade>
                     <Heading>Our Services</Heading>
                 </Fade>
@@ -62,7 +68,7 @@ class Industry extends React.Component {
             </div>
             
             {/* past clients */}
-            <div className="services-body">
+            <div className="section-body">
                 <Fade>
                     <Heading>Past Projects</Heading>
                 </Fade>
@@ -70,10 +76,14 @@ class Industry extends React.Component {
                 <Fade>
                     <p className="section-description">Each semester, we equip our members with hands-on experience in various tools and technologies through diverse internal projects and professional client projects.</p>
                 </Fade>
+
+                <div className="client-cards">
+                    {clients}
+                </div>
             </div>
 
             {/* past partners */}
-            <div className="services-body">
+            <div className="section-body">
                 <Fade>
                     <Heading>Past Partners</Heading>
                 </Fade>

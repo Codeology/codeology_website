@@ -1,74 +1,82 @@
-/* Services */
-.services-body {
-    margin-right: 30px;
-    margin-left: 30px;
-    text-align: center;
+/* Each Section (Service, Client, Partner) */
+.section-body {
+  margin-right: 30px;
+  margin-left: 30px;
+  text-align: center;
 }
 
 .section-description {
-    /* CSS Box */
-    margin: auto;
-    margin-bottom: 30px;
+  /* CSS Box */
+  margin: auto;
+  margin-bottom: 30px;
 
-    width: 50vw;
+  width: 50vw;
 
-    /* Text */
-    font-size: 20px;
+  /* Text */
+  font-size: 20px;
 }
 
 .service-cards {
-    /* CSS Box */
+  /* CSS Box */
 
-    /* Flex Boxes */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  /* Flex Boxes */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* Industry Cards */
+.client-cards {
+  /* CSS Box */
+
+  /* Flex Boxes */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 /* Past Partners */
 
 /* Contact Buton */
 #contact-us {
-    /* Button position */
-    position: fixed;
-    right: 20px;
-    bottom: 70px;
+  /* Button position */
+  position: fixed;
+  right: 20px;
+  bottom: 70px;
 
-    /* Button Appearance */
-    display: block;
-    height: auto;
-    width: 120px;
-    border-radius: 20px;
-    background-color: var(--forestgreen);
-    border: none;
-    z-index: 99;
+  /* Button Appearance */
+  display: block;
+  height: auto;
+  width: 120px;
+  border-radius: 20px;
+  background-color: var(--forestgreen);
+  border: none;
+  z-index: 99;
 
-    /* Text */
-    color: white;
-    text-align: center;
-    padding: 10px;
-    font-size: 18px;
-    text-decoration: none;
+  /* Text */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  text-decoration: none;
 }
 
 #contact-us:hover {
-    transition: 0.2s;
-    filter: brightness(90%);
-    text-decoration: underline;
+  transition: 0.2s;
+  filter: brightness(90%);
+  text-decoration: underline;
 }
 
 /* For smaller screens */
 @media (max-width: 767px) {
-    #contact-us {
-        /* Button location */
-        right: 25px;
+  #contact-us {
+    /* Button location */
+    right: 25px;
 
-        /* Button Appearance */
-        width: 90px;
+    /* Button Appearance */
+    width: 90px;
 
-        /* Text */
-        font-size: 14px;
-    }
+    /* Text */
+    font-size: 14px;
+  }
 }
