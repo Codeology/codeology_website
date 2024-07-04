@@ -84,13 +84,15 @@ class Projects extends React.Component {
 
         return (
             <div>
-
+                {/* Makes sure that page loads scrolled to the top */}
+                <ScrollToTop/>
+                
                 <Helmet>
                     <title>Codeology | Projects</title>
                 </Helmet>
 
                 {/* header photo */}
-                <WallImage image={Wall} title={'projects'} />
+                <WallImage image={Wall} title={'Projects'} />
 
                 <div className="project-body">
                     <Fade>

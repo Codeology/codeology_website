@@ -21,6 +21,8 @@ export default function About() {
     
     return (
         <div>
+            {/* Makes sure that page loads scrolled to the top */}
+            <ScrollToTop/>
 
             <Helmet>
                     <title>Codeology</title>
@@ -45,11 +47,9 @@ export default function About() {
                             bring the breadth of opportunities and roles within the tech field to
                             Cal students, as well as help our members explore their specific
                             technical and professional interests.</b>
-                            <ScrollToTop>
-                                <Link className="about-button learn" to="/members">
-                                    Learn More
-                                </Link>
-                            </ScrollToTop>
+                            <Link className="about-button learn" to="/members">
+                                Learn More
+                            </Link>
                             <div className="big puzzle">
                                 <img src={require("../../images/illustrations/puzzle/big_puzzle.png")} alt='' />
                             </div>
@@ -83,9 +83,7 @@ export default function About() {
                                 as developers and to lead their own project teams. Topics can range from AI/ML 
                                 to data analytics to iOS development and more. Check out what we're offering 
                                 this semester!</b>
-                            <ScrollToTop>
-                                <Link className="about-button learn" to="/projects">Learn More</Link>
-                            </ScrollToTop>
+                            <Link className="about-button learn" to="/projects">Learn More</Link>
                             <div className="big2 puzzle">
                                 <img src={require("../../images/illustrations/puzzle/big_puzzle2.png")} alt='' />
                             </div>

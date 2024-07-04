@@ -28,6 +28,9 @@ const SideDrawer = props => {
           <Link to="/projects" onClick={close}>Projects</Link>
         </li>
         <li>
+          <Link to="/industry" onClick={close}>Industry</Link>
+        </li>
+        <li>
           <Link to="/contact" onClick={close}>Contact</Link>
         </li>
         <li>

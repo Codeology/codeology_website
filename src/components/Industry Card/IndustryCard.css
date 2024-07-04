@@ -1,0 +1,42 @@
+#industry-card {
+  /* CSS Box Params */
+  margin: 2.5vw;
+
+  border-radius: 8px;
+  box-shadow: 0px 2px 3px 2px #e3dbdb;
+
+  padding-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+
+  width: 25em;
+  height: 25em;
+}
+
+#industry-image {
+  width: 12em;
+  height: 6em;
+  margin-bottom: 1.5vw;
+}
+
+#technology {
+  /* CSS Box */
+  margin-bottom: 10px;
+
+  /* Text */
+  font-size: 22px;
+  color: #25976c;
+  font-weight: bold;
+  text-align: center;
+}
+
+#client-description {
+  /* CSS Box */
+  margin-bottom: 0px;
+
+  /* Text */
+  font-size: 20px;
+  color: #202020;
+  text-align: center;
+  line-height: 1.2;
+}

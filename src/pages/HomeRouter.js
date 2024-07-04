@@ -13,6 +13,7 @@ import ContactUs from './ContactUs/ContactUs.js';
 import Apply from './Apply/Apply.jsx';
 import Resources from './Resources/Resources.jsx';
 import Internal from './Internal/Internal.jsx';
+import Industry from "./Industry/Industry.jsx";
 import Navbar from '../components/NavBar/Navbar.js';
 import ScrollToTop from '../utils/ScrollToTop.js';
 import {scrollTop} from '../utils/ScrollToTop.js';
@@ -83,6 +84,7 @@ class HomeRouter extends Component {
                     <Routes>
                       <Route path="/members" element={<Members />} />
                       <Route path="/projects" element={<Projects />} />
+                      <Route path="/industry" element={<Industry />} />
                       <Route path="/contact" element={<ContactUs />} />
                       <Route path="/resources" element={<Resources />} />
                       <Route path="/internal" element={<Internal />} />

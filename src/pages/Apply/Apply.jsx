@@ -2,6 +2,7 @@ import React from 'react';
 import './Apply.css';
 import Heading from '../../components/Heading/Heading';
 import { Fade } from 'react-awesome-reveal';
+import ScrollToTop from '../../utils/ScrollToTop.js';
 
 export default function Apply() {
     function randomSquiggleRotation() {
@@ -12,6 +13,9 @@ export default function Apply() {
 
     return (
         <div>
+            {/* Makes sure that page loads scrolled to the top */}
+            <ScrollToTop/>
+            
             <div className="contact">
                 <div className='header-container'>
                     <div className="header">

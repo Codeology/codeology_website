@@ -47,6 +47,8 @@
 }
 
 .not-apply, .not-apply:hover {
+  text-wrap: nowrap;
+  margin-left: 10px;
   color: rgba(0, 0, 0, 0.84);
   text-decoration: none;
 }
@@ -71,18 +73,22 @@
 
 /* Button styles */
 .button {
-  color: white;
   background-color: var(--forestgreen);
   transition: 0.2s;
   border-radius: 20px;
   padding-left: 40px;
   padding-right: 40px;
+  margin: 15px;
+
+  /* Text */
+  color: white;
+  text-decoration: none;
 }
 
 /* Button hover effects */
 .button:hover {
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
   background-color: #408D60;
 }
 
