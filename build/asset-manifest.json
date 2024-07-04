@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.88f97c53.css",
-    "main.js": "./static/js/main.57f1df90.js",
+    "main.css": "./static/css/main.949aecc4.css",
+    "main.js": "./static/js/main.66a8f13b.js",
     "static/media/smallgroup_river.png": "./static/media/smallgroup_river.6cf4362a4257b160aee4.png",
     "static/media/fun_glade.png": "./static/media/fun_glade.78a5afc341a03fbd51c0.png",
     "static/media/retreat_sp22.png": "./static/media/retreat_sp22.6a2d9df4a62cbe212d4a.png",
@@ -219,6 +219,7 @@
     "static/media/jennifer2.jpg": "./static/media/jennifer2.66690e8aaa758856c417.jpg",
     "static/media/krishna.jpg": "./static/media/krishna.95c45d9f3715bb0cd54b.jpg",
     "static/media/micah.jpg": "./static/media/micah.44caf5c92297d938c5e9.jpg",
+    "static/media/john.jpg": "./static/media/john.7b34663a72350f8b2c04.jpg",
     "static/media/tina.jpg": "./static/media/tina.f80d44c0299ca46bb9cd.jpg",
     "static/media/Uber Logo.png": "./static/media/Uber Logo.9e7b35ecdfa7a36f27d7.png",
     "static/media/jennifer1.jpg": "./static/media/jennifer1.6cb9f97ac5ebaf2dc31a.jpg",
@@ -321,16 +322,16 @@
     "static/media/machine_learning.svg": "./static/media/machine_learning.57b5b9ce7a5bbcee9f25.svg",
     "static/media/ios_app_development.svg": "./static/media/ios_app_development.8c4c84fcfcc381e520fb.svg",
     "static/media/glassesguy2.svg": "./static/media/glassesguy2.d833d7a9ddbce99a3218285542b96d70.svg",
-    "static/media/web_green.svg": "./static/media/web_green.2692fa924b2ed0bbfbf2.svg",
-    "static/media/resume_green.svg": "./static/media/resume_green.f9202e5d73884b925a03.svg",
-    "static/media/linkedin_green.svg": "./static/media/linkedin_green.f981dfe0fa598076cb9e.svg",
+    "static/media/web_green.svg": "./static/media/web_green.75ae8da5231e655906e0.svg",
+    "static/media/resume_green.svg": "./static/media/resume_green.4b0800f729452daed1e5.svg",
+    "static/media/linkedin_green.svg": "./static/media/linkedin_green.5594761e91db4df698db.svg",
     "index.html": "./index.html",
-    "static/media/email_green.svg": "./static/media/email_green.6ae004b05727b31fea5b.svg",
-    "main.88f97c53.css.map": "./static/css/main.88f97c53.css.map",
-    "main.57f1df90.js.map": "./static/js/main.57f1df90.js.map"
+    "static/media/email_green.svg": "./static/media/email_green.6098b2495b102ec38754.svg",
+    "main.949aecc4.css.map": "./static/css/main.949aecc4.css.map",
+    "main.66a8f13b.js.map": "./static/js/main.66a8f13b.js.map"
   },
   "entrypoints": [
-    "static/css/main.88f97c53.css",
-    "static/js/main.57f1df90.js"
+    "static/css/main.949aecc4.css",
+    "static/js/main.66a8f13b.js"
   ]
 }
