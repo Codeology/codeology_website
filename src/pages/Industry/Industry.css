@@ -36,6 +36,25 @@
 }
 
 /* Past Partners */
+#partners-container {
+  width: 70%;
+  max-width: 1025px;
+  margin: auto;
+  margin-bottom: 9vh;
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.partners_img {
+  width: 200px;
+  margin: 25px;
+  position: static;
+}
 
 /* Contact Buton */
 #contact-us {
@@ -78,5 +97,33 @@
 
     /* Text */
     font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .partners_img {
+    margin: 22px;
+    width: 160px;
+  }
+}
+
+@media only screen and (max-width: 1245px) {
+  .partners_img {
+    margin: 18px;
+    width: 130px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .partners_img {
+    margin: 15px;
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .partners_img {
+    margin: 15px;
+    width: 80px;
   }
 }

@@ -39,6 +39,9 @@ class Industry extends React.Component {
                 description={client_item.description}/>
         )
 
+        /* Partners (Update this if new partner added) */
+        const partners = ['Uber', 'Veeva', 'NASA', 'Rivian', 'Goldman Sachs', 'Salesforce', 'EA Games', 'Visa']
+
         return (<div>
             {/* Makes sure that page loads scrolled to the top */}
             <ScrollToTop/>
@@ -91,7 +94,16 @@ class Industry extends React.Component {
                 <Fade>
                     <p className="section-description">We promote our industry partners by hosting on-campus career panels, tech talks, and recruiting info-sessions attended by hundreds of Berkeley students every semester.</p>
                 </Fade>
-            </div>
+
+                    <Fade>
+                        {/* would like to make this an img carousel/scroll display */}
+                        <div id='partners-container'>
+                            {partners.map(partner => (  
+                                <img className="partners_img" src={require('../../images/industry/partners/' + partner + ' Logo' + '.png')} alt={partner} />  
+                            ))}  
+                        </div>
+                    </Fade>
+                </div>
 
             {/* Contact */}
             <Link id="contact-us" to='/contact'>
