@@ -8,6 +8,7 @@ const ProjectInfo = {
         "With openCaVo, we will simplify the (sometimes) annoying task of taking attendance with a slight invasion of privacy. We will be building openCaVo, a React Native app that takes pictures of people, identifies them, and consolidates a list of the names of people in the picture. First, we will supply and store pictures using Firebase. Then, to recognize faces, we will process the images using OpenCV along with some ML concepts. Finally, we will wrap everything into an API to be called by our React Native app! Join this project for a fun introduction to full stack development, computer vision, and machine learning!",
       // technologies: "",
       imageSrc: "OpenCavo.png",
+      github: "https://github.com/Codeology/openCaVo"
     },
     {
       title: "cody.mp3",
@@ -17,6 +18,7 @@ const ProjectInfo = {
         "In this project, you’ll be learning key fundamentals of data science and machine learning, focusing on audio processing. First, we’ll be running you through the basics of modeling and neural networks with our own audio sets, and through the help of libraries like Tensorflow, Librosa, and Sklearn, we’ll be writing code capable of processing and classifying mp3 files. Later on, you’ll be able to apply these concepts to your own sets of audio files, and come out of the project with a basic ML foundation and the skills to create your own models in the future! ",
       // technologies: "",
       imageSrc: "cody.mp3.png",
+      github: "https://github.com/Codeology/codymp3"
     },
     {
       title: "bearchainAI",
@@ -26,6 +28,7 @@ const ProjectInfo = {
         "Tech moves fast, and the fields of blockchain and AI are no exception. Having the ability to operate at the cutting edge is fundamental for both feeding your curiosity and advancing your career in computer science. Our project serves as a gateway of understanding to these technologies, providing hands-on experience with the latest tools and frameworks. We’ll be building a web application that utilizes the GPT-3 Davinci artificial intelligence model (fine-tuned with web scraped references) to generate new fanfictions. Motivated by the issue of creator credit in AI-generated media, new fanfiction along with their reference authors will be recorded on the Ethereum blockchain as non-fungible tokens (NFTs). ",
       // technologies: "",
       imageSrc: "bearchainAI.png",
+      github: "https://github.com/Codeology/bearchainAI"
     },
     {
       title: "AvoMaps",
@@ -55,6 +58,7 @@ const ProjectInfo = {
         "This project is for anyone who wants to explore the world of game development! You’ll have the chance to build your own 3D game from scratch using Unity and Blender. We’ll first teach you the basics of Unity and CAD by leading you through a simple project, then give you the chance to design and create your own game!",
       technologies: "Unity, Blender, C#",
       imageSrc: "3d.png",
+      github: "https://github.com/Codeology/cod3Dology"
     },
     {
       title: "Haste Street Capital",
@@ -64,6 +68,7 @@ const ProjectInfo = {
         "Do you want to earn big bucks? This project will teach you the basics of algorithmic trading so. We’ll be using the QuantConnect platform, test your models on historical data, and execute real-time trades.  At the end, you’ll have a chance to build your own models and compete with fellow project members to get the most profit!",
       technologies: "Python (Quantconnect, Statsmodel)",
       imageSrc: "capital.png",
+      github: "https://github.com/Codeology/haste-street-capital"
     },
     {
       title: "Jay-Zam",
