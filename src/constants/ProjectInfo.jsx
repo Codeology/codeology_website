@@ -1,4 +1,56 @@
 const ProjectInfo = {
+  "Fall 2023": [
+    {
+      title: "Moveocado",
+      leaders: "Jaewon Lee, Andrew Zhang",
+      developers: "Angie Baik, Kelly Yeh, Miller Liu, Ava Shah",
+      description:
+        "Moveocado is a dynamic web app positioned to reimagine the realm of human-computer interaction. At its core, Movementum utilizes your camera to translate simple gestures and signals into powerful computer tasks. From effortlessly triggering keypress inputs to unlocking exciting possibilities in gaming and more, the potential is boundless. Moveocado harnesses computer vision in combination with a clean React camera UI to enable various applications such as gaming or typing simply with just a camera. No need for traditional input devices – the camera becomes your conduit to the digital world.",
+      // technologies: "",
+      imageSrc: "OpenCavo.png",
+      github: "https://github.com/Codeology/moveocado"
+    },
+    {
+      title: "Avoguessr",
+      leaders: "Ergun Acikoz, Minjune Kim",
+      developers: "Christina Yue, Kate Trevor, Katelyn Jo, Philip Ye",
+      description:
+        "Automated AI for Geoguessr game. The model is inspired by researchers at Stanford who had implemented the geoguessr AI accurately first as well as the papers in the Google Drive folder. Avoguessr creates an interactive map for the user, runs the game in real time by logging in and starting the game, and guesses the country by giving an output. You can test the model by taking 4 different pictures from different angles and play the game.",
+      // technologies: "",
+      imageSrc: "OpenCavo.png",
+      github: "https://github.com/Codeology/avoguessr"
+    },
+    {
+      title: "avolingo",
+      leaders: "Esther Shen, John Glen Siy",
+      developers: "Aditi Mundra, Riley Reichel, Shing Gao, Xina Wang, Ria Jain",
+      description:
+        "This contains the quick demos to AvoLingo, a translation web application made using HuggingFace's Transformers pipeline. To run the demo, go into the AvoLingo_demo.ipynb file and run each code block in order. This should produce a barebones version of the web application. Transformers_Attention.ipynb contains some explorational code project members went through to better understand the inner workings of transformers.",
+      // technologies: "",
+      imageSrc: "OpenCavo.png",
+      github: "https://github.com/Codeology/avolingo"
+    },
+    {
+      title: "CavoT",
+      leaders: "Alena Chao, Danny Tran",
+      developers: "AJ DeMarinis, Andrew Choy, Joelle Siong Sin, Maya Zheng, Tim Park",
+      description:
+        "Have you ever wondered about ML research? In this project, you will learn the basics of deep learning as well as how to apply it through PyTorch and OpenCV. Then, you will explore implementing your own CV research papers!",
+      technologies: "Pytorch, OpenCV",
+      imageSrc: "OpenCavo.png",
+      github: "https://github.com/Codeology/CavoT"
+    },
+    {
+      title: "BearJam",
+      leaders: "Anna Chung, Natalie Wei",
+      // developers: "",
+      description:
+        "Learn about 2D game development from start to finish using Unity & C#! In this project we’ll delve into game development fundamentals like scripting, coroutines, physics, and animation, all while building a suite of your own games in Unity! Finally, to show off everything you’ve learned, you’ll get to participate in a collaborative “game jam” with other group members to develop a new game from scratch.",
+      // technologies: "",
+      imageSrc: "OpenCavo.png",
+      github: "https://github.com/Codeology/bearjam"
+    },
+  ],
   "Spring 2023": [
     {
       title: "openCaVo",
