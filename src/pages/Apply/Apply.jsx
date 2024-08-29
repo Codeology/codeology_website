@@ -28,9 +28,12 @@ export default function Apply() {
                             <div className="header-text">
                                 <h1 id='header-title'>Apply to Codeology</h1>
                                 <p id='header-subtext'>Start your journey in tech and become part of the Codeology family!</p>
-                                <p id='header-subtext'>Our applications are closed at the moment. Please check back later for updates on the next recruitment season. Feel free to contact us or join our email list using the links below!</p>
+                                {/* <p id='header-subtext'>Our applications are closed at the moment. Please check back later for updates on the next recruitment season. Feel free to contact us or join our email list using the links below!</p> */}
+                                <p id='header-subtext'>FA24 application is live! Click on the button below to apply. Deadline is 9/5 EOD.</p>
 
-                                <button id='application-closed-link'>Application Closed</button>
+                                <a href='https://airtable.com/appM69jQpcQpD9E3c/shrMx7jFhbWZItoUf' target='_blank' rel="noopener noreferrer">
+                                    <button id='application-open-link' href='https://airtable.com/appM69jQpcQpD9E3c/shrMx7jFhbWZItoUf'>Apply Now</button>
+                                </a>
                                 <br></br>
                                 <a id='interest-link-container' href='http://tinyurl.com/SP24InterestForm' target='_blank' rel="noopener noreferrer">
                                     <button id='interest-link-wide'>Join Our Email List</button>
@@ -46,12 +49,12 @@ export default function Apply() {
                     </div>
                     <Fade>
                         <div id='recruitment-timeline'>
-                            <Heading>Typical Recruitment Timeline</Heading>
+                            <Heading>FA24 Recruitment Timeline</Heading>
 
                             <div className='timeline-event'>
                                 <div className="event-date-container">
                                     <img src={require('../../images/illustrations/misc/squiggle.png')} alt='' id='event-date-design' style={{transform: 'rotate(' + randomSquiggleRotation() + 'deg)'}}/>
-                                    <b className='event-date'>#1</b>
+                                    <b className='event-date'>8/28</b>
                                 </div>
                                 <div className='event-description'>
                                     <h3>Tabling</h3>
@@ -62,47 +65,7 @@ export default function Apply() {
                             <div className='timeline-event'>
                                 <div className="event-date-container">
                                     <img src={require('../../images/illustrations/misc/squiggle.png')} alt='' id='event-date-design' style={{transform: 'rotate(' + randomSquiggleRotation() + 'deg)'}}/>
-                                    <b className='event-date'>#2</b>
-                                </div>
-                                <div className='event-description'>
-                                    <h3>ABCDs of Tech Infosession</h3>
-                                    <p>New to the tech scene at Berkeley? Come explore some of the most exciting tech clubs on campus! You'll hear from ANova, Blueprint, Codeology, and Mobile Developers at Berkeley at this infosession!</p>
-                                </div>
-                            </div>
-
-                            <div className='timeline-event'>
-                                <div className="event-date-container">
-                                    <img src={require('../../images/illustrations/misc/squiggle.png')} alt='' id='event-date-design' style={{transform: 'rotate(' + randomSquiggleRotation() + 'deg)'}}/>
-                                    <b className='event-date'>#3</b>
-                                </div>
-                                <div className='event-description'>
-                                    <h3>Tech Diversity Night</h3>
-                                    <p>Interested in meeting those of diverse backgrounds in the tech space?</p>
-                                    <p>Attend diversity night and learn more about the experiences of diverse groups in tech club scene at Berkeley.
-                                        Meet Connex, Blueprint, Launchpad, Web Development at Berkeley, Machine Learning @ Berkeley, and Codeology to chat directly with our members!
-                                    </p> 
-                                </div>
-                            </div>
-                            
-                            <div className='timeline-event'>
-                                <div className="event-date-container">
-                                    <img src={require('../../images/illustrations/misc/squiggle.png')} alt='' id='event-date-design' style={{transform: 'rotate(' + randomSquiggleRotation() + 'deg)'}}/>
-                                    <b className='event-date'>#4</b>
-                                </div>
-                                <div className='event-description'>
-                                    <h3>Coffee Chats</h3>
-                                    <p>If you can't make tabling in person, sign up for a coffee chat! 
-                                        <br></br>
-                                        If slots run out or you aren't available during these times, keep checking back — more slots may open.
-                                    </p>
-                                </div>
-                            </div>
-                            
-                            
-                            <div className='timeline-event'>
-                                <div className="event-date-container">
-                                    <img src={require('../../images/illustrations/misc/squiggle.png')} alt='' id='event-date-design' style={{transform: 'rotate(' + randomSquiggleRotation() + 'deg)'}}/>
-                                    <b className='event-date'>#5</b>
+                                    <b className='event-date'>8/29</b>
                                 </div>                            
                                 <div className='event-description'>
                                     <h3>Clubs and Cookies</h3>
@@ -116,7 +79,21 @@ export default function Apply() {
                             <div className='timeline-event'>
                                 <div className="event-date-container">
                                     <img src={require('../../images/illustrations/misc/squiggle.png')} alt='' id='event-date-design' style={{transform: 'rotate(' + randomSquiggleRotation() + 'deg)'}}/>
-                                    <b className='event-date'>#6</b>
+                                    <b className='event-date'>8/29</b>
+                                </div>
+                                <div className='event-description'>
+                                    <h3>Coffee Chats Signups Open</h3>
+                                    <p>If you can't make tabling in person, sign up for a coffee chat from 9/2 to 9/5! 
+                                        <br></br>
+                                        If slots run out or you aren't available during these times, keep checking back — more slots may open.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className='timeline-event'>
+                                <div className="event-date-container">
+                                    <img src={require('../../images/illustrations/misc/squiggle.png')} alt='' id='event-date-design' style={{transform: 'rotate(' + randomSquiggleRotation() + 'deg)'}}/>
+                                    <b className='event-date'>9/3</b>
                                 </div>
                                 <div className='event-description'>
                                     <h3>Codeology Infosession #1</h3>
@@ -129,7 +106,21 @@ export default function Apply() {
                             <div className='timeline-event'>
                                 <div className="event-date-container">
                                     <img src={require('../../images/illustrations/misc/squiggle.png')} alt='' id='event-date-design' style={{transform: 'rotate(' + randomSquiggleRotation() + 'deg)'}}/>
-                                    <b className='event-date'>#7</b>
+                                    <b className='event-date'>9/4</b>
+                                </div>
+                                <div className='event-description'>
+                                    <h3>Diverse Opportunity Fair</h3>
+                                    <p>Interested in meeting those of diverse backgrounds in the tech space?</p>
+                                    <p>Attend diversity night and learn more about the experiences of diverse groups in tech club scene at Berkeley.
+                                        Meet Connex, Blueprint, Launchpad, Web Development at Berkeley, Machine Learning @ Berkeley, and Codeology to chat directly with our members!
+                                    </p> 
+                                </div>
+                            </div>
+
+                            <div className='timeline-event'>
+                                <div className="event-date-container">
+                                    <img src={require('../../images/illustrations/misc/squiggle.png')} alt='' id='event-date-design' style={{transform: 'rotate(' + randomSquiggleRotation() + 'deg)'}}/>
+                                    <b className='event-date'>9/5</b>
                                 </div>
                                 <div className='event-description'>
                                     <h3>Codeology Infosession #2</h3>
@@ -143,18 +134,29 @@ export default function Apply() {
                             <div className='timeline-event'>
                                 <div className="event-date-container">
                                     <img src={require('../../images/illustrations/misc/squiggle.png')} alt='' id='event-date-design' style={{transform: 'rotate(' + randomSquiggleRotation() + 'deg)'}}/>
-                                    <b className='event-date'>#8</b>
+                                    <b className='event-date'>9/5</b>
                                 </div>
                                 <div className='event-description'>
                                     <h3>Applications Due!</h3>
                                     <p>Fill out an application to share your story and what you can get out of being a part of Codeology.</p>
                                 </div>
                             </div>
+{/* 
+                            <div className='timeline-event'>
+                                <div className="event-date-container">
+                                    <img src={require('../../images/illustrations/misc/squiggle.png')} alt='' id='event-date-design' style={{transform: 'rotate(' + randomSquiggleRotation() + 'deg)'}}/>
+                                    <b className='event-date'>#2</b>
+                                </div>
+                                <div className='event-description'>
+                                    <h3>ABCDs of Tech Infosession</h3>
+                                    <p>New to the tech scene at Berkeley? Come explore some of the most exciting tech clubs on campus! You'll hear from ANova, Blueprint, Codeology, and Mobile Developers at Berkeley at this infosession!</p>
+                                </div>
+                            </div> */}
 
                             <div className='timeline-event'>
                                 <div className="event-date-container">
                                     <img src={require('../../images/illustrations/misc/squiggle.png')} alt='' id='event-date-design' style={{transform: 'rotate(' + randomSquiggleRotation() + 'deg)'}}/>
-                                    <b className='event-date'>#9</b>
+                                    <b className='event-date'>9/7</b>
                                 </div>
                                 <div className='event-description'>
                                     <h3>First Round Interviews (Invite Only)</h3>
@@ -167,7 +169,7 @@ export default function Apply() {
                             <div className='timeline-event'>
                                 <div className="event-date-container">
                                     <img src={require('../../images/illustrations/misc/squiggle.png')} alt='' id='event-date-design' style={{transform: 'rotate(' + randomSquiggleRotation() + 'deg)'}} />
-                                    <b className='event-date'>#10</b>
+                                    <b className='event-date'>9/10</b>
                                 </div>
                                 <div className='event-description'>
                                     <h3>Social Night (Invite Only)</h3>
@@ -178,7 +180,7 @@ export default function Apply() {
                             <div className='timeline-event'>
                                 <div className="event-date-container">
                                     <img src={require('../../images/illustrations/misc/squiggle.png')} alt='' id='event-date-design' />
-                                    <b className='event-date'>#11</b>
+                                    <b className='event-date'>9/11</b>
                                 </div>
                                 <div className='event-description'>
                                     <h3>Final Individual Interviews (Invite Only)</h3>
