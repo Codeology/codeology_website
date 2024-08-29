@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.173880f1.css",
-    "main.js": "./static/js/main.2ee5b56f.js",
+    "main.js": "./static/js/main.166b3c16.js",
     "static/media/smallgroup_river.png": "./static/media/smallgroup_river.6cf4362a4257b160aee4.png",
     "static/media/fun_glade.png": "./static/media/fun_glade.78a5afc341a03fbd51c0.png",
     "static/media/retreat_sp22.png": "./static/media/retreat_sp22.6a2d9df4a62cbe212d4a.png",
@@ -48,6 +48,7 @@
     "static/media/projects.png": "./static/media/projects.ed603626d47e9be40226.png",
     "static/media/projectsRec.png": "./static/media/projectsRec.eb3f973f8db093f91d59.png",
     "static/media/skate_fa21.png": "./static/media/skate_fa21.198c23f9dde2d4279a4c.png",
+    "static/media/yunze.jpg": "./static/media/yunze.8d22c3132db6fce5574f.jpg",
     "static/media/esther.jpg": "./static/media/esther.32d1f7c7be33aa0aa04d.jpg",
     "static/media/vaibhav.jpg": "./static/media/vaibhav.8e76f2e34eb5529685b9.jpg",
     "static/media/eric.jpg": "./static/media/eric.4ee69217b3242b378829.jpg",
@@ -177,6 +178,7 @@
     "static/media/imc.png": "./static/media/imc.89f744d6da920e3b62ab.png",
     "static/media/BallingWithData.png": "./static/media/BallingWithData.2ea543ed83ce939f8d7b.png",
     "static/media/zoom.png": "./static/media/zoom.85262a15edc7f172a258.png",
+    "static/media/colleen.jpg": "./static/media/colleen.571f2ebe2e0c48e048a3.jpg",
     "static/media/kevin.jpg": "./static/media/kevin.9ae22757f89115792f8f.jpg",
     "static/media/small_puzzle.png": "./static/media/small_puzzle.c422579392a05b430b77.png",
     "static/media/big_puzzle.png": "./static/media/big_puzzle.0eb03983c1d1838786f9.png",
@@ -305,7 +307,6 @@
     "static/media/smallpeeps right.png": "./static/media/smallpeeps right.1596b2ebbf697d1def87.png",
     "static/media/squarespace.png": "./static/media/squarespace.dfb846c399a99fda8f11.png",
     "static/media/sitting_person.png": "./static/media/sitting_person.83f180850b1879671c44.png",
-    "static/media/yunze.jpg": "./static/media/yunze.72a3684c99fa4e0e8643.jpg",
     "static/media/Veeva Logo.png": "./static/media/Veeva Logo.8304c446905a8e953326.png",
     "static/media/person2.png": "./static/media/person2.00d2be74a230de79da26.png",
     "static/media/web_development.svg": "./static/media/web_development.f01b9f7996b9ef52e264.svg",
@@ -322,16 +323,16 @@
     "static/media/machine_learning.svg": "./static/media/machine_learning.57b5b9ce7a5bbcee9f25.svg",
     "static/media/ios_app_development.svg": "./static/media/ios_app_development.8c4c84fcfcc381e520fb.svg",
     "static/media/glassesguy2.svg": "./static/media/glassesguy2.d833d7a9ddbce99a3218285542b96d70.svg",
-    "static/media/web_green.svg": "./static/media/web_green.75ae8da5231e655906e0.svg",
-    "static/media/resume_green.svg": "./static/media/resume_green.4b0800f729452daed1e5.svg",
-    "static/media/linkedin_green.svg": "./static/media/linkedin_green.5594761e91db4df698db.svg",
+    "static/media/web_green.svg": "./static/media/web_green.2692fa924b2ed0bbfbf2.svg",
+    "static/media/resume_green.svg": "./static/media/resume_green.f9202e5d73884b925a03.svg",
+    "static/media/linkedin_green.svg": "./static/media/linkedin_green.f981dfe0fa598076cb9e.svg",
     "index.html": "./index.html",
-    "static/media/email_green.svg": "./static/media/email_green.6098b2495b102ec38754.svg",
+    "static/media/email_green.svg": "./static/media/email_green.6ae004b05727b31fea5b.svg",
     "main.173880f1.css.map": "./static/css/main.173880f1.css.map",
-    "main.2ee5b56f.js.map": "./static/js/main.2ee5b56f.js.map"
+    "main.166b3c16.js.map": "./static/js/main.166b3c16.js.map"
   },
   "entrypoints": [
     "static/css/main.173880f1.css",
-    "static/js/main.2ee5b56f.js"
+    "static/js/main.166b3c16.js"
   ]
 }
