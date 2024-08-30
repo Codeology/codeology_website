@@ -35,7 +35,7 @@ export default function Apply() {
                                     <button id='application-open-link' href='https://airtable.com/appM69jQpcQpD9E3c/shrMx7jFhbWZItoUf'>Apply Now</button>
                                 </a>
                                 <br></br>
-                                <a id='interest-link-container' href='http://tinyurl.com/SP24InterestForm' target='_blank' rel="noopener noreferrer">
+                                <a id='interest-link-container' href='https://tinyurl.com/FA24CodyInterestForm' target='_blank' rel="noopener noreferrer">
                                     <button id='interest-link-wide'>Join Our Email List</button>
                                 </a>
                                 <a id='interest-link-container' href='https://docs.google.com/forms/d/e/1FAIpQLSci1toyIHGzn_GoDk-QfjIA895cyN1EnrJFp3OyeazO2hbtaQ/viewform' target='_blank' rel="noopener noreferrer">
@@ -43,6 +43,9 @@ export default function Apply() {
                                 </a>
                                 <a id='interest-link-container' href='mailto:info@codeology.club' target='_blank' rel="noopener noreferrer">
                                     <button id='interest-link-wide'>Email Us</button>
+                                </a>
+                                <a id='interest-link-container' href='https://tinyurl.com/FA24CodyCoffeeChats' target='_blank' rel="noopener noreferrer">
+                                    <button id='interest-link-wide-wide'>Coffee Chats Signups Open</button>
                                 </a>
                             </div>
                         </div>
@@ -82,7 +85,7 @@ export default function Apply() {
                                     <b className='event-date'>8/29</b>
                                 </div>
                                 <div className='event-description'>
-                                    <h3>Coffee Chats Signups Open</h3>
+                                    <a href="https://tinyurl.com/FA24CodyCoffeeChats" target="_blank" ><h3>Coffee Chats Signups Open</h3></a>
                                     <p>If you can't make tabling in person, sign up for a coffee chat from 9/2 to 9/5! 
                                         <br></br>
                                         If slots run out or you aren't available during these times, keep checking back — more slots may open.
@@ -259,7 +262,7 @@ export default function Apply() {
                                     <button id='application-open-link'>Application</button>
                                 </a>
                                 <br></br>
-                                <a id='interest-link-container' href='http://tinyurl.com/SP24InterestForm' target='_blank' rel="noopener noreferrer">
+                                <a id='interest-link-container' href='https://tinyurl.com/FA24CodyInterestForm' target='_blank' rel="noopener noreferrer">
                                     <button id='interest-link'>Join Our Email List</button>
                                 </a>
                                 <a id='interest-link-container' href='https://docs.google.com/forms/d/e/1FAIpQLSci1toyIHGzn_GoDk-QfjIA895cyN1EnrJFp3OyeazO2hbtaQ/viewform' target='_blank' rel="noopener noreferrer">
@@ -268,7 +271,6 @@ export default function Apply() {
                                 <a id='interest-link-container' href='mailto:info@codeology.club' target='_blank' rel="noopener noreferrer">
                                     <button id='interest-link'>Email Us</button>
                                 </a>
-                            
                                 <a id='interest-link-container' href='http://tinyurl.com/SP24CodyCalendar' target='_blank' rel="noopener noreferrer">
                                     <button id='interest-link'>Recruitment Calendar</button>
                                 </a>
