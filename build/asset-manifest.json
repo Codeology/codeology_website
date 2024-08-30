@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.173880f1.css",
-    "main.js": "./static/js/main.fd2872d6.js",
+    "main.css": "./static/css/main.3d9cbec0.css",
+    "main.js": "./static/js/main.9864f1c9.js",
     "static/media/smallgroup_river.png": "./static/media/smallgroup_river.6cf4362a4257b160aee4.png",
     "static/media/fun_glade.png": "./static/media/fun_glade.78a5afc341a03fbd51c0.png",
     "static/media/retreat_sp22.png": "./static/media/retreat_sp22.6a2d9df4a62cbe212d4a.png",
@@ -221,7 +221,6 @@
     "static/media/jennifer2.jpg": "./static/media/jennifer2.66690e8aaa758856c417.jpg",
     "static/media/krishna.jpg": "./static/media/krishna.95c45d9f3715bb0cd54b.jpg",
     "static/media/micah.jpg": "./static/media/micah.44caf5c92297d938c5e9.jpg",
-    "static/media/john.jpg": "./static/media/john.7b34663a72350f8b2c04.jpg",
     "static/media/tina.jpg": "./static/media/tina.f80d44c0299ca46bb9cd.jpg",
     "static/media/Uber Logo.png": "./static/media/Uber Logo.9e7b35ecdfa7a36f27d7.png",
     "static/media/jennifer1.jpg": "./static/media/jennifer1.6cb9f97ac5ebaf2dc31a.jpg",
@@ -328,11 +327,11 @@
     "static/media/linkedin_green.svg": "./static/media/linkedin_green.f981dfe0fa598076cb9e.svg",
     "index.html": "./index.html",
     "static/media/email_green.svg": "./static/media/email_green.6ae004b05727b31fea5b.svg",
-    "main.173880f1.css.map": "./static/css/main.173880f1.css.map",
-    "main.fd2872d6.js.map": "./static/js/main.fd2872d6.js.map"
+    "main.3d9cbec0.css.map": "./static/css/main.3d9cbec0.css.map",
+    "main.9864f1c9.js.map": "./static/js/main.9864f1c9.js.map"
   },
   "entrypoints": [
-    "static/css/main.173880f1.css",
-    "static/js/main.fd2872d6.js"
+    "static/css/main.3d9cbec0.css",
+    "static/js/main.9864f1c9.js"
   ]
 }
