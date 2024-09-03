@@ -5,6 +5,7 @@ import {Link} from 'react-router-dom';
 import PageDescription from '../../components/PageDescription/PageDescription';
 import { Fade } from 'react-awesome-reveal';
 import ScrollToTop from '../../utils/ScrollToTop';
+import Heading from '../../components/Heading/Heading';
 
 export default function ContactUs() {
     const description = "Do you have questions or concerns for us? Fill out our form or email us at info@codeology.club, and we'll get back to you as soon as possible!";
@@ -20,8 +21,7 @@ export default function ContactUs() {
 
             
             <div className="contact">
-                <h1 className="contactTitle"> Contact Us </h1>
-                <div id="underline"></div>
+                <Heading>Contact Us</Heading>
             </div>
 
             <Fade>
