@@ -42,7 +42,7 @@
     pointer-events: none;
 }
 
-#application-link:hover {
+#application-open-link:hover {
     filter: brightness(90%);
     transition: 0.2s;
 }
@@ -56,6 +56,7 @@
     color: white;
     margin-right: 0.5vw;
     margin-top: 0.5vw;
+    height: max-content;
 }
 
 #interest-link:hover {
@@ -238,7 +239,7 @@
 }
 
 #contact-puzzle4 {
-    top: 260%;
+    top: 170%;
 }
 
 /* ======================== */
@@ -286,7 +287,20 @@
         
     }
 
-    #application-link {
+    #application-open-link {
+        background-color: var(--forestgreen);
+        border-radius: 12px;
+        border: none;
+        width: 80.5vw;
+        height: 3vw, auto;
+        padding: 10px;
+        color: white;
+        margin-left: 0px;
+        margin-top: 0px;
+        font-size: 14px;
+    }
+
+    #application-closed-link {
         background-color: #d97a77;
         border-radius: 12px;
         border: none;
