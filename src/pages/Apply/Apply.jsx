@@ -35,6 +35,9 @@ export default function Apply() {
                                     <button id='application-open-link' href='https://airtable.com/appM69jQpcQpD9E3c/shrMx7jFhbWZItoUf'>Apply Now</button>
                                 </a>
                                 <br></br>
+                                <a id='interest-link-container' href='https://berkeley.zoom.us/j/98348791355' target='_blank' rel="noopener noreferrer">
+                                    <button id='interest-link-wide-wide'>Join Infosession</button>
+                                </a>
                                 <a id='interest-link-container' href='https://tinyurl.com/FA24CodyInterestForm' target='_blank' rel="noopener noreferrer">
                                     <button id='interest-link-wide'>Join Our Email List</button>
                                 </a>
