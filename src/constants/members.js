@@ -280,23 +280,6 @@ export const leadership = [
     website: null,
     blurb: "My favorite restaraunt is Tony's Style",
   },
-  //   {
-  //     name: "Riley Reichel",
-  //     img: null,
-  //     role: "Industry Director",
-  //     email: "",
-  //     year: "Sophomore",
-  //     committee: null,
-  //     project: null,
-  //     tree: "",
-  //     leaf: null,
-  //     linkedin: "",
-  //     resume: null,
-  //     website: null,
-  //     blurb:
-  //       "I'm a sophomore studying EECS, interested in SWE and robotics. I like volleyball, reading, listening to music, and playing board games.",
-  //   },
-  //   {
 ];
 
 export const projectLeaders = [
@@ -998,6 +981,22 @@ const a = [
     linkedin: "https://www.linkedin.com/in/victoriianguyen/",
     website: "https://victoriianguyen.github.io/",
     blurb: "lover of minecraft, milk, and mushrooms <33",
+  },
+  {
+    name: "Riley Reichel",
+    img: null,
+    role: "Active Member",
+    email: "",
+    year: "Sophomore",
+    committee: null,
+    project: null,
+    tree: "",
+    leaf: null,
+    linkedin: "",
+    resume: null,
+    website: null,
+    blurb:
+      "I'm a sophomore studying EECS, interested in SWE and robotics. I like volleyball, reading, listening to music, and playing board games.",
   },
   // {
   //   name: "Chanbin Park",
