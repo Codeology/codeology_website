@@ -264,6 +264,10 @@ export default function Apply() {
                                     <button id='application-open-link'>Application</button>
                                 </a>
                                 <br></br>
+                                <a id='interest-link-container' href='https://berkeley.zoom.us/j/98348791355' target='_blank' rel="noopener noreferrer">
+                                    <button id='interest-link-1split'>Join Infosession</button>
+                                </a>
+                                <br></br>
                                 <a id='interest-link-container' href='https://tinyurl.com/FA24CodyInterestForm' target='_blank' rel="noopener noreferrer">
                                     <button id='interest-link-3split'>Join Our Email List</button>
                                 </a>
@@ -276,6 +280,7 @@ export default function Apply() {
                                 {/* <a id='interest-link-container' href='http://tinyurl.com/SP24CodyCalendar' target='_blank' rel="noopener noreferrer">
                                     <button id='interest-link'>Recruitment Calendar</button>
                                 </a> */}
+                                <br></br>
                                 <a id='interest-link-container' href='https://tinyurl.com/FA24CodyCoffeeChats' target='_blank' rel="noopener noreferrer">
                                     <button id='interest-link-1split'>Coffee Chats Signups Open</button>
                                 </a>
@@ -373,12 +378,12 @@ export default function Apply() {
                                         Get to know SAAS, Blueprint, Codeology, Codebase, Launchpad, Data Science Society, Girls Who Code, and Web Development at Berkeley all in one (delicious) event and chat directly with current members!
                                     </p>    
                                     {/* # <p> If you'll be in attendance, please fill out this quick <a href="https://tinyurl.com/clubsandcookiesinterest-fa22">interest form</a>! </p>  */}
-                                    {/* <b>Thursday 8/29, 8-10 pm PST</b>
+                                    <b>Thursday 8/29, 8-9:30 pm PST</b>
                                     <ul>
                                         <li>In person</li>
-                                        <li>Location: VLSB 2050</li>
-                                        <li>View our <a href='https://fb.me/e/1YZKUc4F7' target='_blank' rel="noopener noreferrer">Facebook event</a> for more details!</li>
-                                    </ul>                                 */}
+                                        <li>Location: Evans 10</li>
+                                        {/* <li>View our <a href='https://fb.me/e/1YZKUc4F7' target='_blank' rel="noopener noreferrer">Facebook event</a> for more details!</li> */}
+                                    </ul>                                
                                 </div>
                             </div>
 
@@ -392,11 +397,12 @@ export default function Apply() {
                                     <p>Come to our infosession to speak with our officers and ask any questions you may have! 
                                         We’ll be introducing our projects for this semester and talking about what it’s like to be in Codeology.
                                     </p>
-                                    {/* <b>Tuesday 1/23, 8-9:30 pm PST</b>
+                                    <b>Tuesday 9/3, 8-9:30 pm PST</b>
                                     <ul>
-                                        <li>In Person</li>
-                                        <li>Location: Wheeler 108</li>
-                                    </ul> */}
+                                        <li>Hybrid</li>
+                                        <li>Location: VLSB (Valley Life Sciences Building) 2060</li>
+                                        <li>Zoom: <a id='interest-link-container' href='https://berkeley.zoom.us/j/98348791355' target='_blank' rel="noopener noreferrer">Join Link</a></li>
+                                    </ul>
                                 </div>
                             </div>
                             <div className='timeline-event'>
@@ -410,11 +416,11 @@ export default function Apply() {
                                     <p>Attend diversity night and learn more about the experiences of diverse groups in tech club scene at Berkeley.
                                         Meet Connex, Blueprint, Launchpad, Web Development at Berkeley, Machine Learning @ Berkeley, and Codeology to chat directly with our members!
                                     </p> 
-                                    {/* <b>Thursday 1/25, 8-9:30pm PST</b>
+                                    <b>Wednesday 9/4, 8-10:00pm PST</b>
                                     <ul>
                                         <li>In Person</li>
-                                        <li>Location: SOCS (Social Sciences Building) 20</li>
-                                    </ul> */}
+                                        <li>Location: TBD</li>
+                                    </ul>
                                 </div>
                             </div>
 
@@ -429,11 +435,12 @@ export default function Apply() {
                                         We’ll be introducing our projects for this semester and talking about what it’s like to be in Codeology.
                                     </p>
                                     <p>note: the content will be the same for both infosessions!</p>
-                                    {/* <b>Thursday 1/25, 8-9:30pm PST</b>
+                                    <b>Thursday 9/5, 8-9:30pm PST</b>
                                     <ul>
-                                        <li>In Person</li>
-                                        <li>Location: SOCS (Social Sciences Building) 20</li>
-                                    </ul> */}
+                                        <li>Hybrid</li>
+                                        <li>Location: VLSB (Valley Life Sciences Building) 2060</li>
+                                        <li>Zoom: <a id='interest-link-container' href='https://berkeley.zoom.us/j/98348791355' target='_blank' rel="noopener noreferrer">Join Link</a></li>
+                                    </ul>
                                 </div>
                             </div>
 
@@ -445,10 +452,10 @@ export default function Apply() {
                                 <div className='event-description'>
                                     <h3>Applications Due!</h3>
                                     <p>Fill out an application to share your story and what you can get out of being a part of Codeology.</p>
-                                    {/* <b>Applications will be due on Thursday, 1/25 at 11:59 pm PST.</b><br/>
-                                    <a href='http://tinyurl.com/SP24CodyApp' target='_blank' rel="noopener noreferrer">
+                                    <b>Applications will be due on Thursday, 9/5 at 11:59 pm PST.</b><br/>
+                                    <a href='https://airtable.com/appM69jQpcQpD9E3c/shrMx7jFhbWZItoUf' target='_blank' rel="noopener noreferrer">
                                         Start your application!
-                                    </a> */}
+                                    </a>
                                 </div>
                             </div>
 
@@ -474,11 +481,11 @@ export default function Apply() {
                                     <h3>Social Night (Invite Only)</h3>
                                     <p> A fun event to meet fellow applicants, as well as current Codeology officers and members!</p>
 
-                                    {/* <b>Tuesday 1/30, 8-9:30pm PST</b>
+                                    <b>Tuesday 9/10, 8-9:30pm PST</b>
                                     <ul>
                                         <li>In Person</li>
                                         <li>Location: *Refer to Invitation*</li>
-                                    </ul> */}
+                                    </ul>
                                 </div>
                             </div>
 
