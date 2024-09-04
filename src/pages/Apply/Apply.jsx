@@ -14,7 +14,10 @@ export default function Apply() {
     /* CHANGE THIS VARIABLE WHEN CHANGING THE APPLY PAGE */
     let is_off_season = false;
 
-    /* Off-season */
+    /* ===================================================================================================
+     * ========== OFF SEASON - DO NOT EDIT IF YOU ARE ADDING NEW RECRUITMENT TIMELINE ====================
+     * ===================================================================================================
+     */
     if (is_off_season) {
         return (
             <div>
@@ -33,13 +36,13 @@ export default function Apply() {
                                 <button id='application-closed-link'>Application Closed</button>
                                 <br></br>
                                 <a id='interest-link-container' href='http://tinyurl.com/SP24InterestForm' target='_blank' rel="noopener noreferrer">
-                                    <button id='interest-link-wide'>Join Our Email List</button>
+                                    <button id='interest-link-3split'>Join Our Email List</button>
                                 </a>
                                 <a id='interest-link-container' href='https://docs.google.com/forms/d/e/1FAIpQLSci1toyIHGzn_GoDk-QfjIA895cyN1EnrJFp3OyeazO2hbtaQ/viewform' target='_blank' rel="noopener noreferrer">
-                                    <button id='interest-link-wide'>Ask Us a Question</button>
+                                    <button id='interest-link-3split'>Ask Us a Question</button>
                                 </a>
                                 <a id='interest-link-container' href='mailto:info@codeology.club' target='_blank' rel="noopener noreferrer">
-                                    <button id='interest-link-wide'>Email Us</button>
+                                    <button id='interest-link-3split'>Email Us</button>
                                 </a>
                             </div>
                         </div>
@@ -241,6 +244,10 @@ export default function Apply() {
             </div>
         )
     } else {
+    /* ===================================================================================================
+     * ========== ON SEASON - EDIT IF YOU ARE ADDING NEW RECRUITMENT TIMELINE ====================
+     * ===================================================================================================
+     */
         return (
             <div>
                 {/* Makes sure that page loads scrolled to the top */}
@@ -258,19 +265,19 @@ export default function Apply() {
                                 </a>
                                 <br></br>
                                 <a id='interest-link-container' href='https://tinyurl.com/FA24CodyInterestForm' target='_blank' rel="noopener noreferrer">
-                                    <button id='interest-link'>Join Our Email List</button>
+                                    <button id='interest-link-3split'>Join Our Email List</button>
                                 </a>
                                 <a id='interest-link-container' href='https://docs.google.com/forms/d/e/1FAIpQLSci1toyIHGzn_GoDk-QfjIA895cyN1EnrJFp3OyeazO2hbtaQ/viewform' target='_blank' rel="noopener noreferrer">
-                                    <button id='interest-link'>Ask Us a Question</button>
+                                    <button id='interest-link-3split'>Ask Us a Question</button>
                                 </a>
                                 <a id='interest-link-container' href='mailto:info@codeology.club' target='_blank' rel="noopener noreferrer">
-                                    <button id='interest-link'>Email Us</button>
+                                    <button id='interest-link-3split'>Email Us</button>
                                 </a>
                                 {/* <a id='interest-link-container' href='http://tinyurl.com/SP24CodyCalendar' target='_blank' rel="noopener noreferrer">
                                     <button id='interest-link'>Recruitment Calendar</button>
                                 </a> */}
                                 <a id='interest-link-container' href='https://tinyurl.com/FA24CodyCoffeeChats' target='_blank' rel="noopener noreferrer">
-                                    <button id='interest-link'>Coffee Chats Signups Open</button>
+                                    <button id='interest-link-1split'>Coffee Chats Signups Open</button>
                                 </a>
                             </div>
                         </div>

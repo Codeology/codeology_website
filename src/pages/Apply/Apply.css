@@ -47,7 +47,7 @@
     transition: 0.2s;
 }
 
-#interest-link {
+#interest-link-4split {
     background-color: var(--forestgreen);
     border-radius: 12px;
     border: none;
@@ -59,12 +59,7 @@
     height: max-content;
 }
 
-#interest-link:hover {
-    filter: brightness(90%);
-    transition: 0.2s;
-}
-
-#interest-link-wide {
+#interest-link-3split {
     background-color: var(--forestgreen);
     border-radius: 12px;
     border: none;
@@ -75,12 +70,7 @@
     margin-top: 0.5vw;
 }
 
-#interest-link-wide:hover {
-    filter: brightness(90%);
-    transition: 0.2s;
-}
-
-#interest-link-wide-wide {
+#interest-link-1split {
     background-color: var(--forestgreen);
     border-radius: 12px;
     border: none;
@@ -91,7 +81,7 @@
     margin-top: 0.5vw;
 }
 
-#interest-link-wide-wide:hover {
+#interest-link-4split:hover, #interest-link-3split:hover, #interest-link-1split:hover {
     filter: brightness(90%);
     transition: 0.2s;
 }
@@ -288,40 +278,31 @@
     }
 
     #application-open-link {
-        background-color: var(--forestgreen);
-        border-radius: 12px;
-        border: none;
         width: 80.5vw;
-        height: 3vw, auto;
-        padding: 10px;
-        color: white;
-        margin-left: 0px;
-        margin-top: 0px;
         font-size: 14px;
     }
 
     #application-closed-link {
-        background-color: #d97a77;
-        border-radius: 12px;
-        border: none;
         width: 80.5vw;
-        height: 3vw, auto;
-        padding: 10px;
-        color: white;
-        margin-left: 0px;
-        margin-top: 0px;
         font-size: 14px;
     }
     
-    #interest-link {
-        background-color: var(--forestgreen);
-        border-radius: 12px;
-        border: none;
+    #interest-link-4split {
+        margin-top: 1vw;
         width: 40vw;
-        padding: 10px;
-        color: white;
-        margin-right: 0.5vw;
-        margin-top: 0.5vw;
+        font-size: 12px;
+    }
+
+    #interest-link-3split {
+        margin-top: 1vw;
+        margin-right: 1vw;
+        width: 26.17vw;
+        font-size: 12px;
+    }
+
+    #interest-link-1split {
+        margin-top: 1vw;
+        width: 80.5vw;
         font-size: 12px;
     }
 
