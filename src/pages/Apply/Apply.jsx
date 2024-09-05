@@ -264,12 +264,12 @@ export default function Apply() {
                                     <button id='application-open-link'>Application</button>
                                 </a>
                                 <br></br>
-                                {/* <a id='interest-link-container' href='https://berkeley.zoom.us/j/98348791355' target='_blank' rel="noopener noreferrer">
+                                <a id='interest-link-container' href='https://berkeley.zoom.us/j/98348791355' target='_blank' rel="noopener noreferrer">
                                     <button id='interest-link-1split'>Join Infosession</button>
-                                </a> */}
-                                <a id='interest-link-container' href='https://berkeley.zoom.us/j/91848203023' target='_blank' rel="noopener noreferrer">
-                                    <button id='interest-link-1split'>Join Diversity Opportunity Fair</button>
                                 </a>
+                                {/* <a id='interest-link-container' href='https://berkeley.zoom.us/j/91848203023' target='_blank' rel="noopener noreferrer">
+                                    <button id='interest-link-1split'>Join Diversity Opportunity Fair</button>
+                                </a> */}
                                 <br></br>
                                 <a id='interest-link-container' href='https://tinyurl.com/FA24CodyInterestForm' target='_blank' rel="noopener noreferrer">
                                     <button id='interest-link-3split'>Join Our Email List</button>
