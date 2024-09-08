@@ -11,14 +11,18 @@ export default function Apply() {
         return Math.random() * (max-min) + min;
     }
 
-    /* CHANGE THIS VARIABLE WHEN CHANGING THE APPLY PAGE */
-    let is_off_season = false;
+    /* CHANGE THIS VARIABLE WHEN CHANGING THE APPLY PAGE 
+     * When it is false, the rendered page will be for closed application
+     * When it is true, the rendered page will be for recruitment season (open apps)
+     * The recruitment page will have the specific dates, location, and time for each event
+    */
+    let is_recruitment_season = false;
 
     /* ===================================================================================================
      * ========== OFF SEASON - DO NOT EDIT IF YOU ARE ADDING NEW RECRUITMENT TIMELINE ====================
      * ===================================================================================================
      */
-    if (is_off_season) {
+    if (!is_recruitment_season) {
         return (
             <div>
                 {/* Makes sure that page loads scrolled to the top */}
